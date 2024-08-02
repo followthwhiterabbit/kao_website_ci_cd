@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-03 22:05+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: products_page/templates/products/products_page.html:17
+#: products_page/templates/products/products_page.html:607
+msgid "Menu"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:22
+msgid "Dimensional Measurement"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:23
+msgid "Leak Testing Devices"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:24
+msgid "Callibrators "
+msgstr ""
+
+#: products_page/templates/products/products_page.html:25
+msgid "Accessories"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:29
+#: products_page/templates/products/products_page.html:609
+msgid "Services"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:30
+#: products_page/templates/products/products_page.html:610
+msgid "Contact"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:39
+msgid "Turkish"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:40
+msgid "English"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:41
+msgid "French"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:42
+msgid "German"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:43
+msgid "Italian"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:44
+msgid "Polish"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:45
+msgid "Russian"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:46
+msgid "Spanish"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:87
+#: products_page/templates/products/products_page.html:608
+msgid "Products"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:90
+msgid "Dimensional measurement"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:175
+#: products_page/templates/products/products_page.html:490
+msgid "Are you interested ?"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:188
+#: products_page/templates/products/products_page.html:503
+msgid "CONTACT"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:267
+#: products_page/templates/products/products_page.html:373
+msgid "Leak-Testing"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:271
+msgid "Relative Leak-Testing Devices"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:316
+msgid "Relative Leak Measurement Device"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:336
+msgid "1 Channel Relative Leak Measurement Device"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:377
+msgid "Differential Leak-Testing Devices"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:424
+msgid "Differential Leak Testing Device"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:444
+msgid "1 Channel Differential Leak Testing Device"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:464
+msgid "2 Channel Differential Leak Testing Device"
+msgstr ""
+
+#: products_page/templates/products/products_page.html:539
+msgid "Watch Video"
+msgstr ""

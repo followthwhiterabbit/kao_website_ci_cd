@@ -1,0 +1,753 @@
+{% load static %}
+
+{% load i18n %}
+
+
+ <link rel="stylesheet" type="text/css" href="{% static 'leak/style_alternative.css' %}" /> 
+ <link rel="icon" href="{% static 'about/kao_logo.png' %}"> 
+
+ <link rel="canonical" href="https://hightech-metrology.com/en/leaktesting/"/>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S1K2JYNCMG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S1K2JYNCMG');
+</script>
+
+
+
+
+<title>Leak Test Devices | Leak-Testing Devices </title>
+
+<meta name="description" content="Affordable and High-Tech Leak-Testing Devices">
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+    <nav class="navbar-eski  navbar-nav-eski navbar-brand-eski navbar-expand-lg navbar-dark-eski bg-blue-eski">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="navbar-collapse-eski" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li>
+                         <li class="nav-item dropdown"  id="productsdropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="{% url 'dimensional_measurement' %}">{% trans 'Dimensional Measurement'  %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'leak_testing' %}">{% trans 'Leak Testing Devices' %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'callibrators' %}">{% trans 'Callibrators ' %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'accessories' %}">{% trans 'Accessories' %}</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item dropdown" id="servicesdropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" a href="{% url 'services'%}#probes">{% trans 'Probe Design'  %}</a></li>
+                                <li><a class="dropdown-item" a href="{% url 'services'%}#automachines">{% trans 'Automation Projects'  %}</a></li>
+                                <li><a class="dropdown-item" a href="{% url 'services'%}#softwaresupport">{% trans 'Softwares'  %}</a></li>
+
+                          </ul>
+                        </li>
+                        
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://hightech-metrology.com/blog/">{% trans 'Blog' %}</a></li>
+
+                    <!--    <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li> -->
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">{% trans 'Contact' %}</a></li>   
+                      
+                      
+                      <li class="nav-item dropdown" id="languageDropdown">
+                         <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="{% static 'about/language.svg' %}" alt="language icon">
+                                Languages
+                          </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="/tr"><img src="{% static 'about/Turkey.png' %}" alt="Turkish flag" style="width: 25px; height: auto;"> {% trans 'Turkish' %}</a></li>
+                              <li><a class="dropdown-item" href="/en"><img src="{% static 'about/England.png' %}" alt="English flag" style="width: 25px; height: auto;">{% trans 'English' %}</a></li>
+                              <li><a class="dropdown-item" href="/fr"><img src="{% static 'about/france.png' %}" alt="French flag" style="width: 25px; height: auto;">{% trans 'French' %}</a></li>
+                              <li><a class="dropdown-item" href="/de"><img src="{% static 'about/German.png' %}" alt="German flag" style="width: 25px; height: auto;">{% trans 'German' %}</a></li>
+                              <li><a class="dropdown-item" href="/it"><img src="{% static 'about/Italy.png' %}" alt="Italian flag" style="width: 25px; height: auto;">{% trans 'Italian' %}</a></li>
+                              <li><a class="dropdown-item" href="/pl"><img src="{% static 'about/Poland.png' %}" alt="Polish flag" style="width: 25px; height: auto;">{% trans 'Polish' %}</a></li>
+                              <li><a class="dropdown-item" href="/es"><img src="{% static 'about/Spain.png' %}" alt="Spanish flag" style="width: 25px; height: auto;">{% trans 'Spanish' %}</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+<a href="{% url 'about_page' %}">
+
+<div id="company_logo">
+    <img src="{% static 'about/kao_logo.png' %}" class="logo-img" >
+</div>  
+</a> 
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+   
+
+
+
+
+  <section class="header3 cid-ryh9am114g" id="content01-3d">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 py-5 m-auto">
+          <div class="media-content">
+            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+              {% trans 'What is Leak Testing ?' %}
+            </h1>
+            <div class="mbr-section-text mbr-white pb-3 ">
+              <p class="mbr-text align-center align-center mbr-fonts-style display-7">
+                {% blocktrans %}
+                Leak testing in metrology refers to the process of checking for and identifying leaks in a sealed or pressurized system.
+                 This is a crucial step in quality control and assurance, especially in industries where maintaining airtight or fluid-tight integrity is essential. 
+                 Leak testing is commonly employed in the manufacturing of products such as automotive components, medical devices, electronic devices, and various other industrial applications.
+          
+                
+                 {% endblocktrans %}
+                </p>
+            </div>
+            <div class="mbr-section-btn align-center">
+              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
+                {% trans 'View More' %}
+              </a>
+            </div>
+          </div>
+
+
+
+        </div>
+
+    </div>
+    </div>
+  </section>
+
+
+
+    <section class="cid-ryhbKc0wrA" id="kr100">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="image-block">
+            <img src="{% static 'about/kr100cw.webp' %}" alt="1 Channel Leak Testing Device">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
+                  KR100
+                 </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                </p>
+              </div>
+            </figcaption>
+          </div>
+
+          
+        </div>
+
+
+  <div class="col-lg-4">
+  <!--
+        <p class="pb-2 mbr-bold align-leftmbr-fonts-style display-5 py-5">
+          <h7>FEATURES</h7>
+        </p>  
+      -->
+
+        <p class="pb-2 mbr-black align-left mbr-fonts-style display-5 py-5">
+               <h7> &#x2022 {% trans '1 Channel A Relative Leak Testing Measurement Device'%}</h7>
+            <br >
+            <br>
+               <h7>  &#x2022  {% trans 'Test Pressure Rage: 0.2 - 7 Bar' %} &nbsp; &#x2022 {% trans 'Max Leak Val: 999.99cm3/min'%} </h7>
+             <br>
+             <br>
+               <h7>  &#x2022  {% trans 'Leak Val Resolution: 0.01cm3/min' %} &nbsp; &nbsp; &#x2022 {% trans '7" TFT Color  '%} </h7>
+          <br>
+            <br>
+               <h7>  &#x2022  {% trans 'Password protected paremeters' %}  &nbsp; &#x2022  {% trans 'USB & RS232 Barcode Usage' %}</h7>
+            <br>
+            <br>
+               <h7>  &#x2022 {%  trans 'Relative Pressure Drop'%} &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &#x2022  {% trans 'Storing Last 10000 Records' %} </h7>
+            
+          <br>
+          <br>
+               <h7>  &#x2022  {% trans 'Callibration with one button' %}  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans 'Multiple Language Support' %} </h7>
+          <br>
+          <br>
+
+               <h7>  &#x2022  {% trans 'Data sharing w PLCs and robots via TCP and industrial protocols.' %} </h7>
+              <br>
+              <br>
+               <h7>  &#x2022  {% trans  'Wireless Ethernet Connection & Ethernet Cable connection' %}   </h7>
+
+            
+                  <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KX100_tur.pdf'%}" download="KAX100_tur.pdf">
+                PDF(Turkish)
+               </a>
+              
+                 <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KX100_tur.pdf'%}" download="KAX100_tur.pdf">
+                PDF(English)
+               </a>
+               
+               
+              
+
+
+                </p>
+
+          
+        </div> 
+
+  
+     
+         
+
+        </div>
+
+      
+    </div>
+  </section>
+
+  
+         
+  <section class="header3 cid-ryh9am114g" id="content01-3d">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 py-5 m-auto">
+          <div class="media-content">
+            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+              {% trans 'Are you interested ?' %}
+            </h1>
+      <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+        {% trans 'Contact Us' %}
+            </h1>
+            <div class="mbr-section-text mbr-white pb-3 ">
+              <p class="mbr-text align-right align-right mbr-fonts-style display-7">
+
+			   
+                </p>
+            </div>
+            <div class="mbr-section-btn align-center">
+              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'contact_page' %}"  >
+                {% trans 'CONTACT' %} </a>
+            </div>
+          </div>
+
+
+        </div>  
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section class="cid-ryhbKc0wrA" id="kd201">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="image-block">
+            <img src="{% static 'about/kd201.webp' %}" alt="1 Channel Leak Testing Device">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
+                  KD201 
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+
+                </p>
+              </div>
+            </figcaption>
+          </div>
+        </div>
+
+
+          <div class="col-lg-4">
+  <!--
+        <p class="pb-2 mbr-bold align-leftmbr-fonts-style display-5 py-5">
+          <h7>FEATURES</h7>
+        </p>  
+      -->
+
+        <p class="pb-2 mbr-black align-left mbr-fonts-style display-5 py-5">
+               <h7>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans '1 Channel Differential/Relative Leak T. Device '%}</h7>
+            <br >
+            <br>
+               <h7>  &#x2022  {% trans 'Manual/Electric Pressure Regulator Options' %}  &nbsp; &nbsp; &nbsp; &#x2022 {% trans '7" TFT color'%} </h7>
+             <br>
+             <br>
+               <h7>  &#x2022  {% trans 'Connection for QDAS' %} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;    &#x2022 {% trans 'Usage like Mobile Phone'%}  </h7>
+          <br>
+            <br>
+               <h7>  &#x2022  {% trans 'Use internal regulators w ease ' %}  &nbsp; &#x2022  {% trans 'USB & RS232 - 1D 2D Barcode' %}</h7>
+            <br>
+            <br>
+               <h7>  &#x2022 {%  trans 'Visual and Audio Alerts'%}  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &#x2022 {% trans 'Storing Last 10000 Records' %} </h7>
+            
+          <br>
+          <br>
+               <h7>  &#x2022  {% trans 'Callibration with one button' %}  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans 'FMODUL plugins.' %} </h7>
+          <br>
+          <br>
+
+               <h7>  &#x2022  {% trans 'Usage w PLCs & robots v MODBUS TCP & industrial protocols.' %} </h7>
+              <br>
+              <br>
+               <h7>  &#x2022  {% trans  'Wireless Ethernet Connection & Ethernet Cable connection' %}   </h7>
+
+            
+                  <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KX200_tur.pdf'%}" download="KX200_tur.pdf">
+                PDF(Turkish)
+               </a>
+              
+                 <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KX200_tur.pdf'%}" download="KX200_en.pdf">
+                PDF(English)
+               </a>
+              
+               
+                  <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KX200.STEP'%}" download="KX200.STEP">
+                STEP
+               </a>
+               
+              
+
+
+                </p>
+
+          
+        </div>
+
+        <div class="col-lg-4">
+
+          <model-viewer src="{% static 'about/KX200.gltf' %}" camera-controls></model-viewer> 
+          
+        
+        </div>
+   
+
+
+
+
+
+        </div>
+    
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+ <section class="header3 cid-ryh9am114g" id="content01-3d">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 py-5 m-auto">
+          <div class="media-content">
+            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+            {% trans 'Reason for Leak-Testing ?' %}
+            </h1>
+      <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-4">
+           </h1>
+            <div class="mbr-section-text mbr-white pb-3 ">
+              <p class="mbr-text align-center align-center mbr-fonts-style display-7">
+                {% blocktrans %}
+                Leak testing devices is crucial for ensuring products meet specified quality standards and eliminating defects during manufacturing.
+                 Safety is a primary concern, especially in applications like medical devices and gas appliances, where leaks can lead to accidents or hazards.
+                  Regulatory compliance requires adherence to industry standards and leak rate limits. 
+                  The long-term reliability and performance of devices are ensured through leak testing. 
+                  Environmental protection is addressed by preventing the release of harmful substances into the environment.
+                   Early identification of issues during the production process reduces the likelihood of costly recalls, repairs, or warranty claims. 
+                   Delivering devices free from leaks enhances brand reputation and customer satisfaction.
+                {% endblocktrans %}
+          </p>
+
+        <p class="mbr-text align-center align-center mbr-fonts-style display-7"> 
+        {% trans 'We offer the best products and the services  to our customers and the distributors all around the world.' %}
+                </p>
+
+
+
+
+            </div>
+            <div class="mbr-section-btn align-center">
+              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'contact_page' %}"  >
+                {% trans 'GET A QUOTE' %}
+               </a>
+            </div>
+          </div>
+
+
+        </div>  
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section class="cid-ryhbKc0wrA" id="kd251">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="image-block">
+            <img src="{% static 'about/kd251.webp' %}" alt="1 Channel Leak Testing Device">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
+                  KD251
+                 </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+
+                </p>
+              </div>
+            </figcaption>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4">
+          <!--
+                <p class="pb-2 mbr-bold align-leftmbr-fonts-style display-5 py-5">
+                  <h7>FEATURES</h7>
+                </p>  
+              -->
+        
+                <p class="pb-2 mbr-black align-left mbr-fonts-style display-5 py-5">
+                       <h7>  &nbsp; &nbsp; &nbsp; &#x2022 {% trans '1 Channel Differential/Relative Leak Testing Device'%}</h7>
+                    <br >
+                    <br>
+                       <h7>  &#x2022  {% trans ' Connection for QDAS' %} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &#x2022 {% trans 'Usage like Mobile Phone'%} </h7>
+                     <br>
+                     <br>
+                       <h7>  &#x2022  {% trans 'Repeatability: 0.1um' %} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;    &#x2022 {% trans '100 Measurement memory'%}  </h7>
+                  <br>
+                    <br>
+                       <h7>  &#x2022  {% trans 'Use internal regulators w ease ' %}  &nbsp; &#x2022  {% trans 'USB & RS232 Barcode Usage' %}</h7>
+                    <br>
+                    <br>
+                       <h7>  &#x2022 {%  trans 'Visual and Audio Alerts'%}  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    &#x2022 {% trans 'Storing Last 10000 Records' %} </h7>
+                    
+                  <br>
+                  <br>
+                       <h7>  &#x2022  {% trans 'Callibration with one button' %}  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans 'FMODUL plugins.' %} </h7>
+                  <br>
+                  <br>
+        
+                       <h7>  &#x2022  {% trans 'Data sharing w PLCs and robots via TCP and industrial protocols.' %} </h7>
+                      <br>
+                      <br>
+                       <h7>  &#x2022  {% trans  'Wireless Ethernet Connection & Ethernet Cable connection' %}   </h7>
+        
+                    
+                          <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KX200_tur.pdf'%}" download="KD251_tur.pdf">
+                        PDF(Turkish)
+                       </a>
+                      
+                         <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KX200_tur.pdf'%}" download="KD251_en.pdf">
+                        PDF(English)
+                       </a>
+                      
+                       
+                          <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KX200.STEP'%}" download="KX200.STEP">
+                        STEP
+                       </a>
+                       
+                      
+        
+        
+                        </p>
+        
+                  
+                </div>
+                
+
+                  <div class="col-lg-4">
+
+          <model-viewer src="{% static 'about/KX200.gltf' %}" camera-controls></model-viewer> 
+          
+        
+        </div>
+
+
+
+
+        </div>
+    
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <section class="header3 cid-ryh9am114g" id="content01-3d">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 py-5 m-auto">
+          <div class="media-content">
+            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+              {% trans 'Are you interested ?' %}
+            </h1>
+      <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+              {% trans 'Contact Us' %}
+            </h1>
+            <div class="mbr-section-text mbr-white pb-3 ">
+              <p class="mbr-text align-center align-center mbr-fonts-style display-7">
+              </p>
+            </div>
+            <div class="mbr-section-btn align-center">
+              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'contact_page' %}"  >
+                {% trans 'CONTACT' %}
+              </a>
+            </div>
+          </div>
+
+
+        </div>  
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section class="cid-ryhbKc0wrA" id="kd350">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="image-block">
+            <img src="{% static 'about/kd350.webp' %}" alt="2 Channel Leak Testing Device">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
+                  KD350
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+
+                </p>
+              </div>
+            </figcaption>
+          </div>
+
+        </div>
+        
+  <div class="col-lg-4">
+  <!--
+        <p class="pb-2 mbr-bold align-leftmbr-fonts-style display-5 py-5">
+          <h7>FEATURES</h7>
+        </p>  
+      -->
+
+        <p class="pb-2 mbr-black align-left mbr-fonts-style display-5 py-5">
+               <h7> &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans '2 Channel Differential/Relative Leak Testing Device'%}</h7>
+            <br >
+            <br>
+               <h7>  &#x2022  {% trans 'Manual/Electric Pressure Regulator Options' %} &#x2022 {% trans '100 Part & Test Memory'%} </h7>
+             <br>
+             <br>
+               <h7>  &#x2022  {% trans 'Connection for QDAS' %} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;    &#x2022 {% trans ' Usage like Mobile Phone '%}  </h7>
+          <br>
+            <br>
+               <h7>  &#x2022  {% trans 'Use internal regulators w ease ' %}  &nbsp; &nbsp; &nbsp;  &#x2022  {% trans 'USB & RS232 Barcode Usage' %}</h7>
+            <br>
+            <br>
+               <h7>  &#x2022 {%  trans 'Visual and Audio Alerts'%}   &nbsp; &nbsp;   &#x2022 {% trans 'Storing Last 10000 Records' %} </h7>
+            
+          <br>
+          <br>
+               <h7>  &#x2022  {% trans 'Callibration with one button' %}  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans 'FMODUL plugins.' %} </h7>
+          <br>
+          <br>
+
+               <h7>  &#x2022  {% trans 'Data sharing w PLCs and robots via TCP and industrial protocols.' %} </h7>
+              <br>
+              <br>
+               <h7>  &#x2022  {% trans  'Wireless Ethernet Connection & Ethernet Cable connection' %}   </h7>
+
+            
+                  <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KX300_tur.pdf'%}" download="KX300_tur.pdf">
+                PDF(Turkish)
+               </a>
+              
+                 <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KX300_tur.pdf'%}" download="KX300_tur.pdf">
+                PDF(English)
+               </a>
+              
+               
+                  <a class="btn btn-md btn-black display-4" a href= "{% static 'about/KX300.STEP'%}" download="KX300.STEP">
+                STEP
+               </a>
+
+              
+
+
+                </p>
+
+          
+        </div>
+
+        
+                <div class="col-lg-4">
+
+          <model-viewer src="{% static 'about/KD300.gltf' %}" camera-controls></model-viewer> 
+          
+        
+        </div>
+
+
+            
+      
+
+
+        </div>
+    
+    </div>
+  </section>
+
+    <section class="header3 cid-ryh9am114g" id="content01-3d">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 py-5 m-auto">
+          <div class="media-content">
+            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+              {% trans 'Why you should choose Kao Metrology ? ' %}
+            </h1>
+            <div class="mbr-section-text mbr-white pb-3 ">
+              <p class="mbr-text align-center align-center mbr-fonts-style display-7">
+                {% blocktrans %}
+              With our next-generation leak testing devices, you can conduct leak tests on small or large volume parts. 
+              You can transfer measurement results to robots or PLCs using any known industrial protocol.
+               You can also transfer the recorded results to Kao software via internal Wi-Fi for analysis
+                
+                 {% endblocktrans %}
+                </p>
+            </div>
+<div class="mbr-section-btn align-center">
+              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'contact_page' %}"  >
+                {% trans 'CONTACT' %}
+              </a>
+            </div>          
+
+
+          </div>
+
+
+
+        </div>
+
+    </div>
+    </div>
+  </section>
+
+
+
+  <section class="map1 cid-ryha8paJop" id="map01-3h">
+    <div class="google-map">
+      <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12044.499649022328!2d28.7119864!3d41.0006391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa0fb16d7bc9d%3A0x415f5b54bf6d0006!2sKAO%20Elektronik%20ve%20Bilgisayar%20San.Tic.Ltd.%C5%9Eti!5e0!3m2!1sen!2spl!4v1703979517447!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> allowfullscreen="" data-gtm-yt-inspected-19="true" data-gtm-yt-inspected-27="true">
+      </iframe>
+    </div>
+  </section>
+  <section class="header3 cid-ryha7dvnCF" id="social01-3g">
+    <div class="container">
+      <div class="mbr-section-btn align-center pb-3">
+     
+        <img src="{% static 'about/turkiye-seeklogo.jpg' %}" alt="turkiyelogo" style="width:200px; height:200px;">
+        <br>
+         <a href="https://www.linkedin.com/company/kao-metrology/">
+            <img src="{% static 'about/LI-In-Bug.png' %}" alt="linked-in logo" style="width:50px; height:50px;">
+        </a>
+      
+        <a href="https://www.youtube.com/channel/UCO493TfIW7Lj_l8v8woqg8Q">
+            <img src="{% static 'about/youtube_logo_new.png' %}" alt="youtube logo" style="width:50px; height:50px;">
+        </a>
+        
+        <a href="https://www.facebook.com/profile.php?id=61554340107729">
+            <img src="{% static 'about/facebook_new_logo.png' %}" alt="facebook logo" style="width:50px; height:50px;">
+        </a>
+
+
+
+
+      </div>
+      
+      </div>
+
+      <nav class="navbar-eski  navbar-nav-eski navbar-dark-eski bg-blue-eski ">
+            <div class="container">
+                <div class="align-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li> 
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">{% trans 'Products' %}</a></li>
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}"> {% trans 'Contact' %}</a></li>   
+
+                      
+                   
+                    </ul>
+                </div>
+            </div>
+
+
+                <div class="call_us_section align-middle">
+             <img src="{% static 'about/call_us-Photoroom.png' %}" alt="call us logo" style="width:50px; height:50px;"> 
+          
+             </div>
+
+           <div class="number_section align-middle">
+          <h3>0212 5917039-40</h3> 
+             </div>
+        </nav>
+    
+  </section>
+  <section once="footers" class="cid-ryha9vUPBi" id="footer01-3j">
+    <div class="container">
+      <div class="media-container-row align-center mbr-white">
+        <div class="col-12">
+          <p class="mbr-text mb-0 mbr-fonts-style display-7">
+            © Copyright 2024 KAO Metrology  - All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1123285727682531&amp;ev=PageView&amp;noscript=1">
+  </noscript>
+ 

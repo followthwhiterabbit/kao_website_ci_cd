@@ -1,0 +1,820 @@
+
+ {% load static %}
+
+{% load i18n %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'about/style_alternative.css' %}" /> 
+<link rel="icon" href="{% static 'about/kao_logo.png' %}" alt="Kao Metrology Logo"> 
+
+
+<link rel="canonical" href="https://hightech-metrology.com/" />
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S1K2JYNCMG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S1K2JYNCMG');
+</script>
+
+
+<title>Air Gaging | AirGage | Leak Testing | Leak Testing Devices</title>
+<meta name="description" content="Affordable High-Tech Airgages, Leak-Testing Devices and Callibrators. Kao Metrology offers High-Tech metrological devices with very affordable prices.">
+
+
+
+    <nav class="navbar-eski  navbar-nav-eski navbar-brand-eski navbar-expand-lg navbar-dark-eski bg-blue-eski">
+            <div class="container">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="navbar-collapse-eski" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li>
+
+
+                         <li class="nav-item dropdown" id="productsdropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="{% url 'dimensional_measurement' %}">{% trans 'Dimensional Measurement'  %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'leak_testing' %}">{% trans 'Leak Testing Devices' %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'callibrators' %}">{% trans 'Callibrators ' %}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'accessories' %}">{% trans 'Accessories' %}</a></li>
+                          </ul>
+                        </li>
+                        
+                             <li class="nav-item dropdown" id="servicesdropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" a href="{% url 'services'%}#probes">{% trans 'Probe Design'  %}</a></li>
+                                <li><a class="dropdown-item" a href="{% url 'services'%}#automachines">{% trans 'Automation Projects'  %}</a></li>
+                                <li><a class="dropdown-item" a href="{% url 'services'%}#softwaresupport">{% trans 'Softwares'  %}</a></li>
+
+                          </ul>
+                        </li>
+                  
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://hightech-metrology.com/blog/">{% trans 'Blog' %}</a></li>
+
+    
+
+<!--                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>--> 
+                   
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}"> {% trans 'Contact' %}</a></li>   
+      
+                   
+
+                      
+                      
+                      <li class="nav-item dropdown" id="languageDropdown">
+                          <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="{% static 'about/language.svg' %}" alt="language icon">
+                                Languages
+                          </a>
+
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="/tr"><img src="{% static 'about/Turkey.png' %}" alt="Turkish flag" style="width: 25px; height: auto;"> {% trans 'Turkish' %}</a></li>
+                              <li><a class="dropdown-item" href="/en"><img src="{% static 'about/England.png' %}" alt="English flag" style="width: 25px; height: auto;">{% trans 'English' %}</a></li>
+                              <li><a class="dropdown-item" href="/fr"><img src="{% static 'about/france.png' %}" alt="French flag" style="width: 25px; height: auto;">{% trans 'French' %}</a></li>
+                              <li><a class="dropdown-item" href="/de"><img src="{% static 'about/German.png' %}" alt="German flag" style="width: 25px; height: auto;">{% trans 'German' %}</a></li>
+                              <li><a class="dropdown-item" href="/it"><img src="{% static 'about/Italy.png' %}" alt="Italian flag" style="width: 25px; height: auto;">{% trans 'Italian' %}</a></li>
+                              <li><a class="dropdown-item" href="/pl"><img src="{% static 'about/Poland.png' %}" alt="Polish flag" style="width: 25px; height: auto;">{% trans 'Polish' %}</a></li>
+                              <li><a class="dropdown-item" href="/es"><img src="{% static 'about/Spain.png' %}" alt="Spanish flag" style="width: 25px; height: auto;">{% trans 'Spanish' %}</a></li>
+
+                            </ul>
+                        </li>
+                          <!-- mibew button --><a id="mibew-agent-button" href="/support/chat?locale=en&amp;style=default" target="_blank" onclick="Mibew.Objects.ChatPopups['665277e99f22c94c'].open();return false;"><img src="/support/b?i=mibew&amp;lang=en" border="0" alt="" /></a><script type="text/javascript" src="/support/js/compiled/chat_popup.js"></script><script type="text/javascript">Mibew.ChatPopup.init({"id":"665277e99f22c94c","url":"\/support\/chat?locale=en&style=default","preferIFrame":false,"modSecurity":false,"forceSecure":false,"style":"default","height":50,"width":200,"resizable":true,"styleLoader":"\/support\/chat\/style\/popup\/default"});</script><!-- / mibew button -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+          
+        
+
+<a href="{% url 'about_page' %}">
+
+<div id="company_logo">
+    <img src="{% static 'about/kao_logo.png' %}" class="logo-img" alt="Kao Metrology Logo" >
+</div>  
+</a>
+
+    <img src="{% static 'about/Cursor.png' %}"  class="cursor-1" width="75" height="75" alt="Cursor Logo">
+
+
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-pause="false">
+  <ol class="carousel-indicators" style="list-style-type: none;">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+  </ol>
+
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5">
+      <img class="first_slide_slider" src="{% static 'about/measuring_1_alternative.webp' %}" alt="KAO Metrology produces Metrology Devices for 30 years" style="height: 240px; width: 1200px; margin-left:12.5%;">
+           <div class="leakim" >
+          <h1>{% trans 'Kao Metrology' %}</h1>
+       </div>
+    </div>
+    
+    
+    <!--
+      <div class="carousel-item active" data-bs-interval="5">
+      <img class="d-block w-100" src="{% static 'about/metrology_day.png' %}" alt="Happy World Metrology Day!">
+             <div class="sliding-text-container">
+            </div>
+        
+    </div>
+    -->
+    
+    
+
+
+    <div class="carousel-item" data-bs-interval="5">
+    <a href="{% url 'dimensional_measurement' %}">
+      <img class="leak_image_testing"  src="{% static 'about/modular_devices.webp' %}" alt="KAO Modular Metrology Devices" style="height: 240px; width: auto; margin-left:25%;">
+       <div class="leakim" >
+          <h1>{% trans 'AirGages' %}</h1>
+       </div>
+       </a>
+    </div>
+
+
+    <div class="carousel-item" data-bs-interval="5">
+    <a href="{% url 'leak_testing' %}">
+      <img class="leak_image_testing" src="{% static 'about/leaktesting_resized.webp' %}" alt="KAO Leak Testing Devices" style="height: 240px; width: auto; margin-left:25%;">
+      <div class="leakim">
+      <h1>{% trans 'Leak-Testing Devices' %}</h1>
+      </div>
+      </a>
+    </div>
+
+<div class="carousel-item" data-bs-interval="5">
+    <a href="{% url 'callibrators' %}">
+      <img class="callibrator_image_flow"  src="{% static 'about/kao_flow_callibrator.webp' %}" alt="Kao Flow Callibrators"  style="height: 240px; width: auto; margin-left:40%;">
+       <div class="Callibrators">
+          <h1>{% trans 'Flow Callibrators' %}</h1>
+       </div>
+       </a>
+    </div>
+
+
+    
+<div class="carousel-item" data-bs-interval="5">
+    <a href="{% url 'callibrators' %}">
+      <img class="pressure-scanners"  src="{% static 'about/scanner_2_sliders.webp' %}" alt="Kao Pressure Scanners" style="height: 240px; width: auto; margin-left:37.5%;">
+       <div class="leakim">
+          <h1>{% trans 'Pressure Scanners' %}</h1>
+       </div>
+        </a>
+    </div>
+
+
+<div class="carousel-item" data-bs-interval="5">
+  
+    <a href="{% url 'products_page' %}">
+      <img class="modular_metrology"  src="{% static 'about/modular_metrology_slider.webp' %}" alt="Kao Products" style="height: 240px; width: auto; margin-left:25%;">
+       <div class="leakim">
+          <h1>{% trans 'Modular Metrology' %}</h1>
+       </div>
+       </a>
+    </div>
+
+
+<div class="carousel-item" data-bs-interval="5"> 
+
+    <a href="{% url 'services' %}">
+      <img class="probe-image_slide"  src="{% static 'about/probes_new_slider.webp' %}" alt="Kao Probe Service" style="height: 240px; width: auto; margin-left:35%;">
+       <div class="leakim">
+          <h1>{% trans 'Probes' %}</h1>
+       </div>
+       </a>
+    </div>
+
+    
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </a>
+
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only"></span>
+  </a>
+
+
+
+<link rel="stylesheet" type="text/css" media="all" href="https://oguzturk.net/lab/demo/cerez/cerez.css" />
+<script type='text/javascript' src='https://oguzturk.net/lab/demo/cerez/cerez.js'></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+"palette": {
+"popup": {
+"background": "#646478", // şerit arkaplan rengi
+"text": "#ffffff" // şerit üzerindeki yazı rengi
+},
+"button": {
+"background": "#8ec760", // buton arkaplan rengi - "transparent" kullanıp border açabilirsiniz.
+//"border": "#14a7d0", arkaplan rengini transparent yapıp çerçeve kullanabilirsini
+"text": "#ffffff" // buton yazı rengi
+}
+},
+"theme": "classic", // kullanabileceğiniz temalar block, edgeless, classic
+// "type": "opt-out", gizle uyarısını aktif etmek için
+// "position": "top", aktif ederseniz uyarı üst kısımda görünür
+// "position": "top", "static": true, aktif ederseniz uyarı üst kısımda sabit olarak görünür
+// "position": "bottom-left", aktif ederseniz uyarı solda görünür
+//"position": "bottom-right", aktif ederseniz uyarı sağda görünür
+"content": {
+"message": "We use cookies to provide you with the best possible user experience. You agree to our use of cookies and our privacy policy.",
+"dismiss": "Agree",
+"link": "For more Information",
+"href": "http://kaometrology.com/"
+}
+})});
+</script>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        
+
+
+        
+
+
+
+  <section class="header3 cid-ryh9am114g" id="content01-3d">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 py-5 m-auto">
+
+
+    
+            
+          <div class="media-content">
+
+          <h1 class="mbr-section-title mbr-bold mbr-white pb-4 mbr-fonts-style display-7">
+
+
+
+            </h1>
+
+            <h1 class="mbr-section-title align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+              {% trans 'Metrology is our passion' %} 
+            </h1>
+            <div class="mbr-section-text mbr-white pb-3 ">
+              <p class="mbr-text align-right mbr-fonts-style display-7">
+              {% trans 'We are more than a metrological device manufacturer combining the latest technologies and innovations with the possibility of new advancements in the manufacturing and automation domain. Apart from producing sophisticated devices with portable usage and aesthetics, we provide embedded solutions to the embedded problems in metrology and automation.' %}
+                </p>
+            </div>
+            <div class="mbr-section-btn align-center">
+              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
+                {% trans 'View More' %}
+              </a>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+      
+    </div>
+  </section>
+
+  <script>
+
+            
+$(document).ready(function() {
+
+        $('.counter').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 1500,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+ 
+});  
+
+
+
+
+
+
+  </script>
+
+
+
+
+<!--
+
+
+<div class="container ">
+    <div class="row main-row">
+        <div class="col-12 snipcss0-0-0-1">
+            <h2 class="mbr-section-title mbr-fonts-style align-center mb-4 display-5 snipcss0-1-1-2"><strong class="snipcss0-2-2-3">OUR SERVICES</strong></h2>
+        </div>
+        <div class=" card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="text-wrapper">
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>Automative</strong>
+                                <div><strong>Industry</strong></div>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-wrapper">
+                          <img src="{% static 'about/automative.jpeg' %}" alt="automative industry">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="text-wrapper">
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>White appliances</strong>
+                                <div><strong>Industry</strong></div>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-wrapper">
+                            <img src="{% static 'about/white_appliance.jpeg' %}" alt="white appliance industry">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="text-wrapper">
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>Defence</strong>
+                                <div><strong>Sector</strong></div>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-wrapper">
+                          <img src="{% static 'about/defence_industry.jpeg' %}" alt="Defence industry">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="text-wrapper">
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>Hydraulic Equipment</strong>
+                                <div><strong>Manifacturing</strong></div>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-wrapper">
+                          <img src="{% static 'about/hydraulic_equipment_manifacturing.jpeg' %}" alt="Hydraulic Equipment Manifacturing industry">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="text-wrapper">
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>Serial</strong>
+                                <div><strong>Production</strong></div>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-wrapper">
+
+                          <img src="{% static 'about/serial_piece_manifacturing.jpeg' %}" alt="Serial Piece Manifacturing">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" card col-12 col-md-6 col-lg-4">
+            <div class="card-wrapper">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="text-wrapper">
+                            <h5 class="card-title mbr-fonts-style display-7"><strong>Embedded Systems</strong>
+                                <div><strong>Consulting</strong></div>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="img-wrapper">
+                          <img src="{% static 'about/Embedded_systems.jpeg' %}" alt="Embedded Systems Consulting">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+-->
+
+
+
+
+
+
+
+
+
+    <section class="cid-ryhbKc0wrA" id="image03-3p">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="image-block">
+            <a href="{% url 'dimensional_measurement'%}">
+            <img src="{% static 'about/minisx_plus.webp' %}" alt="KAO Airgage Devices">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
+                  {% trans 'DIMENSIONAL MEASUREMENT' %} 
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                  {% trans 'We are the masters of Air-gaging with 30+ years of experience.' %}
+                </p>
+              </div>
+            </figcaption>
+            </a>  
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="image-block">
+            <a href="{% url 'leak_testing'%}">
+            <img src="{% static 'about/kd201.webp' %}" alt="Leak-Test Devices">
+             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+               <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2">
+                  {% trans 'LEAK TESTING' %}
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                {% trans 'Our Touch Screen Leak Testing Systems offer portability, secure setup and precision beyond world standards.' %}
+                </p>
+              </div>
+            </figcaption>
+            </a>  
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="image-block">
+            <a href="{% url 'callibrators'%}#kfc60">
+            <img src="{% static 'about/KFC60.webp' %}" alt="Flow Callibrators">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-4 mbr-white mbr-bold align-center mbr-fonts-style display-2">
+                  {% trans 'CALLIBRATORS' %}
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                  {% trans 'Our KAO Flow Callibrator offers precise, fast and +12 hours Usage with regular batteries. '%}
+                </p>
+              </div>
+            </figcaption>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </section>
+
+  
+
+  
+
+<section class="header3 cid-ryh9am114g" id="content01-3d">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 py-5 m-auto">
+          <div class="media-content">
+            <h1 class="mbr-section-title align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+              {% trans 'More than Metrology' %}
+            </h1>
+      <h1 class="mbr-section-title align-right mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+      {% trans 'Embedded solutions to embedded problems' %}
+            </h1>
+            <div class="mbr-section-text mbr-white pb-3 ">
+              {% trans 'Explore innovative answers to embedded challenges with our cutting-edge embedded systems. More than mere measurements, our solutions redefine efficiency, connectivity, and functionality. Dive into a world where precision meets adaptability, shaping the future of technology seamlessly. Discover the power of embedded solutions on our website today.' %}
+              <p class="mbr-text align-right align-right mbr-fonts-style display-7">
+
+			   
+                </p>
+            </div>
+            <div class="mbr-section-btn align-center">
+              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
+                {% trans 'View More' %}
+              </a>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="col-md-12 col-lg-0">
+          <div class="mbr-figure">
+            <img src="{% static 'about/embedded_systems_picture.jpg' %}" alt="Mobirise"  style="max-width: 100%;  height:400px; filter: blur(3px);">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<section class="cid-ryh9cEwEwT" id="content04-3e">
+    <div class="container align-center">
+      <div class="row justify-content-md-center">
+        <div class="mbr-black col-md-10 col-lg-6">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cid-ryhbKc0wrA" id="image03-3p">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="image-block">
+            <a href="{% url 'callibrators'%}#scanner">
+            <img src="{% static 'about/scanner_2.webp' %}" alt="Pressure Scanner by KAO Metrology">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
+                  {% trans 'PRESSURE SCANNERS'%}
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                  {% trans 'High-Tech Pressure Scanning ' %}
+                </p>
+              </div>
+            </figcaption>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="image-block">
+            <a href="{% url 'services'%}#probes">
+            <img src="{% static 'about/probes_new.webp' %}" alt="Probe Service & Design">
+             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+               <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2">
+                  {% trans 'PROBES '%}
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                  {% trans 'Delivering probes geared to your unique necessities ' %}
+                </p>
+              </div>
+            </figcaption>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="image-block">
+            <a href="{% url 'accessories'%}">
+            <img src="{% static 'about/IO16_exp.webp' %}" alt="KAO Accessories">
+              <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2">
+                  {% trans 'ACCESORIES ' %}
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                  {% trans 'Discover accessories and tools for our products ' %}
+                </p>
+              </div>
+            </figcaption>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+      
+
+      
+    </div>
+  </section>
+
+
+
+
+  <section class="cid-ryh8XVUoGh" id="content04-3a">
+    <div class="container align-center">
+      <div class="row justify-content-md-center">
+        <div class="mbr-black col-md-10 col-lg-6">
+          <h3 class="mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style display-5">
+            {% trans 'HISTORY' %}
+          </h3>
+          <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
+            {% trans 'About Us' %}
+          </h1>
+          <p class="mbr-text pb-0 mbr-fonts-style align-center">
+            {% trans 'Kao was founded in Istanbul in 1995 by an idelistic and dynamic team with thirty years of experience in machinery, electronics, and metrology. With a strong R&D team and modern production lines, Kao has been able to create remarkable products in terms of the technical specifications, ergonomics, aesthetics, and durability. Kao has been producing metrological test devices with measurement precision beyond world standards and extremely user-friendly interfaces in the field of metrology As Kao-Metrology, we aim to collaborate with industrialists to contribute to creating a more efficient and powerful metrological system for a reliable future. Therefore, we see every product we develop as a helper that opens the door to new possibilities. Please dont hesitate to share your thoughts on our products and technologies you encountered on our website. Wishing for every tomorrow to be brighter than today... ' %}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+ 
+
+  <section class="map1 cid-ryha8paJop" id="map01-3h">
+    <div class="google-map">
+      <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12044.499649022328!2d28.7119864!3d41.0006391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa0fb16d7bc9d%3A0x415f5b54bf6d0006!2sKAO%20Elektronik%20ve%20Bilgisayar%20San.Tic.Ltd.%C5%9Eti!5e0!3m2!1sen!2spl!4v1703979517447!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"   title="Google Map showing the location of KAO Elektronik ve Bilgisayar San.Tic.Ltd.Şti."></iframe> allowfullscreen="" data-gtm-yt-inspected-19="true" data-gtm-yt-inspected-27="true">
+      </iframe>
+    </div>
+  </section>
+
+  <section class="header3 cid-ryha7dvnCF" id="social01-3g">
+    <div class="container">
+
+     
+
+
+      <div class="mbr-section-btn align-center pb-3">
+        
+
+    <img src="{% static 'about/turkiye-seeklogo.jpg' %}" alt="turkiyelogo" style="width:200px; height:200px;">
+        <br>
+         <a href="https://www.linkedin.com/company/kao-metrology/">
+            <img src="{% static 'about/LI-In-Bug.png' %}" alt="linked-in logo" style="width:50px; height:50px;">
+        </a>
+      
+        <a href="https://www.youtube.com/channel/UCO493TfIW7Lj_l8v8woqg8Q">
+            <img src="{% static 'about/youtube_logo_new.png' %}" alt="youtube logo" style="width:50px; height:50px;">
+        </a>
+        
+        <a href="https://www.facebook.com/profile.php?id=61554340107729">
+            <img src="{% static 'about/facebook_new_logo.png' %}" alt="facebook logo" style="width:50px; height:50px;">
+        </a>
+        
+        <br>
+
+
+ 
+
+   
+
+                      
+                      
+                  
+              
+
+      </div>
+
+
+
+      
+      
+      </div>
+     
+     <!--   
+<section class="footer4 cid-ryha9vUPBi snipcss-ozPyT" id="footer02-51">
+    <div class="container">
+        <div class="row content mbr-bold justify-content-center">
+            <div class="col-lg-3 col-md-6">
+                
+                <p class="mbr-text mbr-fonts-style form-text mt-2 display-4">Automation and Metrological Devices Manifacturing</p>
+                  <img src="{% static 'about/kao_logo.png' %}" class="logo-img">
+                  <h2 class="mb-1 footer-main-title mbr-fonts-style display-2"> KAO Metrology</h2>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h3 class="mb-4 mbr-fonts-style footer-title display-5"> Links</h3>
+                <div class="mbr-footer-list mbr-fonts-style display-4">
+                    <ul class="list">
+                        <li><a href="/tr">Home</a></li>
+                        <li><a href="{% url 'products_page' %}"></a> </li>
+                        <li>Events</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h3 class="mb-4 footer-title mbr-fonts-style display-5">About</h3>
+                <div class="mbr-footer-list mbr-fonts-style display-4">
+                    <ul class="list">
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Features</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h3 class="mb-4 footer-title mbr-fonts-style display-5"> Contacts</h3>
+                <div class="mbr-footer-list mbr-fonts-style display-4">
+                    <ul class="list">
+                        <li>Call: +90 212 591 70 39   </li>
+                        <li>Email: kao@kaometrology.com </li>
+                        <li>Address: Üniversite mah.Firuzköy Bulvari No:79/1 Avcilar  Istanbul , Turkey</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+      -->
+
+
+<nav class="navbar-eski  navbar-nav-eski navbar-dark-eski bg-blue-eski ">
+            <div class="container">
+              <div class="align-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li> 
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">{% trans 'Products' %}</a></li>
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>
+                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}"> {% trans 'Contact' %}</a></li>   
+
+                      
+                   
+                    </ul>
+                </div>
+            </div>
+
+            
+            <div class="call_us_section align-middle">
+             <img src="{% static 'about/call_us-Photoroom.png' %}" alt="call us logo" style="width:50px; height:50px;"> 
+          
+             </div>
+
+             
+
+           <div class="number_section align-middle">
+          <h3>0212 5917039-40</h3> 
+             </div>
+
+
+             
+
+        </nav>
+      
+
+
+
+        
+     
+  
+  </section>
+
+  
+
+
+
+  <section once="footers" class="cid-ryha9vUPBi" id="footer01-3j">
+    <div class="container">
+      <div class="media-container-row align-center mbr-white">
+        <div class="col-12">
+          <p class="mbr-text mb-0 mbr-fonts-style display-7">
+            © Copyright 2024 KAO Metrology  - All Rights Reserved
+          </p>
+        </div> 
+      </div>
+    </div>
+
+  </section>
+  <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1123285727682531&amp;ev=PageView&amp;noscript=1">
+  </noscript>
+ 
+

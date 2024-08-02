@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-03 22:05+0100\n"
+"PO-Revision-Date: 2024-03-03 21:05+0000\n"
+"Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: about_page/templates/about/about_page.html:16
+#: about_page/templates/about/about_page.html:467
+msgid "Menu"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:20
+msgid "Dimensional Measurement"
+msgstr "Измерение размеров"
+
+#: about_page/templates/about/about_page.html:21
+msgid "Leak Testing Devices"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:22
+msgid "Callibrators "
+msgstr ""
+
+#: about_page/templates/about/about_page.html:23
+msgid "Accessories"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:26
+#: about_page/templates/about/about_page.html:469
+msgid "Services"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:27
+#: about_page/templates/about/about_page.html:470
+msgid "Contact"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:38
+msgid "Turkish"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:39
+msgid "English"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:40
+msgid "French"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:41
+msgid "German"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:42
+msgid "Italian"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:43
+msgid "Polish"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:44
+msgid "Russian"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:45
+msgid "Spanish"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:90
+msgid "AirGages"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:100
+msgid "Leak-Testing Devices"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:109
+msgid "Flow Callibrators"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:120
+msgid "Pressure Scanners"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:131
+msgid "Modular Metrology"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:142
+msgid "Probes"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:186
+msgid "Metrology is our passion"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:190
+msgid ""
+"We are more than a metrological device manufacturer combining the latest "
+"technologies and innovations with the possibility of new advancements in the "
+"manufacturing and automation domain. Apart from producing sophisticated "
+"devices with portable usage and aesthetics, we provide embedded solutions to "
+"the embedded problems in metrology and automation."
+msgstr ""
+
+#: about_page/templates/about/about_page.html:195
+#: about_page/templates/about/about_page.html:301
+msgid "View More"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:227
+msgid "DIMENSIONAL MEASUREMENT"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:230
+msgid "We are the masters of Air-gaging with 30+ years of experience."
+msgstr ""
+
+#: about_page/templates/about/about_page.html:244
+msgid "LEAK TESTING"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:247
+msgid ""
+"Our Touch Screen Leak Testing Systems offer portability, secure setup and "
+"precision beyond world standards."
+msgstr ""
+
+#: about_page/templates/about/about_page.html:261
+msgid "CALLIBRATORS"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:264
+msgid ""
+"Our KAO Flow Callibrator offers precise, fast and +12 hours Usage with "
+"regular batteries. "
+msgstr ""
+
+#: about_page/templates/about/about_page.html:287
+msgid "More than Metrology"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:290
+msgid "Embedded solutions to embedded problems"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:293
+msgid ""
+"Explore innovative answers to embedded challenges with our cutting-edge "
+"embedded systems. More than mere measurements, our solutions redefine "
+"efficiency, connectivity, and functionality. Dive into a world where "
+"precision meets adaptability, shaping the future of technology seamlessly. "
+"Discover the power of embedded solutions on our website today."
+msgstr ""
+
+#: about_page/templates/about/about_page.html:338
+msgid "PRESSURE SCANNERS"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:341
+msgid "High-Tech Pressure Scanning "
+msgstr ""
+
+#: about_page/templates/about/about_page.html:356
+msgid "PROBES "
+msgstr ""
+
+#: about_page/templates/about/about_page.html:359
+msgid "Delivering probes geared to your unique necessities "
+msgstr ""
+
+#: about_page/templates/about/about_page.html:374
+msgid "ACCESORIES "
+msgstr ""
+
+#: about_page/templates/about/about_page.html:377
+msgid "Discover accessories and tools for our products "
+msgstr ""
+
+#: about_page/templates/about/about_page.html:400
+msgid "HISTORY"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:403
+msgid "About Us"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:406
+msgid ""
+"Kao was founded in Istanbul in 1995 by an idelistic and dynamic team with "
+"thirty years of experience in machinery, electronics, and metrology. With a "
+"strong R&D team and modern production lines, Kao has been able to create "
+"remarkable products in terms of the technical specifications, ergonomics, "
+"aesthetics, and durability. Kao has been producing metrological test devices "
+"with measurement precision beyond world standards and extremely user-"
+"friendly interfaces in the field of metrology As Kao-Metrology, we aim to "
+"collaborate with industrialists to contribute to creating a more efficient "
+"and powerful metrological system for a reliable future. Therefore, we see "
+"every product we develop as a helper that opens the door to new "
+"possibilities. Please dont hesitate to share your thoughts on our products "
+"and technologies you encountered on our website. Wishing for every tomorrow "
+"to be brighter than today... "
+msgstr ""
+
+#: about_page/templates/about/about_page.html:468
+msgid "Products"
+msgstr ""

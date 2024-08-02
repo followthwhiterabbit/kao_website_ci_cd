@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-03 22:05+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: services/templates/services/services.html:17
+#: services/templates/services/services.html:506
+msgid "Menu"
+msgstr ""
+
+#: services/templates/services/services.html:22
+msgid "Dimensional Measurement"
+msgstr ""
+
+#: services/templates/services/services.html:23
+msgid "Leak Testing Devices"
+msgstr ""
+
+#: services/templates/services/services.html:24
+msgid "Callibrators "
+msgstr ""
+
+#: services/templates/services/services.html:25
+msgid "Accessories"
+msgstr ""
+
+#: services/templates/services/services.html:28
+#: services/templates/services/services.html:508
+msgid "Services"
+msgstr ""
+
+#: services/templates/services/services.html:29
+#: services/templates/services/services.html:509
+msgid "Contact"
+msgstr ""
+
+#: services/templates/services/services.html:38
+msgid "Turkish"
+msgstr ""
+
+#: services/templates/services/services.html:39
+msgid "English"
+msgstr ""
+
+#: services/templates/services/services.html:40
+msgid "French"
+msgstr ""
+
+#: services/templates/services/services.html:41
+msgid "German"
+msgstr ""
+
+#: services/templates/services/services.html:42
+msgid "Italian"
+msgstr ""
+
+#: services/templates/services/services.html:43
+msgid "Polish"
+msgstr ""
+
+#: services/templates/services/services.html:44
+msgid "Russian"
+msgstr ""
+
+#: services/templates/services/services.html:45
+msgid "Spanish"
+msgstr ""
+
+#: services/templates/services/services.html:89
+msgid "Services "
+msgstr ""
+
+#: services/templates/services/services.html:98
+msgid "View More"
+msgstr ""
+
+#: services/templates/services/services.html:122
+msgid "Pneumatic Probes"
+msgstr ""
+
+#: services/templates/services/services.html:136
+msgid ""
+" \n"
+"             Measurement of parts is sometimes carried out in a workshop "
+"with a single pneumatic device.\n"
+"              Sometimes there may be situations where a large number of "
+"measurements are required. Measuring multiple dimensions of a part "
+"simultaneously will shorten the measurement time. \n"
+"              Sometimes, proper positioning of the part is required to "
+"ensure measurement accuracy. \n"
+"              Sometimes, geometric tolerances come into play. Not only "
+"diameter but also factors such as ovality, cylindricity, and taper may be "
+"required. \n"
+"              In such cases, probe design is important. Do not hesitate to "
+"consult us, whether it is to measure a single diameter or 5 diameters.\n"
+"               We have services in this regard.\n"
+"            "
+msgstr ""
+
+#: services/templates/services/services.html:149
+#: services/templates/services/services.html:217
+#: services/templates/services/services.html:331
+msgid "GET A QUOTE"
+msgstr ""
+
+#: services/templates/services/services.html:188
+msgid "AUTOMATIC MEASUREMENT MACHINES OR DEVICES"
+msgstr ""
+
+#: services/templates/services/services.html:197
+msgid ""
+"\n"
+"                If you're saying you don't have the time or confidence that "
+"your operator always measures accurately, yes, we understand.\n"
+"                 Provide us with the specifications, characteristics, and "
+"desired measurement time of your part.\n"
+"                  Let us develop systems to automatically perform this task "
+"for you as soon as possible.\n"
+"                   Whether it's simple diameters, geometric tolerances, "
+"whether you need pneumatic or contact-based measurement methods, or even if "
+"it involves moving the part for measurement, it's no problem.\n"
+"                   We have services in this regard.\n"
+"              "
+msgstr ""
+
+#: services/templates/services/services.html:208
+msgid ""
+"We offer the best products and the services  to our customers and the "
+"distributors all around the world."
+msgstr ""
+
+#: services/templates/services/services.html:309
+msgid "Software Support"
+msgstr ""
+
+#: services/templates/services/services.html:316
+msgid ""
+" \n"
+"        All KAO measurement devices record data, store them in their "
+"internal memory, and list the records on their screens.\n"
+"         However, in some applications, it is desired to transfer this data "
+"outside the device. \n"
+"         "
+msgstr ""
+
+#: services/templates/services/services.html:353
+msgid "KAO Data Server Software"
+msgstr ""
+
+#: services/templates/services/services.html:356
+msgid ""
+"\n"
+"                  The DS software serves as a server allowing wired and "
+"wireless KAO devices to exchange data using TCP and UDP protocols. \n"
+"                  It synchronizes the date and time settings of devices with "
+"a computer.\n"
+"                   The wifi router and password for devices in the field are "
+"provided. \n"
+"                   Devices are registered on the QSPY server screen with "
+"their serial numbers. \n"
+"                   The QSPY server automatically assigns IP addresses to "
+"devices.\n"
+"                    QSPY DS establishes its own database using the Windows "
+"SQL infrastructure.\n"
+"                     It records the data received. All operations occur "
+"without user intervention.\n"
+"                      Devices determine data variables.\n"
+"                      "
+msgstr ""
+
+#: services/templates/services/services.html:378
+msgid "KAO Data Monitoring Terminal"
+msgstr ""
+
+#: services/templates/services/services.html:381
+msgid ""
+"\n"
+"              Provides real-time access to data stored in SQL server.\n"
+"               It displays them on screen and exports them to printers in "
+"the form of lists and graphs.\n"
+"                  "
+msgstr ""
+
+#: services/templates/services/services.html:399
+msgid "QDAS Data Converter"
+msgstr ""
+
+#: services/templates/services/services.html:402
+msgid ""
+"\n"
+"                  When data reaches DS, it classifies them with catalog "
+"numbers. \n"
+"                  It prepares them as dfq extension files in the designated "
+"folder according to the qdas precellla protocol.\n"
+"                   All operations occur without user intervention.\n"
+"                   "
+msgstr ""
+
+#: services/templates/services/services.html:439
+msgid "Watch Video"
+msgstr ""
+
+#: services/templates/services/services.html:507
+msgid "Products"
+msgstr ""

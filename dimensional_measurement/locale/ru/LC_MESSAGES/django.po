@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-03 22:05+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:15
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:564
+msgid "Menu"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:19
+msgid "Dimensional Measurement"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:20
+msgid "Leak Testing Devices"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:21
+msgid "Callibrators "
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:22
+msgid "Accessories"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:25
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:566
+msgid "Services"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:26
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:567
+msgid "Contact"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:35
+msgid "Turkish"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:36
+msgid "English"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:37
+msgid "French"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:38
+msgid "German"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:39
+msgid "Italian"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:40
+msgid "Polish"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:41
+msgid "Russian"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:42
+msgid "Spanish"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:88
+msgid ""
+"\n"
+"\t\tAir gaging, also known as pneumatic gaging or air gauging, \n"
+"    is a metrological technique used for precision measurements in "
+"manufacturing and quality control processes. \n"
+"    It involves the use of compressed air to measure dimensional "
+"characteristics of a workpiece. \n"
+"    The basic principle of air gaging is to use the interaction between a "
+"stream of pressurized air and the surface of the workpiece to make accurate "
+"measurements.\n"
+"              "
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:98
+msgid "View More"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:134
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:226
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:330
+msgid "The ideal pneumatic measurement device for countertop use."
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:136
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:228
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:332
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:432
+msgid "It works with all known probes and is easy to use."
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:138
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:230
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:334
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:434
+msgid "The membrane keypad provides easy access to settings."
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:140
+msgid "Measurement resolution is 0.1um with a repeatability of 0.5um."
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:144
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:236
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:340
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:440
+msgid "Internal memory stores the last 10,000 records."
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:146
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:238
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:342
+msgid "Data transfer is possible via wireless Ethernet connection."
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:176
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:377
+msgid "Are you interested ?"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:179
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:380
+msgid "Contact Us"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:189
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:388
+msgid "CONTACT"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:232
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:336
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:436
+msgid "Measurement resolution is 0.1um with a repeatability of 0.5um. "
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:234
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:338
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:438
+msgid "It features a 7-inch color graphical display."
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:272
+msgid "Reason for Air-gaging ?"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:278
+msgid ""
+"Air gaging is commonly used in situations where high precision is required, "
+"especially in industries like machining, automotive manufacturing, and "
+"aerospace. It is known for its speed, accuracy, and the ability to measure "
+"tight tolerances. Air gaging is particularly suitable for measuring features "
+"like bores, grooves, and other internal dimensions where traditional contact "
+"methods might be challenging or impractical."
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:282
+msgid ""
+"We offer the best products and the services  to our customers and the "
+"distributors all around the world."
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:291
+msgid "GET A QUOTE"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:430
+msgid "The ideal pneumatic measurement device for countertop use. "
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:442
+msgid "Data transfer is possible via wireless Ethernet connection. "
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:497
+msgid "Watch Video"
+msgstr ""
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:565
+msgid "Products"
+msgstr ""

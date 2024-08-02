@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-03 22:05+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:17
+#: leak_testing/templates/leak_testing/leak_testing.html:545
+msgid "Menu"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:21
+msgid "Dimensional Measurement"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:22
+msgid "Leak Testing Devices"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:23
+msgid "Callibrators "
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:24
+msgid "Accessories"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:27
+#: leak_testing/templates/leak_testing/leak_testing.html:547
+msgid "Services"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:28
+#: leak_testing/templates/leak_testing/leak_testing.html:548
+msgid "Contact"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:37
+msgid "Turkish"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:38
+msgid "English"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:39
+msgid "French"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:40
+msgid "German"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:41
+msgid "Italian"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:42
+msgid "Polish"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:43
+msgid "Russian"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:44
+msgid "Spanish"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:81
+msgid "What is Leak Testing ?"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:85
+msgid ""
+"\n"
+"                Leak testing in metrology refers to the process of checking "
+"for and identifying leaks in a sealed or pressurized system.\n"
+"                 This is a crucial step in quality control and assurance, "
+"especially in industries where maintaining airtight or fluid-tight integrity "
+"is essential. \n"
+"                 Leak testing is commonly employed in the manufacturing of "
+"products such as automotive components, medical devices, electronic devices, "
+"and various other industrial applications.\n"
+"                 "
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:94
+msgid "View More"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:130
+#: leak_testing/templates/leak_testing/leak_testing.html:221
+#: leak_testing/templates/leak_testing/leak_testing.html:337
+#: leak_testing/templates/leak_testing/leak_testing.html:435
+msgid "The ideal pneumatic measurement device for countertop use."
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:132
+#: leak_testing/templates/leak_testing/leak_testing.html:223
+#: leak_testing/templates/leak_testing/leak_testing.html:339
+#: leak_testing/templates/leak_testing/leak_testing.html:437
+msgid "It works with all known probes and is easy to use."
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:134
+#: leak_testing/templates/leak_testing/leak_testing.html:225
+#: leak_testing/templates/leak_testing/leak_testing.html:341
+msgid "The membrane keypad provides easy access to settings."
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:136
+#: leak_testing/templates/leak_testing/leak_testing.html:227
+msgid "Measurement resolution is 0.1um with a repeatability of 0.5um."
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:138
+#: leak_testing/templates/leak_testing/leak_testing.html:229
+#: leak_testing/templates/leak_testing/leak_testing.html:345
+msgid "It features a 7-inch color graphical display."
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:140
+#: leak_testing/templates/leak_testing/leak_testing.html:231
+#: leak_testing/templates/leak_testing/leak_testing.html:347
+msgid "Internal memory stores the last 10,000 records."
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:142
+#: leak_testing/templates/leak_testing/leak_testing.html:233
+#: leak_testing/templates/leak_testing/leak_testing.html:349
+#: leak_testing/templates/leak_testing/leak_testing.html:447
+msgid "Data transfer is possible via wireless Ethernet connection."
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:171
+#: leak_testing/templates/leak_testing/leak_testing.html:384
+msgid "Are you interested ?"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:174
+#: leak_testing/templates/leak_testing/leak_testing.html:387
+msgid "Contact Us"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:184
+#: leak_testing/templates/leak_testing/leak_testing.html:395
+msgid "CONTACT"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:271
+msgid "Reason for Leak-Testing ?"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:277
+msgid ""
+"\n"
+"                Leak testing devices is crucial for ensuring products meet "
+"specified quality standards and eliminating defects during manufacturing.\n"
+"                 Safety is a primary concern, especially in applications "
+"like medical devices and gas appliances, where leaks can lead to accidents "
+"or hazards.\n"
+"                  Regulatory compliance requires adherence to industry "
+"standards and leak rate limits. \n"
+"                  The long-term reliability and performance of devices are "
+"ensured through leak testing. \n"
+"                  Environmental protection is addressed by preventing the "
+"release of harmful substances into the environment.\n"
+"                   Early identification of issues during the production "
+"process reduces the likelihood of costly recalls, repairs, or warranty "
+"claims. \n"
+"                   Delivering devices free from leaks enhances brand "
+"reputation and customer satisfaction.\n"
+"                "
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:289
+msgid ""
+"We offer the best products and the services  to our customers and the "
+"distributors all around the world."
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:298
+msgid "GET A QUOTE"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:343
+#: leak_testing/templates/leak_testing/leak_testing.html:441
+msgid "Measurement resolution is 0.1um with a repeatability of 0.5um. "
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:439
+msgid "The membrane keypad provides easy access to settings. "
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:443
+msgid "It features a 7-inch color graphical display. "
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:445
+msgid "Internal memory stores the last 10,000 records. "
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:546
+msgid "Products"
+msgstr ""
