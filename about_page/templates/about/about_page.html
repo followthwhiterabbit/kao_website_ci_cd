@@ -7,7 +7,18 @@
 <link rel="icon" href="{% static 'about/kao_logo.png' %}" alt="Kao Metrology Logo"> 
 
 
-<link rel="canonical" href="https://hightech-metrology.com/" />
+<link rel="canonical" href="https://hightech-metrology.com/en/" />
+
+<link rel="alternate" href="https://hightech-metrology.com/en/" hreflang="en" />
+<link rel="alternate" href="https://hightech-metrology.com/tr/" hreflang="tr" />
+<link rel="alternate" href="https://hightech-metrology.com/fr/" hreflang="fr" />
+<link rel="alternate" href="https://hightech-metrology.com/de/" hreflang="de" />
+<link rel="alternate" href="https://hightech-metrology.com/it/" hreflang="it" />
+<link rel="alternate" href="https://hightech-metrology.com/pl/" hreflang="pl" />
+<link rel="alternate" href="https://hightech-metrology.com/es/" hreflang="es" />
+
+
+
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-S1K2JYNCMG"></script>
@@ -21,7 +32,9 @@
 
 
 <title>Air Gaging | AirGage | Leak Testing | Leak Testing Devices</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Affordable High-Tech Airgages, Leak-Testing Devices and Callibrators. Kao Metrology offers High-Tech metrological devices with very affordable prices.">
+
 
 
 
@@ -83,10 +96,10 @@
 
                             </ul>
                         </li>
-                          <!-- mibew button --><a id="mibew-agent-button" href="/support/chat?locale=en&amp;style=default" target="_blank" onclick="Mibew.Objects.ChatPopups['665277e99f22c94c'].open();return false;"><img src="/support/b?i=mibew&amp;lang=en" border="0" alt="" /></a><script type="text/javascript" src="/support/js/compiled/chat_popup.js"></script><script type="text/javascript">Mibew.ChatPopup.init({"id":"665277e99f22c94c","url":"\/support\/chat?locale=en&style=default","preferIFrame":false,"modSecurity":false,"forceSecure":false,"style":"default","height":50,"width":200,"resizable":true,"styleLoader":"\/support\/chat\/style\/popup\/default"});</script><!-- / mibew button -->
+                          <!-- mibew button --><a id="mibew-agent-button" href="/support/chat?locale=en&amp;style=default" target="_blank" onclick="Mibew.Objects.ChatPopups['665277e99f22c94c'].open();return false;"><img src="/support/b?i=mibew&amp;lang=en" border="0" alt="customer service" /></a><script type="text/javascript" src="/support/js/compiled/chat_popup.js"></script><script type="text/javascript">Mibew.ChatPopup.init({"id":"665277e99f22c94c","url":"\/support\/chat?locale=en&style=default","preferIFrame":false,"modSecurity":false,"forceSecure":false,"style":"default","height":400,"width":500,"resizable":true,"styleLoader":"\/support\/chat\/style\/popup\/default"});</script><!-- / mibew button -->
                     </ul>
                 </div>
-            </div>
+          </div>
         </nav>
 
 
@@ -119,28 +132,18 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="5">
-      <img class="first_slide_slider" src="{% static 'about/measuring_1_alternative.webp' %}" alt="KAO Metrology produces Metrology Devices for 30 years" style="height: 240px; width: 1200px; margin-left:12.5%;">
+      <img class="first_slide_slider" src="{% static 'about/measuring_1_alternative.webp' %}" alt="KAO Metrology produces Metrology Devices for 30 years" >
            <div class="leakim" >
-          <h1>{% trans 'Kao Metrology' %}</h1>
+          <h1> {% trans 'Kao Metrology' %}</h1>
        </div>
     </div>
-    
-    
-    <!--
-      <div class="carousel-item active" data-bs-interval="5">
-      <img class="d-block w-100" src="{% static 'about/metrology_day.png' %}" alt="Happy World Metrology Day!">
-             <div class="sliding-text-container">
-            </div>
-        
-    </div>
-    -->
-    
+     
     
 
 
     <div class="carousel-item" data-bs-interval="5">
     <a href="{% url 'dimensional_measurement' %}">
-      <img class="leak_image_testing"  src="{% static 'about/modular_devices.webp' %}" alt="KAO Modular Metrology Devices" style="height: 240px; width: auto; margin-left:25%;">
+      <img class="dimensional_testing"  src="{% static 'about/modular_devices.webp' %}" alt="KAO Modular Metrology Devices" >
        <div class="leakim" >
           <h1>{% trans 'AirGages' %}</h1>
        </div>
@@ -150,7 +153,7 @@
 
     <div class="carousel-item" data-bs-interval="5">
     <a href="{% url 'leak_testing' %}">
-      <img class="leak_image_testing" src="{% static 'about/leaktesting_resized.webp' %}" alt="KAO Leak Testing Devices" style="height: 240px; width: auto; margin-left:25%;">
+      <img class="leak_image_testing" src="{% static 'about/leaktesting_resized.webp' %}" alt="KAO Leak Testing Devices" >
       <div class="leakim">
       <h1>{% trans 'Leak-Testing Devices' %}</h1>
       </div>
@@ -159,8 +162,8 @@
 
 <div class="carousel-item" data-bs-interval="5">
     <a href="{% url 'callibrators' %}">
-      <img class="callibrator_image_flow"  src="{% static 'about/kao_flow_callibrator.webp' %}" alt="Kao Flow Callibrators"  style="height: 240px; width: auto; margin-left:40%;">
-       <div class="Callibrators">
+      <img class="callibrator_image_flow"  src="{% static 'about/KFC60.webp' %}" alt="Kao Flow Callibrators">
+       <div class="leakim">
           <h1>{% trans 'Flow Callibrators' %}</h1>
        </div>
        </a>
@@ -170,7 +173,7 @@
     
 <div class="carousel-item" data-bs-interval="5">
     <a href="{% url 'callibrators' %}">
-      <img class="pressure-scanners"  src="{% static 'about/scanner_2_sliders.webp' %}" alt="Kao Pressure Scanners" style="height: 240px; width: auto; margin-left:37.5%;">
+      <img class="pressure-scanners"  src="{% static 'about/scanner_2_sliders.webp' %}" alt="Kao Pressure Scanners" >
        <div class="leakim">
           <h1>{% trans 'Pressure Scanners' %}</h1>
        </div>
@@ -181,7 +184,7 @@
 <div class="carousel-item" data-bs-interval="5">
   
     <a href="{% url 'products_page' %}">
-      <img class="modular_metrology"  src="{% static 'about/modular_metrology_slider.webp' %}" alt="Kao Products" style="height: 240px; width: auto; margin-left:25%;">
+      <img class="modular_metrology"  src="{% static 'about/modular_metrology_slider.webp' %}" alt="Kao Products" >
        <div class="leakim">
           <h1>{% trans 'Modular Metrology' %}</h1>
        </div>
@@ -192,9 +195,10 @@
 <div class="carousel-item" data-bs-interval="5"> 
 
     <a href="{% url 'services' %}">
-      <img class="probe-image_slide"  src="{% static 'about/probes_new_slider.webp' %}" alt="Kao Probe Service" style="height: 240px; width: auto; margin-left:35%;">
-       <div class="leakim">
+      <img class="probe-image_slide"  src="{% static 'about/probes_new.jpg' %}" alt="Kao Probe Service">
+      <div class="leakim">
           <h1>{% trans 'Probes' %}</h1>
+      </div>
        </div>
        </a>
     </div>

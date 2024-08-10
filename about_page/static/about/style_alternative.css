@@ -1935,15 +1935,134 @@ progress {
   -webkit-overflow-scrolling: touch;
 }
 
-
+.carousel-item img 
+{
+  width: 100%;
+  height: auto;
+}
 
 
 @media (max-width: 575.98px) {
-  .table-responsive-sm {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
+  
+
 }
+
+
+
+
+
+@media (max-width: 412px) and (max-height: 883px) {
+    .carousel-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .carousel-item img {
+        height: 240px;
+        width: auto; 
+        margin: 0 auto; 
+        display: block;
+    }
+
+    .leakim {
+      position: absolute;
+      bottom: 20px; 
+      left: 50%; 
+      transform: translateX(-50%);
+      color: red; 
+    }
+
+    .leakim h1 {
+        font-size: 1.2rem;
+        margin: 0.2rem;
+    }
+
+    .table-responsive-sm {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+
+
+
+@media (max-width: 412px) and (max-height: 915px) {
+    .carousel-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .carousel-item img {
+        height: auto;
+        width: 100%;
+    }
+
+    .callibrator_image_flow
+    {
+      width: 200px !important; 
+    }
+
+    .probe-image_slide {
+      width: 200px !important;
+    }
+
+
+      .table-responsive-sm {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .navbar-eski {
+      display: flex; 
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items:flex-start;
+    }
+
+    .nav-link {
+      white-space: nowrap;
+      font-size: 10px !important; 
+      padding: 2px 5px;
+      margin: 0 2px !important; 
+      display: inline-block;
+
+
+    }
+
+
+
+}
+
+
+@media (max-width: 360px) and (max-height: 760px) {
+    .carousel-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .carousel-item img {
+        height: auto;
+        width: 100%;
+    }
+
+     
+
+
+    .table-responsive-sm {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+
+
+
 @media (max-width: 767.98px) {
   .table-responsive-md {
     overflow-x: auto;
@@ -3334,6 +3453,7 @@ textarea.form-control-lg {
     left: auto;
   }
 }
+/* ----------------------------------------------------------------------------------------- */ 
 @media (min-width: 1200px) {
   .dropdown-menu-xl-start {
     --bs-position: start;
@@ -3349,7 +3469,32 @@ textarea.form-control-lg {
     right: 0;
     left: auto;
   }
+
+ 
+  .carousel-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+  }
+
+
+  .carousel-item img {
+    width: 100%; 
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .leakim{
+    margin-top: -200px;
+  }
+
+   
+
 }
+
+
 @media (min-width: 1400px) {
   .dropdown-menu-xxl-start {
     --bs-position: start;
@@ -5804,7 +5949,7 @@ textarea.form-control-lg {
 
 .carousel {
   position: relative;
-  height: 520px;
+  height: 240px;
 
 }
 
@@ -5815,6 +5960,7 @@ textarea.form-control-lg {
 .carousel-inner {
   position: relative;
   width: 100%;
+  height: 240px;
 }
 .carousel-inner::after {
   display: block;
@@ -14512,13 +14658,7 @@ strong {
   left:  0px;
 }
 
-.callibrator-image
-{
-  margin-left: 35%;
-  margin-top: -40px;
-  width: 500px;
-  height: 500px;
-}
+
 
 hr {
     display: block;
@@ -14627,15 +14767,16 @@ hr {
 
 
 
-.airgages
-{
-  margin-left: 50%;
+.airgages.carousel-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
 }
 
-.leakim
-{
-  margin-left: 50%;
-}
+
 
 .Callibrators
 {
@@ -15350,3 +15491,6 @@ model-viewer > #ar-prompt {
 model-viewer[ar-status="session-started"] > #ar-prompt {
   display: block;
 }
+
+
+
