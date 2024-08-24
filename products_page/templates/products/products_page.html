@@ -1,23 +1,22 @@
+<!DOCTYPE html>
 {% load static %}
 
 {% load i18n %}
+
+{% get_current_language as LANGUAGE_CODE %}
 
 
 
  <link rel="stylesheet" type="text/css" href="{% static 'products/style_alternative.css' %}" /> 
  <link rel="icon" href="{% static 'about/kao_logo.png' %}" alt="Kao Metrology Logo"> 
 
- 
-<link rel="canonical" href="https://hightech-metrology.com/en/products/"/>
 
-<link rel="alternate" href="https://hightech-metrology.com/en/products/" hreflang="en" />
-<link rel="alternate" href="https://hightech-metrology.com/tr/products/" hreflang="tr" />
-<link rel="alternate" href="https://hightech-metrology.com/fr/products/" hreflang="fr" />
-<link rel="alternate" href="https://hightech-metrology.com/de/products/" hreflang="de" />
-<link rel="alternate" href="https://hightech-metrology.com/it/products/" hreflang="it" />
-<link rel="alternate" href="https://hightech-metrology.com/pl/products/" hreflang="pl" />
-<link rel="alternate" href="https://hightech-metrology.com/es/products/" hreflang="es" />
 
+ <link rel="canonical" href="https://www.hightech-metrology.com{% url 'products' %}"/>
+
+{% for lang_code, lang_name in LANGUAGES %}
+     <link rel="alternate" href="https://www.hightech-metrology.com/{{ lang_code }}/products/" hreflang="{{ lang_code }}" />
+{% endfor %}
 
 
  <title>Metrology Products | Air Gages | Air Gaging Devices | Leak Testing Devices | Callibrators</title>

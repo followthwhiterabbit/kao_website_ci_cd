@@ -1,20 +1,25 @@
+ <!DOCTYPE html>
+
 {% load static %}
 
 {% load i18n %}
 
+{% get_current_language as LANGUAGE_CODE %}
+
+
  <link rel="stylesheet" type="text/css" href="{% static 'callibrators/style_alternative.css' %}" /> 
  <link rel="icon" href="{% static 'about/kao_logo.png' %}" alt="Logo of Kao Metrology"> 
  
-<link rel="canonical" href="https://hightech-metrology.com/en/accessories/" />
-<link rel="alternate" href="https://hightech-metrology.com/en/accessories/" hreflang="en" />
-<link rel="alternate" href="https://hightech-metrology.com/tr/accessories/" hreflang="tr" />
-<link rel="alternate" href="https://hightech-metrology.com/fr/accessories/" hreflang="fr" />
-<link rel="alternate" href="https://hightech-metrology.com/de/accessories/" hreflang="de" />
-<link rel="alternate" href="https://hightech-metrology.com/it/accessories/" hreflang="it" />
-<link rel="alternate" href="https://hightech-metrology.com/pl/accessories/" hreflang="pl" />
-<link rel="alternate" href="https://hightech-metrology.com/es/accessories/" hreflang="es" />
+<link rel="canonical" href="{% url 'accessories' %}"/>
+
+{% for lang_code, lang_name in LANGUAGES %}
+     <link rel="alternate" href="https://www.hightech-metrology.com/{{ lang_code }}/accessories" hreflang="{{ lang_code }}" />
+
+{% endfor %}
+
 
  
+
  <title>Accessories | KAO Accessories | Control Pedals</title>
 <meta name="description" content="Accessories offered by Kao Metrology. Take a look at the accessories offered by KAO Metrology in further detail. ">
  

@@ -1,17 +1,20 @@
+ <!DOCTYPE html>
 {% load static %}
 {% load i18n %}
+
+
+{% get_current_language as LANGUAGE_CODE %}
 
  <link rel="stylesheet" type="text/css" href="{% static 'callibrators/style_alternative.css' %}" /> 
  <link rel="icon" href="{% static 'about/kao_logo.png' %}" alt="Kao Metrology Logo"> 
 
-<link rel="canonical" href="https://hightech-metrology.com/en/callibrators/" />
-<link rel="alternate" href="https://hightech-metrology.com/en/callibrators/" hreflang="en" />
-<link rel="alternate" href="https://hightech-metrology.com/tr/callibrators/" hreflang="tr" />
-<link rel="alternate" href="https://hightech-metrology.com/fr/callibrators/" hreflang="fr" />
-<link rel="alternate" href="https://hightech-metrology.com/de/callibrators/" hreflang="de" />
-<link rel="alternate" href="https://hightech-metrology.com/it/callibrators/" hreflang="it" />
-<link rel="alternate" href="https://hightech-metrology.com/pl/callibrators/" hreflang="pl" />
-<link rel="alternate" href="https://hightech-metrology.com/es/callibrators/" hreflang="es" />
+
+ <link rel="canonical" href="{% url 'calibrators' %}"/>
+
+{% for lang_code, lang_name in LANGUAGES %}
+     <link rel="alternate" href="https://www.hightech-metrology.com/{{ lang_code }}/calibrators/" hreflang="{{ lang_code }}" />
+{% endfor %}
+
 
 
 

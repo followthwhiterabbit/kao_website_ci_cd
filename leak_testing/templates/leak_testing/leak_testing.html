@@ -1,19 +1,21 @@
+<!DOCTYPE html>
 {% load static %}
 
 {% load i18n %}
 
+{% get_current_language as LANGUAGE_CODE %}
 
  <link rel="stylesheet" type="text/css" href="{% static 'leak/style_alternative.css' %}" /> 
  <link rel="icon" href="{% static 'about/kao_logo.png' %}"> 
 
-<link rel="canonical" href="https://hightech-metrology.com/en/leaktesting/"/>
-<link rel="alternate" href="https://hightech-metrology.com/en/leaktesting/" hreflang="en" />
-<link rel="alternate" href="https://hightech-metrology.com/tr/leaktesting/" hreflang="tr" />
-<link rel="alternate" href="https://hightech-metrology.com/fr/leaktesting/" hreflang="fr" />
-<link rel="alternate" href="https://hightech-metrology.com/de/leaktesting/" hreflang="de" />
-<link rel="alternate" href="https://hightech-metrology.com/it/leaktesting/" hreflang="it" />
-<link rel="alternate" href="https://hightech-metrology.com/pl/leaktesting/" hreflang="pl" />
-<link rel="alternate" href="https://hightech-metrology.com/es/leaktesting/" hreflang="es" />
+<link rel="canonical" href="https://www.hightech-metrology.com{% url 'leak_testing' %}"/>
+
+{% for lang_code, lang_name in LANGUAGES %}
+     <link rel="alternate" href="https://www.hightech-metrology.com/{{ lang_code }}/leak_testing/" hreflang="{{ lang_code }}" />
+{% endfor %}
+
+
+
 
 
 <!-- Google tag (gtag.js) -->

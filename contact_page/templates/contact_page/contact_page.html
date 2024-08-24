@@ -1,22 +1,25 @@
+ <!DOCTYPE html>
 {% load static %}
 
 
 {% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+
 
 
 
  <link rel="stylesheet" type="text/css" href="{% static 'contact/style.css' %}" /> 
- <link rel="icon" href="{% static 'about/kao_logo.png' %}" alt="Kao Metrology Logo"> 
+ <link rel="icon" href="{% static 'about/kao_logo.png' %}" alt="Kao Metrology Logo">
 
- <link rel="canonical" href="https://hightech-metrology.com/en/contact/" />
 
-<link rel="alternate" href="https://hightech-metrology.com/en/contact/" hreflang="en" />
-<link rel="alternate" href="https://hightech-metrology.com/tr/contact/" hreflang="tr" />
-<link rel="alternate" href="https://hightech-metrology.com/fr/contact/" hreflang="fr" />
-<link rel="alternate" href="https://hightech-metrology.com/de/contact/" hreflang="de" />
-<link rel="alternate" href="https://hightech-metrology.com/it/contact/" hreflang="it" />
-<link rel="alternate" href="https://hightech-metrology.com/pl/contact/" hreflang="pl" />
-<link rel="alternate" href="https://hightech-metrology.com/es/contact/" hreflang="es" />
+ <link rel="canonical" href="https://www.hightech-metrology.com{% url 'contact_page' %}"/>
+
+{% for lang_code, lang_name in LANGUAGES %}
+     <link rel="alternate" href="https://www.hightech-metrology.com/{{ lang_code }}/contact/" hreflang="{{ lang_code }}" />
+{% endfor %}
+    
+
+
 
 
 

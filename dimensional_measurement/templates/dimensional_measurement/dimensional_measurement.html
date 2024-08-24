@@ -1,22 +1,21 @@
+<!DOCTYPE html>
 {% load static %}
 
 {% load i18n %}
 
-
+{% get_current_language as LANGUAGE_CODE %}
 
 
  <link rel="stylesheet" type="text/css" href="{% static 'about/style_alternative.css' %}" /> 
  <link rel="icon" href="{% static 'about/kao_logo.png' %}" alt="Kao Metrology Logo"> 
 
- <link rel="canonical" href="https://hightech-metrology.com/en/dimensionalmeasurement/" />
 
-<link rel="alternate" href="https://hightech-metrology.com/en/dimensionalmeasurement/" hreflang="en" />
-<link rel="alternate" href="https://hightech-metrology.com/tr/dimensionalmeasurement/" hreflang="tr" />
-<link rel="alternate" href="https://hightech-metrology.com/fr/dimensionalmeasurement/" hreflang="fr" />
-<link rel="alternate" href="https://hightech-metrology.com/de/dimensionalmeasurement/" hreflang="de" />
-<link rel="alternate" href="https://hightech-metrology.com/it/dimensionalmeasurement/" hreflang="it" />
-<link rel="alternate" href="https://hightech-metrology.com/pl/dimensionalmeasurement/" hreflang="pl" />
-<link rel="alternate" href="https://hightech-metrology.com/es/dimensionalmeasurement/" hreflang="es" />
+ <link rel="canonical" href="https://www.hightech-metrology.com{% url 'dimensional_measurement' %}"/>
+
+{% for lang_code, lang_name in LANGUAGES %}
+     <link rel="alternate" href="https://www.hightech-metrology.com/{{ lang_code }}/dimensional_measurement/" hreflang="{{ lang_code }}" />
+{% endfor %}
+
 
 
 
