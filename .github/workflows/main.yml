@@ -19,16 +19,16 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /kao_website/mysite/
 
-    - name: 🔄 Restart server
-      uses: appleboy/ssh-action@v0.1.6
-      with:
-        host: ${{ secrets.SSH_HOST }}
-        username: ${{ secrets.SSH_USERNAME }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
-        script: |
-            cd /home/highpkui/kao_website/mysite/
-            # Activate the virtual environment if necessary
-            # source /home/username/virtualenv/mysite/3.8/bin/activate
-            # Restart the Python app or server
-            pkill -f "python app.py" || true
-            nohup python app.py &
+   # - name: 🔄 Restart server
+      #uses: appleboy/ssh-action@v0.1.6
+      #with:
+        #host: ${{ secrets.SSH_HOST }}
+        #username: ${{ secrets.SSH_USERNAME }}
+        #key: ${{ secrets.SSH_PRIVATE_KEY }}
+        #script: |
+            #cd /home/highpkui/kao_website/mysite/
+            ## Activate the virtual environment if necessary
+            ## source /home/username/virtualenv/mysite/3.8/bin/activate
+            ## Restart the Python app or server
+            #pkill -f "python app.py" || true
+            #nohup python app.py &
