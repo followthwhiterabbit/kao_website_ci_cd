@@ -17,4 +17,4 @@ jobs:
         server: www.hightech-metrology.com
         username: ${{secrets.ftp_username}}
         password: ${{ secrets.ftp_password }}
-        server-dir: /kao_website/mysite
+        server-dir: /kao_website/mysite/
