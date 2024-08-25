@@ -173,8 +173,7 @@ USE_TZ = True
 
 # STATIC_URL = '/static/'
 
-
-#STATIC_URL = '/static/' # to run in server 1 
+STATIC_URL = '/static/' # to run in server 1 
 
 
 STATIC_ROOT = '/home/highpkui/public_html/static' # to run in server 2 
