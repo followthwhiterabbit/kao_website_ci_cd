@@ -1,9 +1,9 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
  {% load static %}
 
 {% load i18n %}
 {% get_current_language as LANGUAGE_CODE %}
-
 
 
 <link rel="stylesheet" type="text/css" href="{% static 'about/style_alternative.css' %}" /> 
@@ -11,7 +11,10 @@
 
 
 
-<link rel="canonical" href="{% url 'products_page' %}"/>
+
+
+ <link rel="canonical" href="https://www.hightech-metrology.com/en/"/>
+
 
 {% for lang_code, lang_name in LANGUAGES %}
      <link rel="alternate" href="https://www.hightech-metrology.com/{{ lang_code }}/" hreflang="{{ lang_code }}" />
@@ -209,6 +212,8 @@
     
   </div>
 
+<!--
+
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only"></span>
@@ -218,7 +223,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only"></span>
   </a>
-
+-->
 
 
 <link rel="stylesheet" type="text/css" media="all" href="https://oguzturk.net/lab/demo/cerez/cerez.css" />
@@ -692,7 +697,13 @@ $(document).ready(function() {
                     <h5 class="card-subtitle align-center pb-4 mbr-fonts-style display-7 snipcss0-5-7-8">October 09 - October 12, 2024</h5>
                     <h4 class="card-title align-center pb-1 mbr-bold mbr-fonts-style display-5 snipcss0-5-7-9">KALITE2024 Exhibition</h4>
                     <p class="mbr-text align-center pb-3 mbr-fonts-style display-7 snipcss0-5-7-10">Visit our stand in Kalite 2024 exhibition that takes place in October in Istanbul</p>
-                    <h5 class="link align-center mbr-fonts-style display-7 snipcss0-5-7-11"><a href="#" class="text-black snipcss0-6-11-12"> READ MORE</a></h5>
+        
+        
+                    <p class="link align-center mbr-fonts-style display-7 snipcss0-5-7-11">
+                  Check out our upcoming exhibitions in the latest blog post: 
+                <a href="https://hightech-metrology.com/blog/2024/08/kalite-24" class="text-black snipcss0-6-11-12" alt="our upcoming exhibitions">Read more about our upcoming exhibitions</a>.
+                    </p>
+
                 </div>
             </div>
             <!--
