@@ -24,8 +24,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-6x$tjy^k$7lb5utvb6&3w+2kj#f3m#_d8g*l9mfr%2@r39&pfa'
 
 # SECURITY WARNING: don't run with debug turned on in produexction!
-#DEBUG = False # --> in server 
-DEBUG = True  # in localhost 
+DEBUG = False # --> in server 
+#DEBUG = True  # in localhost 
 
 ALLOWED_HOSTS = ['www.hightech-metrology.com']  # in server , now the first one will not be in server.
 #ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0']  # in local 
