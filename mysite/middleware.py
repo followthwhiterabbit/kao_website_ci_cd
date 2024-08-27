@@ -11,7 +11,9 @@ class RedirectToWWWMiddleware:
 
     def __call__(self, request):
         host = request.get_host()
-        logger.debug(f"Host: {host}")
+        scheme = request.scheme
+        logger.debug(f"Host: {host}, Scheme: {scheme}")
+
 
         if not host.startswith('www.') and not settings.DEBUG:
             new_url = request.build_absolute_uri().replace(host, f'www.{host}')
@@ -19,12 +21,11 @@ class RedirectToWWWMiddleware:
             return HttpResponsePermanentRedirect(new_url)
 
 
-        if host.startswith('https://') and not settings.DEBUG:
-            new_url = request.build_absolute_uri().replace(host, f'https://www.{host}')
+         # Ensure https with www
+        if scheme == 'https' and not host.startswith('www.') and not settings.DEBUG:
+            new_url = request.build_absolute_uri().replace(host, f'www.{host}')
             logger.debug(f"Redirecting to: {new_url}")
-            return HttpResponsePermanentRedirect(new_url)
-
-
+            return HttpResponsePermanentRedirect(new_url) 
 
         
         response = self.get_response(request)
