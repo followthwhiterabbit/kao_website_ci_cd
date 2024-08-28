@@ -35,7 +35,7 @@ class RedirectToWWWMiddleware:
             return HttpResponsePermanentRedirect(new_url)   
 
 
-        if host == 'hightech-metrology.com':
+        if host == 'https://hightech-metrology.com':
             new_host = 'www.hightech-metrology.com'
             new_url = request.build_absolute_uri().replace(host, new_host)
             logger.debug(f"Redirecting to: {new_url}")
