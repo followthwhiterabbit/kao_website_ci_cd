@@ -15,17 +15,26 @@ class RedirectToWWWMiddleware:
         logger.debug(f"Host: {host}, Scheme: {scheme}")
 
 
+        #if not host.startswith('www.') and not settings.DEBUG:
+            #new_url = request.build_absolute_uri().replace(host, f'www.{host}')
+            #logger.debug(f"Redirecting to: {new_url}")
+            #return HttpResponsePermanentRedirect(new_url)
+
+
+        ## Ensure https with www
+        #if scheme == 'https' and not host.startswith('www.') and not settings.DEBUG:
+            #new_url = request.build_absolute_uri().replace(host, f'www.{host}')
+            #logger.debug(f"Redirecting to: {new_url}")
+            #return HttpResponsePermanentRedirect(new_url) 
+
+        # Redirect any non-www request to www, maintaining the scheme
         if not host.startswith('www.') and not settings.DEBUG:
-            new_url = request.build_absolute_uri().replace(host, f'www.{host}')
+            new_host = f'www.{host}'
+            new_url = request.build_absolute_uri().replace(host, new_host)
             logger.debug(f"Redirecting to: {new_url}")
-            return HttpResponsePermanentRedirect(new_url)
+            return HttpResponsePermanentRedirect(new_url)        
 
 
-        # Ensure https with www
-        if scheme == 'https' and not host.startswith('www.') and not settings.DEBUG:
-            new_url = request.build_absolute_uri().replace(host, f'www.{host}')
-            logger.debug(f"Redirecting to: {new_url}")
-            return HttpResponsePermanentRedirect(new_url) 
 
         
         response = self.get_response(request)
