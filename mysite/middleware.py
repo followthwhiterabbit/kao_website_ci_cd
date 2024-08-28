@@ -28,11 +28,11 @@ class RedirectToWWWMiddleware:
             #return HttpResponsePermanentRedirect(new_url) 
 
         # Redirect any non-www request to www, maintaining the scheme
-        if not host.startswith('www.') and not settings.DEBUG:
-            new_host = f'www.{host}'
-            new_url = request.build_absolute_uri().replace(host, new_host)
-            logger.debug(f"Redirecting to: {new_url}")
-            return HttpResponsePermanentRedirect(new_url)   
+        #if not host.startswith('www.') and not settings.DEBUG:
+            #new_host = f'www.{host}'
+            #new_url = request.build_absolute_uri().replace(host, new_host)
+            #logger.debug(f"Redirecting to: {new_url}")
+            #return HttpResponsePermanentRedirect(new_url)   
 
 
         if host == 'https://hightech-metrology.com':
