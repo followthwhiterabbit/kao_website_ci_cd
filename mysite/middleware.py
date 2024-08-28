@@ -19,15 +19,7 @@ class RedirectToWWWMiddleware:
             #new_url = request.build_absolute_uri().replace(host, f'www.{host}')
             #logger.debug(f"Redirecting to: {new_url}")
             #return HttpResponsePermanentRedirect(new_url)
-
-
-        # Redirect from hightech-metrology.com to www.hightech-metrology.com
-        if host == 'hightech-metrology.com':
-            new_url = request.build_absolute_uri().replace(host, 'www.hightech-metrology.com')
-            logger.debug(f"Redirecting to: {new_url}")
-            return HttpResponsePermanentRedirect(new_url
-
-
+        
         # Ensure https with www
         if scheme == 'https' and not host.startswith('www.') and not settings.DEBUG:
             new_url = request.build_absolute_uri().replace(host, f'www.{host}')
