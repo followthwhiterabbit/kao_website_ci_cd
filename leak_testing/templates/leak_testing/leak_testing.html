@@ -718,20 +718,32 @@
       </div>
 
       <nav class="navbar-eski  navbar-nav-eski navbar-dark-eski bg-blue-eski ">
-            <div class="container">
-                <div class="align-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav ">
-
-                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li> 
-                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">{% trans 'Products' %}</a></li>
-                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>
-                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}"> {% trans 'Contact' %}</a></li>   
-
-                      
-                   
-                    </ul>
-                </div>
-            </div>
+       <div class="container align-middle" style="margin-left: 425px;"> 
+    <div class="d-flex justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav d-flex flex-row list-unstyled">
+            <li class="nav-item mbr-section-btn mx-2">
+                <a class="btn btn-md btn-white-outline display-4" href="{% url 'about_page' %}">
+                    {% trans 'MENU' %}
+                </a>
+            </li>
+            <li class="nav-item mbr-section-btn mx-2">
+                <a class="btn btn-md btn-white-outline display-4" href="{% url 'contact_page' %}">
+                    {% trans 'CONTACT' %}
+                </a>
+            </li>
+            <li class="nav-item mbr-section-btn mx-2">
+                <a class="btn btn-md btn-white-outline display-4" href="{% url 'products_page' %}">
+                    {% trans 'PRODUCTS' %}
+                </a>
+            </li>
+            <li class="nav-item mbr-section-btn mx-2">
+                <a class="btn btn-md btn-white-outline display-4" href="https://hightech-metrology.com/blog/">
+                    {% trans 'BLOG' %}
+                </a>
+            </li>
+        </ul>
+    </div>
+</div> 
 
 
                 <div class="call_us_section align-middle">

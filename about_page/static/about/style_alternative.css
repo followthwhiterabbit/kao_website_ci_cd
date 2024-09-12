@@ -7845,9 +7845,6 @@ textarea.form-control-lg {
   margin-left: 1.5rem !important;
 }
 
-.ms-5 {
-  margin-left: 3rem !important;
-}
 
 .ms-auto {
   margin-left: auto !important;
@@ -11542,6 +11539,9 @@ nav {
   margin-left: 25%;
 }
 
+.align-left{
+  text-align: left;
+}
 
 .cid-ryfQpXufii .icon-wrap  { 
     width: 100%; 
@@ -13068,9 +13068,6 @@ h4 {
     word-wrap: break-word;
 } 
 
-.align-left { 
-    text-align: left;
-} 
 
 .cid-ryhcqtn4u7 .mbr-text  { 
     color: #767676;

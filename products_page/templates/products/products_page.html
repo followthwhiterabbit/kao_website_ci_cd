@@ -155,6 +155,7 @@
                   MiniSx+
                  </h4>
                 <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                  {% trans '1/2/4 Channel Air-Gaging Device' %}
                 </p>
               </div>
             </a>
@@ -174,7 +175,8 @@
                   KA0X
                  </h4>
                 <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-                </p>
+                  {% trans '1/2/4 Channel Air-Gaging Device' %}
+                </pr>
               </div>
             </a>
             </figcaption>
@@ -247,6 +249,7 @@
                 </h4>
                 <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
 
+                  {% trans ' 2/4 Channel Leak-Testing Device' %}
                 </p>
               </div>
             </a>
@@ -266,6 +269,7 @@
                 </h4>
                 <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
 
+                  {% trans '8 Channel Leak-Testing Device' %}
                 </p>
               </div>
             </figcaption>
@@ -345,7 +349,7 @@
             <figcaption class="mbr-figure-caption mbr-figure-caption-over">
               <div class="wrap">
                 <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  KR100 - {% trans 'Relative Leak Measurement Device' %}
+                  KR100 - {% trans ' 1 Channel Relative Leak Measurement Device' %}
                 </h4>
                 <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
 
@@ -552,7 +556,7 @@
       </iframe>
     </div>
   </section>
-  <section class="header3 cid-ryha7dvnCF" id="social01-3g">
+  <section class="header3 cid-ryha7dvnCF bg-blue-eski" id="social01-3g">
     <div class="container">
 
       <div class="mbr-section-btn align-center pb-3">
@@ -579,21 +583,41 @@
       </div>
 
       <nav class="navbar-eski  navbar-nav-eski navbar-dark-eski bg-blue-eski ">
-            <div class="container">
-                <div class="align-center" id="navbarSupportedContent">
-                    <ul class="navbar-nav ">
+<div class="container align-middle">
+    <div class="d-flex justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav d-flex flex-row list-unstyled">
+            <li class="nav-item mbr-section-btn mx-2">
+                <a class="btn btn-md btn-white-outline display-4" href="{% url 'about_page' %}">
+                    {% trans 'MENU' %}
+                </a>
+            </li>
+            <li class="nav-item mbr-section-btn mx-2">
+                <a class="btn btn-md btn-white-outline display-4" href="{% url 'contact_page' %}">
+                    {% trans 'CONTACT' %}
+                </a>
+            </li>
+            <li class="nav-item mbr-section-btn mx-2">
+                <a class="btn btn-md btn-white-outline display-4" href="{% url 'products_page' %}">
+                    {% trans 'PRODUCTS' %}
+                </a>
+            </li>
 
-                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li> 
-                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'products_page' %}">{% trans 'Products' %}</a></li>
-                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>
-                        <li class="nav-item align-middle"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}"> {% trans 'Contact' %}</a></li>   
+           
+            <li class="nav-item mbr-section-btn mx-2">
+                <a class="btn btn-md btn-white-outline display-4" href="https://hightech-metrology.com/blog/">
+                    {% trans 'BLOG' %}
+                </a>
+            </li>
 
-                      
-                   
-                    </ul>
-                </div>
-            </div>
 
+
+
+        </ul>
+    </div>
+</div>
+
+ 
+        
 
                 <div class="call_us_section align-middle">
              <img src="{% static 'about/call_us-Photoroom.png' %}" alt="call us logo" style="width:50px; height:50px;"> 
@@ -608,7 +632,7 @@
 
     
   </section>
-  <section once="footers" class="cid-ryha9vUPBi" id="footer01-3j">
+  <section once="footers" class="cid-ryha9vUPBi bg-blue-eski" id="footer01-3j">
     <div class="container">
       <div class="media-container-row align-center mbr-white">
         <div class="col-12">
