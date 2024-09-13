@@ -8,182 +8,219 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-03 22:05+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2024-09-13 15:19+0300\n"
+"PO-Revision-Date: 2024-09-13 14:56+0000\n"
+"Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-#: accessories/templates/accessories/accessories.html:16
-#: accessories/templates/accessories/accessories.html:449
-msgid "Menu"
-msgstr ""
-
-#: accessories/templates/accessories/accessories.html:20
-msgid "Dimensional Measurement"
-msgstr ""
-
-#: accessories/templates/accessories/accessories.html:21
-msgid "Leak Testing Devices"
-msgstr ""
-
-#: accessories/templates/accessories/accessories.html:22
-msgid "Callibrators "
-msgstr ""
-
-#: accessories/templates/accessories/accessories.html:23
-msgid "Accessories"
-msgstr ""
-
-#: accessories/templates/accessories/accessories.html:26
-#: accessories/templates/accessories/accessories.html:451
-msgid "Services"
-msgstr ""
-
-#: accessories/templates/accessories/accessories.html:27
-#: accessories/templates/accessories/accessories.html:452
-msgid "Contact"
-msgstr ""
+"X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: accessories/templates/accessories/accessories.html:36
-msgid "Turkish"
-msgstr ""
-
-#: accessories/templates/accessories/accessories.html:37
-msgid "English"
-msgstr ""
+msgid "Menu"
+msgstr "Menü"
 
 #: accessories/templates/accessories/accessories.html:38
-msgid "French"
-msgstr ""
-
-#: accessories/templates/accessories/accessories.html:39
-msgid "German"
-msgstr ""
+msgid "Products"
+msgstr "Ürünler"
 
 #: accessories/templates/accessories/accessories.html:40
-msgid "Italian"
-msgstr ""
+msgid "Dimensional Measurement"
+msgstr "Havalı Ölçüm Sistemleri"
 
 #: accessories/templates/accessories/accessories.html:41
-msgid "Polish"
-msgstr ""
+msgid "Leak Testing Devices"
+msgstr "Sızdırmazlık Test Cihazları"
 
 #: accessories/templates/accessories/accessories.html:42
-msgid "Russian"
-msgstr ""
+msgid "Callibrators "
+msgstr "Kalibratörler"
 
 #: accessories/templates/accessories/accessories.html:43
+msgid "Accessories"
+msgstr "Aksesuarlar"
+
+#: accessories/templates/accessories/accessories.html:48
+#: accessories/templates/accessories/accessories.html:61
+msgid "Services"
+msgstr "Hizmetler"
+
+#: accessories/templates/accessories/accessories.html:50
+msgid "Probe Design"
+msgstr "Prob Tasarımı"
+
+#: accessories/templates/accessories/accessories.html:51
+msgid "Automation Projects"
+msgstr "Otomasyon Projeleri"
+
+#: accessories/templates/accessories/accessories.html:52
+msgid "Softwares"
+msgstr "Yazılımlar"
+
+#: accessories/templates/accessories/accessories.html:57
+msgid "Blog"
+msgstr "Blog"
+
+#: accessories/templates/accessories/accessories.html:62
+msgid "Contact"
+msgstr "İletişim"
+
+#: accessories/templates/accessories/accessories.html:71
+msgid "Turkish"
+msgstr "Türkçe"
+
+#: accessories/templates/accessories/accessories.html:72
+msgid "English"
+msgstr "İngilizce"
+
+#: accessories/templates/accessories/accessories.html:73
+msgid "French"
+msgstr "Fransızca"
+
+#: accessories/templates/accessories/accessories.html:74
+msgid "German"
+msgstr "Almanca"
+
+#: accessories/templates/accessories/accessories.html:75
+msgid "Italian"
+msgstr "İtalyanca"
+
+#: accessories/templates/accessories/accessories.html:76
+msgid "Polish"
+msgstr "Lehçe"
+
+#: accessories/templates/accessories/accessories.html:77
 msgid "Spanish"
-msgstr ""
+msgstr "İspanyolca"
 
-#: accessories/templates/accessories/accessories.html:84
+#: accessories/templates/accessories/accessories.html:121
 msgid "Accessories for our Products"
-msgstr ""
+msgstr "Ürünlerimiz İçin Aksesuarlar"
 
-#: accessories/templates/accessories/accessories.html:88
+#: accessories/templates/accessories/accessories.html:125
 msgid "We provide accessories geared to the requirements of our products."
-msgstr ""
+msgstr "Ürünlerimizin gereksinimlerine uygun aksesuarlar sunuyoruz."
 
-#: accessories/templates/accessories/accessories.html:93
+#: accessories/templates/accessories/accessories.html:130
 msgid "View More"
-msgstr ""
+msgstr "İncele"
 
-#: accessories/templates/accessories/accessories.html:133
+#: accessories/templates/accessories/accessories.html:170
 msgid "1-Key Control Pedal"
-msgstr ""
+msgstr "1-Düğmeli Kontrol Pedalı"
 
-#: accessories/templates/accessories/accessories.html:137
+#: accessories/templates/accessories/accessories.html:174
 msgid ""
 "The operating function is selected from the device it is attached to.  It "
 "can start and stop operations, record. It is mostly used for recording "
 "measurement values in pneumatic devices and capturing ovality results."
 msgstr ""
+"Çalıştırma fonksiyonu, bağlı olduğu cihazdan seçilir. İşlemleri başlatabilir"
+" ve durdurabilir, kayıt yapabilir. Genellikle pnömatik cihazlarda ölçüm "
+"değerlerini kaydetmek ve ovalite sonuçlarını yakalamak için kullanılır."
 
-#: accessories/templates/accessories/accessories.html:141
-#: accessories/templates/accessories/accessories.html:173
-#: accessories/templates/accessories/accessories.html:207
-#: accessories/templates/accessories/accessories.html:243
-#: accessories/templates/accessories/accessories.html:274
+#: accessories/templates/accessories/accessories.html:178
+#: accessories/templates/accessories/accessories.html:210
+#: accessories/templates/accessories/accessories.html:244
+#: accessories/templates/accessories/accessories.html:280
+#: accessories/templates/accessories/accessories.html:311
 msgid "Suitable Devices"
-msgstr ""
+msgstr "Uygun Cihazlar"
 
-#: accessories/templates/accessories/accessories.html:147
-#: accessories/templates/accessories/accessories.html:179
-#: accessories/templates/accessories/accessories.html:213
+#: accessories/templates/accessories/accessories.html:184
+#: accessories/templates/accessories/accessories.html:216
+#: accessories/templates/accessories/accessories.html:250
 msgid "KA0x MiniSX+ KA100 KA200"
-msgstr ""
+msgstr "KA0x MiniSX+ KA100 KA200"
 
-#: accessories/templates/accessories/accessories.html:165
+#: accessories/templates/accessories/accessories.html:202
 msgid "1-Button Control Equipment"
-msgstr ""
+msgstr "1-Düğmeli Kontrol Ekipmanı"
 
-#: accessories/templates/accessories/accessories.html:168
+#: accessories/templates/accessories/accessories.html:205
 msgid ""
-"The operating function is selected from the device it is attached to. It can "
-"initiate and stop operations, record. It is mostly used for recording "
+"The operating function is selected from the device it is attached to. It can"
+" initiate and stop operations, record. It is mostly used for recording "
 "measurement values in pneumatic devices and capturing ovality results."
 msgstr ""
-
-#: accessories/templates/accessories/accessories.html:200
-msgid "3-Button Control Equipment"
-msgstr ""
-
-#: accessories/templates/accessories/accessories.html:203
-msgid ""
-"The operating function is selected from the device it is attached to. It can "
-"initiate and stop operations, record, change programs, and be used with the "
-"control purpose in systems where touch probes are activated with vacuum. It "
-"is mostly used for recording measurement values in pneumatic devices and "
-"capturing ovality results."
-msgstr ""
-
-#: accessories/templates/accessories/accessories.html:231
-msgid "8 Input 8 Output Connection Cable and Card"
-msgstr ""
+"Çalıştırma fonksiyonu, bağlı olduğu cihazdan seçilir. İşlemleri başlatabilir"
+" ve durdurabilir, kayıt yapabilir. Genellikle pnömatik cihazlarda ölçüm "
+"değerlerini kaydetmek ve ovalite sonuçlarını yakalamak için kullanılır."
 
 #: accessories/templates/accessories/accessories.html:237
+msgid "3-Button Control Equipment"
+msgstr "3-Düğmeli Kontrol Ekipmanı"
+
+#: accessories/templates/accessories/accessories.html:240
+msgid ""
+"The operating function is selected from the device it is attached to. It can"
+" initiate and stop operations, record, change programs, and be used with the"
+" control purpose in systems where touch probes are activated with vacuum. It"
+" is mostly used for recording measurement values in pneumatic devices and "
+"capturing ovality results."
+msgstr ""
+"Çalıştırma fonksiyonu, bağlı olduğu cihazdan seçilir. İşlemleri başlatabilir"
+" ve durdurabilir, kayıt yapabilir, programları değiştirebilir ve vakum ile "
+"aktive edilen dokunmatik prob sistemlerinde kontrol amacıyla kullanılabilir."
+" Genellikle pnömatik cihazlarda ölçüm değerlerini kaydetmek ve ovalite "
+"sonuçlarını yakalamak için kullanılır."
+
+#: accessories/templates/accessories/accessories.html:268
+msgid "8 Input 8 Output Connection Cable and Card"
+msgstr "8 Giriş 8 Çıkış Bağlantı Kablosu ve Kart"
+
+#: accessories/templates/accessories/accessories.html:274
 msgid ""
 "This accessory allows you to reach the inputs and outputs of the device to "
-"your control panel using a 25-pin cable extension. The shapes and numbers of "
-"the inputs and outputs are printed on the cards top surface."
+"your control panel using a 25-pin cable extension. The shapes and numbers of"
+" the inputs and outputs are printed on the cards top surface."
 msgstr ""
+"Bu aksesuar, cihazın giriş ve çıkışlarına 25-pinli bir kablo uzatması "
+"kullanarak kontrol panelinizden erişim sağlar. Giriş ve çıkışların şekilleri"
+" ve numaraları kartların üst yüzeyine basılmıştır."
 
-#: accessories/templates/accessories/accessories.html:249
+#: accessories/templates/accessories/accessories.html:286
 msgid "KA100 KA200 "
-msgstr ""
+msgstr "KA100 KA200"
 
-#: accessories/templates/accessories/accessories.html:266
+#: accessories/templates/accessories/accessories.html:303
 msgid "Panel Mounting bracket"
-msgstr ""
+msgstr "Panel Montaj Braketi"
 
-#: accessories/templates/accessories/accessories.html:269
+#: accessories/templates/accessories/accessories.html:306
 msgid ""
-"If you leave a suitable gap in your control panel, you can connect it to the "
-"panel facade with these brackets. The thickness of the panel should be "
+"If you leave a suitable gap in your control panel, you can connect it to the"
+" panel facade with these brackets. The thickness of the panel should be "
 "selected considering the device weight for this process."
 msgstr ""
-
-#: accessories/templates/accessories/accessories.html:278
-msgid "KA100 KA200"
-msgstr ""
+"Kontrol panelinizde uygun bir boşluk bırakırsanız, bu brakletlerle panel "
+"yüzeyine bağlayabilirsiniz. Bu işlem için panelin kalınlığı, cihazın "
+"ağırlığı dikkate alınarak seçilmelidir."
 
 #: accessories/templates/accessories/accessories.html:315
+msgid "KA100 KA200"
+msgstr "KA100 KA200"
+
+#: accessories/templates/accessories/accessories.html:352
 msgid "Are you interested ?"
-msgstr ""
+msgstr "İlginiyor musunuz?"
 
-#: accessories/templates/accessories/accessories.html:326
+#: accessories/templates/accessories/accessories.html:363
+#: accessories/templates/accessories/accessories.html:426
 msgid "CONTACT"
-msgstr ""
+msgstr "İLETİŞİM"
 
-#: accessories/templates/accessories/accessories.html:380
-msgid "Watch Video"
-msgstr ""
+#: accessories/templates/accessories/accessories.html:421
+msgid "MENU"
+msgstr "MENÜ"
 
-#: accessories/templates/accessories/accessories.html:450
-msgid "Products"
-msgstr ""
+#: accessories/templates/accessories/accessories.html:431
+msgid "PRODUCTS"
+msgstr "ÜRÜNLER"
+
+#: accessories/templates/accessories/accessories.html:436
+msgid "BLOG"
+msgstr "BLOG"

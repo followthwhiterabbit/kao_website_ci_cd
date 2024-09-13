@@ -42,7 +42,7 @@
 
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu'%}</a></li>
                          <li class="nav-item dropdown" id="productsdropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{% trans 'Products' %}</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="{% url 'dimensional_measurement' %}">{% trans 'Dimensional Measurement'  %}</a></li>
                                 <li><a class="dropdown-item" href="{% url 'leak_testing' %}">{% trans 'Leak Testing Devices' %}</a></li>
@@ -52,7 +52,7 @@
                         </li>
                         
                         <li class="nav-item dropdown" id="servicesdropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{% trans 'Services' %}</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" a href="{% url 'services'%}#probes">{% trans 'Probe Design'  %}</a></li>
                                 <li><a class="dropdown-item" a href="{% url 'services'%}#automachines">{% trans 'Automation Projects'  %}</a></li>
@@ -125,7 +125,7 @@
         <div class="col-md-12 col-lg-6 py-5 m-auto">
           <div class="media-content">
             <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Flow Callibration 
+              {% trans 'Flow Callibration' %}
             </h1>
             <div class="mbr-section-text mbr-white pb-3 ">
               <p class="mbr-text align-center align-center mbr-fonts-style display-7">
@@ -246,7 +246,7 @@
         <div class="col-md-12 col-lg-6 py-5 m-auto">
           <div class="media-content">
             <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              Pressure Scanning 
+              {% trans 'Pressure Scanning' %}
             </h1>
       <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-4">
            </h1>
@@ -407,6 +407,7 @@
         <a href="https://www.facebook.com/profile.php?id=61554340107729">
             <img src="{% static 'about/facebook_new_logo.png' %}" alt="facebook logo" style="width:50px; height:50px;">
         </a>
+
 
 
 
