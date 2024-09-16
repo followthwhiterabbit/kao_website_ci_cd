@@ -9,160 +9,161 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-13 15:19+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-09-16 07:36+0000\n"
+"Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: products_page/templates/products/products_page.html:36
 msgid "Menu"
-msgstr ""
+msgstr "Startseite"
 
 #: products_page/templates/products/products_page.html:41
 msgid "Dimensional Measurement"
-msgstr ""
+msgstr "Maßprüfung"
 
 #: products_page/templates/products/products_page.html:42
 msgid "Leak Testing Devices"
-msgstr ""
+msgstr "Lecktestgeräten"
 
 #: products_page/templates/products/products_page.html:43
 msgid "Callibrators "
-msgstr ""
+msgstr "Kalibratoren"
 
 #: products_page/templates/products/products_page.html:44
 msgid "Accessories"
-msgstr ""
+msgstr "Zubehör"
 
 #: products_page/templates/products/products_page.html:51
 msgid "Probe Design"
-msgstr ""
+msgstr "Sonden-Design"
 
 #: products_page/templates/products/products_page.html:52
 msgid "Automation Projects"
-msgstr ""
+msgstr "Automatisierungsprojekte"
 
 #: products_page/templates/products/products_page.html:53
 msgid "Softwares"
-msgstr ""
+msgstr "Software"
 
 #: products_page/templates/products/products_page.html:58
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: products_page/templates/products/products_page.html:61
 msgid "Services"
-msgstr ""
+msgstr "Dienstleistungen"
 
 #: products_page/templates/products/products_page.html:62
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #: products_page/templates/products/products_page.html:71
 msgid "Turkish"
-msgstr ""
+msgstr "Türkisch"
 
 #: products_page/templates/products/products_page.html:72
 msgid "English"
-msgstr ""
+msgstr "Englisch"
 
 #: products_page/templates/products/products_page.html:73
 msgid "French"
-msgstr ""
+msgstr "Französisch"
 
 #: products_page/templates/products/products_page.html:74
 msgid "German"
-msgstr ""
+msgstr "Deutsch"
 
 #: products_page/templates/products/products_page.html:75
 msgid "Italian"
-msgstr ""
+msgstr "Italienisch"
 
 #: products_page/templates/products/products_page.html:76
 msgid "Polish"
-msgstr ""
+msgstr "Polnisch"
 
 #: products_page/templates/products/products_page.html:77
 msgid "Spanish"
-msgstr ""
+msgstr "Spanisch"
 
 #: products_page/templates/products/products_page.html:119
 msgid "Products"
-msgstr ""
+msgstr "Produkte"
 
 #: products_page/templates/products/products_page.html:122
 msgid "Dimensional measurement"
-msgstr ""
+msgstr "Maßprüfung"
 
 #: products_page/templates/products/products_page.html:158
 #: products_page/templates/products/products_page.html:178
 msgid "1/2/4 Channel Air-Gaging Device"
-msgstr ""
+msgstr "1/2/4-Kanal Luftmessgerät"
 
 #: products_page/templates/products/products_page.html:209
 #: products_page/templates/products/products_page.html:526
 msgid "Are you interested ?"
-msgstr ""
+msgstr "Sind Sie interessiert?"
 
 #: products_page/templates/products/products_page.html:222
 #: products_page/templates/products/products_page.html:539
 #: products_page/templates/products/products_page.html:596
 msgid "CONTACT"
-msgstr ""
+msgstr "KONTAKT"
 
 #: products_page/templates/products/products_page.html:252
 msgid " 2/4 Channel Leak-Testing Device"
-msgstr ""
+msgstr "2/4-Kanal Lecktestgerät"
 
 #: products_page/templates/products/products_page.html:272
 msgid "8 Channel Leak-Testing Device"
-msgstr ""
+msgstr "8-Kanal Lecktestgerät"
 
 #: products_page/templates/products/products_page.html:303
 #: products_page/templates/products/products_page.html:409
 msgid "Leak-Testing"
-msgstr ""
+msgstr "Lecktest"
 
 #: products_page/templates/products/products_page.html:307
 msgid "Relative Leak-Testing Devices"
-msgstr ""
+msgstr "Relatives Lecktestgerät"
 
 #: products_page/templates/products/products_page.html:352
 msgid " 1 Channel Relative Leak Measurement Device"
-msgstr ""
+msgstr "1-Kanal Relatives Leckmessgerät"
 
 #: products_page/templates/products/products_page.html:372
 msgid "1 Channel Relative Leak Measurement Device"
-msgstr ""
+msgstr "1-Kanal Relatives Leckmessgerät"
 
 #: products_page/templates/products/products_page.html:413
 msgid "Differential Leak-Testing Devices"
-msgstr ""
+msgstr "Differenz-Lecktestgeräte"
 
 #: products_page/templates/products/products_page.html:460
 msgid "Differential Leak Testing Device"
-msgstr ""
+msgstr "Differenz-Lecktestgerät"
 
 #: products_page/templates/products/products_page.html:480
 msgid "1 Channel Differential Leak Testing Device"
-msgstr ""
+msgstr "1-Kanal Differenz-Lecktestgerät"
 
 #: products_page/templates/products/products_page.html:500
 msgid "2 Channel Differential Leak Testing Device"
-msgstr ""
+msgstr "2-Kanal Differenz-Lecktestgerät"
 
 #: products_page/templates/products/products_page.html:591
 msgid "MENU"
-msgstr ""
+msgstr "STARTSEITE"
 
 #: products_page/templates/products/products_page.html:601
 msgid "PRODUCTS"
-msgstr ""
+msgstr "PRODUKTE"
 
 #: products_page/templates/products/products_page.html:608
 msgid "BLOG"
-msgstr ""
+msgstr "BLOG"

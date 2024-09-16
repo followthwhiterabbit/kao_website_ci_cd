@@ -9,229 +9,230 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-13 15:19+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-09-16 08:57+0000\n"
+"Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: services/templates/services/services.html:29
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: services/templates/services/services.html:34
 msgid "Dimensional Measurement"
-msgstr ""
+msgstr "Mesure Dimensionnelle"
 
 #: services/templates/services/services.html:35
 msgid "Leak Testing Devices"
-msgstr ""
+msgstr "Appareils de Test d'Étanchéité"
 
 #: services/templates/services/services.html:36
 msgid "Callibrators "
-msgstr ""
+msgstr "Calibrateurs"
 
 #: services/templates/services/services.html:37
 msgid "Accessories"
-msgstr ""
+msgstr "Accessoires"
 
 #: services/templates/services/services.html:45
 msgid "Probe Design"
-msgstr ""
+msgstr "Conception de Sondes"
 
 #: services/templates/services/services.html:46
 msgid "Automation Projects"
-msgstr ""
+msgstr "Projets d'Automatisation"
 
 #: services/templates/services/services.html:47
 msgid "Softwares"
-msgstr ""
+msgstr "Logiciels"
 
 #: services/templates/services/services.html:52
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: services/templates/services/services.html:55
 msgid "Services"
-msgstr ""
+msgstr "Services"
 
 #: services/templates/services/services.html:56
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: services/templates/services/services.html:65
 msgid "Turkish"
-msgstr ""
+msgstr "Turc"
 
 #: services/templates/services/services.html:66
 msgid "English"
-msgstr ""
+msgstr "Anglais"
 
 #: services/templates/services/services.html:67
 msgid "French"
-msgstr ""
+msgstr "Français"
 
 #: services/templates/services/services.html:68
 msgid "German"
-msgstr ""
+msgstr "Allemand"
 
 #: services/templates/services/services.html:69
 msgid "Italian"
-msgstr ""
+msgstr "Italien"
 
 #: services/templates/services/services.html:70
 msgid "Polish"
-msgstr ""
+msgstr "Polonais"
 
 #: services/templates/services/services.html:71
 msgid "Spanish"
-msgstr ""
+msgstr "Espagnol"
 
 #: services/templates/services/services.html:117
 msgid "Services "
-msgstr ""
+msgstr "Services"
 
 #: services/templates/services/services.html:126
 msgid "View More"
-msgstr ""
+msgstr "Voir plus"
 
 #: services/templates/services/services.html:150
 msgid "Pneumatic Probes"
-msgstr ""
+msgstr "Sondes Pneumatiques"
 
 #: services/templates/services/services.html:164
 msgid ""
 " \n"
-"             Measurement of parts is sometimes carried out in a workshop "
-"with a single pneumatic device.\n"
-"              Sometimes there may be situations where a large number of "
-"measurements are required. Measuring multiple dimensions of a part "
-"simultaneously will shorten the measurement time. \n"
-"              Sometimes, proper positioning of the part is required to "
-"ensure measurement accuracy. \n"
-"              Sometimes, geometric tolerances come into play. Not only "
-"diameter but also factors such as ovality, cylindricity, and taper may be "
-"required. \n"
-"              In such cases, probe design is important. Do not hesitate to "
-"consult us, whether it is to measure a single diameter or 5 diameters.\n"
+"             Measurement of parts is sometimes carried out in a workshop with a single pneumatic device.\n"
+"              Sometimes there may be situations where a large number of measurements are required. Measuring multiple dimensions of a part simultaneously will shorten the measurement time. \n"
+"              Sometimes, proper positioning of the part is required to ensure measurement accuracy. \n"
+"              Sometimes, geometric tolerances come into play. Not only diameter but also factors such as ovality, cylindricity, and taper may be required. \n"
+"              In such cases, probe design is important. Do not hesitate to consult us, whether it is to measure a single diameter or 5 diameters.\n"
 "               We have services in this regard.\n"
 "            "
 msgstr ""
+"La mesure des pièces est parfois réalisée dans un atelier avec un seul "
+"dispositif pneumatique. Parfois, il peut y avoir des situations où un grand "
+"nombre de mesures est requis. Mesurer plusieurs dimensions d'une pièce "
+"simultanément réduira le temps de mesure. Parfois, un positionnement "
+"approprié de la pièce est nécessaire pour garantir la précision de la "
+"mesure. Parfois, les tolérances géométriques entrent en jeu. Non seulement "
+"le diamètre, mais aussi des facteurs tels que l'ovalité, la cylindricité et "
+"le cône peuvent être nécessaires. Dans de tels cas, la conception des sondes"
+" est importante. N'hésitez pas à nous consulter, que ce soit pour mesurer un"
+" seul diamètre ou cinq diamètres. Nous avons des services à cet égard."
 
 #: services/templates/services/services.html:177
 #: services/templates/services/services.html:245
 #: services/templates/services/services.html:359
 msgid "GET A QUOTE"
-msgstr ""
+msgstr "OBTENIR UN DEVIS"
 
 #: services/templates/services/services.html:216
 msgid "AUTOMATIC MEASUREMENT MACHINES OR DEVICES"
-msgstr ""
+msgstr "MACHINES OU DISPOSITIFS DE MESURE AUTOMATIQUE"
 
 #: services/templates/services/services.html:225
 msgid ""
 "\n"
-"                If you're saying you don't have the time or confidence that "
-"your operator always measures accurately, yes, we understand.\n"
-"                 Provide us with the specifications, characteristics, and "
-"desired measurement time of your part.\n"
-"                  Let us develop systems to automatically perform this task "
-"for you as soon as possible.\n"
-"                   Whether it's simple diameters, geometric tolerances, "
-"whether you need pneumatic or contact-based measurement methods, or even if "
-"it involves moving the part for measurement, it's no problem.\n"
+"                If you're saying you don't have the time or confidence that your operator always measures accurately, yes, we understand.\n"
+"                 Provide us with the specifications, characteristics, and desired measurement time of your part.\n"
+"                  Let us develop systems to automatically perform this task for you as soon as possible.\n"
+"                   Whether it's simple diameters, geometric tolerances, whether you need pneumatic or contact-based measurement methods, or even if it involves moving the part for measurement, it's no problem.\n"
 "                   We have services in this regard.\n"
 "              "
 msgstr ""
+"\n"
+"Si vous dites que vous n'avez pas le temps ou la confiance que votre opérateur mesure toujours avec précision, oui, nous comprenons. Fournissez-nous les spécifications, les caractéristiques et le temps de mesure souhaité de votre pièce. Laissez-nous développer des systèmes pour effectuer automatiquement cette tâche pour vous dans les plus brefs délais. Que ce soit pour des diamètres simples, des tolérances géométriques, que vous ayez besoin de méthodes de mesure pneumatiques ou basées sur le contact, ou même si cela implique de déplacer la pièce pour la mesure, aucun problème. Nous avons des services à cet égard."
 
 #: services/templates/services/services.html:236
 msgid ""
 "We offer the best products and the services  to our customers and the "
 "distributors all around the world."
 msgstr ""
+"Nous offrons les meilleurs produits et services à nos clients et "
+"distributeurs partout dans le monde."
 
 #: services/templates/services/services.html:337
 msgid "Software Support"
-msgstr ""
+msgstr "Support Logiciel"
 
 #: services/templates/services/services.html:344
 msgid ""
 " \n"
-"        All KAO measurement devices record data, store them in their "
-"internal memory, and list the records on their screens.\n"
-"         However, in some applications, it is desired to transfer this data "
-"outside the device. \n"
+"        All KAO measurement devices record data, store them in their internal memory, and list the records on their screens.\n"
+"         However, in some applications, it is desired to transfer this data outside the device. \n"
 "         "
 msgstr ""
+"Tous les dispositifs de mesure KAO enregistrent les données, les stockent "
+"dans leur mémoire interne et affichent les enregistrements sur leurs écrans."
+" Cependant, dans certaines applications, il est souhaité de transférer ces "
+"données en dehors de l'appareil."
 
 #: services/templates/services/services.html:381
 msgid "KAO Data Server Software"
-msgstr ""
+msgstr "Logiciel Serveur de Données KAO"
 
 #: services/templates/services/services.html:384
 msgid ""
 "\n"
-"                  The DS software serves as a server allowing wired and "
-"wireless KAO devices to exchange data using TCP and UDP protocols. \n"
-"                  It synchronizes the date and time settings of devices with "
-"a computer.\n"
-"                   The wifi router and password for devices in the field are "
-"provided. \n"
-"                   Devices are registered on the QSPY server screen with "
-"their serial numbers. \n"
-"                   The QSPY server automatically assigns IP addresses to "
-"devices.\n"
-"                    QSPY DS establishes its own database using the Windows "
-"SQL infrastructure.\n"
-"                     It records the data received. All operations occur "
-"without user intervention.\n"
+"                  The DS software serves as a server allowing wired and wireless KAO devices to exchange data using TCP and UDP protocols. \n"
+"                  It synchronizes the date and time settings of devices with a computer.\n"
+"                   The wifi router and password for devices in the field are provided. \n"
+"                   Devices are registered on the QSPY server screen with their serial numbers. \n"
+"                   The QSPY server automatically assigns IP addresses to devices.\n"
+"                    QSPY DS establishes its own database using the Windows SQL infrastructure.\n"
+"                     It records the data received. All operations occur without user intervention.\n"
 "                      Devices determine data variables.\n"
 "                      "
 msgstr ""
+"\n"
+"Le logiciel DS sert de serveur permettant aux dispositifs KAO câblés et sans fil d'échanger des données en utilisant les protocoles TCP et UDP. Il synchronise les paramètres de date et d'heure des appareils avec un ordinateur. Le routeur wifi et le mot de passe pour les appareils sur le terrain sont fournis. Les appareils sont enregistrés sur l'écran du serveur QSPY avec leurs numéros de série. Le serveur QSPY attribue automatiquement des adresses IP aux appareils. QSPY DS établit sa propre base de données en utilisant l'infrastructure Windows SQL. Il enregistre les données reçues. Toutes les opérations se déroulent sans intervention de l'utilisateur. Les appareils déterminent les variables de données."
 
 #: services/templates/services/services.html:406
 msgid "KAO Data Monitoring Terminal"
-msgstr ""
+msgstr "Terminal de Surveillance des Données KAO"
 
 #: services/templates/services/services.html:409
 msgid ""
 "\n"
 "              Provides real-time access to data stored in SQL server.\n"
-"               It displays them on screen and exports them to printers in "
-"the form of lists and graphs.\n"
+"               It displays them on screen and exports them to printers in the form of lists and graphs.\n"
 "                  "
 msgstr ""
+"\n"
+"Fournit un accès en temps réel aux données stockées dans le serveur SQL. Il les affiche à l'écran et les exporte vers des imprimantes sous forme de listes et de graphiques."
 
 #: services/templates/services/services.html:427
 msgid "QDAS Data Converter"
-msgstr ""
+msgstr "Convertisseur de Données QDAS"
 
 #: services/templates/services/services.html:430
 msgid ""
 "\n"
-"                  When data reaches DS, it classifies them with catalog "
-"numbers. \n"
-"                  It prepares them as dfq extension files in the designated "
-"folder according to the qdas precellla protocol.\n"
+"                  When data reaches DS, it classifies them with catalog numbers. \n"
+"                  It prepares them as dfq extension files in the designated folder according to the qdas precellla protocol.\n"
 "                   All operations occur without user intervention.\n"
 "                   "
 msgstr ""
+"\n"
+"Lorsque les données arrivent sur DS, elles sont classées avec des numéros de catalogue. Elles sont préparées sous forme de fichiers avec l'extension dfq dans le dossier désigné selon le protocole qdas precellla. Toutes les opérations se déroulent sans intervention de l'utilisateur."
 
 #: services/templates/services/services.html:495
 msgid "MENU"
-msgstr ""
+msgstr "MENU"
 
 #: services/templates/services/services.html:500
 msgid "CONTACT"
-msgstr ""
+msgstr "CONTACT"
 
 #: services/templates/services/services.html:505
 msgid "PRODUCTS"
-msgstr ""
+msgstr "PRODUITS"
 
 #: services/templates/services/services.html:510
 msgid "BLOG"
-msgstr ""
+msgstr "BLOG"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-13 15:19+0300\n"
-"PO-Revision-Date: 2024-02-10 19:33+0000\n"
+"PO-Revision-Date: 2024-09-16 08:31+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: about_page/templates/about/about_page.html:52
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: about_page/templates/about/about_page.html:56
 msgid "Products"
@@ -29,23 +29,21 @@ msgstr "Produits"
 
 #: about_page/templates/about/about_page.html:58
 msgid "Dimensional Measurement"
-msgstr ""
+msgstr "Mesure Dimensionnelle"
 
 #: about_page/templates/about/about_page.html:59
-#, fuzzy
 #| msgid "Leak-Testing Devices"
 msgid "Leak Testing Devices"
-msgstr "Dispositifs de test d'étanchéité"
+msgstr "Appareils de Test d'Étanchéité"
 
 #: about_page/templates/about/about_page.html:60
-#, fuzzy
 #| msgid "Flow Callibrators"
 msgid "Callibrators "
-msgstr "Calibrateurs de débit"
+msgstr "Calibrateurs"
 
 #: about_page/templates/about/about_page.html:61
 msgid "Accessories"
-msgstr ""
+msgstr "Accessoires"
 
 #: about_page/templates/about/about_page.html:66
 #: about_page/templates/about/about_page.html:79
@@ -53,22 +51,21 @@ msgid "Services"
 msgstr "Services"
 
 #: about_page/templates/about/about_page.html:68
-#, fuzzy
 #| msgid "Probes"
 msgid "Probe Design"
-msgstr "Sondes"
+msgstr "Conception de Sondes"
 
 #: about_page/templates/about/about_page.html:69
 msgid "Automation Projects"
-msgstr ""
+msgstr "Projets d'Automatisation"
 
 #: about_page/templates/about/about_page.html:70
 msgid "Softwares"
-msgstr ""
+msgstr "Logiciels"
 
 #: about_page/templates/about/about_page.html:75
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: about_page/templates/about/about_page.html:81
 msgid "Contact"
@@ -84,7 +81,7 @@ msgstr "Anglais"
 
 #: about_page/templates/about/about_page.html:96
 msgid "French"
-msgstr ""
+msgstr "Français"
 
 #: about_page/templates/about/about_page.html:97
 msgid "German"
@@ -100,13 +97,12 @@ msgstr "Polonais"
 
 #: about_page/templates/about/about_page.html:100
 msgid "Spanish"
-msgstr ""
+msgstr "Espagnol"
 
 #: about_page/templates/about/about_page.html:144
-#, fuzzy
 #| msgid "Modular Metrology"
 msgid "Kao Metrology"
-msgstr "Métrologie modulaire"
+msgstr "Kao Métrologie"
 
 #: about_page/templates/about/about_page.html:155
 msgid "AirGages"
@@ -139,15 +135,15 @@ msgstr " La métrologie est notre passion"
 #: about_page/templates/about/about_page.html:297
 msgid ""
 "We are more than a metrological device manufacturer combining the latest "
-"technologies and innovations with the possibility of new advancements in the "
-"manufacturing and automation domain. Apart from producing sophisticated "
-"devices with portable usage and aesthetics, we provide embedded solutions to "
-"the embedded problems in metrology and automation."
+"technologies and innovations with the possibility of new advancements in the"
+" manufacturing and automation domain. Apart from producing sophisticated "
+"devices with portable usage and aesthetics, we provide embedded solutions to"
+" the embedded problems in metrology and automation."
 msgstr ""
-"Nous sommes plus qu'un fabricant de dispositifs métrologiques, combinant les "
-"dernières technologies et innovations avec la possibilité de nouveaux "
-"progrès dans le domaine de la fabrication et de l'automatisation. En plus de "
-"produire des dispositifs sophistiqués avec une utilisation portable et une "
+"Nous sommes plus qu'un fabricant de dispositifs métrologiques, combinant les"
+" dernières technologies et innovations avec la possibilité de nouveaux "
+"progrès dans le domaine de la fabrication et de l'automatisation. En plus de"
+" produire des dispositifs sophistiqués avec une utilisation portable et une "
 "esthétique, nous fournissons des solutions intégrées aux problèmes intégrés "
 "de la métrologie et de l'automatisation."
 
@@ -250,8 +246,8 @@ msgid ""
 "thirty years of experience in machinery, electronics, and metrology. With a "
 "strong R&D team and modern production lines, Kao has been able to create "
 "remarkable products in terms of the technical specifications, ergonomics, "
-"aesthetics, and durability. Kao has been producing metrological test devices "
-"with measurement precision beyond world standards and extremely user-"
+"aesthetics, and durability. Kao has been producing metrological test devices"
+" with measurement precision beyond world standards and extremely user-"
 "friendly interfaces in the field of metrology As Kao-Metrology, we aim to "
 "collaborate with industrialists to contribute to creating a more efficient "
 "and powerful metrological system for a reliable future. Therefore, we see "
@@ -278,19 +274,19 @@ msgstr ""
 
 #: about_page/templates/about/about_page.html:835
 msgid "MENU"
-msgstr ""
+msgstr "MENU"
 
 #: about_page/templates/about/about_page.html:840
 msgid "CONTACT"
-msgstr ""
+msgstr "CONTACT"
 
 #: about_page/templates/about/about_page.html:845
 msgid "PRODUCTS"
-msgstr ""
+msgstr "PRODUITS"
 
 #: about_page/templates/about/about_page.html:850
 msgid "BLOG"
-msgstr ""
+msgstr "BLOG"
 
 #~ msgid "Watch Video"
 #~ msgstr "Regarder la vidéo"

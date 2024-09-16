@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-13 15:19+0300\n"
-"PO-Revision-Date: 2024-02-10 19:22+0000\n"
+"PO-Revision-Date: 2024-09-14 07:42+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: about_page/templates/about/about_page.html:52
 msgid "Menu"
-msgstr "Start"
+msgstr "Startseite"
 
 #: about_page/templates/about/about_page.html:56
 msgid "Products"
@@ -29,23 +29,21 @@ msgstr "Produkte"
 
 #: about_page/templates/about/about_page.html:58
 msgid "Dimensional Measurement"
-msgstr ""
+msgstr "Maßprüfung "
 
 #: about_page/templates/about/about_page.html:59
-#, fuzzy
 #| msgid "Leak-Testing Devices"
 msgid "Leak Testing Devices"
-msgstr "Leckageprüfgeräte"
+msgstr "Lecktestgeräten"
 
 #: about_page/templates/about/about_page.html:60
-#, fuzzy
 #| msgid "Flow Callibrators"
 msgid "Callibrators "
 msgstr "Durchflusskalibratoren"
 
 #: about_page/templates/about/about_page.html:61
 msgid "Accessories"
-msgstr ""
+msgstr "Zubehör \t"
 
 #: about_page/templates/about/about_page.html:66
 #: about_page/templates/about/about_page.html:79
@@ -53,22 +51,21 @@ msgid "Services"
 msgstr "Dienstleistungen"
 
 #: about_page/templates/about/about_page.html:68
-#, fuzzy
 #| msgid "Probes"
 msgid "Probe Design"
 msgstr "Meßsonde"
 
 #: about_page/templates/about/about_page.html:69
 msgid "Automation Projects"
-msgstr ""
+msgstr "Automatisierungsprojekte \t"
 
 #: about_page/templates/about/about_page.html:70
 msgid "Softwares"
-msgstr ""
+msgstr "Software"
 
 #: about_page/templates/about/about_page.html:75
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: about_page/templates/about/about_page.html:81
 msgid "Contact"
@@ -84,7 +81,7 @@ msgstr "Englisch"
 
 #: about_page/templates/about/about_page.html:96
 msgid "French"
-msgstr ""
+msgstr "Französisch"
 
 #: about_page/templates/about/about_page.html:97
 msgid "German"
@@ -100,10 +97,9 @@ msgstr "Polnisch"
 
 #: about_page/templates/about/about_page.html:100
 msgid "Spanish"
-msgstr ""
+msgstr "Spanisch"
 
 #: about_page/templates/about/about_page.html:144
-#, fuzzy
 #| msgid "Modular Metrology"
 msgid "Kao Metrology"
 msgstr "Modulare Messtechnik"
@@ -139,10 +135,10 @@ msgstr "Metrologie ist unsere Leidenschaft."
 #: about_page/templates/about/about_page.html:297
 msgid ""
 "We are more than a metrological device manufacturer combining the latest "
-"technologies and innovations with the possibility of new advancements in the "
-"manufacturing and automation domain. Apart from producing sophisticated "
-"devices with portable usage and aesthetics, we provide embedded solutions to "
-"the embedded problems in metrology and automation."
+"technologies and innovations with the possibility of new advancements in the"
+" manufacturing and automation domain. Apart from producing sophisticated "
+"devices with portable usage and aesthetics, we provide embedded solutions to"
+" the embedded problems in metrology and automation."
 msgstr ""
 "Wir sind mehr als ein Hersteller von metrologischen Geräten, der die "
 "neuesten Technologien und Innovationen mit der Möglichkeit neuer "
@@ -206,8 +202,8 @@ msgid ""
 msgstr ""
 "Erkunden Sie innovative Antworten auf eingebettete Herausforderungen mit "
 "unseren hochmodernen eingebetteten Systemen. Mehr als nur Messungen, unsere "
-"Lösungen definieren Effizienz, Konnektivität und Funktionalität neu. Tauchen "
-"Sie ein in eine Welt, in der Präzision auf Anpassungsfähigkeit trifft und "
+"Lösungen definieren Effizienz, Konnektivität und Funktionalität neu. Tauchen"
+" Sie ein in eine Welt, in der Präzision auf Anpassungsfähigkeit trifft und "
 "die Zukunft der Technologie nahtlos gestaltet. Entdecken Sie die Kraft "
 "eingebetteter Lösungen auf unserer Website noch heute."
 
@@ -251,8 +247,8 @@ msgid ""
 "thirty years of experience in machinery, electronics, and metrology. With a "
 "strong R&D team and modern production lines, Kao has been able to create "
 "remarkable products in terms of the technical specifications, ergonomics, "
-"aesthetics, and durability. Kao has been producing metrological test devices "
-"with measurement precision beyond world standards and extremely user-"
+"aesthetics, and durability. Kao has been producing metrological test devices"
+" with measurement precision beyond world standards and extremely user-"
 "friendly interfaces in the field of metrology As Kao-Metrology, we aim to "
 "collaborate with industrialists to contribute to creating a more efficient "
 "and powerful metrological system for a reliable future. Therefore, we see "
@@ -261,8 +257,8 @@ msgid ""
 "and technologies you encountered on our website. Wishing for every tomorrow "
 "to be brighter than today... "
 msgstr ""
-"Kao wurde 1995 in Istanbul von einem idealistischen und dynamischen Team mit "
-"dreißig Jahren Erfahrung in Maschinenbau, Elektronik und Messtechnik "
+"Kao wurde 1995 in Istanbul von einem idealistischen und dynamischen Team mit"
+" dreißig Jahren Erfahrung in Maschinenbau, Elektronik und Messtechnik "
 "gegründet. Mit einem starken F&E-Team und modernen Produktionslinien konnte "
 "Kao bemerkenswerte Produkte in Bezug auf technische Spezifikationen, "
 "Ergonomie, Ästhetik und Langlebigkeit schaffen. Kao stellt metrologische "
@@ -273,24 +269,24 @@ msgstr ""
 "System für eine zuverlässige Zukunft zu schaffen. Deshalb betrachten wir "
 "jedes von uns entwickelte Produkt als einen Helfer, der neue Möglichkeiten "
 "eröffnet. Zögern Sie bitte nicht, Ihre Gedanken zu unseren Produkten und "
-"Technologien, die Sie auf unserer Website gefunden haben, mit uns zu teilen. "
-"Wir wünschen uns, dass jeder morgige Tag heller als heute sein möge..."
+"Technologien, die Sie auf unserer Website gefunden haben, mit uns zu teilen."
+" Wir wünschen uns, dass jeder morgige Tag heller als heute sein möge..."
 
 #: about_page/templates/about/about_page.html:835
 msgid "MENU"
-msgstr ""
+msgstr "STARTSEITE"
 
 #: about_page/templates/about/about_page.html:840
 msgid "CONTACT"
-msgstr ""
+msgstr "KONTAKT"
 
 #: about_page/templates/about/about_page.html:845
 msgid "PRODUCTS"
-msgstr ""
+msgstr "PRODUKTE"
 
 #: about_page/templates/about/about_page.html:850
 msgid "BLOG"
-msgstr ""
+msgstr "BLOG"
 
 #~ msgid "Watch Video"
 #~ msgstr "Video ansehen"

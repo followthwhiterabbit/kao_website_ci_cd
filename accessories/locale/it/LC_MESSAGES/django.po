@@ -9,107 +9,108 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-13 15:19+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-09-16 10:12+0000\n"
+"Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: accessories/templates/accessories/accessories.html:36
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: accessories/templates/accessories/accessories.html:38
 msgid "Products"
-msgstr ""
+msgstr "Prodotti"
 
 #: accessories/templates/accessories/accessories.html:40
 msgid "Dimensional Measurement"
-msgstr ""
+msgstr "Misurazione Dimensionale"
 
 #: accessories/templates/accessories/accessories.html:41
 msgid "Leak Testing Devices"
-msgstr ""
+msgstr "Dispositivi per il Controllo delle Perdite"
 
 #: accessories/templates/accessories/accessories.html:42
 msgid "Callibrators "
-msgstr ""
+msgstr "Calibratori"
 
 #: accessories/templates/accessories/accessories.html:43
 msgid "Accessories"
-msgstr ""
+msgstr "Accessori"
 
 #: accessories/templates/accessories/accessories.html:48
 #: accessories/templates/accessories/accessories.html:61
 msgid "Services"
-msgstr ""
+msgstr "Servizi"
 
 #: accessories/templates/accessories/accessories.html:50
 msgid "Probe Design"
-msgstr ""
+msgstr "Progettazione Sonde"
 
 #: accessories/templates/accessories/accessories.html:51
 msgid "Automation Projects"
-msgstr ""
+msgstr "Progetti di Automazione"
 
 #: accessories/templates/accessories/accessories.html:52
 msgid "Softwares"
-msgstr ""
+msgstr "Software"
 
 #: accessories/templates/accessories/accessories.html:57
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: accessories/templates/accessories/accessories.html:62
 msgid "Contact"
-msgstr ""
+msgstr "Contatto"
 
 #: accessories/templates/accessories/accessories.html:71
 msgid "Turkish"
-msgstr ""
+msgstr "Turco"
 
 #: accessories/templates/accessories/accessories.html:72
 msgid "English"
-msgstr ""
+msgstr "Inglese"
 
 #: accessories/templates/accessories/accessories.html:73
 msgid "French"
-msgstr ""
+msgstr "Francese"
 
 #: accessories/templates/accessories/accessories.html:74
 msgid "German"
-msgstr ""
+msgstr "Tedesca"
 
 #: accessories/templates/accessories/accessories.html:75
 msgid "Italian"
-msgstr ""
+msgstr "Italiano"
 
 #: accessories/templates/accessories/accessories.html:76
 msgid "Polish"
-msgstr ""
+msgstr "Polacca"
 
 #: accessories/templates/accessories/accessories.html:77
 msgid "Spanish"
-msgstr ""
+msgstr "Spagnolo"
 
 #: accessories/templates/accessories/accessories.html:121
 msgid "Accessories for our Products"
-msgstr ""
+msgstr "Accessori per i nostri prodotti"
 
 #: accessories/templates/accessories/accessories.html:125
 msgid "We provide accessories geared to the requirements of our products."
-msgstr ""
+msgstr "Forniamo accessori progettati per le esigenze dei nostri prodotti."
 
 #: accessories/templates/accessories/accessories.html:130
 msgid "View More"
-msgstr ""
+msgstr "Scopri di più"
 
 #: accessories/templates/accessories/accessories.html:170
 msgid "1-Key Control Pedal"
-msgstr ""
+msgstr "Pedale di Controllo a 1 Tasto"
 
 #: accessories/templates/accessories/accessories.html:174
 msgid ""
@@ -117,6 +118,10 @@ msgid ""
 "can start and stop operations, record. It is mostly used for recording "
 "measurement values in pneumatic devices and capturing ovality results."
 msgstr ""
+"La funzione operativa viene selezionata dal dispositivo a cui è collegato. "
+"Può avviare e fermare le operazioni, registrare. È principalmente utilizzato"
+" per registrare i valori di misura nei dispositivi pneumatici e per "
+"catturare i risultati di ovalizzazione."
 
 #: accessories/templates/accessories/accessories.html:178
 #: accessories/templates/accessories/accessories.html:210
@@ -124,85 +129,103 @@ msgstr ""
 #: accessories/templates/accessories/accessories.html:280
 #: accessories/templates/accessories/accessories.html:311
 msgid "Suitable Devices"
-msgstr ""
+msgstr "Dispositivi Adatti"
 
 #: accessories/templates/accessories/accessories.html:184
 #: accessories/templates/accessories/accessories.html:216
 #: accessories/templates/accessories/accessories.html:250
 msgid "KA0x MiniSX+ KA100 KA200"
-msgstr ""
+msgstr "KA0x MiniSX+ KA100 KA200"
 
 #: accessories/templates/accessories/accessories.html:202
 msgid "1-Button Control Equipment"
-msgstr ""
+msgstr "Equipaggiamento di Controllo a 1 Pulsante"
 
 #: accessories/templates/accessories/accessories.html:205
 msgid ""
-"The operating function is selected from the device it is attached to. It can "
-"initiate and stop operations, record. It is mostly used for recording "
+"The operating function is selected from the device it is attached to. It can"
+" initiate and stop operations, record. It is mostly used for recording "
 "measurement values in pneumatic devices and capturing ovality results."
 msgstr ""
+"La funzione operativa viene selezionata dal dispositivo a cui è collegato. "
+"Può avviare e fermare le operazioni, registrare. È principalmente utilizzato"
+" per registrare i valori di misura nei dispositivi pneumatici e per "
+"catturare i risultati di ovalizzazione."
 
 #: accessories/templates/accessories/accessories.html:237
 msgid "3-Button Control Equipment"
-msgstr ""
+msgstr "Equipaggiamento di Controllo a 3 Pulsanti"
 
 #: accessories/templates/accessories/accessories.html:240
 msgid ""
-"The operating function is selected from the device it is attached to. It can "
-"initiate and stop operations, record, change programs, and be used with the "
-"control purpose in systems where touch probes are activated with vacuum. It "
-"is mostly used for recording measurement values in pneumatic devices and "
+"The operating function is selected from the device it is attached to. It can"
+" initiate and stop operations, record, change programs, and be used with the"
+" control purpose in systems where touch probes are activated with vacuum. It"
+" is mostly used for recording measurement values in pneumatic devices and "
 "capturing ovality results."
 msgstr ""
+"La funzione operativa viene selezionata dal dispositivo a cui è collegato. "
+"Può avviare e fermare le operazioni, registrare, cambiare programmi e essere"
+" utilizzato con lo scopo di controllo in sistemi dove i sensori tattili "
+"vengono attivati con il vuoto. È principalmente utilizzato per registrare i "
+"valori di misura nei dispositivi pneumatici e per catturare i risultati di "
+"ovalizzazione."
 
 #: accessories/templates/accessories/accessories.html:268
 msgid "8 Input 8 Output Connection Cable and Card"
-msgstr ""
+msgstr "Cavo e Scheda di Connessione 8 Input 8 Output"
 
 #: accessories/templates/accessories/accessories.html:274
 msgid ""
 "This accessory allows you to reach the inputs and outputs of the device to "
-"your control panel using a 25-pin cable extension. The shapes and numbers of "
-"the inputs and outputs are printed on the cards top surface."
+"your control panel using a 25-pin cable extension. The shapes and numbers of"
+" the inputs and outputs are printed on the cards top surface."
 msgstr ""
+"Questo accessorio consente di accedere agli ingressi e alle uscite del "
+"dispositivo al tuo pannello di controllo utilizzando un'estensione di cavo a"
+" 25 pin. Le forme e i numeri degli ingressi e delle uscite sono stampati "
+"sulla superficie superiore della scheda."
 
 #: accessories/templates/accessories/accessories.html:286
 msgid "KA100 KA200 "
-msgstr ""
+msgstr "KA100 KA200"
 
 #: accessories/templates/accessories/accessories.html:303
 msgid "Panel Mounting bracket"
-msgstr ""
+msgstr "Supporto di Montaggio a Pannello"
 
 #: accessories/templates/accessories/accessories.html:306
 msgid ""
-"If you leave a suitable gap in your control panel, you can connect it to the "
-"panel facade with these brackets. The thickness of the panel should be "
+"If you leave a suitable gap in your control panel, you can connect it to the"
+" panel facade with these brackets. The thickness of the panel should be "
 "selected considering the device weight for this process."
 msgstr ""
+"Se lasci uno spazio adeguato nel tuo pannello di controllo, puoi collegarlo "
+"alla facciata del pannello con questi supporti. Lo spessore del pannello "
+"dovrebbe essere selezionato considerando il peso del dispositivo per questo "
+"processo."
 
 #: accessories/templates/accessories/accessories.html:315
 msgid "KA100 KA200"
-msgstr ""
+msgstr "KA100 KA200"
 
 #: accessories/templates/accessories/accessories.html:352
 msgid "Are you interested ?"
-msgstr ""
+msgstr "Sei interessato?"
 
 #: accessories/templates/accessories/accessories.html:363
 #: accessories/templates/accessories/accessories.html:426
 msgid "CONTACT"
-msgstr ""
+msgstr "CONTATTI"
 
 #: accessories/templates/accessories/accessories.html:421
 msgid "MENU"
-msgstr ""
+msgstr "MENU"
 
 #: accessories/templates/accessories/accessories.html:431
 msgid "PRODUCTS"
-msgstr ""
+msgstr "PRODOTTI"
 
 #: accessories/templates/accessories/accessories.html:436
 msgid "BLOG"
-msgstr ""
+msgstr "BLOG"

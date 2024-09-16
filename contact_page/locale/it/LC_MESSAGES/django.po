@@ -9,99 +9,100 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-13 15:19+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-09-16 10:39+0000\n"
+"Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: contact_page/templates/contact_page/contact_page.html:37
 msgid "Menu"
-msgstr ""
+msgstr "Menu"
 
 #: contact_page/templates/contact_page/contact_page.html:41
 msgid "Dimensional Measurement"
-msgstr ""
+msgstr "Misurazione Dimensionale"
 
 #: contact_page/templates/contact_page/contact_page.html:42
 msgid "Leak Testing Devices"
-msgstr ""
+msgstr "Dispositivi per il Controllo delle Perdite"
 
 #: contact_page/templates/contact_page/contact_page.html:43
 msgid "Callibrators "
-msgstr ""
+msgstr "Calibratori"
 
 #: contact_page/templates/contact_page/contact_page.html:44
 msgid "Accessories"
-msgstr ""
+msgstr "Accessori"
 
 #: contact_page/templates/contact_page/contact_page.html:51
 msgid "Probe Design"
-msgstr ""
+msgstr "Progettazione Sonde"
 
 #: contact_page/templates/contact_page/contact_page.html:52
 msgid "Automation Projects"
-msgstr ""
+msgstr "Progetti di Automazione"
 
 #: contact_page/templates/contact_page/contact_page.html:53
 msgid "Softwares"
-msgstr ""
+msgstr "Software"
 
 #: contact_page/templates/contact_page/contact_page.html:57
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: contact_page/templates/contact_page/contact_page.html:60
 msgid "Services"
-msgstr ""
+msgstr "Servizi"
 
 #: contact_page/templates/contact_page/contact_page.html:61
 msgid "Contact"
-msgstr ""
+msgstr "Contatto"
 
 #: contact_page/templates/contact_page/contact_page.html:69
 msgid "Turkish"
-msgstr ""
+msgstr "Turco"
 
 #: contact_page/templates/contact_page/contact_page.html:70
 msgid "English"
-msgstr ""
+msgstr "Inglese"
 
 #: contact_page/templates/contact_page/contact_page.html:71
 msgid "French"
-msgstr ""
+msgstr "Francese"
 
 #: contact_page/templates/contact_page/contact_page.html:72
 msgid "German"
-msgstr ""
+msgstr "Tedesca"
 
 #: contact_page/templates/contact_page/contact_page.html:73
 msgid "Italian"
-msgstr ""
+msgstr "Italiano"
 
 #: contact_page/templates/contact_page/contact_page.html:74
 msgid "Polish"
-msgstr ""
+msgstr "Polacca"
 
 #: contact_page/templates/contact_page/contact_page.html:75
 msgid "Spanish"
-msgstr ""
+msgstr "Spagnolo"
 
 #: contact_page/templates/contact_page/contact_page.html:225
 msgid "MENU"
-msgstr ""
+msgstr "MENU"
 
 #: contact_page/templates/contact_page/contact_page.html:230
 msgid "CONTACT"
-msgstr ""
+msgstr "CONTATTI"
 
 #: contact_page/templates/contact_page/contact_page.html:235
 msgid "PRODUCTS"
-msgstr ""
+msgstr "PRODOTTI"
 
 #: contact_page/templates/contact_page/contact_page.html:240
 msgid "BLOG"
-msgstr ""
+msgstr "BLOG"

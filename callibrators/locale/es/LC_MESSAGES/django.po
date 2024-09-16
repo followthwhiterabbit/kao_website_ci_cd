@@ -9,206 +9,203 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-13 15:19+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-09-16 09:25+0000\n"
+"Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: callibrators/templates/callibrators/callibrators.html:43
 msgid "Menu"
-msgstr ""
+msgstr "Menú"
 
 #: callibrators/templates/callibrators/callibrators.html:45
 msgid "Products"
-msgstr ""
+msgstr "Productos"
 
 #: callibrators/templates/callibrators/callibrators.html:47
 msgid "Dimensional Measurement"
-msgstr ""
+msgstr "Medición Dimensional"
 
 #: callibrators/templates/callibrators/callibrators.html:48
 msgid "Leak Testing Devices"
-msgstr ""
+msgstr "Dispositivos de Prueba de Fugas"
 
 #: callibrators/templates/callibrators/callibrators.html:49
 msgid "Callibrators "
-msgstr ""
+msgstr "Calibradores de flujo"
 
 #: callibrators/templates/callibrators/callibrators.html:50
 msgid "Accessories"
-msgstr ""
+msgstr "Accesorios"
 
 #: callibrators/templates/callibrators/callibrators.html:55
 #: callibrators/templates/callibrators/callibrators.html:68
 msgid "Services"
-msgstr ""
+msgstr "Servicios"
 
 #: callibrators/templates/callibrators/callibrators.html:57
 msgid "Probe Design"
-msgstr ""
+msgstr "Sondas"
 
 #: callibrators/templates/callibrators/callibrators.html:58
 msgid "Automation Projects"
-msgstr ""
+msgstr "Proyectos de Automatización"
 
 #: callibrators/templates/callibrators/callibrators.html:59
 msgid "Softwares"
-msgstr ""
+msgstr "Software"
 
 #: callibrators/templates/callibrators/callibrators.html:64
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: callibrators/templates/callibrators/callibrators.html:69
 msgid "Contact"
-msgstr ""
+msgstr "Contacto"
 
 #: callibrators/templates/callibrators/callibrators.html:78
 msgid "Turkish"
-msgstr ""
+msgstr "Turco"
 
 #: callibrators/templates/callibrators/callibrators.html:79
 msgid "English"
-msgstr ""
+msgstr "Inglés"
 
 #: callibrators/templates/callibrators/callibrators.html:80
 msgid "French"
-msgstr ""
+msgstr "Francés"
 
 #: callibrators/templates/callibrators/callibrators.html:81
 msgid "German"
-msgstr ""
+msgstr "Alemán"
 
 #: callibrators/templates/callibrators/callibrators.html:82
 msgid "Italian"
-msgstr ""
+msgstr "Italiano"
 
 #: callibrators/templates/callibrators/callibrators.html:83
 msgid "Polish"
-msgstr ""
+msgstr "Polaco"
 
 #: callibrators/templates/callibrators/callibrators.html:84
 msgid "Spanish"
-msgstr ""
+msgstr "Español"
 
 #: callibrators/templates/callibrators/callibrators.html:128
 msgid "Flow Callibration"
-msgstr ""
+msgstr "Calibración de Flujo"
 
 #: callibrators/templates/callibrators/callibrators.html:132
 msgid ""
 "\n"
-"              Flow calibration in metrology involves the process of "
-"measuring and adjusting the performance of flow measurement devices to "
-"ensure their accuracy and reliability.\n"
-"              Flow measurement is crucial in various industries such as "
-"manufacturing, energy, environmental monitoring, and healthcare. \n"
-"               Flow calibration is performed to verify that flow meters and "
-"instruments accurately measure the rate of fluid flow, whether it's liquid "
-"or gas. \n"
+"              Flow calibration in metrology involves the process of measuring and adjusting the performance of flow measurement devices to ensure their accuracy and reliability.\n"
+"              Flow measurement is crucial in various industries such as manufacturing, energy, environmental monitoring, and healthcare. \n"
+"               Flow calibration is performed to verify that flow meters and instruments accurately measure the rate of fluid flow, whether it's liquid or gas. \n"
 "               "
 msgstr ""
+"\n"
+"La calibración de flujo en metrología implica el proceso de medir y ajustar el rendimiento de los dispositivos de medición de flujo para asegurar su precisión y fiabilidad. La medición de flujo es crucial en diversas industrias como la fabricación, la energía, el monitoreo ambiental y la salud. La calibración de flujo se realiza para verificar que los medidores de flujo y los instrumentos midan con precisión la tasa de flujo de fluidos, ya sea líquido o gas."
 
 #: callibrators/templates/callibrators/callibrators.html:141
 msgid "View More"
-msgstr ""
+msgstr "Ver Más"
 
 #: callibrators/templates/callibrators/callibrators.html:186
 msgid "Pocket-sized"
-msgstr ""
+msgstr "De Tamaño de Bolsillo"
 
 #: callibrators/templates/callibrators/callibrators.html:186
 msgid ">12 hours usage with regular ion batteries"
-msgstr ""
+msgstr "12 horas de uso con baterías de ion regulares"
 
 #: callibrators/templates/callibrators/callibrators.html:189
 msgid "USB connection"
-msgstr ""
+msgstr "Conexión USB"
 
 #: callibrators/templates/callibrators/callibrators.html:189
 msgid "High-Precision"
-msgstr ""
+msgstr "Alta Precisión"
 
 #: callibrators/templates/callibrators/callibrators.html:192
 msgid "Atmospheric Pressure & Temperature"
-msgstr ""
+msgstr "Presión Atmosférica y Temperatura"
 
 #: callibrators/templates/callibrators/callibrators.html:195
 msgid "Automatic turn-off while not transferring to PC"
-msgstr ""
+msgstr "Apagado automático cuando no se transfiere al PC"
 
 #: callibrators/templates/callibrators/callibrators.html:198
 msgid "Battery indicator"
-msgstr ""
+msgstr "Indicador de Batería"
 
 #: callibrators/templates/callibrators/callibrators.html:198
 msgid "Graphic OLED Display"
-msgstr ""
+msgstr "Pantalla OLED Gráfica"
 
 #: callibrators/templates/callibrators/callibrators.html:201
 msgid "1 year Warranty"
-msgstr ""
+msgstr "Garantía de 1 Año"
 
 #: callibrators/templates/callibrators/callibrators.html:201
 msgid "Storing Last 10000 Records"
-msgstr ""
+msgstr "Almacenamiento de los Últimos 10000 Registros"
 
 #: callibrators/templates/callibrators/callibrators.html:205
 msgid "accuracy verification in leakage test devices"
-msgstr ""
+msgstr "Verificación de Precisión en Dispositivos de Prueba de Fugas"
 
 #: callibrators/templates/callibrators/callibrators.html:249
 msgid "Pressure Scanning"
-msgstr ""
+msgstr "Escaneo de Presión"
 
 #: callibrators/templates/callibrators/callibrators.html:255
 msgid ""
 "\n"
-"                Pressure scanning involves measuring and analyzing pressure "
-"variations in systems or devices for purposes such as performance "
-"evaluation, quality control, troubleshooting, process optimization, safety "
-"monitoring, research and development, and data analysis.\n"
-"                 It is widely used in industries where pressure is a "
-"critical factor, providing insights into system behavior and ensuring "
-"operational efficiency and safety.\n"
+"                Pressure scanning involves measuring and analyzing pressure variations in systems or devices for purposes such as performance evaluation, quality control, troubleshooting, process optimization, safety monitoring, research and development, and data analysis.\n"
+"                 It is widely used in industries where pressure is a critical factor, providing insights into system behavior and ensuring operational efficiency and safety.\n"
 "                 "
 msgstr ""
+"\n"
+"El escaneo de presión implica medir y analizar las variaciones de presión en sistemas o dispositivos para fines como evaluación de rendimiento, control de calidad, resolución de problemas, optimización de procesos, monitoreo de seguridad, investigación y desarrollo, y análisis de datos. Se utiliza ampliamente en industrias donde la presión es un factor crítico, proporcionando información sobre el comportamiento del sistema y asegurando la eficiencia y seguridad operativa."
 
 #: callibrators/templates/callibrators/callibrators.html:262
 msgid ""
 "We offer the best products and the services  to our customers and the "
 "distributors all around the world."
 msgstr ""
+"Ofrecemos los mejores productos y servicios a nuestros clientes y "
+"distribuidores en todo el mundo."
 
 #: callibrators/templates/callibrators/callibrators.html:271
 msgid "GET A QUOTE"
-msgstr ""
+msgstr "OBTENER UN PRESUPUESTO"
 
 #: callibrators/templates/callibrators/callibrators.html:359
 msgid "Are you interested ?"
-msgstr ""
+msgstr "¿Está interesado?"
 
 #: callibrators/templates/callibrators/callibrators.html:362
 msgid "Contact Us"
-msgstr ""
+msgstr "Contáctenos"
 
 #: callibrators/templates/callibrators/callibrators.html:370
 #: callibrators/templates/callibrators/callibrators.html:430
 msgid "CONTACT"
-msgstr ""
+msgstr "CONTACTO"
 
 #: callibrators/templates/callibrators/callibrators.html:425
 msgid "MENU"
-msgstr ""
+msgstr "MENÚ"
 
 #: callibrators/templates/callibrators/callibrators.html:435
 msgid "PRODUCTS"
-msgstr ""
+msgstr "PRODUCTOS"
 
 #: callibrators/templates/callibrators/callibrators.html:440
 msgid "BLOG"
-msgstr ""
+msgstr "BLOG"
