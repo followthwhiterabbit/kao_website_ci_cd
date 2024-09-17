@@ -98,93 +98,75 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
-   
-
-<section class="form cid-ryha8QwidL snipcss0-0-0-1 snipcss-wPkRt" id="form02-3i">
-     <img src="{% static 'contact/airgages.png' %}" class="contact-background" alt="Kao Metrology Contact Background">
-    <div class="container snipcss0-1-1-2">
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-        <div class="row snipcss0-2-2-3">
-            <div class="col-lg-6 col-md-12 mx-auto mbr-form snipcss0-3-3-4" data-form-type="formoid">
-                <form action="{% url 'contact_page' %}" method="POST" class="mbr-form form-with-styler snipcss0-4-4-5" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="HRL95tJIRZRdgUB9tYySicPlCgwVI5eU0UreGKFaj2qDZV4f5ByHW0WyMzv/mpgtIBy5KfjZ5meJHcXmvsgSN/Cah2OO0a+MYvB+C5huIc37+4p+B7zPPBLj9TZi2afQ.Q6SjOq4ciz5PlRzpgqAjhe9lgEKxuFoOxbVDuBDGY6ZCFAD/MwDp2izt5EXTOjUAckUxJwDeok1KFM6abYaC0K5P/N+ogMGSxKautsSUNxUCyXYB/NPqnKAeqODvfIGw" class="snipcss0-5-5-6">
-                {% csrf_token %} 
-                  <div class="form-row snipcss0-5-5-7">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12 snipcss0-6-7-8">Thanks for filling out the form!</div>
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12 snipcss0-6-7-9">Oops...! some problem!</div>
-                    </div>
-                    <div class="dragArea form-row snipcss0-5-5-10">
-                        <div class="col-lg-12 col-md-12 col-sm-12 form-group snipcss0-6-10-11">
-                            <div class="form-row snipcss0-7-11-12">
-                                <div class="col snipcss0-8-12-13">
-                                    <span class=" mobi-mbri snipcss0-9-13-14"></span>
-                                    <input type="text" name="first_name" placeholder="First Name" data-form-field="nameFirst" class="form-control text-multiple snipcss0-9-13-15" value="" id="nameFirst-form02-3i">
-                                </div>
-                                <div class="col snipcss0-8-12-16">
-                                    <span class="mobi-mbri snipcss0-9-16-17"></span>
-                                    <input type="text" name="surname" placeholder="Last Name" data-form-field="nameLast" class="form-control text-multiple snipcss0-9-16-18" value="" id="nameLast-form02-3i">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12 form-group snipcss0-6-10-19" data-for="email">
-                            <span class=" mobi-mbri snipcss0-7-19-20"></span>
-                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control display-7 snipcss0-7-19-21" value="" id="email-form02-3i">
-                        </div>
-                        <div data-for="subject" class="col-lg-12 col-md-12 col-sm-12 form-group snipcss0-6-10-25">
-                            <span class=" mobi-mbri snipcss0-7-25-26"></span>
-                            <input type="text" name="subject" placeholder="Subject" data-form-field="subject" class="form-control display-7 snipcss0-7-25-27" value="" id="subject-form02-3i">
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 form-group snipcss0-6-10-28" data-for="message">
-                            <span class="  mobi-mbri snipcss0-7-28-29"></span>
-                            <textarea name="message" placeholder="Message" data-form-field="message" class="form-control display-7 snipcss0-7-28-30" id="message-form02-3i"></textarea>
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 form-group snipcss0-6-10-31" data-for="how">
-                            <span class="  mobi-mbri snipcss0-7-31-32"></span>
-                            <input type="text" name="how" placeholder="How did your hear about us" data-form-field="how" class="form-control display-7 snipcss0-7-31-33" value="" id="how-form02-3i">
-                        </div>
-                        {{ form.captcha }}
-
-                        <div class="g-recaptcha" data-sitekey="6LetokcpAAAAAJme6hGTF17WM32BmBfW0tYEI-K0"></div>
-
-
-                        <div class="col-auto m-auto snipcss0-6-10-34"><button type="submit" class="btn btn-black display-7 snipcss0-7-34-35">Send</button></div>
-                    </div>
-                </form>
-            </div>
-            
-    <div class="col-md-12 col-lg-6 snipcss0-3-3-36">
-                <div class="media-content snipcss0-4-36-37">
-                    <h1 class="mbr-section-title align-left mbr-black mbr-black pb-3 mbr-fonts-style display-2 snipcss0-5-37-38">Get in touch with us!</h1>
-                    <h3 class="mbr-section-subtitle mbr-bold align-left mbr-black mbr-light pb-3 mbr-fonts-style display-7 snipcss0-5-37-39">TRANSFORM YOUR BUSINESS WITH US!</h3>
-                    <div class="mbr-section-text mbr-black pb-3 snipcss0-5-37-40">
-                        <p class="mbr-text align-left mbr-fonts-style mbr-black display-7 snipcss0-6-40-41">Whether you're looking for industrial metrology devices or a partner for R&D research and collaborations, don't hesitate to contact us!.
-                        <p class="text2 pt-2 align-left mbr-fonts-style display-7 snipcss0-6-40-42"><strong class="snipcss0-7-42-43">Our Address</strong><br class="snipcss0-7-42-44">
-                        <br class="snipcss0-7-42-45">Kao Metrology<br class="snipcss0-7-42-46">Üniversite mah.Firuzköy Bulvari No:79/1 <br class="snipcss0-7-42-47">Avcilar<br class="snipcss0-7-42-48">Istanbul , Turkey<br class="snipcss0-7-42-49">
-                            <br class="snipcss0-7-42-50">Tel: 0212 5917039-40
-                            <br class="snipcss0-7-42-50">kao@kaometrology.com    
-                        </p>
-                    </div>
-                </div>
-            </div>
-        
-
-
-
-        </div>
-    </div>
-</section>
 
 <br>
 
 
-<!--
 
-  <section class="map1 cid-ryha8paJop" id="map01-3h">
-    <div class="google-map">
-      <iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12044.499649022328!2d28.7119864!3d41.0006391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa0fb16d7bc9d%3A0x415f5b54bf6d0006!2sKAO%20Elektronik%20ve%20Bilgisayar%20San.Tic.Ltd.%C5%9Eti!5e0!3m2!1sen!2spl!4v1703979517447!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> allowfullscreen="" data-gtm-yt-inspected-19="true" data-gtm-yt-inspected-27="true">
-      </iframe>
+<section class="form cid-rygXSVeoSA snipcss-Bvn4t" id="form02-2b"></section>
+    <div class="container">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mx-auto mbr-form" data-form-type="formoid">
+                <form action="{% url 'contact_page' %}" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="T5ewD8/rlydhikkmCrdRrqc6my3qtahw+S/QfYAiry0ctlTuVG9Em/zipgGKdEezaytDaXT/53hAYJrQ3WmohvorKpKIBEtf4WF4TM/Z+mn/T0TBDfzqD9dYiVCaztf6.GbLoQbVFjRbYeF3ayH25yhxOsZGdRs5UAV8qIl3L0lBAB1bThSbLnEKjtRyLlrS7D1AguVGEo8ERj7gcxBiljriqZMjrjZkFq4MyCYk2+o5L0p9B4FQavY/Q8AS6EBOI">
+                    {% csrf_token %} 
+                    <div class="form-row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
+                    </div>
+                    <div class="dragArea form-row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                            <div class="form-row">
+                                <div class="col">
+                                    <span class="mbr-iconfont "></span>
+                                    <input type="text" name="first_name" placeholder="First Name" data-form-field="nameFirst" class="form-control text-multiple" value="" id="nameFirst-form02-2b">
+                                </div>
+                                <div class="col">
+                                    <span class="mbr-iconfont"></span>
+                                    <input type="text" name="surname" placeholder="Last Name" data-form-field="nameLast" class="form-control text-multiple" value="" id="nameLast-form02-2b">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 form-group" data-for="email">
+                            <span class="mbr-iconfont"></span>
+                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control display-7" value="" id="email-form02-2b">
+                        </div>
+                        
+                        <div data-for="subject" class="col-lg-12 col-md-12 col-sm-12 form-group">
+                            <span class="mbr-iconfont"></span>
+                            <input type="text" name="subject" placeholder="Subject" data-form-field="subject" class="form-control display-7" value="" id="subject-form02-2b">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="message">
+                            <span class="mbr-iconfont"></span>
+                            <textarea name="message" placeholder="Message" data-form-field="message" class="form-control display-7" id="message-form02-2b"></textarea>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="how" style="">
+                            <span class="mbr-iconfont "></span>
+                            <input type="text" name="how" placeholder="How did your hear about us" data-form-field="how" class="form-control display-7" value="" id="how-form02-2b">
+                        </div>
+                        {{ form.captcha }}
+
+                        <div class="g-recaptcha" data-sitekey="6LetokcpAAAAAJme6hGTF17WM32BmBfW0tYEI-K0"></div>
+                        <div class="col-auto m-auto"><button type="submit" class="btn btn-black display-7">Send</button></div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="media-content">
+                    <h1 class="mbr-section-title align-left mbr-bold mbr-black pb-3 mbr-fonts-style display-2">Visit us</h1>
+                    <h3 class="mbr-section-subtitle mbr-bold align-left mbr-black mbr-light pb-3 mbr-fonts-style display-7">WE’D LOVE TO HEAR WHAT YOU THINK</h3>
+                    <div class="mbr-section-text mbr-black pb-3 ">
+                        <p class="mbr-text align-left mbr-fonts-style display-7">Whether you're looking for industrial metrology devices or a partner for R&D research and collaborations, don't hesitate to contact us!</p>
+                        <p class="text2 pt-2 align-left mbr-fonts-style display-7"><strong>Our Address</strong><br>
+                            <br>Kao Metrology <br><br>Üniversite mah.Firuzköy Bulvari No:79/1  , 34315<br>Istanbul , Turkiye<br>
+                            <br>Tel: +90 212 591  70 39 / 40
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </section>
--->
+</section>
 
  
 
@@ -216,8 +198,8 @@
       </div>
 
 
-      <nav class="navbar-eski  navbar-nav-eski navbar-dark-eski bg-blue-eski ">
-              <div class="container align-middle" style="margin-left: 425px;"> 
+      <nav class="navbar-eski align-center navbar-nav-eski navbar-dark-eski bg-blue-eski ">
+              <div class="container align-center" style="margin-left: 425px;"> 
     <div class="d-flex justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav d-flex flex-row list-unstyled">
             <li class="nav-item  btn-white-outline  mbr-section-btn ">
