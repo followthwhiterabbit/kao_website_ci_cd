@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 15:19+0300\n"
+"POT-Creation-Date: 2024-09-19 14:04+0300\n"
 "PO-Revision-Date: 2024-02-10 19:01+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -270,20 +270,20 @@ msgstr ""
 "and technologies you encountered on our website. Wishing for every tomorrow "
 "to be brighter than today..."
 
-#: about_page/templates/about/about_page.html:835
-msgid "MENU"
+#: about_page/templates/about/about_page.html:789
+msgid "<h4>MENU</h4>"
 msgstr ""
 
-#: about_page/templates/about/about_page.html:840
-msgid "CONTACT"
+#: about_page/templates/about/about_page.html:794
+msgid "<h4>CONTACT</h4>"
 msgstr ""
 
-#: about_page/templates/about/about_page.html:845
-msgid "PRODUCTS"
+#: about_page/templates/about/about_page.html:799
+msgid "<h4>PRODUCTS</h4>"
 msgstr ""
 
-#: about_page/templates/about/about_page.html:850
-msgid "BLOG"
+#: about_page/templates/about/about_page.html:804
+msgid "<h4>BLOG</h4>"
 msgstr ""
 
 #~ msgid "Watch Video"

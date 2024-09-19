@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 15:19+0300\n"
-"PO-Revision-Date: 2024-09-14 07:47+0000\n"
+"POT-Creation-Date: 2024-09-19 14:04+0300\n"
+"PO-Revision-Date: 2024-09-19 11:06+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -197,18 +197,31 @@ msgid "Contact Us"
 msgstr "Kontaktieren Sie uns"
 
 #: callibrators/templates/callibrators/callibrators.html:370
-#: callibrators/templates/callibrators/callibrators.html:430
 msgid "CONTACT"
 msgstr "KONTAKT"
 
-#: callibrators/templates/callibrators/callibrators.html:425
-msgid "MENU"
+#: callibrators/templates/callibrators/callibrators.html:432
+msgid "<h4>MENU</h4>"
 msgstr "STARTSEITE"
 
-#: callibrators/templates/callibrators/callibrators.html:435
-msgid "PRODUCTS"
+#: callibrators/templates/callibrators/callibrators.html:437
+#, fuzzy
+#| msgid "CONTACT"
+msgid "<h4>CONTACT</h4>"
+msgstr "KONTAKT"
+
+#: callibrators/templates/callibrators/callibrators.html:442
+#, fuzzy
+#| msgid "PRODUCTS"
+msgid "<h4>PRODUCTS</h4>"
 msgstr "PRODUKTE"
 
-#: callibrators/templates/callibrators/callibrators.html:440
-msgid "BLOG"
+#: callibrators/templates/callibrators/callibrators.html:447
+msgid "<h4>BLOG</h4>"
 msgstr "BLOG"
+
+#~ msgid "MENU"
+#~ msgstr "STARTSEITE"
+
+#~ msgid "BLOG"
+#~ msgstr "BLOG"

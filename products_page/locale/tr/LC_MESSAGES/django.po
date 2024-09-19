@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 15:19+0300\n"
-"PO-Revision-Date: 2024-09-13 11:50+0000\n"
+"POT-Creation-Date: 2024-09-19 14:04+0300\n"
+"PO-Revision-Date: 2024-09-19 11:20+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -158,7 +158,7 @@ msgstr "2 Kanal Differansiyel Sızdırmazlık Test Cihazı"
 
 #: products_page/templates/products/products_page.html:591
 msgid "MENU"
-msgstr "MENÜ"
+msgstr "ANA SAYFA"
 
 #: products_page/templates/products/products_page.html:601
 msgid "PRODUCTS"

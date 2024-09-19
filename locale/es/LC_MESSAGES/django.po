@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 15:19+0300\n"
+"POT-Creation-Date: 2024-09-19 14:04+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,34 +18,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: mysite/settings.py:37
+#: mysite/settings.py:39
 msgid "English"
 msgstr ""
 
-#: mysite/settings.py:38
+#: mysite/settings.py:40
 msgid "German"
 msgstr ""
 
-#: mysite/settings.py:39
+#: mysite/settings.py:41
 msgid "French"
 msgstr ""
 
-#: mysite/settings.py:40
+#: mysite/settings.py:42
 msgid "Spanish"
 msgstr ""
 
-#: mysite/settings.py:41
+#: mysite/settings.py:43
 msgid "Polish"
 msgstr ""
 
-#: mysite/settings.py:42
+#: mysite/settings.py:44
 msgid "Italian"
 msgstr ""
 
-#: mysite/settings.py:43
+#: mysite/settings.py:45
 msgid "Turkish"
 msgstr ""
 
-#: mysite/settings.py:44
+#: mysite/settings.py:46
 msgid "Russian"
 msgstr ""

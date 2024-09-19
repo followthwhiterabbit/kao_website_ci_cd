@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 15:19+0300\n"
+"POT-Creation-Date: 2024-09-19 14:04+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -193,18 +193,21 @@ msgid "Are you interested ?"
 msgstr ""
 
 #: accessories/templates/accessories/accessories.html:363
-#: accessories/templates/accessories/accessories.html:426
 msgid "CONTACT"
 msgstr ""
 
-#: accessories/templates/accessories/accessories.html:421
-msgid "MENU"
+#: accessories/templates/accessories/accessories.html:425
+msgid "<h4>MENU</h4>"
 msgstr ""
 
-#: accessories/templates/accessories/accessories.html:431
-msgid "PRODUCTS"
+#: accessories/templates/accessories/accessories.html:430
+msgid "<h4>CONTACT</h4>"
 msgstr ""
 
-#: accessories/templates/accessories/accessories.html:436
-msgid "BLOG"
+#: accessories/templates/accessories/accessories.html:435
+msgid "<h4>PRODUCTS</h4>"
+msgstr ""
+
+#: accessories/templates/accessories/accessories.html:440
+msgid "<h4>BLOG</h4>"
 msgstr ""

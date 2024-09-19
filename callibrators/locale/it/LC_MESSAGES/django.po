@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 15:19+0300\n"
+"POT-Creation-Date: 2024-09-19 14:04+0300\n"
 "PO-Revision-Date: 2024-09-16 10:37+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,13 +103,24 @@ msgstr "Calibrazione del Flusso"
 #: callibrators/templates/callibrators/callibrators.html:132
 msgid ""
 "\n"
-"              Flow calibration in metrology involves the process of measuring and adjusting the performance of flow measurement devices to ensure their accuracy and reliability.\n"
-"              Flow measurement is crucial in various industries such as manufacturing, energy, environmental monitoring, and healthcare. \n"
-"               Flow calibration is performed to verify that flow meters and instruments accurately measure the rate of fluid flow, whether it's liquid or gas. \n"
+"              Flow calibration in metrology involves the process of "
+"measuring and adjusting the performance of flow measurement devices to "
+"ensure their accuracy and reliability.\n"
+"              Flow measurement is crucial in various industries such as "
+"manufacturing, energy, environmental monitoring, and healthcare. \n"
+"               Flow calibration is performed to verify that flow meters and "
+"instruments accurately measure the rate of fluid flow, whether it's liquid "
+"or gas. \n"
 "               "
 msgstr ""
 "\n"
-"La calibrazione del flusso in metrologia implica il processo di misurazione e regolazione delle prestazioni dei dispositivi di misurazione del flusso per garantire la loro precisione e affidabilità. La misurazione del flusso è cruciale in vari settori come la manifattura, l'energia, il monitoraggio ambientale e la sanità. La calibrazione del flusso viene effettuata per verificare che i misuratori di flusso e gli strumenti misurino accuratamente il tasso di flusso del fluido, sia esso liquido o gas."
+"La calibrazione del flusso in metrologia implica il processo di misurazione "
+"e regolazione delle prestazioni dei dispositivi di misurazione del flusso "
+"per garantire la loro precisione e affidabilità. La misurazione del flusso è "
+"cruciale in vari settori come la manifattura, l'energia, il monitoraggio "
+"ambientale e la sanità. La calibrazione del flusso viene effettuata per "
+"verificare che i misuratori di flusso e gli strumenti misurino accuratamente "
+"il tasso di flusso del fluido, sia esso liquido o gas."
 
 #: callibrators/templates/callibrators/callibrators.html:141
 msgid "View More"
@@ -166,12 +177,23 @@ msgstr "Scansione della Pressione"
 #: callibrators/templates/callibrators/callibrators.html:255
 msgid ""
 "\n"
-"                Pressure scanning involves measuring and analyzing pressure variations in systems or devices for purposes such as performance evaluation, quality control, troubleshooting, process optimization, safety monitoring, research and development, and data analysis.\n"
-"                 It is widely used in industries where pressure is a critical factor, providing insights into system behavior and ensuring operational efficiency and safety.\n"
+"                Pressure scanning involves measuring and analyzing pressure "
+"variations in systems or devices for purposes such as performance "
+"evaluation, quality control, troubleshooting, process optimization, safety "
+"monitoring, research and development, and data analysis.\n"
+"                 It is widely used in industries where pressure is a "
+"critical factor, providing insights into system behavior and ensuring "
+"operational efficiency and safety.\n"
 "                 "
 msgstr ""
 "\n"
-"La scansione della pressione implica la misurazione e l'analisi delle variazioni di pressione nei sistemi o nei dispositivi per scopi come la valutazione delle prestazioni, il controllo qualità, la risoluzione dei problemi, l'ottimizzazione dei processi, il monitoraggio della sicurezza, la ricerca e sviluppo e l'analisi dei dati. È ampiamente utilizzata nei settori in cui la pressione è un fattore critico, fornendo approfondimenti sul comportamento del sistema e garantendo efficienza operativa e sicurezza."
+"La scansione della pressione implica la misurazione e l'analisi delle "
+"variazioni di pressione nei sistemi o nei dispositivi per scopi come la "
+"valutazione delle prestazioni, il controllo qualità, la risoluzione dei "
+"problemi, l'ottimizzazione dei processi, il monitoraggio della sicurezza, la "
+"ricerca e sviluppo e l'analisi dei dati. È ampiamente utilizzata nei settori "
+"in cui la pressione è un fattore critico, fornendo approfondimenti sul "
+"comportamento del sistema e garantendo efficienza operativa e sicurezza."
 
 #: callibrators/templates/callibrators/callibrators.html:262
 msgid ""
@@ -194,18 +216,31 @@ msgid "Contact Us"
 msgstr "Contattaci"
 
 #: callibrators/templates/callibrators/callibrators.html:370
-#: callibrators/templates/callibrators/callibrators.html:430
 msgid "CONTACT"
 msgstr "CONTATTI"
 
-#: callibrators/templates/callibrators/callibrators.html:425
-msgid "MENU"
-msgstr "MENU"
+#: callibrators/templates/callibrators/callibrators.html:432
+msgid "<h4>MENU</h4>"
+msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:435
-msgid "PRODUCTS"
+#: callibrators/templates/callibrators/callibrators.html:437
+#, fuzzy
+#| msgid "CONTACT"
+msgid "<h4>CONTACT</h4>"
+msgstr "CONTATTI"
+
+#: callibrators/templates/callibrators/callibrators.html:442
+#, fuzzy
+#| msgid "PRODUCTS"
+msgid "<h4>PRODUCTS</h4>"
 msgstr "PRODOTTI"
 
-#: callibrators/templates/callibrators/callibrators.html:440
-msgid "BLOG"
-msgstr "BLOG"
+#: callibrators/templates/callibrators/callibrators.html:447
+msgid "<h4>BLOG</h4>"
+msgstr ""
+
+#~ msgid "MENU"
+#~ msgstr "MENU"
+
+#~ msgid "BLOG"
+#~ msgstr "BLOG"

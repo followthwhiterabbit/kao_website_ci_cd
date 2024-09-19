@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 15:19+0300\n"
-"PO-Revision-Date: 2024-09-14 07:42+0000\n"
+"POT-Creation-Date: 2024-09-19 14:04+0300\n"
+"PO-Revision-Date: 2024-09-19 11:05+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -32,12 +32,10 @@ msgid "Dimensional Measurement"
 msgstr "Maßprüfung "
 
 #: about_page/templates/about/about_page.html:59
-#| msgid "Leak-Testing Devices"
 msgid "Leak Testing Devices"
 msgstr "Lecktestgeräten"
 
 #: about_page/templates/about/about_page.html:60
-#| msgid "Flow Callibrators"
 msgid "Callibrators "
 msgstr "Durchflusskalibratoren"
 
@@ -51,7 +49,6 @@ msgid "Services"
 msgstr "Dienstleistungen"
 
 #: about_page/templates/about/about_page.html:68
-#| msgid "Probes"
 msgid "Probe Design"
 msgstr "Meßsonde"
 
@@ -100,7 +97,6 @@ msgid "Spanish"
 msgstr "Spanisch"
 
 #: about_page/templates/about/about_page.html:144
-#| msgid "Modular Metrology"
 msgid "Kao Metrology"
 msgstr "Modulare Messtechnik"
 
@@ -272,21 +268,31 @@ msgstr ""
 "Technologien, die Sie auf unserer Website gefunden haben, mit uns zu teilen."
 " Wir wünschen uns, dass jeder morgige Tag heller als heute sein möge..."
 
-#: about_page/templates/about/about_page.html:835
-msgid "MENU"
+#: about_page/templates/about/about_page.html:789
+msgid "<h4>MENU</h4>"
 msgstr "STARTSEITE"
 
-#: about_page/templates/about/about_page.html:840
-msgid "CONTACT"
+#: about_page/templates/about/about_page.html:794
+#, fuzzy
+#| msgid "CONTACT"
+msgid "<h4>CONTACT</h4>"
 msgstr "KONTAKT"
 
-#: about_page/templates/about/about_page.html:845
-msgid "PRODUCTS"
+#: about_page/templates/about/about_page.html:799
+#, fuzzy
+#| msgid "PRODUCTS"
+msgid "<h4>PRODUCTS</h4>"
 msgstr "PRODUKTE"
 
-#: about_page/templates/about/about_page.html:850
-msgid "BLOG"
+#: about_page/templates/about/about_page.html:804
+msgid "<h4>BLOG</h4>"
 msgstr "BLOG"
+
+#~ msgid "MENU"
+#~ msgstr "STARTSEITE"
+
+#~ msgid "BLOG"
+#~ msgstr "BLOG"
 
 #~ msgid "Watch Video"
 #~ msgstr "Video ansehen"

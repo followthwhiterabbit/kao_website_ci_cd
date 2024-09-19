@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 15:19+0300\n"
+"POT-Creation-Date: 2024-09-19 14:04+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -196,18 +196,21 @@ msgid "Contact Us"
 msgstr ""
 
 #: callibrators/templates/callibrators/callibrators.html:370
-#: callibrators/templates/callibrators/callibrators.html:430
 msgid "CONTACT"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:425
-msgid "MENU"
+#: callibrators/templates/callibrators/callibrators.html:432
+msgid "<h4>MENU</h4>"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:435
-msgid "PRODUCTS"
+#: callibrators/templates/callibrators/callibrators.html:437
+msgid "<h4>CONTACT</h4>"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:440
-msgid "BLOG"
+#: callibrators/templates/callibrators/callibrators.html:442
+msgid "<h4>PRODUCTS</h4>"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:447
+msgid "<h4>BLOG</h4>"
 msgstr ""

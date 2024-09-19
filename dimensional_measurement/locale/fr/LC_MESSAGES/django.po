@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 15:19+0300\n"
-"PO-Revision-Date: 2024-09-16 08:30+0000\n"
+"POT-Creation-Date: 2024-09-19 14:04+0300\n"
+"PO-Revision-Date: 2024-09-19 11:09+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -95,6 +95,12 @@ msgstr "Polonais"
 #: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:87
 msgid "Spanish"
 msgstr "Espagnol"
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:129
+#, fuzzy
+#| msgid "Reason for Air-gaging ?"
+msgid " What is Air-Gaging ?"
+msgstr "Raisons de la Mesure à Air"
 
 #: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:133
 msgid ""
@@ -219,7 +225,6 @@ msgstr "Contactez-nous"
 
 #: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:281
 #: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:555
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:722
 msgid "CONTACT"
 msgstr "CONTACT"
 
@@ -273,14 +278,28 @@ msgstr "Utilisation des Régulateurs Internes avec Facilité"
 msgid "8 Channel Multiple/Single Showings"
 msgstr "Affichage Multiple/Unique à 8 Canaux"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:717
-msgid "MENU"
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:726
+msgid "<h4>MENU</h4>"
 msgstr "MENU"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:727
-msgid "PRODUCTS"
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:731
+#, fuzzy
+#| msgid "CONTACT"
+msgid "<h4>CONTACT</h4>"
+msgstr "CONTACT"
+
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:736
+#, fuzzy
+#| msgid "PRODUCTS"
+msgid "<h4>PRODUCTS</h4>"
 msgstr "PRODUITS"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:732
-msgid "BLOG"
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:741
+msgid "<h4>BLOG</h4>"
 msgstr "BLOG"
+
+#~ msgid "MENU"
+#~ msgstr "MENU"
+
+#~ msgid "BLOG"
+#~ msgstr "BLOG"

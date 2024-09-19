@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 15:19+0300\n"
+"POT-Creation-Date: 2024-09-19 14:04+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -196,7 +196,6 @@ msgstr ""
 #: leak_testing/templates/leak_testing/leak_testing.html:259
 #: leak_testing/templates/leak_testing/leak_testing.html:542
 #: leak_testing/templates/leak_testing/leak_testing.html:672
-#: leak_testing/templates/leak_testing/leak_testing.html:731
 msgid "CONTACT"
 msgstr ""
 
@@ -330,14 +329,18 @@ msgid ""
 "                 "
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:726
-msgid "MENU"
+#: leak_testing/templates/leak_testing/leak_testing.html:737
+msgid "<h4>MENU</h4>"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:736
-msgid "PRODUCTS"
+#: leak_testing/templates/leak_testing/leak_testing.html:742
+msgid "<h4>CONTACT</h4>"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:741
-msgid "BLOG"
+#: leak_testing/templates/leak_testing/leak_testing.html:747
+msgid "<h4>PRODUCTS</h4>"
+msgstr ""
+
+#: leak_testing/templates/leak_testing/leak_testing.html:752
+msgid "<h4>BLOG</h4>"
 msgstr ""

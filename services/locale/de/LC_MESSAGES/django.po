@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 15:19+0300\n"
-"PO-Revision-Date: 2024-09-16 07:42+0000\n"
+"POT-Creation-Date: 2024-09-19 14:04+0300\n"
+"PO-Revision-Date: 2024-09-19 11:07+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -229,18 +229,26 @@ msgstr ""
 "Es bereitet sie als Dateien mit der Endung dfq im vorgesehenen Ordner gemäß dem qdas precellla-Protokoll vor.\n"
 "Alle Operationen erfolgen ohne Benutzerintervention."
 
-#: services/templates/services/services.html:495
-msgid "MENU"
+#: services/templates/services/services.html:504
+msgid "<h4>MENU</h4>"
 msgstr "STARTSEITE"
 
-#: services/templates/services/services.html:500
-msgid "CONTACT"
+#: services/templates/services/services.html:509
+#| msgid "CONTACT"
+msgid "<h4>CONTACT</h4>"
 msgstr "KONTAKT"
 
-#: services/templates/services/services.html:505
-msgid "PRODUCTS"
+#: services/templates/services/services.html:514
+#| msgid "PRODUCTS"
+msgid "<h4>PRODUCTS</h4>"
 msgstr "PRODUKTE"
 
-#: services/templates/services/services.html:510
-msgid "BLOG"
+#: services/templates/services/services.html:519
+msgid "<h4>BLOG</h4>"
 msgstr "BLOG"
+
+#~ msgid "MENU"
+#~ msgstr "STARTSEITE"
+
+#~ msgid "BLOG"
+#~ msgstr "BLOG"
