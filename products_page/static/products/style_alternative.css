@@ -16492,3 +16492,9 @@ html{
   scroll-behavior: smooth !important; 
 }
 
+
+.center_it
+{
+  margin-left: 300px;
+}
+

@@ -16598,3 +16598,7 @@ model-viewer[ar-status="session-started"] > #ar-prompt {
   display: block;
 }
 
+.center_it
+{
+  margin-left: 300px;
+}
