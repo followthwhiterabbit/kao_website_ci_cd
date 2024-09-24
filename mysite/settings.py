@@ -25,13 +25,13 @@ SECRET_KEY = config('SECRET_KEY')
 
 
 # SECURITY WARNING: don't run with debug turned on in produexction!
-DEBUG = False # --> in server 
+#DEBUG = False # --> in server 
 
-#DEBUG = True  # in localhost 
+DEBUG = True  # in localhost 
 
-ALLOWED_HOSTS = ['hightech-metrology.com', 'www.hightech-metrology.com']  # in server , now the first one will not be in server.
+#ALLOWED_HOSTS = ['hightech-metrology.com', 'www.hightech-metrology.com']  # in server , now the first one will not be in server.
 
-#ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0']  # in local 
+ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0']  # in local 
 
 from django.utils.translation import gettext_lazy as _
 
@@ -81,12 +81,17 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'django.contrib.sites',
     'django.contrib.staticfiles',
     'django_recaptcha',
     'rosetta', #NEW
     'imagekit', 
-    'django.contrib.sitemaps',
+    #'sorl.thumbnail', 
+    #'newsletter',
 ]
+
+NEWSLETTER_THUMBNAIL = 'sorl-thumbnail'
+
 
 MIDDLEWARE = [
     'mysite.middleware.RedirectToWWWMiddleware',

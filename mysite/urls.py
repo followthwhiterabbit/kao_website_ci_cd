@@ -48,5 +48,6 @@ urlpatterns = i18n_patterns(
     ),
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps},
          name='django.contrib.sitemaps.views.sitemap'),
+    #path('newsletter/', include('newsletter.urls')),
 )
 
