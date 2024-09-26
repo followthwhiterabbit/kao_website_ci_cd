@@ -2010,6 +2010,9 @@ progress {
         
 }
 
+
+
+
 }
 
 
@@ -2023,6 +2026,11 @@ progress {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
     }
+
+.center_it
+{
+  display:none; 
+}
 
 
 }

@@ -16503,3 +16503,23 @@ text-align: center;
 {
   margin-left: 300px;
 }
+
+
+@media (max-width: 412px) and (max-height: 915px) {
+
+ #carouselExampleIndicators {
+        display: none;
+    }
+
+.table-responsive-sm {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+.center_it
+{
+  display:none; 
+}
+
+
+}
