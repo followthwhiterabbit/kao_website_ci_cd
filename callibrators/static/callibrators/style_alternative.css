@@ -16522,6 +16522,16 @@ text-align: center;
   display:none; 
 }
 
+.btn{
+  width: 200px;
+}
+
+.nav-item
+{
+  width: 200px;
+}
+
+
 }
 
 .active-new

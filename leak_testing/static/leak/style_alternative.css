@@ -16621,6 +16621,16 @@ model-viewer[ar-status="session-started"] > #ar-prompt {
   display:none; 
 }
 
+.btn{
+  width: 200px;
+}
+
+.nav-item
+{
+  width: 200px;
+}
+
+
 
 }
 

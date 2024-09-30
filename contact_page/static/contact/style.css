@@ -2032,6 +2032,16 @@ progress {
   display:none; 
 }
 
+.btn{
+  width: 200px;
+}
+
+.nav-item
+{
+  width: 200px;
+}
+
+
 
 }
 

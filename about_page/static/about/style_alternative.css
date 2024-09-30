@@ -2010,7 +2010,22 @@ progress {
   content: "";
 }
 
+.btn{
+  width: 200px;
+}
 
+.nav-item
+{
+  width: 200px;
+}
+
+
+
+
+.active-new{
+  width: 100px;
+}
+  
   .btn-menu
   {
     width: 20px;
