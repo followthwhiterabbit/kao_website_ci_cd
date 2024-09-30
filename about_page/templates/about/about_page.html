@@ -49,10 +49,10 @@
                 <div class="navbar-collapse-eski" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li>
+                        <li class=" btn btn-secondary nav-item "><a class="active-new" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li>
 
 
-                         <li class="nav-item dropdown" id="productsdropdown">
+                         <li class="btn btn-secondary nav-item dropdown" id="productsdropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{% trans 'Products' %}</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="{% url 'dimensional_measurement' %}">{% trans 'Dimensional Measurement'  %}</a></li>
@@ -61,8 +61,10 @@
                                 <li><a class="dropdown-item" href="{% url 'accessories' %}">{% trans 'Accessories' %}</a></li>
                           </ul>
                         </li>
-                        
-                             <li class="nav-item dropdown" id="servicesdropdown">
+
+                       
+
+                             <li class="btn btn-secondary dropdown" id="servicesdropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{% trans 'Services' %}</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" a href="{% url 'services'%}#probes">{% trans 'Probe Design'  %}</a></li>
@@ -72,19 +74,19 @@
                           </ul>
                         </li>
                   
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://hightech-metrology.com/blog/">{% trans 'Blog' %}</a></li>
+                        <li class="btn btn-secondary"><a class="nav-link active-new" aria-current="page" href="https://hightech-metrology.com/blog/">{% trans 'Blog' %}</a></li>
 
     
 
 <!--                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>--> 
                    
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}"> {% trans 'Contact' %}</a></li>   
+                        <li class="btn btn-secondary"><a class="nav-link active-new" aria-current="page" href="{% url 'contact_page' %}"> {% trans 'Contact' %}</a></li>   
       
                    
 
                       
                       
-                      <li class="nav-item dropdown" id="languageDropdown">
+                      <li class="btn btn-secondary dropdown" id="languageDropdown">
                           <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="{% static 'about/language.svg' %}" alt="language icon">
                                 Languages

@@ -3936,8 +3936,8 @@ textarea.form-control-lg {
 }
 
 .navbar-eski {
-  --bs-navbar-padding-x: 25rem;
-  --bs-navbar-padding-y: 0.8rem;
+  --bs-navbar-padding-x: 40rem;
+  --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
@@ -6886,7 +6886,7 @@ textarea.form-control-lg {
 
 .text-bg-secondary {
   color: #fff !important;
-  background-color: RGBA(108, 117, 125, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(44, 68, 145, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-success {
@@ -11417,11 +11417,11 @@ a {
 } 
 
 a { 
-    color: #e1201d;
+    color: #fff;
 } 
 
 a:hover { 
-    color: #0056b3; 
+    color: #fff; 
     text-decoration: underline;
 } 
 
@@ -11430,7 +11430,7 @@ a,a:hover {
 } 
 
 a,a:hover { 
-    color: #e1201d;
+    color: #fff;
 } 
 
 nav { 
@@ -13690,6 +13690,7 @@ a.text-black:hover {
     color: #fff; 
     background-color: #6c757d; 
     border-color: #6c757d;
+    height: 50px;
 } 
 
 .btn-secondary { 
@@ -16013,7 +16014,7 @@ a,a:hover {
 } 
 
 a,a:hover { 
-    color: #e1201d;
+    color: #fff;
 } 
 
 a.text-black:hover { 
@@ -16030,4 +16031,11 @@ a.text-black:hover {
   top: -650px; 
   margin-left: -290px;
   /* z-index: 10; */ 
+}
+
+.active-new
+{
+width: 100px;
+color:#fff;
+color:var(--bs-btn-hover-bg);  
 }

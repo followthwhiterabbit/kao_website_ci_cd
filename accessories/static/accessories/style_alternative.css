@@ -3733,8 +3733,8 @@ textarea.form-control-lg {
 }
 
 .navbar-eski {
-  --bs-navbar-padding-x: 25rem;
-  --bs-navbar-padding-y: 0.8rem;
+  --bs-navbar-padding-x: 40rem;
+  --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
@@ -16471,4 +16471,12 @@ text-align: center;
 
 #productsdropdown:hover .dropdown-menu {
     display: block;
+}
+
+
+.active-new
+{
+width: 100px;
+color:#fff;
+color:var(--bs-btn-hover-bg);  
 }
