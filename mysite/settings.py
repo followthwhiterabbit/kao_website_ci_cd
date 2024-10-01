@@ -81,7 +81,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.sites',
+    'django.contrib.sitemaps',
     'django.contrib.staticfiles',
     'django_recaptcha',
     'rosetta', #NEW
@@ -90,7 +90,6 @@ INSTALLED_APPS = [
     #'newsletter',
 ]
 
-NEWSLETTER_THUMBNAIL = 'sorl-thumbnail'
 
 
 MIDDLEWARE = [
