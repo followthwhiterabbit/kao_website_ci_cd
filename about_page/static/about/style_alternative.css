@@ -16054,3 +16054,16 @@ width: 100px;
 color:#fff;
 color:var(--bs-btn-hover-bg);  
 }
+
+
+
+ .newsletter-image {
+  position: relative;
+  opacity: 0.5; /* Set the opacity */
+    width: 256px; /* Set the desired width */
+    height: 256px; /* Set the desired height */
+    margin-left: 10%;
+    top: 300px;
+
+
+  }
