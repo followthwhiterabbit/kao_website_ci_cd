@@ -16059,7 +16059,7 @@ color:var(--bs-btn-hover-bg);
 
  .newsletter-image {
   position: relative;
-  opacity: 0.5; /* Set the opacity */
+  opacity: 0.3; /* Set the opacity */
     width: 256px; /* Set the desired width */
     height: 256px; /* Set the desired height */
     margin-left: 10%;
@@ -16067,3 +16067,14 @@ color:var(--bs-btn-hover-bg);
 
 
   }
+
+
+.briefcase-image
+{
+  position: relative; 
+  opacity: 0.3;
+  width: 128px;
+  height: 128px;
+  margin-left: 10%;
+  top: 125px; 
+}
