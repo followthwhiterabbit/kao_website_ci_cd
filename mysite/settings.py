@@ -25,6 +25,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 
 # SECURITY WARNING: don't run with debug turned on in produexction!
+
 DEBUG = False # --> in server 
 
 #DEBUG = True  # in localhost 

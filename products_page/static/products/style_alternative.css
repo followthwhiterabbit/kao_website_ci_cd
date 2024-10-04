@@ -3736,8 +3736,8 @@ textarea.form-control-lg {
 }
 
 .navbar-eski {
-  --bs-navbar-padding-x: 25rem;
-  --bs-navbar-padding-y: 0.8rem;
+  --bs-navbar-padding-x: 40rem;
+  --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
@@ -12946,7 +12946,7 @@ a,a:hover {
 } 
 
 a,a:hover { 
-    color: #e1201d;
+    color: #fff;
 } 
 
 nav { 
@@ -15192,6 +15192,7 @@ a.text-black:hover {
     color: #fff; 
     background-color: #6c757d; 
     border-color: #6c757d;
+    height: 50px;
 } 
 
 .btn-secondary { 
@@ -16496,5 +16497,13 @@ html{
 .center_it
 {
   margin-left: 300px;
+}
+
+
+.active-new
+{
+width: 100px;
+color:#fff;
+color:var(--bs-btn-hover-bg);  
 }
 

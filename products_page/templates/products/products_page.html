@@ -19,7 +19,7 @@
 {% endfor %}
 
 
- <title>Metrology Products | Air Gages | Air Gaging Devices | Leak Testing Devices | Callibrators</title>
+ <title>Metrology Products | Air Gages | Air Gaging Devices | Leak Testing Computers | Callibrators</title>
 <meta name="description" content="Product Overview of KAO Metrology, AirGages, Leak Testing Devices, Flow Callibrators offered at affordable prices, based in Istanbul, Turkey">
 
 <!DOCTYPE html>
@@ -33,9 +33,9 @@
                 <div class="navbar-collapse-eski" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li>
+                        <li class="btn btn-secondary nav-item"><a class="active-new" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li>
 
-                        <li class="nav-item dropdown" id="productsdropdown">
+                        <li class="btn btn-secondary nav-item dropdown" id="productsdropdown">
                           <a class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
                           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                               <li><a class="dropdown-item" href="{% url 'dimensional_measurement' %}">{% trans 'Dimensional Measurement'  %}</a></li>
@@ -45,7 +45,7 @@
                           </ul>
                       </li>
 
-                          <li class="nav-item dropdown" id="servicesdropdown">
+                          <li class="btn btn-secondary dropdown" id="servicesdropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" a href="{% url 'services'%}#probes">{% trans 'Probe Design'  %}</a></li>
@@ -55,26 +55,26 @@
                           </ul>
                         </li>
                         
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://hightech-metrology.com/blog/">{% trans 'Blog' %}</a></li>
+                        <li class="btn btn-secondary"><a class="active-new" aria-current="page" href="https://hightech-metrology.com/blog/">{% trans 'Blog' %}</a></li>
 
                         
 <!--                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li> -->
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'contact_page' %}">{% trans 'Contact' %}</a></li>   
+                        <li class="btn btn-secondary"><a class="nav-link active-new" aria-current="page" href="{% url 'contact_page' %}">{% trans 'Contact' %}</a></li>   
                       
                       
-                      <li class="nav-item dropdown" id="languageDropdown">
+                      <li class="btn btn-secondary dropdown" id="languageDropdown">
                          <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="{% static 'about/language.svg' %}" alt="language icon">
                                 Languages
                           </a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="/tr"><img src="{% static 'about/Turkey.png' %}" alt="Turkish flag" style="width: 25px; height: auto;"> {% trans 'Turkish' %}</a></li>
-                              <li><a class="dropdown-item" href="/en"><img src="{% static 'about/England.png' %}" alt="English flag" style="width: 25px; height: auto;">{% trans 'English' %}</a></li>
-                              <li><a class="dropdown-item" href="/fr"><img src="{% static 'about/france.png' %}" alt="French flag" style="width: 25px; height: auto;">{% trans 'French' %}</a></li>
-                              <li><a class="dropdown-item" href="/de"><img src="{% static 'about/German.png' %}" alt="German flag" style="width: 25px; height: auto;">{% trans 'German' %}</a></li>
-                              <li><a class="dropdown-item" href="/it"><img src="{% static 'about/Italy.png' %}" alt="Italian flag" style="width: 25px; height: auto;">{% trans 'Italian' %}</a></li>
-                              <li><a class="dropdown-item" href="/pl"><img src="{% static 'about/Poland.png' %}" alt="Polish flag" style="width: 25px; height: auto;">{% trans 'Polish' %}</a></li>
-                              <li><a class="dropdown-item" href="/es"><img src="{% static 'about/Spain.png' %}" alt="Spanish flag" style="width: 25px; height: auto;">{% trans 'Spanish' %}</a></li>
+                              <li><a class="dropdown-item" href="/tr/products"><img src="{% static 'about/Turkey.png' %}" alt="Turkish flag" style="width: 25px; height: auto;"> {% trans 'Turkish' %}</a></li>
+                              <li><a class="dropdown-item" href="/en/products"><img src="{% static 'about/England.png' %}" alt="English flag" style="width: 25px; height: auto;">{% trans 'English' %}</a></li>
+                              <li><a class="dropdown-item" href="/fr/products"><img src="{% static 'about/france.png' %}" alt="French flag" style="width: 25px; height: auto;">{% trans 'French' %}</a></li>
+                              <li><a class="dropdown-item" href="/de/products"><img src="{% static 'about/German.png' %}" alt="German flag" style="width: 25px; height: auto;">{% trans 'German' %}</a></li>
+                              <li><a class="dropdown-item" href="/it/products"><img src="{% static 'about/Italy.png' %}" alt="Italian flag" style="width: 25px; height: auto;">{% trans 'Italian' %}</a></li>
+                              <li><a class="dropdown-item" href="/pl/products"><img src="{% static 'about/Poland.png' %}" alt="Polish flag" style="width: 25px; height: auto;">{% trans 'Polish' %}</a></li>
+                              <li><a class="dropdown-item" href="/es/products"><img src="{% static 'about/Spain.png' %}" alt="Spanish flag" style="width: 25px; height: auto;">{% trans 'Spanish' %}</a></li>
                             </ul>
                         </li>
                     </ul>
