@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-19 14:04+0300\n"
-"PO-Revision-Date: 2024-09-19 11:05+0000\n"
+"PO-Revision-Date: 2024-10-08 08:35+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -270,7 +270,7 @@ msgstr ""
 
 #: about_page/templates/about/about_page.html:789
 msgid "<h4>MENU</h4>"
-msgstr "STARTSEITE"
+msgstr "MENU"
 
 #: about_page/templates/about/about_page.html:794
 #, fuzzy
