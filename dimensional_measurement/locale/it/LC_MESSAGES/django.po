@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 14:04+0300\n"
+"POT-Creation-Date: 2024-10-08 11:59+0300\n"
 "PO-Revision-Date: 2024-09-19 11:14+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,227 +19,237 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:47
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:48
 msgid "Menu"
 msgstr "Menu"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:49
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:50
 msgid "Products"
 msgstr "Prodotti"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:51
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:52
 msgid "Dimensional Measurement"
 msgstr "Misurazione Dimensionale"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:52
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:53
 msgid "Leak Testing Devices"
 msgstr "Dispositivi per il Controllo delle Perdite"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:53
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:54
 msgid "Callibrators "
 msgstr "Calibratori"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:54
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:55
 msgid "Accessories"
 msgstr "Accessori"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:59
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:71
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:60
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:72
 msgid "Services"
 msgstr "Servizi"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:61
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:62
 msgid "Probe Design"
 msgstr "Progettazione Sonde"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:62
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:63
 msgid "Automation Projects"
 msgstr "Progetti di Automazione"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:63
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:64
 msgid "Softwares"
 msgstr "Software"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:68
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:69
 msgid "Blog"
 msgstr "Blog"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:72
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:73
 msgid "Contact"
 msgstr "Contatto"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:81
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:82
 msgid "Turkish"
 msgstr "Turco"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:82
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:83
 msgid "English"
 msgstr "Inglese"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:83
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:84
 msgid "French"
 msgstr "Francese"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:84
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:85
 msgid "German"
 msgstr "Tedesca"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:85
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:86
 msgid "Italian"
 msgstr "Italiano"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:86
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:87
 msgid "Polish"
 msgstr "Polacca"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:87
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:88
 msgid "Spanish"
 msgstr "Spagnolo"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:129
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:130
 #, fuzzy
 #| msgid "Reason for Air-gaging ?"
 msgid " What is Air-Gaging ?"
 msgstr "Motivo della Misurazione ad Aria?"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:133
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:134
 msgid ""
 "\n"
 "\t\tAir gaging, also known as pneumatic gaging or air gauging, \n"
-"    is a metrological technique used for precision measurements in manufacturing and quality control processes. \n"
-"    It involves the use of compressed air to measure dimensional characteristics of a workpiece. \n"
-"    The basic principle of air gaging is to use the interaction between a stream of pressurized air and the surface of the workpiece to make accurate measurements.\n"
+"    is a metrological technique used for precision measurements in "
+"manufacturing and quality control processes. \n"
+"    It involves the use of compressed air to measure dimensional "
+"characteristics of a workpiece. \n"
+"    The basic principle of air gaging is to use the interaction between a "
+"stream of pressurized air and the surface of the workpiece to make accurate "
+"measurements.\n"
 "              "
 msgstr ""
 "\n"
-"Misurazione ad Aria, nota anche come misurazione pneumatica o misurazione ad aria, è una tecnica metrologica utilizzata per misurazioni di precisione nei processi di produzione e controllo qualità. Implica l'uso di aria compressa per misurare le caratteristiche dimensionali di un pezzo di lavoro. Il principio base della misurazione ad aria è utilizzare l'interazione tra un getto di aria pressurizzata e la superficie del pezzo di lavoro per effettuare misurazioni precise."
+"Misurazione ad Aria, nota anche come misurazione pneumatica o misurazione ad "
+"aria, è una tecnica metrologica utilizzata per misurazioni di precisione nei "
+"processi di produzione e controllo qualità. Implica l'uso di aria compressa "
+"per misurare le caratteristiche dimensionali di un pezzo di lavoro. Il "
+"principio base della misurazione ad aria è utilizzare l'interazione tra un "
+"getto di aria pressurizzata e la superficie del pezzo di lavoro per "
+"effettuare misurazioni precise."
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:143
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:144
 msgid "View More"
 msgstr "Scopri di più"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:183
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:324
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:184
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:325
 msgid "2-4 Channel Multiple Showings"
 msgstr "Visualizzazioni Multiple 2-4 Canali"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:183
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:324
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:600
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:184
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:325
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:601
 msgid "Part Counting Functions"
 msgstr "Funzioni di Contaggio Parti"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:186
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:327
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:461
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:603
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:187
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:328
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:462
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:604
 msgid "Resolution: 0.1um"
 msgstr "Risoluzione: 0.1um"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:186
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:327
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:461
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:603
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:187
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:328
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:462
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:604
 msgid "100 Part Memory"
 msgstr "Memoria di 100 Parti"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:189
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:330
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:464
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:606
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:190
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:331
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:465
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:607
 msgid "Repeatability: 0.1um"
 msgstr "Ripetibilità: 0.1um"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:189
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:330
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:464
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:606
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:190
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:331
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:465
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:607
 msgid "100 Measurement memory"
 msgstr "Memoria di 100 Misurazioni"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:192
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:333
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:609
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:193
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:334
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:610
 msgid "Use internal regulators w ease "
 msgstr "Uso Facile dei Regolatori Interni"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:192
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:333
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:467
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:609
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:193
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:334
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:468
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:610
 msgid "USB & RS232 Barcode Usage"
 msgstr "Uso del Codice a Barre USB & RS232"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:195
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:336
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:470
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:612
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:196
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:337
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:471
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:613
 msgid "Open and Close Air with part"
 msgstr "Aria Aperta e Chiusa con il Pezzo"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:195
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:336
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:470
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:612
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:196
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:337
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:471
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:613
 msgid "Storing Last 10000 Records"
 msgstr "Memorizzazione degli Ultimi 10000 Registri"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:199
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:340
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:474
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:616
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:200
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:341
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:475
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:617
 msgid "Callibration with one button"
 msgstr "Calibrazione con un Solo Pulsante"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:199
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:340
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:474
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:616
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:200
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:341
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:475
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:617
 msgid "FMODUL plugins."
 msgstr "Plugin FMODUL"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:203
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:344
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:478
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:620
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:204
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:345
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:479
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:621
 msgid "Data sharing w PLCs and robots via TCP and industrial protocols."
-msgstr ""
-"Condivisione Dati con PLC e Robot tramite TCP e protocolli industriali"
+msgstr "Condivisione Dati con PLC e Robot tramite TCP e protocolli industriali"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:206
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:347
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:481
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:623
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:207
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:348
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:482
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:624
 msgid "Wireless Ethernet Connection & Ethernet Cable connection"
 msgstr "Connessione Wireless Ethernet & Connessione via Cavo Ethernet"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:268
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:544
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:269
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:545
 msgid "Are you interested ?"
 msgstr "Sei interessato?"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:271
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:547
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:272
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:548
 msgid "Contact Us"
 msgstr "Contattaci"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:281
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:555
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:282
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:556
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:732
 msgid "CONTACT"
 msgstr "CONTATTI"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:393
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:394
 msgid "Reason for Air-gaging ?"
 msgstr "Motivo della Misurazione ad Aria?"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:399
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:400
 msgid ""
 "Air gaging is commonly used in situations where high precision is required, "
 "especially in industries like machining, automotive manufacturing, and "
 "aerospace. It is known for its speed, accuracy, and the ability to measure "
-"tight tolerances. Air gaging is particularly suitable for measuring features"
-" like bores, grooves, and other internal dimensions where traditional "
-"contact methods might be challenging or impractical."
+"tight tolerances. Air gaging is particularly suitable for measuring features "
+"like bores, grooves, and other internal dimensions where traditional contact "
+"methods might be challenging or impractical."
 msgstr ""
 "La misurazione ad aria è comunemente utilizzata in situazioni dove è "
 "richiesta alta precisione, specialmente in settori come la lavorazione, la "
@@ -249,7 +259,7 @@ msgstr ""
 "come fori, scanalature e altre dimensioni interne dove i metodi di contatto "
 "tradizionali potrebbero essere difficili o poco pratici."
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:403
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:404
 msgid ""
 "We offer the best products and the services  to our customers and the "
 "distributors all around the world."
@@ -257,48 +267,47 @@ msgstr ""
 "Offriamo i migliori prodotti e servizi ai nostri clienti e distributori in "
 "tutto il mondo."
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:412
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:413
 msgid "GET A QUOTE"
 msgstr "RICHIEDI UN PREVENTIVO"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:458
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:459
 msgid "4 Channel Multiple/Single Showings"
 msgstr "Visualizzazioni Multiple/Single 4 Canali"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:458
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:459
 msgid " Part Counting Functions"
 msgstr "Funzioni di Contaggio Parti"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:467
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:468
 msgid "Use internal regulators w ease  "
 msgstr "Uso Facile dei Regolatori Interni"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:600
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:601
 msgid "8 Channel Multiple/Single Showings"
 msgstr "Visualizzazioni Multiple/Single 8 Canali"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:726
-msgid "<h4>MENU</h4>"
-msgstr "HOME"
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:727
+msgid "MENU"
+msgstr "MENU"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:731
-#, fuzzy
-#| msgid "CONTACT"
-msgid "<h4>CONTACT</h4>"
-msgstr "CONTATTI"
-
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:736
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:737
 #, fuzzy
 #| msgid "PRODUCTS"
-msgid "<h4>PRODUCTS</h4>"
+msgid "PRODUCTS"
 msgstr "PRODOTTI"
 
-#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:741
-msgid "<h4>BLOG</h4>"
+#: dimensional_measurement/templates/dimensional_measurement/dimensional_measurement.html:742
+msgid "BLOG"
 msgstr "BLOG"
 
-#~ msgid "MENU"
-#~ msgstr "MENU"
+#~ msgid "<h4>MENU</h4>"
+#~ msgstr "HOME"
 
-#~ msgid "BLOG"
+#, fuzzy
+#~| msgid "CONTACT"
+#~ msgid "<h4>CONTACT</h4>"
+#~ msgstr "CONTATTI"
+
+#~ msgid "<h4>BLOG</h4>"
 #~ msgstr "BLOG"

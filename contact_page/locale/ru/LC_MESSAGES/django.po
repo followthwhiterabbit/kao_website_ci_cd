@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 14:04+0300\n"
+"POT-Creation-Date: 2024-10-08 11:59+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,18 +92,18 @@ msgstr ""
 msgid "Spanish"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:208
-msgid "<h4>MENU</h4>"
+#: contact_page/templates/contact_page/contact_page.html:210
+msgid "MENU"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:213
-msgid "<h4>CONTACT</h4>"
+#: contact_page/templates/contact_page/contact_page.html:215
+msgid "CONTACT"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:218
-msgid "<h4>PRODUCTS</h4>"
+#: contact_page/templates/contact_page/contact_page.html:220
+msgid "PRODUCTS"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:223
-msgid "<h4>BLOG</h4>"
+#: contact_page/templates/contact_page/contact_page.html:225
+msgid "BLOG"
 msgstr ""

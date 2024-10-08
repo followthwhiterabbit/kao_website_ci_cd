@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 14:04+0300\n"
+"POT-Creation-Date: 2024-10-08 11:59+0300\n"
 "PO-Revision-Date: 2024-09-19 11:18+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,151 +43,122 @@ msgstr "Akış Kalibratörleri"
 msgid "Accessories"
 msgstr "Aksesuarlar"
 
-#: about_page/templates/about/about_page.html:66
-#: about_page/templates/about/about_page.html:79
+#: about_page/templates/about/about_page.html:68
+#: about_page/templates/about/about_page.html:81
 msgid "Services"
 msgstr "Hizmetler"
 
-#: about_page/templates/about/about_page.html:68
+#: about_page/templates/about/about_page.html:70
 msgid "Probe Design"
 msgstr "Mastarlar"
 
-#: about_page/templates/about/about_page.html:69
+#: about_page/templates/about/about_page.html:71
 msgid "Automation Projects"
 msgstr "Otomasyon Projeleri"
 
-#: about_page/templates/about/about_page.html:70
+#: about_page/templates/about/about_page.html:72
 msgid "Softwares"
 msgstr "Yazılımlar"
 
-#: about_page/templates/about/about_page.html:75
+#: about_page/templates/about/about_page.html:77
 msgid "Blog"
 msgstr "Blog"
 
-#: about_page/templates/about/about_page.html:81
+#: about_page/templates/about/about_page.html:83
 msgid "Contact"
 msgstr "iletişim"
 
-#: about_page/templates/about/about_page.html:94
+#: about_page/templates/about/about_page.html:96
 msgid "Turkish"
 msgstr "Türkçe"
 
-#: about_page/templates/about/about_page.html:95
+#: about_page/templates/about/about_page.html:97
 msgid "English"
 msgstr "İngilizce"
 
-#: about_page/templates/about/about_page.html:96
+#: about_page/templates/about/about_page.html:98
 msgid "French"
 msgstr "Fransızca"
 
-#: about_page/templates/about/about_page.html:97
+#: about_page/templates/about/about_page.html:99
 msgid "German"
 msgstr "Almanca"
 
-#: about_page/templates/about/about_page.html:98
+#: about_page/templates/about/about_page.html:100
 msgid "Italian"
 msgstr "İtalyanca"
 
-#: about_page/templates/about/about_page.html:99
+#: about_page/templates/about/about_page.html:101
 msgid "Polish"
 msgstr "Lehçe"
 
-#: about_page/templates/about/about_page.html:100
+#: about_page/templates/about/about_page.html:102
 msgid "Spanish"
 msgstr "İspanyolca"
 
-#: about_page/templates/about/about_page.html:144
-msgid "Kao Metrology"
-msgstr "Modüler Metroloji"
-
-#: about_page/templates/about/about_page.html:155
-msgid "AirGages"
-msgstr "Pnomatik Olcum Cihazlari"
-
-#: about_page/templates/about/about_page.html:165
-msgid "Leak-Testing Devices"
-msgstr "Sızıntı Test Cihazları"
-
-#: about_page/templates/about/about_page.html:174
-msgid "Flow Callibrators"
-msgstr "Akış Kalibratörleri"
-
-#: about_page/templates/about/about_page.html:185
-msgid "Pressure Scanners"
-msgstr "Basınç Tarayıcıları"
-
-#: about_page/templates/about/about_page.html:196
-msgid "Modular Metrology"
-msgstr "Modüler Metroloji"
-
-#: about_page/templates/about/about_page.html:207
-msgid "Probes"
-msgstr "Mastarlar"
-
-#: about_page/templates/about/about_page.html:293
+#: about_page/templates/about/about_page.html:233
 msgid "Metrology is our passion"
 msgstr "Metroloji bizim tutkumuz"
 
-#: about_page/templates/about/about_page.html:297
+#: about_page/templates/about/about_page.html:237
 msgid ""
 "We are more than a metrological device manufacturer combining the latest "
-"technologies and innovations with the possibility of new advancements in the"
-" manufacturing and automation domain. Apart from producing sophisticated "
-"devices with portable usage and aesthetics, we provide embedded solutions to"
-" the embedded problems in metrology and automation."
+"technologies and innovations with the possibility of new advancements in the "
+"manufacturing and automation domain. Apart from producing sophisticated "
+"devices with portable usage and aesthetics, we provide embedded solutions to "
+"the embedded problems in metrology and automation."
 msgstr ""
-"En son teknolojiler ve yeniliklerle üretim ve otomasyon alanındaki yenilikçi"
-" gelişmeleri birleştiren bir metroloji cihazı üreticisiyiz. Taşınabilirlik "
-"ve estetiği ön planda tutarak gelişmiş cihazlar üretmenin yanı sıra, "
-"metroloji ve otomasyon alanındaki karmaşık sorunlara entegre çözümler "
-"sunuyoruz."
+"En son teknolojiler ve yeniliklerle üretim ve otomasyon alanındaki yenilikçi "
+"gelişmeleri birleştiren bir metroloji cihazı üreticisiyiz. Taşınabilirlik ve "
+"estetiği ön planda tutarak gelişmiş cihazlar üretmenin yanı sıra, metroloji "
+"ve otomasyon alanındaki karmaşık sorunlara entegre çözümler sunuyoruz."
 
-#: about_page/templates/about/about_page.html:302
-#: about_page/templates/about/about_page.html:560
+#: about_page/templates/about/about_page.html:242
+#: about_page/templates/about/about_page.html:500
 msgid "View More"
 msgstr "incele"
 
-#: about_page/templates/about/about_page.html:486
+#: about_page/templates/about/about_page.html:426
 msgid "DIMENSIONAL MEASUREMENT"
 msgstr "BOYUTSAL ÖLÇÜM"
 
-#: about_page/templates/about/about_page.html:489
+#: about_page/templates/about/about_page.html:429
 msgid "We are the masters of Air-gaging with 30+ years of experience."
 msgstr "30 yılı aşkın bir suredır Pnomatık olcumun ustasıyız. "
 
-#: about_page/templates/about/about_page.html:503
+#: about_page/templates/about/about_page.html:443
 msgid "LEAK TESTING"
 msgstr "Sızdırmazlık Testi"
 
-#: about_page/templates/about/about_page.html:506
+#: about_page/templates/about/about_page.html:446
 msgid ""
 "Our Touch Screen Leak Testing Systems offer portability, secure setup and "
 "precision beyond world standards."
 msgstr ""
-"Dokunmatik Ekranlı Sızdırmazlık Testi Sistemlerimiz, taşınabilirlik, güvenli"
-" kurulum ve dünya standartlarının ötesinde hassasiyet sunar."
+"Dokunmatik Ekranlı Sızdırmazlık Testi Sistemlerimiz, taşınabilirlik, güvenli "
+"kurulum ve dünya standartlarının ötesinde hassasiyet sunar."
 
-#: about_page/templates/about/about_page.html:520
+#: about_page/templates/about/about_page.html:460
 msgid "CALLIBRATORS"
 msgstr "Kalibratörler"
 
-#: about_page/templates/about/about_page.html:523
+#: about_page/templates/about/about_page.html:463
 msgid ""
 "Our KAO Flow Callibrator offers precise, fast and +12 hours Usage with "
 "regular batteries. "
 msgstr ""
-"KAO Akış Kalibratörümüz, düzenli pillerle hassas ve hızlı ölçüm sağlar ve 12"
-" saatten fazla kullanım süresi sunar."
+"KAO Akış Kalibratörümüz, düzenli pillerle hassas ve hızlı ölçüm sağlar ve 12 "
+"saatten fazla kullanım süresi sunar."
 
-#: about_page/templates/about/about_page.html:546
+#: about_page/templates/about/about_page.html:486
 msgid "More than Metrology"
 msgstr "Metrolojiden Daha Fazlası"
 
-#: about_page/templates/about/about_page.html:549
+#: about_page/templates/about/about_page.html:489
 msgid "Embedded solutions to embedded problems"
 msgstr "Gömülü sorunlara gömülü çözümler"
 
-#: about_page/templates/about/about_page.html:552
+#: about_page/templates/about/about_page.html:492
 msgid ""
 "Explore innovative answers to embedded challenges with our cutting-edge "
 "embedded systems. More than mere measurements, our solutions redefine "
@@ -199,46 +170,46 @@ msgstr ""
 "sunuyoruz. Çözümlerimiz, verimlilik, bağlantı ve işlevselliği yeniden "
 "tanımlar. Teknolojinin geleceğini keşfedin. Web sitemizde detayları görün."
 
-#: about_page/templates/about/about_page.html:597
+#: about_page/templates/about/about_page.html:529
 msgid "PRESSURE SCANNERS"
 msgstr "Basınç Tarayıcıları"
 
-#: about_page/templates/about/about_page.html:600
+#: about_page/templates/about/about_page.html:532
 msgid "High-Tech Pressure Scanning "
 msgstr "Yüksek Teknolojili Basınç Tarama"
 
-#: about_page/templates/about/about_page.html:615
+#: about_page/templates/about/about_page.html:547
 msgid "PROBES "
 msgstr "Problar"
 
-#: about_page/templates/about/about_page.html:618
+#: about_page/templates/about/about_page.html:550
 msgid "Delivering probes geared to your unique necessities "
 msgstr "Benzersiz ihtiyaçlarınıza yönelik tasarlanmış probları sunuyoruz"
 
-#: about_page/templates/about/about_page.html:633
+#: about_page/templates/about/about_page.html:565
 msgid "ACCESORIES "
 msgstr "Aksesuarlar"
 
-#: about_page/templates/about/about_page.html:636
+#: about_page/templates/about/about_page.html:568
 msgid "Discover accessories and tools for our products "
 msgstr "Ürünlerimiz için aksesuar ve araçları keşfedin"
 
-#: about_page/templates/about/about_page.html:659
+#: about_page/templates/about/about_page.html:592
 msgid "HISTORY"
 msgstr "Tarihçemiz"
 
-#: about_page/templates/about/about_page.html:662
+#: about_page/templates/about/about_page.html:595
 msgid "About Us"
 msgstr "Hakkımızda"
 
-#: about_page/templates/about/about_page.html:665
+#: about_page/templates/about/about_page.html:598
 msgid ""
 "Kao was founded in Istanbul in 1995 by an idelistic and dynamic team with "
 "thirty years of experience in machinery, electronics, and metrology. With a "
 "strong R&D team and modern production lines, Kao has been able to create "
 "remarkable products in terms of the technical specifications, ergonomics, "
-"aesthetics, and durability. Kao has been producing metrological test devices"
-" with measurement precision beyond world standards and extremely user-"
+"aesthetics, and durability. Kao has been producing metrological test devices "
+"with measurement precision beyond world standards and extremely user-"
 "friendly interfaces in the field of metrology As Kao-Metrology, we aim to "
 "collaborate with industrialists to contribute to creating a more efficient "
 "and powerful metrological system for a reliable future. Therefore, we see "
@@ -247,40 +218,71 @@ msgid ""
 "and technologies you encountered on our website. Wishing for every tomorrow "
 "to be brighter than today... "
 msgstr ""
-"Kao, 1995 yılında İstanbul’da, makine, elektronik ve metroloji alanında otuz"
-" yıllık deneyime sahip idealist ve dinamik bir ekip tarafından kuruldu. "
-"Güçlü AR-GE ekibimiz ve modern üretim hatlarımız sayesinde, teknik "
-"özellikler, ergonomi, estetik ve dayanıklılık açısından dikkat çeken ürünler"
-" üretiyoruz. Dünya standartlarının ötesinde ölçüm hassasiyeti ve kullanıcı "
-"dostu arayüzlere sahip metroloji cihazları geliştiriyoruz. Kao Metroloji "
-"olarak, sanayicilerle iş birliği yaparak daha verimli ve teknolojik "
-"metroloji cihazları üretmeyi hedefliyoruz. Web sitemizdeki ürünler ve "
-"teknolojiler hakkında düşüncelerinizi bizimle paylaşmaktan çekinmeyin. Her "
-"yeni günün, bir öncekinden daha parlak olmasını dileriz."
+"Kao, 1995 yılında İstanbul’da, makine, elektronik ve metroloji alanında otuz "
+"yıllık deneyime sahip idealist ve dinamik bir ekip tarafından kuruldu. Güçlü "
+"AR-GE ekibimiz ve modern üretim hatlarımız sayesinde, teknik özellikler, "
+"ergonomi, estetik ve dayanıklılık açısından dikkat çeken ürünler üretiyoruz. "
+"Dünya standartlarının ötesinde ölçüm hassasiyeti ve kullanıcı dostu "
+"arayüzlere sahip metroloji cihazları geliştiriyoruz. Kao Metroloji olarak, "
+"sanayicilerle iş birliği yaparak daha verimli ve teknolojik metroloji "
+"cihazları üretmeyi hedefliyoruz. Web sitemizdeki ürünler ve teknolojiler "
+"hakkında düşüncelerinizi bizimle paylaşmaktan çekinmeyin. Her yeni günün, "
+"bir öncekinden daha parlak olmasını dileriz."
 
-#: about_page/templates/about/about_page.html:789
-msgid "<h4>MENU</h4>"
-msgstr "ANA SAYFA"
+#: about_page/templates/about/about_page.html:719
+msgid "Subscribe to our Newsletter"
+msgstr ""
 
-#: about_page/templates/about/about_page.html:794
-#| msgid "CONTACT"
-msgid "<h4>CONTACT</h4>"
+#: about_page/templates/about/about_page.html:722
+msgid "Follow-up with the latest news and the products"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:835
+msgid "MENU"
+msgstr "Menü"
+
+#: about_page/templates/about/about_page.html:840
+#, fuzzy
+#| msgid "<h4>CONTACT</h4>"
+msgid "CONTACT"
 msgstr "İletişim"
 
-#: about_page/templates/about/about_page.html:799
-#| msgid "PRODUCTS"
-msgid "<h4>PRODUCTS</h4>"
+#: about_page/templates/about/about_page.html:845
+#, fuzzy
+#| msgid "<h4>PRODUCTS</h4>"
+msgid "PRODUCTS"
 msgstr "ÜRÜNLER"
 
-#: about_page/templates/about/about_page.html:804
-msgid "<h4>BLOG</h4>"
-msgstr "BLOG"
+#: about_page/templates/about/about_page.html:850
+msgid "BLOG"
+msgstr "Blog"
 
-#~ msgid "MENU"
-#~ msgstr "Menü"
+#~ msgid "Kao Metrology"
+#~ msgstr "Modüler Metroloji"
 
-#~ msgid "BLOG"
-#~ msgstr "Blog"
+#~ msgid "AirGages"
+#~ msgstr "Pnomatik Olcum Cihazlari"
+
+#~ msgid "Leak-Testing Devices"
+#~ msgstr "Sızıntı Test Cihazları"
+
+#~ msgid "Flow Callibrators"
+#~ msgstr "Akış Kalibratörleri"
+
+#~ msgid "Pressure Scanners"
+#~ msgstr "Basınç Tarayıcıları"
+
+#~ msgid "Modular Metrology"
+#~ msgstr "Modüler Metroloji"
+
+#~ msgid "Probes"
+#~ msgstr "Mastarlar"
+
+#~ msgid "<h4>MENU</h4>"
+#~ msgstr "ANA SAYFA"
+
+#~ msgid "<h4>BLOG</h4>"
+#~ msgstr "BLOG"
 
 #~ msgid "MEASURING AND CONTROL SYSTEMS MANIFACTURING"
 #~ msgstr "ÖLÇÜM VE KONTROL SİSTEMLERİ İMALATI"

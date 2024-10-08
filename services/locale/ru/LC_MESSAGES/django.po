@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 14:04+0300\n"
+"POT-Creation-Date: 2024-10-08 11:59+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -223,17 +223,17 @@ msgid ""
 msgstr ""
 
 #: services/templates/services/services.html:504
-msgid "<h4>MENU</h4>"
+msgid "MENU"
 msgstr ""
 
 #: services/templates/services/services.html:509
-msgid "<h4>CONTACT</h4>"
+msgid "CONTACT"
 msgstr ""
 
 #: services/templates/services/services.html:514
-msgid "<h4>PRODUCTS</h4>"
+msgid "PRODUCTS"
 msgstr ""
 
 #: services/templates/services/services.html:519
-msgid "<h4>BLOG</h4>"
+msgid "BLOG"
 msgstr ""
