@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 11:59+0300\n"
+"POT-Creation-Date: 2024-10-14 21:45+0300\n"
 "PO-Revision-Date: 2024-09-19 11:13+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,11 +96,11 @@ msgstr "Polacca"
 msgid "Spanish"
 msgstr "Spagnolo"
 
-#: about_page/templates/about/about_page.html:233
+#: about_page/templates/about/about_page.html:244
 msgid "Metrology is our passion"
 msgstr "La metrologia è la nostra passione"
 
-#: about_page/templates/about/about_page.html:237
+#: about_page/templates/about/about_page.html:248
 msgid ""
 "We are more than a metrological device manufacturer combining the latest "
 "technologies and innovations with the possibility of new advancements in the "
@@ -114,24 +114,24 @@ msgstr ""
 "sofisticati con utilizzo ed estetica portatili, forniamo soluzioni integrate "
 "per risolvere problemi integrati nella metrologia e nell'automazione."
 
-#: about_page/templates/about/about_page.html:242
-#: about_page/templates/about/about_page.html:500
+#: about_page/templates/about/about_page.html:253
+#: about_page/templates/about/about_page.html:511
 msgid "View More"
 msgstr "Visualizza altro"
 
-#: about_page/templates/about/about_page.html:426
+#: about_page/templates/about/about_page.html:437
 msgid "DIMENSIONAL MEASUREMENT"
 msgstr "MISURA DIMENSIONALE"
 
-#: about_page/templates/about/about_page.html:429
+#: about_page/templates/about/about_page.html:440
 msgid "We are the masters of Air-gaging with 30+ years of experience."
 msgstr "Siamo i maestri dell'Air-gaging con oltre 30 anni di esperienza."
 
-#: about_page/templates/about/about_page.html:443
+#: about_page/templates/about/about_page.html:454
 msgid "LEAK TESTING"
 msgstr "TEST DI TENUTA"
 
-#: about_page/templates/about/about_page.html:446
+#: about_page/templates/about/about_page.html:457
 msgid ""
 "Our Touch Screen Leak Testing Systems offer portability, secure setup and "
 "precision beyond world standards."
@@ -139,11 +139,11 @@ msgstr ""
 "I nostri sistemi di test di tenuta con touchscreen offrono portabilità, "
 "configurazione sicura e precisione oltre gli standard mondiali."
 
-#: about_page/templates/about/about_page.html:460
+#: about_page/templates/about/about_page.html:471
 msgid "CALLIBRATORS"
 msgstr "CALIBRATORI"
 
-#: about_page/templates/about/about_page.html:463
+#: about_page/templates/about/about_page.html:474
 msgid ""
 "Our KAO Flow Callibrator offers precise, fast and +12 hours Usage with "
 "regular batteries. "
@@ -151,15 +151,15 @@ msgstr ""
 "Il nostro calibratore KAO Flow offre precisione, velocità e oltre 12 ore di "
 "utilizzo con batterie normali."
 
-#: about_page/templates/about/about_page.html:486
+#: about_page/templates/about/about_page.html:497
 msgid "More than Metrology"
 msgstr "Altro che metrologia"
 
-#: about_page/templates/about/about_page.html:489
+#: about_page/templates/about/about_page.html:500
 msgid "Embedded solutions to embedded problems"
 msgstr "Soluzioni integrate a problemi integrati"
 
-#: about_page/templates/about/about_page.html:492
+#: about_page/templates/about/about_page.html:503
 msgid ""
 "Explore innovative answers to embedded challenges with our cutting-edge "
 "embedded systems. More than mere measurements, our solutions redefine "
@@ -174,39 +174,39 @@ msgstr ""
 "futuro della tecnologia in modo fluido. Scopri il potere delle soluzioni "
 "embedded sul nostro sito oggi stesso."
 
-#: about_page/templates/about/about_page.html:529
+#: about_page/templates/about/about_page.html:540
 msgid "PRESSURE SCANNERS"
 msgstr "SCANNER DI PRESSIONE"
 
-#: about_page/templates/about/about_page.html:532
+#: about_page/templates/about/about_page.html:543
 msgid "High-Tech Pressure Scanning "
 msgstr "Scansione della pressione ad alta tecnologia"
 
-#: about_page/templates/about/about_page.html:547
+#: about_page/templates/about/about_page.html:558
 msgid "PROBES "
 msgstr "SONDE"
 
-#: about_page/templates/about/about_page.html:550
+#: about_page/templates/about/about_page.html:561
 msgid "Delivering probes geared to your unique necessities "
 msgstr "Fornitura di sonde adatte alle vostre esigenze specifiche"
 
-#: about_page/templates/about/about_page.html:565
+#: about_page/templates/about/about_page.html:576
 msgid "ACCESORIES "
 msgstr "ACCESSORI"
 
-#: about_page/templates/about/about_page.html:568
+#: about_page/templates/about/about_page.html:579
 msgid "Discover accessories and tools for our products "
 msgstr "Scopri accessori e strumenti per i nostri prodotti"
 
-#: about_page/templates/about/about_page.html:592
+#: about_page/templates/about/about_page.html:603
 msgid "HISTORY"
 msgstr "STORIA"
 
-#: about_page/templates/about/about_page.html:595
+#: about_page/templates/about/about_page.html:606
 msgid "About Us"
 msgstr "Chi siamo"
 
-#: about_page/templates/about/about_page.html:598
+#: about_page/templates/about/about_page.html:609
 msgid ""
 "Kao was founded in Istanbul in 1995 by an idelistic and dynamic team with "
 "thirty years of experience in machinery, electronics, and metrology. With a "
@@ -236,31 +236,31 @@ msgstr ""
 "vostre opinioni sui nostri prodotti e tecnologie che avete incontrato sul "
 "nostro sito web. Augurando che ogni domani sia più luminoso di oggi..."
 
-#: about_page/templates/about/about_page.html:719
+#: about_page/templates/about/about_page.html:730
 msgid "Subscribe to our Newsletter"
 msgstr ""
 
-#: about_page/templates/about/about_page.html:722
+#: about_page/templates/about/about_page.html:733
 msgid "Follow-up with the latest news and the products"
 msgstr ""
 
-#: about_page/templates/about/about_page.html:835
+#: about_page/templates/about/about_page.html:846
 msgid "MENU"
 msgstr "MENU"
 
-#: about_page/templates/about/about_page.html:840
+#: about_page/templates/about/about_page.html:851
 #, fuzzy
 #| msgid "CONTACT"
 msgid "CONTACT"
 msgstr "CONTATTI"
 
-#: about_page/templates/about/about_page.html:845
+#: about_page/templates/about/about_page.html:856
 #, fuzzy
 #| msgid "PRODUCTS"
 msgid "PRODUCTS"
 msgstr "PRODOTTI"
 
-#: about_page/templates/about/about_page.html:850
+#: about_page/templates/about/about_page.html:861
 msgid "BLOG"
 msgstr "BLOG"
 

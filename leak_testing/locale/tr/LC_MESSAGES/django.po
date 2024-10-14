@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 11:59+0300\n"
+"POT-Creation-Date: 2024-10-14 21:45+0300\n"
 "PO-Revision-Date: 2024-09-19 11:20+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,11 +96,58 @@ msgstr "Lehçe"
 msgid "Spanish"
 msgstr "İspanyolca"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:126
+#: leak_testing/templates/leak_testing/leak_testing.html:124
+#, fuzzy
+#| msgid "What is Leak Testing ?"
+msgid " What is Leak Testing ?"
+msgstr "Sızıntı Testi Nedir?"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:128
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "                Leak testing in metrology refers to the process of "
+#| "checking for and identifying leaks in a sealed or pressurized system.\n"
+#| "                 This is a crucial step in quality control and assurance, "
+#| "especially in industries where maintaining airtight or fluid-tight "
+#| "integrity is essential. \n"
+#| "                 Leak testing is commonly employed in the manufacturing "
+#| "of products such as automotive components, medical devices, electronic "
+#| "devices, and various other industrial applications.\n"
+#| "          \n"
+#| "                \n"
+#| "                 "
+msgid ""
+"\n"
+"                Leak testing in metrology refers to the process of checking "
+"for and identifying leaks in a sealed or pressurized system.\n"
+"                 This is a crucial step in quality control and assurance, "
+"especially in industries where maintaining airtight or fluid-tight integrity "
+"is essential. \n"
+"                 Leak testing is commonly employed in the manufacturing of "
+"products such as automotive components, medical devices, electronic devices, "
+"and various other industrial applications.\n"
+" \n"
+"\t\t           "
+msgstr ""
+"\n"
+"Metrolojide sızıntı testi, kapalı veya basınçlı bir sistemdeki sızıntıları "
+"kontrol etme ve tespit etme sürecini ifade eder. Bu, özellikle hava veya "
+"sıvı geçirmez bütünlüğü korumanın önemli olduğu endüstrilerde, kalite "
+"kontrol ve güvence açısından kritik bir adımdır. Sızıntı testi, otomotiv "
+"bileşenleri, medikal cihazlar, elektronik cihazlar ve çeşitli diğer "
+"endüstriyel uygulamaların üretiminde yaygın olarak kullanılır."
+
+#: leak_testing/templates/leak_testing/leak_testing.html:140
+#: leak_testing/templates/leak_testing/leak_testing.html:187
+msgid "View More"
+msgstr "Daha Fazla Gör"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:172
 msgid "What is Leak Testing ?"
 msgstr "Sızıntı Testi Nedir?"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:130
+#: leak_testing/templates/leak_testing/leak_testing.html:176
 msgid ""
 "\n"
 "                Leak testing in metrology refers to the process of checking "
@@ -123,150 +170,83 @@ msgstr ""
 "bileşenleri, medikal cihazlar, elektronik cihazlar ve çeşitli diğer "
 "endüstriyel uygulamaların üretiminde yaygın olarak kullanılır."
 
-#: leak_testing/templates/leak_testing/leak_testing.html:141
-msgid "View More"
-msgstr "Daha Fazla Gör"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:185
-msgid "1 Channel A Relative Leak Testing Measurement Device"
-msgstr "1 Kanallı Göreceli Sızıntı Testi Ölçüm Cihazı"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:188
-msgid "Test Pressure Rage: 0.2 - 7 Bar"
-msgstr "Test Basınç Aralığı: 0.2 - 7 Bar"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:188
-msgid "Max Leak Val: 999.99cm3/min"
-msgstr "Maksimum Sızıntı Değeri: 999.99 cm³/dak"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:191
-msgid "Leak Val Resolution: 0.01cm3/min"
-msgstr "Sızıntı Değeri Çözünürlüğü: 0.01 cm³/dak"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:191
-msgid "7\" TFT Color  "
-msgstr "7\" TFT Renkli Ekran"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:194
-msgid "Password protected paremeters"
-msgstr "Parola korumalı parametreler"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:194
-#: leak_testing/templates/leak_testing/leak_testing.html:463
-#: leak_testing/templates/leak_testing/leak_testing.html:596
-msgid "USB & RS232 Barcode Usage"
-msgstr "USB & RS232 Barkod Kullanımı"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:197
-msgid "Relative Pressure Drop"
-msgstr "Göreceli Basınç Düşüşü"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:197
-#: leak_testing/templates/leak_testing/leak_testing.html:315
-#: leak_testing/templates/leak_testing/leak_testing.html:466
-#: leak_testing/templates/leak_testing/leak_testing.html:599
-msgid "Storing Last 10000 Records"
-msgstr "Son 10.000 Kaydı Saklama"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:201
-#: leak_testing/templates/leak_testing/leak_testing.html:319
-#: leak_testing/templates/leak_testing/leak_testing.html:470
-#: leak_testing/templates/leak_testing/leak_testing.html:603
-msgid "Callibration with one button"
-msgstr "Tek tuşla kalibrasyon"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:201
-msgid "Multiple Language Support"
-msgstr "Çoklu Dil Desteği"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:205
-#: leak_testing/templates/leak_testing/leak_testing.html:474
-#: leak_testing/templates/leak_testing/leak_testing.html:607
-msgid "Data sharing w PLCs and robots via TCP and industrial protocols."
-msgstr ""
-"TCP ve endüstriyel protokoller aracılığıyla PLC'ler ve robotlarla veri "
-"paylaşımı"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:208
-#: leak_testing/templates/leak_testing/leak_testing.html:326
-#: leak_testing/templates/leak_testing/leak_testing.html:477
-#: leak_testing/templates/leak_testing/leak_testing.html:610
-msgid "Wireless Ethernet Connection & Ethernet Cable connection"
-msgstr "Kablosuz Ethernet Bağlantısı & Ethernet Kablo Bağlantısı"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:246
-#: leak_testing/templates/leak_testing/leak_testing.html:531
-msgid "Are you interested ?"
-msgstr "İlgileniyor musunuz?"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:249
-#: leak_testing/templates/leak_testing/leak_testing.html:534
-msgid "Contact Us"
-msgstr "Bize Ulaşın"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:259
-#: leak_testing/templates/leak_testing/leak_testing.html:542
-#: leak_testing/templates/leak_testing/leak_testing.html:672
-#: leak_testing/templates/leak_testing/leak_testing.html:742
-msgid "CONTACT"
-msgstr "İLETİŞİM"
-
-#: leak_testing/templates/leak_testing/leak_testing.html:303
+#: leak_testing/templates/leak_testing/leak_testing.html:238
 msgid "1 Channel Differential/Relative Leak T. Device "
 msgstr "1 Kanallı Diferansiyel/Göreceli Sızıntı Testi Cihazı"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:306
-#: leak_testing/templates/leak_testing/leak_testing.html:590
+#: leak_testing/templates/leak_testing/leak_testing.html:241
+#: leak_testing/templates/leak_testing/leak_testing.html:525
 msgid "Manual/Electric Pressure Regulator Options"
 msgstr "Manuel/Elektrikli Basınç Regülatörü Seçenekleri"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:306
+#: leak_testing/templates/leak_testing/leak_testing.html:241
 msgid "7\" TFT color"
 msgstr "7\" TFT Renkli Ekran"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:309
-#: leak_testing/templates/leak_testing/leak_testing.html:593
+#: leak_testing/templates/leak_testing/leak_testing.html:244
+#: leak_testing/templates/leak_testing/leak_testing.html:528
 msgid "Connection for QDAS"
 msgstr "QDAS Bağlantısı"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:309
-#: leak_testing/templates/leak_testing/leak_testing.html:457
+#: leak_testing/templates/leak_testing/leak_testing.html:244
+#: leak_testing/templates/leak_testing/leak_testing.html:392
 msgid "Usage like Mobile Phone"
 msgstr "Mobil Telefon Gibi Kullanım"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:312
-#: leak_testing/templates/leak_testing/leak_testing.html:463
-#: leak_testing/templates/leak_testing/leak_testing.html:596
+#: leak_testing/templates/leak_testing/leak_testing.html:247
+#: leak_testing/templates/leak_testing/leak_testing.html:398
+#: leak_testing/templates/leak_testing/leak_testing.html:531
 msgid "Use internal regulators w ease "
 msgstr "Dahili regülatörlerle kolay kullanımı"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:312
+#: leak_testing/templates/leak_testing/leak_testing.html:247
 msgid "USB & RS232 - 1D 2D Barcode"
 msgstr "USB & RS232 - 1D 2D Barkod"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:315
-#: leak_testing/templates/leak_testing/leak_testing.html:466
-#: leak_testing/templates/leak_testing/leak_testing.html:599
+#: leak_testing/templates/leak_testing/leak_testing.html:250
+#: leak_testing/templates/leak_testing/leak_testing.html:401
+#: leak_testing/templates/leak_testing/leak_testing.html:534
 msgid "Visual and Audio Alerts"
 msgstr "Görsel ve Sesli Uyarılar"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:319
-#: leak_testing/templates/leak_testing/leak_testing.html:470
-#: leak_testing/templates/leak_testing/leak_testing.html:603
+#: leak_testing/templates/leak_testing/leak_testing.html:250
+#: leak_testing/templates/leak_testing/leak_testing.html:401
+#: leak_testing/templates/leak_testing/leak_testing.html:534
+#: leak_testing/templates/leak_testing/leak_testing.html:663
+msgid "Storing Last 10000 Records"
+msgstr "Son 10.000 Kaydı Saklama"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:254
+#: leak_testing/templates/leak_testing/leak_testing.html:405
+#: leak_testing/templates/leak_testing/leak_testing.html:538
+#: leak_testing/templates/leak_testing/leak_testing.html:667
+msgid "Callibration with one button"
+msgstr "Tek tuşla kalibrasyon"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:254
+#: leak_testing/templates/leak_testing/leak_testing.html:405
+#: leak_testing/templates/leak_testing/leak_testing.html:538
 msgid "FMODUL plugins."
 msgstr "FMODUL Eklentileri"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:323
+#: leak_testing/templates/leak_testing/leak_testing.html:258
 msgid "Usage w PLCs & robots v MODBUS TCP & industrial protocols."
 msgstr ""
 "MODBUS TCP ve endüstriyel protokoller aracılığıyla PLC'ler ve robotlarla "
 "kullanım"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:382
+#: leak_testing/templates/leak_testing/leak_testing.html:261
+#: leak_testing/templates/leak_testing/leak_testing.html:412
+#: leak_testing/templates/leak_testing/leak_testing.html:545
+#: leak_testing/templates/leak_testing/leak_testing.html:674
+msgid "Wireless Ethernet Connection & Ethernet Cable connection"
+msgstr "Kablosuz Ethernet Bağlantısı & Ethernet Kablo Bağlantısı"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:317
 msgid "Reason for Leak-Testing ?"
 msgstr "Sızıntı Testinin Sebebi?"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:388
+#: leak_testing/templates/leak_testing/leak_testing.html:323
 msgid ""
 "\n"
 "                Leak testing devices is crucial for ensuring products meet "
@@ -300,7 +280,7 @@ msgstr ""
 "garanti taleplerinin olasılığını azaltır. Sızıntısız cihazlar sunmak, marka "
 "itibarını artırır ve müşteri memnuniyetini yükseltir."
 
-#: leak_testing/templates/leak_testing/leak_testing.html:400
+#: leak_testing/templates/leak_testing/leak_testing.html:335
 msgid ""
 "We offer the best products and the services  to our customers and the "
 "distributors all around the world."
@@ -308,43 +288,106 @@ msgstr ""
 "Dünya çapındaki müşterilerimize ve distribütörlerimize en iyi ürünleri ve "
 "hizmetleri sunuyoruz."
 
-#: leak_testing/templates/leak_testing/leak_testing.html:409
+#: leak_testing/templates/leak_testing/leak_testing.html:344
 msgid "GET A QUOTE"
 msgstr "TEKLİF AL"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:454
+#: leak_testing/templates/leak_testing/leak_testing.html:389
 msgid "1 Channel Differential/Relative Leak Testing Device"
 msgstr "1 Kanallı Diferansiyel/Göreceli Sızıntı Testi Cihazı"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:457
+#: leak_testing/templates/leak_testing/leak_testing.html:392
 msgid " Connection for QDAS"
 msgstr "QDAS Bağlantısı"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:460
+#: leak_testing/templates/leak_testing/leak_testing.html:395
 msgid "Repeatability: 0.1um"
 msgstr "Tekrarlanabilirlik: 0.1µm"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:460
+#: leak_testing/templates/leak_testing/leak_testing.html:395
 msgid "100 Measurement memory"
 msgstr "100 Ölçüm Hafızası"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:587
+#: leak_testing/templates/leak_testing/leak_testing.html:398
+#: leak_testing/templates/leak_testing/leak_testing.html:531
+#: leak_testing/templates/leak_testing/leak_testing.html:660
+msgid "USB & RS232 Barcode Usage"
+msgstr "USB & RS232 Barkod Kullanımı"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:409
+#: leak_testing/templates/leak_testing/leak_testing.html:542
+#: leak_testing/templates/leak_testing/leak_testing.html:671
+msgid "Data sharing w PLCs and robots via TCP and industrial protocols."
+msgstr ""
+"TCP ve endüstriyel protokoller aracılığıyla PLC'ler ve robotlarla veri "
+"paylaşımı"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:466
+#: leak_testing/templates/leak_testing/leak_testing.html:595
+msgid "Are you interested ?"
+msgstr "İlgileniyor musunuz?"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:469
+#: leak_testing/templates/leak_testing/leak_testing.html:598
+msgid "Contact Us"
+msgstr "Bize Ulaşın"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:477
+#: leak_testing/templates/leak_testing/leak_testing.html:608
+#: leak_testing/templates/leak_testing/leak_testing.html:735
+#: leak_testing/templates/leak_testing/leak_testing.html:805
+msgid "CONTACT"
+msgstr "İLETİŞİM"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:522
 msgid "2 Channel Differential/Relative Leak Testing Device"
 msgstr "2 Kanallı Diferansiyel/Göreceli Sızıntı Testi Cihazı"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:590
+#: leak_testing/templates/leak_testing/leak_testing.html:525
 msgid "100 Part & Test Memory"
 msgstr "100 Parça ve Test Hafızası"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:593
+#: leak_testing/templates/leak_testing/leak_testing.html:528
 msgid " Usage like Mobile Phone "
 msgstr "Mobil Telefon Gibi Kullanım"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:658
+#: leak_testing/templates/leak_testing/leak_testing.html:651
+msgid "1 Channel A Relative Leak Testing Measurement Device"
+msgstr "1 Kanallı Göreceli Sızıntı Testi Ölçüm Cihazı"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:654
+msgid "Test Pressure Rage: 0.2 - 7 Bar"
+msgstr "Test Basınç Aralığı: 0.2 - 7 Bar"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:654
+msgid "Max Leak Val: 999.99cm3/min"
+msgstr "Maksimum Sızıntı Değeri: 999.99 cm³/dak"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:657
+msgid "Leak Val Resolution: 0.01cm3/min"
+msgstr "Sızıntı Değeri Çözünürlüğü: 0.01 cm³/dak"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:657
+msgid "7\" TFT Color  "
+msgstr "7\" TFT Renkli Ekran"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:660
+msgid "Password protected paremeters"
+msgstr "Parola korumalı parametreler"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:663
+msgid "Relative Pressure Drop"
+msgstr "Göreceli Basınç Düşüşü"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:667
+msgid "Multiple Language Support"
+msgstr "Çoklu Dil Desteği"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:721
 msgid "Why you should choose Kao Metrology ? "
 msgstr "Neden Kao Metroloji'yi Tercih Etmelisiniz?"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:662
+#: leak_testing/templates/leak_testing/leak_testing.html:725
 msgid ""
 "\n"
 "              With our next-generation leak testing devices, you can conduct "
@@ -363,17 +406,17 @@ msgstr ""
 "Ayrıca, kaydedilen sonuçları analiz için dahili Wi-Fi ile Kao yazılımına "
 "aktarabilirsiniz."
 
-#: leak_testing/templates/leak_testing/leak_testing.html:737
+#: leak_testing/templates/leak_testing/leak_testing.html:800
 msgid "MENU"
 msgstr "MENÜ"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:747
+#: leak_testing/templates/leak_testing/leak_testing.html:810
 #, fuzzy
 #| msgid "PRODUCTS"
 msgid "PRODUCTS"
 msgstr "ÜRÜNLER"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:752
+#: leak_testing/templates/leak_testing/leak_testing.html:815
 msgid "BLOG"
 msgstr "BLOG"
 
