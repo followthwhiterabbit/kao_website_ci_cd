@@ -16639,8 +16639,8 @@ model-viewer[ar-status="session-started"] > #ar-prompt {
 
 .display-2
 {
-  font-size: 0.5rem;
-  line-height: 0.8;
+  font-size: 1.5rem !important;
+  line-height: 0.7;
 }
 
 .display-7_new
