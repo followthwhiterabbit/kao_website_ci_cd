@@ -16645,14 +16645,14 @@ model-viewer[ar-status="session-started"] > #ar-prompt {
 
 .display-7_new
 {
-  font-size: 0.5rem !important; 
+  font-size: 0.7rem !important; 
 }
 
 
 .media_content_new
  {
   max-width: 240px;
-  max-height: 150px;
+  max-height: 250px;
   margin: auto;
   margin-left: auto;
   padding: 0.5rem;
