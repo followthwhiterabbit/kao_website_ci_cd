@@ -2076,19 +2076,19 @@ progress {
 
 .display-2
 {
-  font-size: 1.4rem;
-  line-height: 0.2;
+  font-size: 0.9rem !important;
+  line-height: 0.8;
 }
 
 .display-7_new
 {
-  font-size: 0.7rem !important; 
+  font-size: 0.5rem !important; 
 }
 
 
 .media_content_new
  {
-  max-width: 240px;
+  width: 200px;
   max-height: 300px;
   margin: auto;
   margin-left: auto;
