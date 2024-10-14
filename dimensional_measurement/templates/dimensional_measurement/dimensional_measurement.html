@@ -85,7 +85,7 @@
                                 <li><a class="dropdown-item" href="/de/dimensionalmeasurement"><img src="{% static 'about/German.png' %}" alt="German flag" style="width: 25px; height: auto;">{% trans 'German' %}</a></li>
                                 <li><a class="dropdown-item" href="/it/dimensionalmeasurement"><img src="{% static 'about/Italy.png' %}" alt="Italian flag" style="width: 25px; height: auto;">{% trans 'Italian' %}</a></li>
                                 <li><a class="dropdown-item" href="/pl/dimensionalmeasurement"><img src="{% static 'about/Poland.png' %}" alt="Polish flag" style="width: 25px; height: auto;">{% trans 'Polish' %}</a></li>
-                                <li><a class="dropdown-item" href="/es/dimensionameasurement"><img src="{% static 'about/Spain.png' %}" alt="Spanish flag" style="width: 25px; height: auto;">{% trans 'Spanish' %}</a></li>
+                                <li><a class="dropdown-item" href="/es/dimensionalmeasurement"><img src="{% static 'about/Spain.png' %}" alt="Spanish flag" style="width: 25px; height: auto;">{% trans 'Spanish' %}</a></li>
 
                             </ul>
                         </li>
@@ -119,18 +119,19 @@
 
 
 
-
-
-  <section class="header3 cid-ryh9am114g" id="content01-3d">
+  <section class="header3 cid-ryh9am114g " id="content01-3d" style="background-image: url({% static 'about/air_gage_page.jpeg' %}); position:relative; background-size: cover; background-position: center;">   
     <div class="container-fluid">
+
       <div class="row">
-        <div class="col-md-12 col-lg-6 py-5 m-auto">
-          <div class="media-content">
-            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+
+        <div class="col-md-12 col-lg-6 py-5 m-auto"> 
+          <div class="media-content align-new-left dimensi_entr media_content_new" >   
+            <div class="mbr-section-text mbr-white pb-3 ">
+<h1 class="mbr-section-title align-new-left mbr-bold mbr-white pb-1 mbr-fonts-style display-2">
               {% trans ' What is Air-Gaging ?' %}
             </h1>
-            <div class="mbr-section-text mbr-white pb-3 ">
-              <p class="mbr-text align-center align-center mbr-fonts-style display-7">
+ 
+              <p class="mbr-text  mbr-fonts-style display-7 display-7_new ">
               {% blocktrans %}
 		Air gaging, also known as pneumatic gaging or air gauging, 
     is a metrological technique used for precision measurements in manufacturing and quality control processes. 
@@ -139,13 +140,21 @@
               {% endblocktrans %}
                 </p>
             </div>
+<!--
             <div class="mbr-section-btn align-center">
               <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'products_page' %}"  >
                 {% trans 'View More' %}
               </a>
             </div>
+      -->
           </div>
 
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
 
 
         </div>
@@ -155,274 +164,7 @@
   </section>
 
 
-
-    <section class="cid-ryhbKc0wrA" id="minisx">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="image-block">
-            <img src="{% static 'about/minisx_plus.webp' %}" alt="4 Channel AirGage Produced by KAO Metrology">
-            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
-              <div class="wrap">
-                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  MiniSx+
-                 </h4>
-                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-                </p>
-              </div>
-            </figcaption>
-          </div>
-
-
-          
-        </div>
-
-<div class="col-lg-4">
  
-
-        <p class="pb-2 mbr-black align-left mbr-fonts-style display-5 py-5">
-               <h7> &#x2022 {% trans '2-4 Channel Multiple Showings'%}   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans 'Part Counting Functions'%}</h7>
-            <br >
-            <br>
-               <h7>  &#x2022  {% trans 'Resolution: 0.1um' %} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans '100 Part Memory'%} </h7>
-             <br>
-             <br>
-               <h7>  &#x2022  {% trans 'Repeatability: 0.1um' %} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;    &#x2022 {% trans '100 Measurement memory'%}  </h7>
-          <br>
-            <br>
-               <h7>  &#x2022  {% trans 'Use internal regulators w ease ' %} &nbsp; &nbsp;  &#x2022  {% trans 'USB & RS232 Barcode Usage' %}</h7>
-            <br>
-            <br>
-               <h7>  &#x2022 {%  trans 'Open and Close Air with part'%} <img src="{% static 'about/leaf.png' %}" style="width: 30px; height: 30px;" alt="Ecologicaly Friendly Test Device">  &nbsp;  &#x2022 {% trans 'Storing Last 10000 Records' %} </h7>
-            
-          <br>
-          <br>
-               <h7>  &#x2022  {% trans 'Callibration with one button' %}  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans 'FMODUL plugins.' %} </h7>
-          <br>
-          <br>
-
-               <h7>  &#x2022  {% trans 'Data sharing w PLCs and robots via TCP and industrial protocols.' %} </h7>
-              <br>
-              <br>
-               <h7>  &#x2022  {% trans  'Wireless Ethernet Connection & Ethernet Cable connection' %}   </h7>
-
-            
-                <a class="btn btn-md btn-black display-4 align-center"  a href= "{% static 'about/MiniSX_tur.pdf'%}" download="KAOX_tur.pdf">
-                PDF(Tur)
-               </a>
-                
-               <a class="btn btn-md btn-black display-4 align-center"  a href= "{% static 'about/MiniSX_tur.pdf'%}" download="MiniSX_en.pdf">
-                PDF(Eng)
-               </a>
-              
-               <a class="btn btn-md btn-black display-4 align-center"  a href= "{% static 'about/MiniSX_tur.pdf'%}" download="MiniSX_de.pdf">
-                PDF(Deu)
-               </a>
-
-
-
-
-                </p>
-
-          
-        </div>
-
-<!--
-        <div class="col-lg-4">
-
-          <div class="video-container" style="width: 100%;">
-           <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/hIFjIKWcKsI?autoplay=1" frameborder="0" allowfullscreen></iframe>
-  </video>
-</div>
-
-
-        </div>
-      -->
-    
-
-
-
-        </div>
-
-        
-
-
-
-        
-     
-         
-
-        </div>
-
-        
-   
-  </section>
-
-  
-         
-  <section class="header3 cid-ryh9am114g" id="content01-3d-contactus">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 col-lg-6 py-5 m-auto">
-          <div class="media-content">
-            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              {% trans 'Are you interested ?' %}
-            </h1>
-      <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-        {% trans 'Contact Us' %}
-            </h1>
-            <div class="mbr-section-text mbr-white pb-3 ">
-              <p class="mbr-text align-right align-right mbr-fonts-style display-7">
-
-			   
-                </p>
-            </div>
-            <div class="mbr-section-btn align-center">
-              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'contact_page' %}"  >
-                {% trans 'CONTACT' %} </a>
-            </div>
-          </div>
-
-
-        </div>  
-      </div>
-    </div>
-  </section>
-
-
-
-
-
-
-
-  <section class="cid-ryhbKc0wrA" id="Kaox">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="image-block">
-            <img src="{% static 'about/kaoxc.webp' %}" alt="2/4 Channel AirGage Produced by Kao Metrology">
-            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
-              <div class="wrap">
-                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
-                  KA0X 
-                </h4>
-                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
-
-                </p>
-              </div>
-            </figcaption>
-          </div>
-        </div>
-
-<div class="col-lg-4">
-  <!--
-        <p class="pb-2 mbr-bold align-leftmbr-fonts-style display-5 py-5">
-          <h7>FEATURES</h7>
-        </p>  
-      -->
-
-        <p class="pb-2 mbr-black align-left mbr-fonts-style display-5 py-5">
-               <h7> &#x2022 {% trans '2-4 Channel Multiple Showings'%}   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans 'Part Counting Functions'%}</h7>
-            <br >
-            <br>
-               <h7>  &#x2022  {% trans 'Resolution: 0.1um' %} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans '100 Part Memory'%} </h7>
-             <br>
-             <br>
-               <h7>  &#x2022  {% trans 'Repeatability: 0.1um' %} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;    &#x2022 {% trans '100 Measurement memory'%}  </h7>
-          <br>
-            <br>
-               <h7>  &#x2022  {% trans 'Use internal regulators w ease ' %}  &nbsp; &#x2022  {% trans 'USB & RS232 Barcode Usage' %}</h7>
-            <br>
-            <br>
-               <h7>  &#x2022 {%  trans 'Open and Close Air with part'%} <img src="{% static 'about/leaf.png' %}" style="width: 30px; height: 30px;" alt="Ecologicaly Friendly Test Device">  &nbsp;   &#x2022 {% trans 'Storing Last 10000 Records' %} </h7>
-            
-          <br>
-          <br>
-               <h7>  &#x2022  {% trans 'Callibration with one button' %}  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans 'FMODUL plugins.' %} </h7>
-          <br>
-          <br>
-
-               <h7>  &#x2022  {% trans 'Data sharing w PLCs and robots via TCP and industrial protocols.' %} </h7>
-              <br>
-              <br>
-               <h7>  &#x2022  {% trans  'Wireless Ethernet Connection & Ethernet Cable connection' %}   </h7>
-
-            
-                <a class="btn btn-md btn-black display-4 align-center"  a href= "{% static 'about/KA0X_tur.pdf'%}" download="KAOX_tur.pdf">
-                PDF(Tur)
-               </a>
-                
-               <a class="btn btn-md btn-black display-4 align-center"  a href= "{% static 'about/KA0X_tur.pdf'%}" download="KA0X_en.pdf">
-                PDF(Eng)
-               </a>
-              
-               <a class="btn btn-md btn-black display-4 align-center"  a href= "{% static 'about/KA0X_tur.pdf'%}" download="KA0X_en.pdf">
-                PDF(Deu)
-               </a>
-
-
-
-
-                </p>
-
-          
-        </div>
-
-
-
-
-        </div>
-    
-    </div>
-  </section>
-
-
-
-
-
-
-
-
-
-
- <section class="header3 cid-ryh9am114g" id="content01-3d">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 col-lg-6 py-5 m-auto">
-          <div class="media-content">
-            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
-              {% trans 'Reason for Air-gaging ?' %}
-            </h1>
-      <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-4">
-           </h1>
-            <div class="mbr-section-text mbr-white pb-3 ">
-              <p class="mbr-text align-center align-center mbr-fonts-style display-7">
-        {% trans 'Air gaging is commonly used in situations where high precision is required, especially in industries like machining, automotive manufacturing, and aerospace. It is known for its speed, accuracy, and the ability to measure tight tolerances. Air gaging is particularly suitable for measuring features like bores, grooves, and other internal dimensions where traditional contact methods might be challenging or impractical.' %}
-          </p>
-
-        <p class="mbr-text align-center align-center mbr-fonts-style display-7"> 
-        {% trans 'We offer the best products and the services  to our customers and the distributors all around the world.' %}
-                </p>
-
-
-
-
-            </div>
-            <div class="mbr-section-btn align-center">
-              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'contact_page' %}"  >
-                {% trans 'GET A QUOTE' %}
-               </a>
-            </div>
-          </div>
-
-
-        </div>  
-      </div>
-    </div>
-  </section>
-
-
-
 
 
 
@@ -673,9 +415,269 @@
 
 
 
+  <section class="header3 cid-ryh9am114g" id="content01-3d">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 py-5 m-auto">
+          <div class="media-content">
+            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+              {% trans 'Reason for Air-gaging ?' %}
+            </h1>
+      <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-4">
+           </h1>
+            <div class="mbr-section-text mbr-white pb-3 ">
+              <p class="mbr-text align-center align-center mbr-fonts-style display-7">
+        {% trans 'Air gaging is commonly used in situations where high precision is required, especially in industries like machining, automotive manufacturing, and aerospace. It is known for its speed, accuracy, and the ability to measure tight tolerances. Air gaging is particularly suitable for measuring features like bores, grooves, and other internal dimensions where traditional contact methods might be challenging or impractical.' %}
+          </p>
+
+        <p class="mbr-text align-center align-center mbr-fonts-style display-7"> 
+        {% trans 'We offer the best products and the services  to our customers and the distributors all around the world.' %}
+                </p>
+
+
+
+
+            </div>
+            <div class="mbr-section-btn align-center">
+              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'contact_page' %}"  >
+                {% trans 'GET A QUOTE' %}
+               </a>
+            </div>
+          </div>
+
+
+        </div>  
+      </div>
+    </div>
+  </section>
+
+ 
+
+
+
+    <section class="cid-ryhbKc0wrA" id="minisx">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="image-block">
+            <img src="{% static 'about/minisx_plus.webp' %}" alt="4 Channel AirGage Produced by KAO Metrology">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
+                  MiniSx+
+                 </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+                </p>
+              </div>
+            </figcaption>
+          </div>
+
+
+          
+        </div>
+
+<div class="col-lg-4">
+ 
+
+        <p class="pb-2 mbr-black align-left mbr-fonts-style display-5 py-5">
+               <h7> &#x2022 {% trans '2-4 Channel Multiple Showings'%}   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans 'Part Counting Functions'%}</h7>
+            <br >
+            <br>
+               <h7>  &#x2022  {% trans 'Resolution: 0.1um' %} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans '100 Part Memory'%} </h7>
+             <br>
+             <br>
+               <h7>  &#x2022  {% trans 'Repeatability: 0.1um' %} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;    &#x2022 {% trans '100 Measurement memory'%}  </h7>
+          <br>
+            <br>
+               <h7>  &#x2022  {% trans 'Use internal regulators w ease ' %} &nbsp; &nbsp;  &#x2022  {% trans 'USB & RS232 Barcode Usage' %}</h7>
+            <br>
+            <br>
+               <h7>  &#x2022 {%  trans 'Open and Close Air with part'%} <img src="{% static 'about/leaf.png' %}" style="width: 30px; height: 30px;" alt="Ecologicaly Friendly Test Device">  &nbsp;  &#x2022 {% trans 'Storing Last 10000 Records' %} </h7>
+            
+          <br>
+          <br>
+               <h7>  &#x2022  {% trans 'Callibration with one button' %}  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans 'FMODUL plugins.' %} </h7>
+          <br>
+          <br>
+
+               <h7>  &#x2022  {% trans 'Data sharing w PLCs and robots via TCP and industrial protocols.' %} </h7>
+              <br>
+              <br>
+               <h7>  &#x2022  {% trans  'Wireless Ethernet Connection & Ethernet Cable connection' %}   </h7>
+
+            
+                <a class="btn btn-md btn-black display-4 align-center"  a href= "{% static 'about/MiniSX_tur.pdf'%}" download="KAOX_tur.pdf">
+                PDF(Tur)
+               </a>
+                
+               <a class="btn btn-md btn-black display-4 align-center"  a href= "{% static 'about/MiniSX_tur.pdf'%}" download="MiniSX_en.pdf">
+                PDF(Eng)
+               </a>
+              
+               <a class="btn btn-md btn-black display-4 align-center"  a href= "{% static 'about/MiniSX_tur.pdf'%}" download="MiniSX_de.pdf">
+                PDF(Deu)
+               </a>
+
+
+
+
+                </p>
+
+          
+        </div>
+
+<!--
+        <div class="col-lg-4">
+
+          <div class="video-container" style="width: 100%;">
+           <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/hIFjIKWcKsI?autoplay=1" frameborder="0" allowfullscreen></iframe>
+  </video>
+</div>
+
+
+        </div>
+      -->
+    
+
+
+
+        </div>
+
+        
+
+
+
+        
+     
+         
+
+        </div>
+
+        
+   
+  </section>
+
+  
+         
+  <section class="header3 cid-ryh9am114g" id="content01-3d-contactus">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-lg-6 py-5 m-auto">
+          <div class="media-content">
+            <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+              {% trans 'Are you interested ?' %}
+            </h1>
+      <h1 class="mbr-section-title align-center mbr-bold mbr-white pb-3 mbr-fonts-style display-2">
+        {% trans 'Contact Us' %}
+            </h1>
+            <div class="mbr-section-text mbr-white pb-3 ">
+              <p class="mbr-text align-right align-right mbr-fonts-style display-7">
+
+			   
+                </p>
+            </div>
+            <div class="mbr-section-btn align-center">
+              <a class="btn btn-md btn-white-outline display-4" a href= "{% url 'contact_page' %}"  >
+                {% trans 'CONTACT' %} </a>
+            </div>
+          </div>
+
+
+        </div>  
+      </div>
+    </div>
   </section>
 
 
+
+
+
+
+
+  <section class="cid-ryhbKc0wrA" id="Kaox">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="image-block">
+            <img src="{% static 'about/kaoxc.webp' %}" alt="2/4 Channel AirGage Produced by Kao Metrology">
+            <figcaption class="mbr-figure-caption mbr-figure-caption-over">
+              <div class="wrap">
+                <h4 class="pb-2 mbr-white mbr-bold align-center mbr-fonts-style display-2"> 
+                  KA0X 
+                </h4>
+                <p class="pb-2 mbr-white align-center mbr-fonts-style display-2">
+
+                </p>
+              </div>
+            </figcaption>
+          </div>
+        </div>
+
+<div class="col-lg-4">
+  <!--
+        <p class="pb-2 mbr-bold align-leftmbr-fonts-style display-5 py-5">
+          <h7>FEATURES</h7>
+        </p>  
+      -->
+
+        <p class="pb-2 mbr-black align-left mbr-fonts-style display-5 py-5">
+               <h7> &#x2022 {% trans '2-4 Channel Multiple Showings'%}   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans 'Part Counting Functions'%}</h7>
+            <br >
+            <br>
+               <h7>  &#x2022  {% trans 'Resolution: 0.1um' %} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans '100 Part Memory'%} </h7>
+             <br>
+             <br>
+               <h7>  &#x2022  {% trans 'Repeatability: 0.1um' %} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;    &#x2022 {% trans '100 Measurement memory'%}  </h7>
+          <br>
+            <br>
+               <h7>  &#x2022  {% trans 'Use internal regulators w ease ' %}  &nbsp; &#x2022  {% trans 'USB & RS232 Barcode Usage' %}</h7>
+            <br>
+            <br>
+               <h7>  &#x2022 {%  trans 'Open and Close Air with part'%} <img src="{% static 'about/leaf.png' %}" style="width: 30px; height: 30px;" alt="Ecologicaly Friendly Test Device">  &nbsp;   &#x2022 {% trans 'Storing Last 10000 Records' %} </h7>
+            
+          <br>
+          <br>
+               <h7>  &#x2022  {% trans 'Callibration with one button' %}  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &#x2022 {% trans 'FMODUL plugins.' %} </h7>
+          <br>
+          <br>
+
+               <h7>  &#x2022  {% trans 'Data sharing w PLCs and robots via TCP and industrial protocols.' %} </h7>
+              <br>
+              <br>
+               <h7>  &#x2022  {% trans  'Wireless Ethernet Connection & Ethernet Cable connection' %}   </h7>
+
+            
+                <a class="btn btn-md btn-black display-4 align-center"  a href= "{% static 'about/KA0X_tur.pdf'%}" download="KAOX_tur.pdf">
+                PDF(Tur)
+               </a>
+                
+               <a class="btn btn-md btn-black display-4 align-center"  a href= "{% static 'about/KA0X_tur.pdf'%}" download="KA0X_en.pdf">
+                PDF(Eng)
+               </a>
+              
+               <a class="btn btn-md btn-black display-4 align-center"  a href= "{% static 'about/KA0X_tur.pdf'%}" download="KA0X_en.pdf">
+                PDF(Deu)
+               </a>
+
+
+
+
+                </p>
+
+          
+        </div>
+
+
+
+
+        </div>
+    
+    </div>
+  </section>
+
+
+
+ 
 
 
   <section class="map1 cid-ryha8paJop" id="map01-3h">

@@ -16631,6 +16631,35 @@ model-viewer[ar-status="session-started"] > #ar-prompt {
 }
 
 
+.mbr-text
+{
+  font-style: normal;
+  line-height: 2;
+}
+
+.display-2
+{
+  font-size: 1.4rem;
+  line-height: 0.2;
+}
+
+.display-7_new
+{
+  font-size: 0.5rem !important; 
+}
+
+
+.media_content_new
+ {
+  max-width: 240px;
+  max-height: 150px;
+  margin: auto;
+  margin-left: auto;
+  padding: 0.5rem;
+}
+
+
+
 
 }
 
@@ -16640,4 +16669,16 @@ model-viewer[ar-status="session-started"] > #ar-prompt {
 width: 100px;
 color:#fff;
 color:var(--bs-btn-hover-bg);  
+}
+
+
+.align-new-left
+{
+margin-left: 0px !important;
+}
+
+
+.dimensi_entr
+{
+background-color: #ffbb99; border-radius: 15px; padding: 20px;
 }
