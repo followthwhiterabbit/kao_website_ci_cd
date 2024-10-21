@@ -34,6 +34,7 @@ ALLOWED_HOSTS = ['hightech-metrology.com', 'www.hightech-metrology.com']  # in s
 
 #ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0']  # in local 
 
+
 from django.utils.translation import gettext_lazy as _
 
 LANGUAGES = [
