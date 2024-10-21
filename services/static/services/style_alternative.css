@@ -16553,6 +16553,15 @@ color:var(--bs-btn-hover-bg);
   width: 200px;
 }
 
+.responsive-yerli
+{
+
+  width: 200px !important; 
+  height: 100px !important;
+}
+
 
 
 }
+
+

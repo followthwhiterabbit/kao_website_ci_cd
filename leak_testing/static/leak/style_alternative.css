@@ -16664,6 +16664,14 @@ model-viewer[ar-status="session-started"] > #ar-prompt {
 }
 
 
+.responsive-yerli
+{
+
+  width: 200px !important; 
+  height: 100px !important;
+}
+
+
 
 
 }

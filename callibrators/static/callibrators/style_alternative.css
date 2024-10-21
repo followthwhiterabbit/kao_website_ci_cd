@@ -16531,6 +16531,13 @@ text-align: center;
   width: 200px;
 }
 
+.responsive-yerli
+{
+
+  width: 200px !important; 
+  height: 100px !important;
+}
+
 
 }
 

@@ -2100,6 +2100,14 @@ progress {
   font-size: xx-small;
 }
 
+.responsive-yerli
+{
+
+  width: 200px !important; 
+  height: 100px !important;
+}
+
+
 }
 
 
