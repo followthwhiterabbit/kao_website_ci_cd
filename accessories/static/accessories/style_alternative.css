@@ -16213,7 +16213,7 @@ strong {
 
 
 .logo-img {
-  height: 70px;
+  height: 91px;
   position: absolute;
   top: -3px;
   left:  0px;
@@ -16533,6 +16533,14 @@ color:var(--bs-btn-hover-bg);
   
 }
 
+
+
+.logo-img {
+  height: 65px;
+  position: absolute;
+  top: -3px;
+  left:  0px;
+}
 
 
 }

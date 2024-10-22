@@ -2127,6 +2127,14 @@ progress {
 }
 
 
+.logo-img {
+  height: 65px !important;
+  position: absolute;
+  top: -3px;
+  left:  0px;
+}
+
+
 
 
 }
