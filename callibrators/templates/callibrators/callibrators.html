@@ -36,9 +36,9 @@
 
 
     <nav class="navbar-eski  navbar-nav-eski navbar-brand-eski navbar-expand-lg navbar-dark-eski bg-blue-eski">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="navbar-collapse-eski" id="navbarSupportedContent">
+                <div class="navbar-collapse-eski show collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                         <li class="btn btn-secondary"><a class="active-new" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu'%}</a></li>
@@ -94,7 +94,7 @@
 <a href="{% url 'about_page' %}">
 
 <div id="company_logo">
-    <img src="{% static 'about/kao_logo.png' %}" class="logo-img" alt="Kao Metrology Logo">
+    <img src="{% static 'about/company_logo_new.jpeg' %}" class="logo-img" alt="Kao Metrology Logo">
 </div>  
 </a>
 
@@ -148,7 +148,97 @@
 
         </div>
 
-    </div>
+    </div@media (max-width: 412px) and (max-height: 915px) {
+
+      #carouselExampleIndicators {
+             display: none;
+         }
+     
+     .table-responsive-sm {
+             overflow-x: auto;
+             -webkit-overflow-scrolling: touch;
+         }
+     
+     .center_it
+     {
+       display:none; 
+     }
+     
+     .btn{
+       width: 200px;
+     }
+     
+     .nav-item
+     {
+       width: 200px;
+     }
+     
+     
+     .mbr-text
+     {
+       font-style: normal;
+       line-height: 2;
+     }
+     
+     .display-2
+     {
+       font-size: 1.5rem !important;
+       line-height: 0.7;
+     }
+     
+     .display-7_new
+     {
+       font-size: 0.5rem !important; 
+     }
+     
+     
+     .media_content_new
+      {
+       width: 200px;
+       max-height: 250px;
+       margin: auto;
+       margin-left: auto;
+       padding: 0.5rem;
+     }
+     
+     .media-content
+     {
+       
+     }
+     
+     
+     .responsive-yerli
+     {
+     
+       width: 200px !important; 
+       height: 100px !important;
+     }
+     
+     
+     .navbar-toggler-icon
+     {
+       position: relative; 
+       top:10px;
+       left: 300px;
+       z-index: 4;
+        
+     
+     }
+     
+     
+     
+     .company-logo
+     {
+       z-index: 4;
+       
+     }
+     
+     
+     
+     
+     
+     }
+     >
     </div>
   </section>
 

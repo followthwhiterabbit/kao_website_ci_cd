@@ -16515,4 +16515,24 @@ color:var(--bs-btn-hover-bg);
 }
 
 
+.navbar-toggler-icon
+{
+  position: relative; 
+  top:10px;
+  left: 300px;
+  z-index: 4;
+   
+
+}
+
+
+
+.company-logo
+{
+  z-index: 4;
+  
+}
+
+
+
 }

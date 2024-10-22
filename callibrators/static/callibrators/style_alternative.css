@@ -11108,15 +11108,6 @@ textarea.form-control-lg {
 
  */
 
-
-    #company_logo
-  {
-        position: absolute; 
-        left:0px;
-        top:3px;
-    }
-
-
    
 .rounded-rectangle {
       width: 800px; /* Adjust the width as needed */
@@ -16225,7 +16216,7 @@ strong {
 
 
 .logo-img {
-  height: 70px;
+  height: 91px;
   position: absolute;
   top: -3px;
   left:  0px;
@@ -16537,6 +16528,26 @@ text-align: center;
   width: 200px !important; 
   height: 100px !important;
 }
+
+.navbar-toggler-icon
+{
+  position: relative; 
+  top:10px;
+  left: 300px;
+  z-index: 4;
+   
+
+}
+
+
+
+.company-logo
+{
+  z-index: 4;
+  
+}
+
+
 
 
 }
