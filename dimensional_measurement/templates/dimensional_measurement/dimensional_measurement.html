@@ -679,7 +679,7 @@
 
 
  
-
+<!--
 
   <section class="map1 cid-ryha8paJop" id="map01-3h">
     <div class="google-map">
@@ -788,4 +788,193 @@
     <noscript>
     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1123285727682531&amp;ev=PageView&amp;noscript=1" alt="Facebook Logo of KAO Metrology">
   </noscript>
+-->
+  
+
+<div class="">
+
+<script>
+var word1 = 'pressure';
+var word2 = 'metrology';
+var baseText = 'a ';
+var suffixText = ' company';
+var part, i = 0, offset = 0, forwards = true, speed = 250, delay = 10, delayCounter = 0;
+
+var wordSwitch = function () {
+    setInterval(function () {
+        // Determine the current word and its length
+        var word = (i == 0) ? word1 : word2;
+        var wordLength = word.length;
+
+        if (forwards) {
+            if (offset >= wordLength) {
+                delayCounter++;
+                if (delayCounter == delay) {
+                    forwards = false;  // Switch to delete mode
+                    delayCounter = 0;
+                }
+            }
+        } else {
+            if (offset == 0) {
+                forwards = true;
+                i = (i == 0) ? 1 : 0;  // Switch between word1 and word2
+            }
+        }
+
+        // Get the part of the word that should be shown
+        part = word.substr(0, offset);
+
+        // Change the offset (move forward or backward)
+        if (delayCounter == 0) {
+            if (forwards) {
+                offset++;
+            } else {
+                offset--;
+            }
+        }
+
+        // Display the full text "a [changing word] company"
+        $('.word').text(baseText + part + suffixText);
+    }, speed);
+};
+
+$(document).ready(function () {
+    wordSwitch();
+});
+</script>
+
+	    <!----------- Footer ------------>
+    <footer class="footer-bs bg-body-tertiary">
+        <div class="row">
+        	<div class="col-md-3  footer-brand animated fadeInLeft align-left">
+                <img src="{% static 'about/company_logo_new.jpeg' %}" alt="company logo new" style="width:200px; height:100px; margin-left: 10%; filter: blur(1px);">  
+                
+                <p>Üniversite mah.Firuzköy Bulvari No:79/1 , 34315, Istanbul, Turkiye<p>
+                <p>kao@kaometrology.com</p>
+                <p>Tel: +90 212 591 70 39 / 40 </p>
+                <p>© 2024 Kao Metrology, All rights reserved</p>
+
+                    <div class="sliding_word sliding_word_mob">
+                <span class="word"></span>
+                    </div>
+                      <br>
+          
+            </div>
+          
+        	<div class="col-md-3 footer-nav animated fadeInUp">
+            	<h4>Products —</h4>
+            	<div class="col-md-6">
+                    <ul class="pages mbr-light  ">
+                      <div class="  btn btn-white-outline btn-mobile btn-web">
+                        <li><a href="{% url 'dimensional_measurement' %}">Air Gaging Devices</a></li>
+                        </div>
+                      <div class="btn btn-white-outline btn-mobile btn-web">
+                        <li><a href="{% url 'leak_testing' %}">Leak Testers</a></li>
+                        </div>
+                      <div class="btn btn-white-outline btn-mobile btn-web" >
+                        <li><a href="{% url 'callibrators' %}">Flow Callibrators</a></li>
+                        </div>
+
+                      <div class="btn btn-white-outline btn-mobile btn-web" >
+                        <li><a href="{% url 'callibrators' %}#scanner">Pressure Scanners</a></li>
+                        </div>
+
+                      <div class="btn btn-white-outline btn-mobile btn-web" >
+                        <li><a href="{% url 'accessories' %}">Accessories</a></li>
+                        </div>
+                    </ul>
+                </div>
+               <!-- 
+            	<div class="col-md-6">
+                    <ul class="list">
+                        <li><a href="#"></a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+              -->
+            </div>
+        
+
+
+
+
+            
+      <div class="col-md-3 footer-nav animated fadeInUp">
+            	<h4>Internal Links —</h4>
+            	<div class="col-md-6">
+                    <ul class="pages">
+                <div class="btn btn-white-outline btn-mobile btn-web" >
+                        <li><a href="{% url 'about_page' %}">Menu</a></li>
+                        </div>
+
+                <div class="btn btn-white-outline btn-mobile btn-web" >
+                        <li><a href="{% url 'contact_page' %}">Contact</a></li>
+                        </div>
+
+                <div class="btn btn-white-outline btn-mobile btn-web" >
+                        <li><a href="{% url 'products_page' %}">Products</a></li>
+                        </div>
+
+                     
+                  <div class="btn btn-white-outline btn-mobile btn-web" >
+                        <li><a href="https://hightech-metrology.com/blog/">Blog</a></li>
+                        </div>
+
+
+                    </ul>
+                </div>
+            	
+            </div>
+
+
+        	<div class="col-md-2 footer-social animated fadeInDown">
+            	<h4>Follow Us</h4>
+            	<ul>
+          <a href="https://www.linkedin.com/company/kao-metrology/">
+            <img src="{% static 'about/LI-In-Bug.png' %}" alt="linked-in logo" style="width:50px; height:50px;">
+        </a>
+          
+        <a href="https://www.facebook.com/profile.php?id=61554340107729">
+            <img src="{% static 'about/facebook_new_logo.png' %}" alt="facebook logo" style="width:50px; height:50px;">
+        </a>
+        
+        <a href="https://www.youtube.com/channel/UCO493TfIW7Lj_l8v8woqg8Q">
+            <img src="{% static 'about/youtube_logo_new.png' %}" alt="youtube logo" style="width:80px; height:80px;">
+        </a>
  
+ 
+        <div class="align-center align-ci-cd" >
+      <img src="{% static 'about/ci_cd_pipeline.png' %}" alt="ci_cd_logo" style="width:50px; height:50px;">  
+      <h6>CI-CD Pipeline</h6>
+      </div>
+
+     <img src="{% static 'about/turkiye-seeklogo.jpg' %}" alt="turkiyelogo" style="width:100px; height:100px;">
+    <img src="{% static 'about/yerli_uretim.jpeg' %}" alt="yerli uretim" style="width:145px; height:100px;" class="responsive-yerli">
+
+  
+
+
+                </ul>
+            </div>
+            <!--
+        	<div class="col-md-3 footer-ns animated fadeInRight">
+            	<h4>Newsletter</h4>
+                <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
+                <p>
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Search for...">
+                      <span class="input-group-btn">
+                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
+                      </span>
+                    </div>
+                 </p>
+            </div>
+          -->
+        </div>
+
+    </footer>
+
+
+</div>
