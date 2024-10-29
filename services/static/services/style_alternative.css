@@ -16548,16 +16548,144 @@ color:var(--bs-btn-hover-bg);
   width: 200px;
 }
 
+.btn-top{
+  width: 200px;
+  height: 125px;
+}
+
 .nav-item
 {
   width: 200px;
 }
+
+
+.mbr-text
+{
+  font-style: normal;
+  line-height: 2;
+}
+
+.display-2
+{
+  font-size: 1.5rem !important;
+  line-height: 0.7;
+}
+
+.display-7_new
+{
+  font-size: 0.5rem !important; 
+}
+
+
+.media_content_new
+ {
+  width: 200px;
+  max-height: 250px;
+  margin: auto;
+  margin-left: auto;
+  padding: 0.5rem;
+}
+
+.media-content
+{
+  
+}
+
 
 .responsive-yerli
 {
 
   width: 200px !important; 
   height: 100px !important;
+}
+
+
+
+.navbar-toggler-icon
+{
+  position: absolute; 
+  top:100px;
+  left: 50px;
+  z-index: 7;
+  background-color: #000000;
+}
+
+
+.navbar-collapse-eski {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: #001155; /* Set a background color if needed */
+    transition: all 1s ease;
+    z-index: 5;
+}
+
+
+.navbar-collapse-eski.show {
+    display: block; /* Shows when toggled */
+}
+
+
+/* Default Hamburger State */
+.navbar-toggler-icon-eski {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 48px;
+    height: 4px;
+    background-color: #fff; /* Color for the icon lines */
+    transition: all 0.3s ease;
+    z-index: 7;
+}
+
+.navbar-toggler-icon-eski::before,
+.navbar-toggler-icon-eski::after {
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 4px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    left: 0;
+}
+
+.navbar-toggler-icon-eski::before {
+    transform: translateY(-8px);
+}
+
+.navbar-toggler-icon-eski::after {
+    transform: translateY(8px);
+}
+
+/* Transform to Cross when Collapsed */
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon-eski {
+    background-color: transparent; /* Hide the center line when toggled */
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon-eski::before {
+    transform: rotate(45deg) translateY(0);
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon-eski::after {
+    transform: rotate(-45deg) translateY(0);
+}
+
+
+.navbar-collapse.collapsing {
+    height: auto !important;
+    margin-left: 0;
+    left: 0;
+    transition: all 0.2s ease;
+}
+
+
+.company-logo
+{
+  z-index: 4;
+  
 }
 
 
@@ -16576,10 +16704,6 @@ display: none;
 }
 
 
-.btn-mobile
-{
-  width: 50px !important;
-}
 
 
 }

@@ -46,20 +46,19 @@
 
     <nav class="navbar-eski navbar-expand-lg navbar-nav-eski navbar-brand-eski  navbar-dark-eski bg-blue-eski">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation" >
-              <span class="navbar-toggler-icon">
+              <span class="navbar-toggler-icon-eski">
 
                 </span>
               </button>
-            <div class="container">
 
-              
-                <div class="navbar-collapse-eski show collapse  " id="navbarSupportedContent" >
+            <div class="container">
+<div class="navbar-collapse-eski show collapse  " id="navbarSupportedContent" >
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-                        <li class="btn btn-top btn-secondary nav-item "><a class="active-new" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li>
+                        <li class="btn-white-outline btn btn-top "><a class="active-new" aria-current="page" href="{% url 'about_page' %}">{% trans 'Menu' %}</a></li>
 
 
-                         <li class=" btn btn-top btn-secondary nav-item dropdown" id="productsdropdown">
+                         <li class=" btn-white-outline btn btn-top  dropdown" id="productsdropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{% trans 'Products' %}</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="{% url 'dimensional_measurement' %}">{% trans 'Dimensional Measurement'  %}</a></li>
@@ -71,7 +70,7 @@
 
                        
 
-                             <li class="btn btn-top btn-secondary dropdown" id="servicesdropdown">
+                             <li class="btn btn-white-outline btn-top dropdown" id="servicesdropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{% trans 'Services' %}</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" a href="{% url 'services'%}#probes">{% trans 'Probe Design'  %}</a></li>
@@ -81,19 +80,19 @@
                           </ul>
                         </li>
                   
-                        <li class="btn btn-top btn-secondary"><a class="nav-link active-new" aria-current="page" href="https://hightech-metrology.com/blog/">{% trans 'Blog' %}</a></li>
+                        <li class="btn btn-white-outline btn-top"><a class="nav-link active-new" aria-current="page" href="https://hightech-metrology.com/blog/">{% trans 'Blog' %}</a></li>
 
     
 
 <!--                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="{% url 'services' %}">{% trans 'Services' %}</a></li>--> 
                    
-                        <li class="btn btn-top btn-secondary"><a class="nav-link active-new" aria-current="page" href="{% url 'contact_page' %}"> {% trans 'Contact' %}</a></li>   
+                        <li class="btn btn-top btn-white-outline"><a class="nav-link active-new" aria-current="page" href="{% url 'contact_page' %}"> {% trans 'Contact' %}</a></li>   
       
                    
 
                       
                       
-                      <li class=" btn btn-top btn-secondary dropdown" id="languageDropdown">
+                      <li class=" btn btn-top btn-white-outline  dropdown" id="languageDropdown">
                           <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="{% static 'about/language.svg' %}" alt="language icon">
                                 Languages
