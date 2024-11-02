@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 11:59+0300\n"
+"POT-Creation-Date: 2024-11-02 20:16+0300\n"
 "PO-Revision-Date: 2024-02-10 12:56+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,36 +19,36 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: mysite/settings.py:40
+#: mysite/settings.py:42
 msgid "English"
 msgstr "Englisch"
 
-#: mysite/settings.py:41
+#: mysite/settings.py:43
 msgid "German"
 msgstr "Deutsch "
 
-#: mysite/settings.py:42
+#: mysite/settings.py:44
 msgid "French"
 msgstr "Franzosisch"
 
-#: mysite/settings.py:43
+#: mysite/settings.py:45
 msgid "Spanish"
 msgstr "Spanisch"
 
-#: mysite/settings.py:44
+#: mysite/settings.py:46
 #, fuzzy
 #| msgid "English"
 msgid "Polish"
 msgstr "Englisch"
 
-#: mysite/settings.py:45
+#: mysite/settings.py:47
 msgid "Italian"
 msgstr ""
 
-#: mysite/settings.py:46
+#: mysite/settings.py:48
 msgid "Turkish"
 msgstr ""
 
-#: mysite/settings.py:47
+#: mysite/settings.py:49
 msgid "Russian"
 msgstr ""

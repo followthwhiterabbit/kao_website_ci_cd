@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 11:59+0300\n"
+"POT-Creation-Date: 2024-11-02 20:16+0300\n"
 "PO-Revision-Date: 2024-09-19 11:10+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,95 +19,100 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: contact_page/templates/contact_page/contact_page.html:37
+#: contact_page/templates/contact_page/contact_page.html:41
 msgid "Menu"
 msgstr "Menu"
 
-#: contact_page/templates/contact_page/contact_page.html:41
+#: contact_page/templates/contact_page/contact_page.html:43
+msgid "Products"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:45
 msgid "Dimensional Measurement"
 msgstr "Mesure Dimensionnelle"
 
-#: contact_page/templates/contact_page/contact_page.html:42
+#: contact_page/templates/contact_page/contact_page.html:46
 msgid "Leak Testing Devices"
 msgstr "Appareils de Test d'Étanchéité"
 
-#: contact_page/templates/contact_page/contact_page.html:43
+#: contact_page/templates/contact_page/contact_page.html:47
 msgid "Callibrators "
 msgstr "Calibrateurs"
 
-#: contact_page/templates/contact_page/contact_page.html:44
+#: contact_page/templates/contact_page/contact_page.html:48
 msgid "Accessories"
 msgstr "Accessoires"
 
-#: contact_page/templates/contact_page/contact_page.html:51
-msgid "Probe Design"
-msgstr "Conception de Sondes"
-
-#: contact_page/templates/contact_page/contact_page.html:52
-msgid "Automation Projects"
-msgstr "Projets d'Automatisation"
-
 #: contact_page/templates/contact_page/contact_page.html:53
-msgid "Softwares"
-msgstr "Logiciels"
-
-#: contact_page/templates/contact_page/contact_page.html:57
-msgid "Blog"
-msgstr "Blog"
-
-#: contact_page/templates/contact_page/contact_page.html:60
+#: contact_page/templates/contact_page/contact_page.html:64
 msgid "Services"
 msgstr "Services"
 
-#: contact_page/templates/contact_page/contact_page.html:61
+#: contact_page/templates/contact_page/contact_page.html:55
+msgid "Probe Design"
+msgstr "Conception de Sondes"
+
+#: contact_page/templates/contact_page/contact_page.html:56
+msgid "Automation Projects"
+msgstr "Projets d'Automatisation"
+
+#: contact_page/templates/contact_page/contact_page.html:57
+msgid "Softwares"
+msgstr "Logiciels"
+
+#: contact_page/templates/contact_page/contact_page.html:62
+msgid "Blog"
+msgstr "Blog"
+
+#: contact_page/templates/contact_page/contact_page.html:65
 msgid "Contact"
 msgstr "Contact"
 
-#: contact_page/templates/contact_page/contact_page.html:69
+#: contact_page/templates/contact_page/contact_page.html:74
 msgid "Turkish"
 msgstr "Turc"
 
-#: contact_page/templates/contact_page/contact_page.html:70
+#: contact_page/templates/contact_page/contact_page.html:75
 msgid "English"
 msgstr "Anglais"
 
-#: contact_page/templates/contact_page/contact_page.html:71
+#: contact_page/templates/contact_page/contact_page.html:76
 msgid "French"
 msgstr "Français"
 
-#: contact_page/templates/contact_page/contact_page.html:72
+#: contact_page/templates/contact_page/contact_page.html:77
 msgid "German"
 msgstr "Allemand"
 
-#: contact_page/templates/contact_page/contact_page.html:73
+#: contact_page/templates/contact_page/contact_page.html:78
 msgid "Italian"
 msgstr "Italien"
 
-#: contact_page/templates/contact_page/contact_page.html:74
+#: contact_page/templates/contact_page/contact_page.html:79
 msgid "Polish"
 msgstr "Polonais"
 
-#: contact_page/templates/contact_page/contact_page.html:75
+#: contact_page/templates/contact_page/contact_page.html:80
 msgid "Spanish"
 msgstr "Espagnol"
 
-#: contact_page/templates/contact_page/contact_page.html:210
+#: contact_page/templates/contact_page/contact_page.html:217
 msgid "MENU"
 msgstr "MENU"
 
-#: contact_page/templates/contact_page/contact_page.html:215
+#: contact_page/templates/contact_page/contact_page.html:222
 #, fuzzy
 #| msgid "CONTACT"
 msgid "CONTACT"
 msgstr "CONTACT"
 
-#: contact_page/templates/contact_page/contact_page.html:220
+#: contact_page/templates/contact_page/contact_page.html:227
 #, fuzzy
 #| msgid "PRODUCTS"
 msgid "PRODUCTS"
 msgstr "PRODUITS"
 
-#: contact_page/templates/contact_page/contact_page.html:225
+#: contact_page/templates/contact_page/contact_page.html:232
 msgid "BLOG"
 msgstr "BLOG"
 

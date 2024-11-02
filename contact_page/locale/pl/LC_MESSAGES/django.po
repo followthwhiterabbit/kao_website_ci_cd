@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 11:59+0300\n"
+"POT-Creation-Date: 2024-11-02 20:16+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,90 +20,95 @@ msgstr ""
 "(n%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
-#: contact_page/templates/contact_page/contact_page.html:37
+#: contact_page/templates/contact_page/contact_page.html:41
 msgid "Menu"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:41
+#: contact_page/templates/contact_page/contact_page.html:43
+msgid "Products"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:45
 msgid "Dimensional Measurement"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:42
+#: contact_page/templates/contact_page/contact_page.html:46
 msgid "Leak Testing Devices"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:43
+#: contact_page/templates/contact_page/contact_page.html:47
 msgid "Callibrators "
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:44
+#: contact_page/templates/contact_page/contact_page.html:48
 msgid "Accessories"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:51
-msgid "Probe Design"
-msgstr ""
-
-#: contact_page/templates/contact_page/contact_page.html:52
-msgid "Automation Projects"
-msgstr ""
-
 #: contact_page/templates/contact_page/contact_page.html:53
-msgid "Softwares"
-msgstr ""
-
-#: contact_page/templates/contact_page/contact_page.html:57
-msgid "Blog"
-msgstr ""
-
-#: contact_page/templates/contact_page/contact_page.html:60
+#: contact_page/templates/contact_page/contact_page.html:64
 msgid "Services"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:61
+#: contact_page/templates/contact_page/contact_page.html:55
+msgid "Probe Design"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:56
+msgid "Automation Projects"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:57
+msgid "Softwares"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:62
+msgid "Blog"
+msgstr ""
+
+#: contact_page/templates/contact_page/contact_page.html:65
 msgid "Contact"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:69
+#: contact_page/templates/contact_page/contact_page.html:74
 msgid "Turkish"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:70
+#: contact_page/templates/contact_page/contact_page.html:75
 msgid "English"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:71
+#: contact_page/templates/contact_page/contact_page.html:76
 msgid "French"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:72
+#: contact_page/templates/contact_page/contact_page.html:77
 msgid "German"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:73
+#: contact_page/templates/contact_page/contact_page.html:78
 msgid "Italian"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:74
+#: contact_page/templates/contact_page/contact_page.html:79
 msgid "Polish"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:75
+#: contact_page/templates/contact_page/contact_page.html:80
 msgid "Spanish"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:210
+#: contact_page/templates/contact_page/contact_page.html:217
 msgid "MENU"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:215
+#: contact_page/templates/contact_page/contact_page.html:222
 msgid "CONTACT"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:220
+#: contact_page/templates/contact_page/contact_page.html:227
 msgid "PRODUCTS"
 msgstr ""
 
-#: contact_page/templates/contact_page/contact_page.html:225
+#: contact_page/templates/contact_page/contact_page.html:232
 msgid "BLOG"
 msgstr ""

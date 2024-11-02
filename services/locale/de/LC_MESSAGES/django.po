@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 11:59+0300\n"
+"POT-Creation-Date: 2024-11-02 20:16+0300\n"
 "PO-Revision-Date: 2024-10-08 08:37+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,75 +19,80 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: services/templates/services/services.html:29
+#: services/templates/services/services.html:33
 msgid "Menu"
 msgstr "Startseite"
 
-#: services/templates/services/services.html:34
+#: services/templates/services/services.html:35
+msgid "Products"
+msgstr ""
+
+#: services/templates/services/services.html:37
 msgid "Dimensional Measurement"
 msgstr "Maßprüfung"
 
-#: services/templates/services/services.html:35
+#: services/templates/services/services.html:38
 msgid "Leak Testing Devices"
 msgstr "Lecktestgeräten"
 
-#: services/templates/services/services.html:36
+#: services/templates/services/services.html:39
 msgid "Callibrators "
 msgstr "Kalibratoren"
 
-#: services/templates/services/services.html:37
+#: services/templates/services/services.html:40
 msgid "Accessories"
 msgstr "Zubehör"
 
 #: services/templates/services/services.html:45
-msgid "Probe Design"
-msgstr "Sonden-Design"
-
-#: services/templates/services/services.html:46
-msgid "Automation Projects"
-msgstr "Automatisierungsprojekte"
-
-#: services/templates/services/services.html:47
-msgid "Softwares"
-msgstr "Software"
-
-#: services/templates/services/services.html:52
-msgid "Blog"
-msgstr "Blog"
-
-#: services/templates/services/services.html:55
+#: services/templates/services/services.html:56
 msgid "Services"
 msgstr "Dienstleistungen"
 
-#: services/templates/services/services.html:56
+#: services/templates/services/services.html:47
+msgid "Probe Design"
+msgstr "Sonden-Design"
+
+#: services/templates/services/services.html:48
+msgid "Automation Projects"
+msgstr "Automatisierungsprojekte"
+
+#: services/templates/services/services.html:49
+msgid "Softwares"
+msgstr "Software"
+
+#: services/templates/services/services.html:54
+msgid "Blog"
+msgstr "Blog"
+
+#: services/templates/services/services.html:57
 msgid "Contact"
 msgstr "Kontakt"
 
-#: services/templates/services/services.html:65
+#: services/templates/services/services.html:66
 msgid "Turkish"
 msgstr "Türkisch"
 
-#: services/templates/services/services.html:66
+#: services/templates/services/services.html:67
 msgid "English"
 msgstr "Englisch"
 
-#: services/templates/services/services.html:67
+#: services/templates/services/services.html:68
 msgid "French"
 msgstr "Französisch"
 
-#: services/templates/services/services.html:68
+#: services/templates/services/services.html:69
 msgid "German"
 msgstr "Deutsch"
 
-#: services/templates/services/services.html:69
+#: services/templates/services/services.html:70
 msgid "Italian"
 msgstr "Italienisch"
 
-#: services/templates/services/services.html:70
+#: services/templates/services/services.html:71
 msgid "Polish"
 msgstr "Polnisch"
 
-#: services/templates/services/services.html:71
+#: services/templates/services/services.html:72
 msgid "Spanish"
 msgstr "Spanisch"
 
@@ -274,23 +279,23 @@ msgstr ""
 "dem qdas precellla-Protokoll vor.\n"
 "Alle Operationen erfolgen ohne Benutzerintervention."
 
-#: services/templates/services/services.html:504
+#: services/templates/services/services.html:509
 msgid "MENU"
 msgstr "STARTSEITE"
 
-#: services/templates/services/services.html:509
+#: services/templates/services/services.html:514
 #, fuzzy
 #| msgid "<h4>CONTACT</h4>"
 msgid "CONTACT"
 msgstr "KONTAKT"
 
-#: services/templates/services/services.html:514
+#: services/templates/services/services.html:519
 #, fuzzy
 #| msgid "<h4>PRODUCTS</h4>"
 msgid "PRODUCTS"
 msgstr "PRODUKTE"
 
-#: services/templates/services/services.html:519
+#: services/templates/services/services.html:524
 msgid "BLOG"
 msgstr "BLOG"
 

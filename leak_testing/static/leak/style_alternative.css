@@ -16884,3 +16884,14 @@ background-color: #ffbb99; border-radius: 15px; padding: 20px;
   left: 0px !important;
 }
 
+.feature-item {
+    display: block;
+    margin: 2px 0;
+    font-size: 1em;
+}
+.feature-item-new {
+    display: block;
+    margin: 3px 0;
+    font-size: 1.5em;
+}
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 11:59+0300\n"
+"POT-Creation-Date: 2024-11-02 20:16+0300\n"
 "PO-Revision-Date: 2024-09-19 11:11+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,88 +19,88 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: callibrators/templates/callibrators/callibrators.html:44
+#: callibrators/templates/callibrators/callibrators.html:48
 msgid "Menu"
 msgstr "Menú"
 
-#: callibrators/templates/callibrators/callibrators.html:46
+#: callibrators/templates/callibrators/callibrators.html:50
 msgid "Products"
 msgstr "Productos"
 
-#: callibrators/templates/callibrators/callibrators.html:48
+#: callibrators/templates/callibrators/callibrators.html:52
 msgid "Dimensional Measurement"
 msgstr "Medición Dimensional"
 
-#: callibrators/templates/callibrators/callibrators.html:49
+#: callibrators/templates/callibrators/callibrators.html:53
 msgid "Leak Testing Devices"
 msgstr "Dispositivos de Prueba de Fugas"
 
-#: callibrators/templates/callibrators/callibrators.html:50
+#: callibrators/templates/callibrators/callibrators.html:54
 msgid "Callibrators "
 msgstr "Calibradores de flujo"
 
-#: callibrators/templates/callibrators/callibrators.html:51
+#: callibrators/templates/callibrators/callibrators.html:55
 msgid "Accessories"
 msgstr "Accesorios"
 
-#: callibrators/templates/callibrators/callibrators.html:56
-#: callibrators/templates/callibrators/callibrators.html:69
+#: callibrators/templates/callibrators/callibrators.html:60
+#: callibrators/templates/callibrators/callibrators.html:71
 msgid "Services"
 msgstr "Servicios"
 
-#: callibrators/templates/callibrators/callibrators.html:58
+#: callibrators/templates/callibrators/callibrators.html:62
 msgid "Probe Design"
 msgstr "Sondas"
 
-#: callibrators/templates/callibrators/callibrators.html:59
+#: callibrators/templates/callibrators/callibrators.html:63
 msgid "Automation Projects"
 msgstr "Proyectos de Automatización"
 
-#: callibrators/templates/callibrators/callibrators.html:60
+#: callibrators/templates/callibrators/callibrators.html:64
 msgid "Softwares"
 msgstr "Software"
 
-#: callibrators/templates/callibrators/callibrators.html:65
+#: callibrators/templates/callibrators/callibrators.html:69
 msgid "Blog"
 msgstr "Blog"
 
-#: callibrators/templates/callibrators/callibrators.html:70
+#: callibrators/templates/callibrators/callibrators.html:72
 msgid "Contact"
 msgstr "Contacto"
 
-#: callibrators/templates/callibrators/callibrators.html:79
+#: callibrators/templates/callibrators/callibrators.html:81
 msgid "Turkish"
 msgstr "Turco"
 
-#: callibrators/templates/callibrators/callibrators.html:80
+#: callibrators/templates/callibrators/callibrators.html:82
 msgid "English"
 msgstr "Inglés"
 
-#: callibrators/templates/callibrators/callibrators.html:81
+#: callibrators/templates/callibrators/callibrators.html:83
 msgid "French"
 msgstr "Francés"
 
-#: callibrators/templates/callibrators/callibrators.html:82
+#: callibrators/templates/callibrators/callibrators.html:84
 msgid "German"
 msgstr "Alemán"
 
-#: callibrators/templates/callibrators/callibrators.html:83
+#: callibrators/templates/callibrators/callibrators.html:85
 msgid "Italian"
 msgstr "Italiano"
 
-#: callibrators/templates/callibrators/callibrators.html:84
+#: callibrators/templates/callibrators/callibrators.html:86
 msgid "Polish"
 msgstr "Polaco"
 
-#: callibrators/templates/callibrators/callibrators.html:85
+#: callibrators/templates/callibrators/callibrators.html:87
 msgid "Spanish"
 msgstr "Español"
 
-#: callibrators/templates/callibrators/callibrators.html:129
+#: callibrators/templates/callibrators/callibrators.html:132
 msgid "Flow Callibration"
 msgstr "Calibración de Flujo"
 
-#: callibrators/templates/callibrators/callibrators.html:133
+#: callibrators/templates/callibrators/callibrators.html:136
 msgid ""
 "\n"
 "              Flow calibration in metrology involves the process of "
@@ -122,59 +122,59 @@ msgstr ""
 "de flujo y los instrumentos midan con precisión la tasa de flujo de fluidos, "
 "ya sea líquido o gas."
 
-#: callibrators/templates/callibrators/callibrators.html:142
+#: callibrators/templates/callibrators/callibrators.html:145
 msgid "View More"
 msgstr "Ver Más"
 
-#: callibrators/templates/callibrators/callibrators.html:187
+#: callibrators/templates/callibrators/callibrators.html:280
 msgid "Pocket-sized"
 msgstr "De Tamaño de Bolsillo"
 
-#: callibrators/templates/callibrators/callibrators.html:187
+#: callibrators/templates/callibrators/callibrators.html:280
 msgid ">12 hours usage with regular ion batteries"
 msgstr "12 horas de uso con baterías de ion regulares"
 
-#: callibrators/templates/callibrators/callibrators.html:190
+#: callibrators/templates/callibrators/callibrators.html:283
 msgid "USB connection"
 msgstr "Conexión USB"
 
-#: callibrators/templates/callibrators/callibrators.html:190
+#: callibrators/templates/callibrators/callibrators.html:283
 msgid "High-Precision"
 msgstr "Alta Precisión"
 
-#: callibrators/templates/callibrators/callibrators.html:193
+#: callibrators/templates/callibrators/callibrators.html:286
 msgid "Atmospheric Pressure & Temperature"
 msgstr "Presión Atmosférica y Temperatura"
 
-#: callibrators/templates/callibrators/callibrators.html:196
+#: callibrators/templates/callibrators/callibrators.html:289
 msgid "Automatic turn-off while not transferring to PC"
 msgstr "Apagado automático cuando no se transfiere al PC"
 
-#: callibrators/templates/callibrators/callibrators.html:199
+#: callibrators/templates/callibrators/callibrators.html:292
 msgid "Battery indicator"
 msgstr "Indicador de Batería"
 
-#: callibrators/templates/callibrators/callibrators.html:199
+#: callibrators/templates/callibrators/callibrators.html:292
 msgid "Graphic OLED Display"
 msgstr "Pantalla OLED Gráfica"
 
-#: callibrators/templates/callibrators/callibrators.html:202
+#: callibrators/templates/callibrators/callibrators.html:295
 msgid "1 year Warranty"
 msgstr "Garantía de 1 Año"
 
-#: callibrators/templates/callibrators/callibrators.html:202
+#: callibrators/templates/callibrators/callibrators.html:295
 msgid "Storing Last 10000 Records"
 msgstr "Almacenamiento de los Últimos 10000 Registros"
 
-#: callibrators/templates/callibrators/callibrators.html:206
+#: callibrators/templates/callibrators/callibrators.html:299
 msgid "accuracy verification in leakage test devices"
 msgstr "Verificación de Precisión en Dispositivos de Prueba de Fugas"
 
-#: callibrators/templates/callibrators/callibrators.html:250
+#: callibrators/templates/callibrators/callibrators.html:343
 msgid "Pressure Scanning"
 msgstr "Escaneo de Presión"
 
-#: callibrators/templates/callibrators/callibrators.html:256
+#: callibrators/templates/callibrators/callibrators.html:349
 msgid ""
 "\n"
 "                Pressure scanning involves measuring and analyzing pressure "
@@ -195,7 +195,7 @@ msgstr ""
 "proporcionando información sobre el comportamiento del sistema y asegurando "
 "la eficiencia y seguridad operativa."
 
-#: callibrators/templates/callibrators/callibrators.html:263
+#: callibrators/templates/callibrators/callibrators.html:356
 msgid ""
 "We offer the best products and the services  to our customers and the "
 "distributors all around the world."
@@ -203,34 +203,34 @@ msgstr ""
 "Ofrecemos los mejores productos y servicios a nuestros clientes y "
 "distribuidores en todo el mundo."
 
-#: callibrators/templates/callibrators/callibrators.html:272
+#: callibrators/templates/callibrators/callibrators.html:365
 msgid "GET A QUOTE"
 msgstr "OBTENER UN PRESUPUESTO"
 
-#: callibrators/templates/callibrators/callibrators.html:360
+#: callibrators/templates/callibrators/callibrators.html:453
 msgid "Are you interested ?"
 msgstr "¿Está interesado?"
 
-#: callibrators/templates/callibrators/callibrators.html:363
+#: callibrators/templates/callibrators/callibrators.html:456
 msgid "Contact Us"
 msgstr "Contáctenos"
 
-#: callibrators/templates/callibrators/callibrators.html:371
-#: callibrators/templates/callibrators/callibrators.html:438
+#: callibrators/templates/callibrators/callibrators.html:464
+#: callibrators/templates/callibrators/callibrators.html:536
 msgid "CONTACT"
 msgstr "CONTACTO"
 
-#: callibrators/templates/callibrators/callibrators.html:433
+#: callibrators/templates/callibrators/callibrators.html:531
 msgid "MENU"
 msgstr "MENÚ"
 
-#: callibrators/templates/callibrators/callibrators.html:443
+#: callibrators/templates/callibrators/callibrators.html:541
 #, fuzzy
 #| msgid "PRODUCTS"
 msgid "PRODUCTS"
 msgstr "PRODUCTOS"
 
-#: callibrators/templates/callibrators/callibrators.html:448
+#: callibrators/templates/callibrators/callibrators.html:546
 msgid "BLOG"
 msgstr "BLOG"
 

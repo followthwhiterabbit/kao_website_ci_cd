@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 11:59+0300\n"
+"POT-Creation-Date: 2024-11-02 20:16+0300\n"
 "PO-Revision-Date: 2024-09-19 11:20+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,75 +19,80 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: services/templates/services/services.html:29
+#: services/templates/services/services.html:33
 msgid "Menu"
 msgstr "Menü"
 
-#: services/templates/services/services.html:34
+#: services/templates/services/services.html:35
+msgid "Products"
+msgstr ""
+
+#: services/templates/services/services.html:37
 msgid "Dimensional Measurement"
 msgstr "Havalı Ölçüm Sistemleri"
 
-#: services/templates/services/services.html:35
+#: services/templates/services/services.html:38
 msgid "Leak Testing Devices"
 msgstr "Sızdırmazlık Test Cihazları"
 
-#: services/templates/services/services.html:36
+#: services/templates/services/services.html:39
 msgid "Callibrators "
 msgstr "Kalibratörler"
 
-#: services/templates/services/services.html:37
+#: services/templates/services/services.html:40
 msgid "Accessories"
 msgstr "Aksesuarlar"
 
 #: services/templates/services/services.html:45
-msgid "Probe Design"
-msgstr "Prob Tasarımı"
-
-#: services/templates/services/services.html:46
-msgid "Automation Projects"
-msgstr "Otomasyon Projeleri"
-
-#: services/templates/services/services.html:47
-msgid "Softwares"
-msgstr "Yazılımlar"
-
-#: services/templates/services/services.html:52
-msgid "Blog"
-msgstr "Blog"
-
-#: services/templates/services/services.html:55
+#: services/templates/services/services.html:56
 msgid "Services"
 msgstr "Hizmetler"
 
-#: services/templates/services/services.html:56
+#: services/templates/services/services.html:47
+msgid "Probe Design"
+msgstr "Prob Tasarımı"
+
+#: services/templates/services/services.html:48
+msgid "Automation Projects"
+msgstr "Otomasyon Projeleri"
+
+#: services/templates/services/services.html:49
+msgid "Softwares"
+msgstr "Yazılımlar"
+
+#: services/templates/services/services.html:54
+msgid "Blog"
+msgstr "Blog"
+
+#: services/templates/services/services.html:57
 msgid "Contact"
 msgstr "İletişim"
 
-#: services/templates/services/services.html:65
+#: services/templates/services/services.html:66
 msgid "Turkish"
 msgstr "Türkçe"
 
-#: services/templates/services/services.html:66
+#: services/templates/services/services.html:67
 msgid "English"
 msgstr "İngilizce"
 
-#: services/templates/services/services.html:67
+#: services/templates/services/services.html:68
 msgid "French"
 msgstr "Fransızca"
 
-#: services/templates/services/services.html:68
+#: services/templates/services/services.html:69
 msgid "German"
 msgstr "Almanca"
 
-#: services/templates/services/services.html:69
+#: services/templates/services/services.html:70
 msgid "Italian"
 msgstr "İtalyanca"
 
-#: services/templates/services/services.html:70
+#: services/templates/services/services.html:71
 msgid "Polish"
 msgstr "Lehçe"
 
-#: services/templates/services/services.html:71
+#: services/templates/services/services.html:72
 msgid "Spanish"
 msgstr "İspanyolca"
 
@@ -260,23 +265,23 @@ msgstr ""
 "dosyalar olarak hazırlar. Tüm işlemler kullanıcı müdahalesi olmadan "
 "gerçekleşir."
 
-#: services/templates/services/services.html:504
+#: services/templates/services/services.html:509
 msgid "MENU"
 msgstr "MENÜ"
 
-#: services/templates/services/services.html:509
+#: services/templates/services/services.html:514
 #, fuzzy
 #| msgid "CONTACT"
 msgid "CONTACT"
 msgstr "İLETİŞİM"
 
-#: services/templates/services/services.html:514
+#: services/templates/services/services.html:519
 #, fuzzy
 #| msgid "PRODUCTS"
 msgid "PRODUCTS"
 msgstr "ÜRÜNLER"
 
-#: services/templates/services/services.html:519
+#: services/templates/services/services.html:524
 msgid "BLOG"
 msgstr "BLOG"
 

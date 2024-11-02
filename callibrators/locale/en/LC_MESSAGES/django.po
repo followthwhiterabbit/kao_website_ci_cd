@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-08 11:59+0300\n"
+"POT-Creation-Date: 2024-11-02 20:16+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,88 +17,88 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: callibrators/templates/callibrators/callibrators.html:44
+#: callibrators/templates/callibrators/callibrators.html:48
 msgid "Menu"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:46
+#: callibrators/templates/callibrators/callibrators.html:50
 msgid "Products"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:48
+#: callibrators/templates/callibrators/callibrators.html:52
 msgid "Dimensional Measurement"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:49
+#: callibrators/templates/callibrators/callibrators.html:53
 msgid "Leak Testing Devices"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:50
+#: callibrators/templates/callibrators/callibrators.html:54
 msgid "Callibrators "
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:51
+#: callibrators/templates/callibrators/callibrators.html:55
 msgid "Accessories"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:56
-#: callibrators/templates/callibrators/callibrators.html:69
+#: callibrators/templates/callibrators/callibrators.html:60
+#: callibrators/templates/callibrators/callibrators.html:71
 msgid "Services"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:58
+#: callibrators/templates/callibrators/callibrators.html:62
 msgid "Probe Design"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:59
+#: callibrators/templates/callibrators/callibrators.html:63
 msgid "Automation Projects"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:60
+#: callibrators/templates/callibrators/callibrators.html:64
 msgid "Softwares"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:65
+#: callibrators/templates/callibrators/callibrators.html:69
 msgid "Blog"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:70
+#: callibrators/templates/callibrators/callibrators.html:72
 msgid "Contact"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:79
+#: callibrators/templates/callibrators/callibrators.html:81
 msgid "Turkish"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:80
+#: callibrators/templates/callibrators/callibrators.html:82
 msgid "English"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:81
+#: callibrators/templates/callibrators/callibrators.html:83
 msgid "French"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:82
+#: callibrators/templates/callibrators/callibrators.html:84
 msgid "German"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:83
+#: callibrators/templates/callibrators/callibrators.html:85
 msgid "Italian"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:84
+#: callibrators/templates/callibrators/callibrators.html:86
 msgid "Polish"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:85
+#: callibrators/templates/callibrators/callibrators.html:87
 msgid "Spanish"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:129
+#: callibrators/templates/callibrators/callibrators.html:132
 msgid "Flow Callibration"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:133
+#: callibrators/templates/callibrators/callibrators.html:136
 msgid ""
 "\n"
 "              Flow calibration in metrology involves the process of "
@@ -112,59 +112,59 @@ msgid ""
 "               "
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:142
+#: callibrators/templates/callibrators/callibrators.html:145
 msgid "View More"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:187
+#: callibrators/templates/callibrators/callibrators.html:280
 msgid "Pocket-sized"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:187
+#: callibrators/templates/callibrators/callibrators.html:280
 msgid ">12 hours usage with regular ion batteries"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:190
+#: callibrators/templates/callibrators/callibrators.html:283
 msgid "USB connection"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:190
+#: callibrators/templates/callibrators/callibrators.html:283
 msgid "High-Precision"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:193
+#: callibrators/templates/callibrators/callibrators.html:286
 msgid "Atmospheric Pressure & Temperature"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:196
+#: callibrators/templates/callibrators/callibrators.html:289
 msgid "Automatic turn-off while not transferring to PC"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:199
+#: callibrators/templates/callibrators/callibrators.html:292
 msgid "Battery indicator"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:199
+#: callibrators/templates/callibrators/callibrators.html:292
 msgid "Graphic OLED Display"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:202
+#: callibrators/templates/callibrators/callibrators.html:295
 msgid "1 year Warranty"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:202
+#: callibrators/templates/callibrators/callibrators.html:295
 msgid "Storing Last 10000 Records"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:206
+#: callibrators/templates/callibrators/callibrators.html:299
 msgid "accuracy verification in leakage test devices"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:250
+#: callibrators/templates/callibrators/callibrators.html:343
 msgid "Pressure Scanning"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:256
+#: callibrators/templates/callibrators/callibrators.html:349
 msgid ""
 "\n"
 "                Pressure scanning involves measuring and analyzing pressure "
@@ -177,37 +177,37 @@ msgid ""
 "                 "
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:263
+#: callibrators/templates/callibrators/callibrators.html:356
 msgid ""
 "We offer the best products and the services  to our customers and the "
 "distributors all around the world."
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:272
+#: callibrators/templates/callibrators/callibrators.html:365
 msgid "GET A QUOTE"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:360
+#: callibrators/templates/callibrators/callibrators.html:453
 msgid "Are you interested ?"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:363
+#: callibrators/templates/callibrators/callibrators.html:456
 msgid "Contact Us"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:371
-#: callibrators/templates/callibrators/callibrators.html:438
+#: callibrators/templates/callibrators/callibrators.html:464
+#: callibrators/templates/callibrators/callibrators.html:536
 msgid "CONTACT"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:433
+#: callibrators/templates/callibrators/callibrators.html:531
 msgid "MENU"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:443
+#: callibrators/templates/callibrators/callibrators.html:541
 msgid "PRODUCTS"
 msgstr ""
 
-#: callibrators/templates/callibrators/callibrators.html:448
+#: callibrators/templates/callibrators/callibrators.html:546
 msgid "BLOG"
 msgstr ""

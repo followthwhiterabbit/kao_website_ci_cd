@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-19 14:04+0300\n"
+"POT-Creation-Date: 2024-11-02 20:16+0300\n"
 "PO-Revision-Date: 2024-09-16 11:04+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,151 +19,163 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: products_page/templates/products/products_page.html:36
+#: products_page/templates/products/products_page.html:40
 msgid "Menu"
 msgstr "Menu"
 
-#: products_page/templates/products/products_page.html:41
-msgid "Dimensional Measurement"
-msgstr "Misurazione Dimensionale"
-
 #: products_page/templates/products/products_page.html:42
-msgid "Leak Testing Devices"
-msgstr "Dispositivi per il Controllo delle Perdite"
-
-#: products_page/templates/products/products_page.html:43
-msgid "Callibrators "
-msgstr "Calibratori"
-
-#: products_page/templates/products/products_page.html:44
-msgid "Accessories"
-msgstr "Accessori"
-
-#: products_page/templates/products/products_page.html:51
-msgid "Probe Design"
-msgstr "Progettazione Sonde"
-
-#: products_page/templates/products/products_page.html:52
-msgid "Automation Projects"
-msgstr "Progetti di Automazione"
-
-#: products_page/templates/products/products_page.html:53
-msgid "Softwares"
-msgstr "Software"
-
-#: products_page/templates/products/products_page.html:58
-msgid "Blog"
-msgstr "Blog"
-
-#: products_page/templates/products/products_page.html:61
-msgid "Services"
-msgstr "Servizi"
-
-#: products_page/templates/products/products_page.html:62
-msgid "Contact"
-msgstr "Contatto"
-
-#: products_page/templates/products/products_page.html:71
-msgid "Turkish"
-msgstr "Turco"
-
-#: products_page/templates/products/products_page.html:72
-msgid "English"
-msgstr "Inglese"
-
-#: products_page/templates/products/products_page.html:73
-msgid "French"
-msgstr "Francese"
-
-#: products_page/templates/products/products_page.html:74
-msgid "German"
-msgstr "Tedesca"
-
-#: products_page/templates/products/products_page.html:75
-msgid "Italian"
-msgstr "Italiano"
-
-#: products_page/templates/products/products_page.html:76
-msgid "Polish"
-msgstr "Polacca"
-
-#: products_page/templates/products/products_page.html:77
-msgid "Spanish"
-msgstr "Spagnolo"
-
-#: products_page/templates/products/products_page.html:119
+#: products_page/templates/products/products_page.html:121
 msgid "Products"
 msgstr "Prodotti"
 
-#: products_page/templates/products/products_page.html:122
+#: products_page/templates/products/products_page.html:44
+msgid "Dimensional Measurement"
+msgstr "Misurazione Dimensionale"
+
+#: products_page/templates/products/products_page.html:45
+msgid "Leak Testing Devices"
+msgstr "Dispositivi per il Controllo delle Perdite"
+
+#: products_page/templates/products/products_page.html:46
+msgid "Callibrators "
+msgstr "Calibratori"
+
+#: products_page/templates/products/products_page.html:47
+msgid "Accessories"
+msgstr "Accessori"
+
+#: products_page/templates/products/products_page.html:52
+#: products_page/templates/products/products_page.html:63
+msgid "Services"
+msgstr "Servizi"
+
+#: products_page/templates/products/products_page.html:54
+msgid "Probe Design"
+msgstr "Progettazione Sonde"
+
+#: products_page/templates/products/products_page.html:55
+msgid "Automation Projects"
+msgstr "Progetti di Automazione"
+
+#: products_page/templates/products/products_page.html:56
+msgid "Softwares"
+msgstr "Software"
+
+#: products_page/templates/products/products_page.html:61
+msgid "Blog"
+msgstr "Blog"
+
+#: products_page/templates/products/products_page.html:64
+msgid "Contact"
+msgstr "Contatto"
+
+#: products_page/templates/products/products_page.html:73
+msgid "Turkish"
+msgstr "Turco"
+
+#: products_page/templates/products/products_page.html:74
+msgid "English"
+msgstr "Inglese"
+
+#: products_page/templates/products/products_page.html:75
+msgid "French"
+msgstr "Francese"
+
+#: products_page/templates/products/products_page.html:76
+msgid "German"
+msgstr "Tedesca"
+
+#: products_page/templates/products/products_page.html:77
+msgid "Italian"
+msgstr "Italiano"
+
+#: products_page/templates/products/products_page.html:78
+msgid "Polish"
+msgstr "Polacca"
+
+#: products_page/templates/products/products_page.html:79
+msgid "Spanish"
+msgstr "Spagnolo"
+
+#: products_page/templates/products/products_page.html:124
 msgid "Dimensional measurement"
 msgstr "Misurazione Dimensionale"
 
-#: products_page/templates/products/products_page.html:158
-#: products_page/templates/products/products_page.html:178
+#: products_page/templates/products/products_page.html:160
+#: products_page/templates/products/products_page.html:180
 msgid "1/2/4 Channel Air-Gaging Device"
 msgstr "Dispositivo di Misurazione ad Aria a 1/2/4 Canali"
 
-#: products_page/templates/products/products_page.html:209
-#: products_page/templates/products/products_page.html:526
+#: products_page/templates/products/products_page.html:211
+#: products_page/templates/products/products_page.html:528
 msgid "Are you interested ?"
 msgstr "Sei interessato?"
 
-#: products_page/templates/products/products_page.html:222
-#: products_page/templates/products/products_page.html:539
-#: products_page/templates/products/products_page.html:596
+#: products_page/templates/products/products_page.html:224
+#: products_page/templates/products/products_page.html:541
+#: products_page/templates/products/products_page.html:598
 msgid "CONTACT"
 msgstr "CONTATTI"
 
-#: products_page/templates/products/products_page.html:252
-msgid " 2/4 Channel Leak-Testing Device"
-msgstr "Dispositivo di Test di Perdite a 2/4 Canali"
+#: products_page/templates/products/products_page.html:254
+#, fuzzy
+#| msgid "1/2/4 Channel Air-Gaging Device"
+msgid " 2/4 Channel Air-Gaging Device"
+msgstr "Dispositivo di Misurazione ad Aria a 1/2/4 Canali"
 
-#: products_page/templates/products/products_page.html:272
-msgid "8 Channel Leak-Testing Device"
-msgstr "Dispositivo di Test di Perdite a 8 Canali"
+#: products_page/templates/products/products_page.html:274
+#, fuzzy
+#| msgid "1/2/4 Channel Air-Gaging Device"
+msgid "8 Channel Air-Gaging Device"
+msgstr "Dispositivo di Misurazione ad Aria a 1/2/4 Canali"
 
-#: products_page/templates/products/products_page.html:303
-#: products_page/templates/products/products_page.html:409
+#: products_page/templates/products/products_page.html:305
+#: products_page/templates/products/products_page.html:411
 msgid "Leak-Testing"
 msgstr "Test di Perdite"
 
-#: products_page/templates/products/products_page.html:307
+#: products_page/templates/products/products_page.html:309
 msgid "Relative Leak-Testing Devices"
 msgstr "Dispositivi di Test di Perdite Relativi"
 
-#: products_page/templates/products/products_page.html:352
+#: products_page/templates/products/products_page.html:354
 msgid " 1 Channel Relative Leak Measurement Device"
 msgstr "Dispositivo di Misurazione di Perdite Relativo a 1 Canale"
 
-#: products_page/templates/products/products_page.html:372
+#: products_page/templates/products/products_page.html:374
 msgid "1 Channel Relative Leak Measurement Device"
 msgstr "Dispositivo di Misurazione di Perdite Relativo a 1 Canale"
 
-#: products_page/templates/products/products_page.html:413
+#: products_page/templates/products/products_page.html:415
 msgid "Differential Leak-Testing Devices"
 msgstr "Dispositivi di Test di Perdite Differenziali"
 
-#: products_page/templates/products/products_page.html:460
+#: products_page/templates/products/products_page.html:462
 msgid "Differential Leak Testing Device"
 msgstr "Dispositivo di Test di Perdite Differenziali"
 
-#: products_page/templates/products/products_page.html:480
+#: products_page/templates/products/products_page.html:482
 msgid "1 Channel Differential Leak Testing Device"
 msgstr "Dispositivo di Test di Perdite Differenziali a 1 Canale"
 
-#: products_page/templates/products/products_page.html:500
+#: products_page/templates/products/products_page.html:502
 msgid "2 Channel Differential Leak Testing Device"
 msgstr "Dispositivo di Test di Perdite Differenziali a 2 Canali"
 
-#: products_page/templates/products/products_page.html:591
+#: products_page/templates/products/products_page.html:593
 msgid "MENU"
 msgstr "MENU"
 
-#: products_page/templates/products/products_page.html:601
+#: products_page/templates/products/products_page.html:603
 msgid "PRODUCTS"
 msgstr "PRODOTTI"
 
-#: products_page/templates/products/products_page.html:608
+#: products_page/templates/products/products_page.html:610
 msgid "BLOG"
 msgstr "BLOG"
+
+#~ msgid " 2/4 Channel Leak-Testing Device"
+#~ msgstr "Dispositivo di Test di Perdite a 2/4 Canali"
+
+#~ msgid "8 Channel Leak-Testing Device"
+#~ msgstr "Dispositivo di Test di Perdite a 8 Canali"
