@@ -2011,28 +2011,34 @@ progress {
 }
 
 .btn-top{
+  position: relative;
+  left: 550px;
+  top: 100px;
   width: 200px;
-  height: 125px;
 }
-
-
 
 .nav-item
 {
+  margin-left: 15px;
+  top: 100px;
+  left: 550px;
   width: 200px;
 }
 
-
-
+.logo-img
+{
+  position: absolute;
+  z-index: 8;
+}
 
 .active-new{
-  width: 100px;
+  width: 50px;
+  left: 550px;
 }
   
   .btn-menu
   {
     width: 20px;
-    height: 210px;
   }
   
   .btn-contact
@@ -2116,14 +2122,18 @@ progress {
 .navbar-collapse-eski {
     position: fixed;
     top: 0px;
-    left: 0px;
+    left: -100%;
     padding: 15px;
-    width: 100%;
+    width: 150%;
     height: 100%;
-    background-color: #001155; /* Set a background color if needed */
-    transition: all 1s ease;
+    background-color: #001155; 
     z-index: 5;
 }
+
+.navbar-collapse-eski.active {
+    transform: translateX(100%); 
+}
+
 
 .navbar-collapse-eski.show {
     display: block; /* Shows when toggled */
@@ -2132,8 +2142,8 @@ progress {
 /* Default Hamburger State */
 .navbar-toggler-icon-eski {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 15px;
+    left: 350px;
     width: 48px;
     height: 4px;
     background-color: #fff; /* Color for the icon lines */
