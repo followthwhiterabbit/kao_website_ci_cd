@@ -16828,3 +16828,19 @@ display: none;
   left: 0px !important;
 }
 
+
+.active-new
+{
+width: 100px;
+color:#fff;
+color:var(--bs-btn-hover-bg);  
+}
+
+
+.logo-img {
+  height: 91px;
+  position: absolute;
+  top: -3px;
+  left:  0px;
+}
+
