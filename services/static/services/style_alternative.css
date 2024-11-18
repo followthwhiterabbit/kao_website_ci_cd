@@ -3734,7 +3734,7 @@ textarea.form-control-lg {
 }
 
 .navbar-eski {
-  --bs-navbar-padding-x: 40rem;
+  --bs-navbar-padding-x: 38rem;
   --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
