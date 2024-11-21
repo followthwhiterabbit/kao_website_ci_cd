@@ -31,7 +31,7 @@ DEBUG = False # --> in server
 #DEBUG = True  # in localhost 
 
 
-ALLOWED_HOSTS = ['hightech-metrology.com', 'www.hightech-metrology.com']  # in server , now the first one will not be in server.
+ALLOWED_HOSTS = ['kaometrology.com','hightech-metrology.com', 'www.hightech-metrology.com']  # in server , now the first one will not be in server.
 
 #ALLOWED_HOSTS = ['127.0.0.1', '0.0.0.0']  # in local 
 
