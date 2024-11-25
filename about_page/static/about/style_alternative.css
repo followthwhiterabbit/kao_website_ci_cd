@@ -2012,7 +2012,7 @@ progress {
 
 .btn-top{
   position: relative;
-  left: 550px;
+  left: 500px;
   top: 100px;
   width: 200px;
 }
@@ -2223,6 +2223,8 @@ display: none;
   width: 50px;
 
 }
+
+
 
 
 
