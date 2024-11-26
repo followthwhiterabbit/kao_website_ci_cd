@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 12:00+0300\n"
-"PO-Revision-Date: 2024-11-26 09:02+0000\n"
+"POT-Creation-Date: 2024-11-26 12:09+0300\n"
+"PO-Revision-Date: 2024-11-26 09:09+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -109,8 +109,9 @@ msgid "Spanish"
 msgstr "İspanyolca"
 
 #: callibrators/templates/callibrators/callibrators.html:150
-msgid "Flow Callibration"
-msgstr "Akış Kalibratörleri"
+#| msgid "Leak Testing Devices"
+msgid "Callibration for Leak Testing Devices"
+msgstr "Sızdırmazlık Testi Cihazları Kalibrasyonu"
 
 #: callibrators/templates/callibrators/callibrators.html:154
 msgid ""
@@ -225,6 +226,9 @@ msgstr "ÜRÜNLER"
 #: callibrators/templates/callibrators/callibrators.html:474
 msgid "BLOG"
 msgstr "Blog"
+
+#~ msgid "Flow Callibration"
+#~ msgstr "Akış Kalibratörleri"
 
 #~ msgid "<h4>MENU</h4>"
 #~ msgstr "ANA SAYFA"

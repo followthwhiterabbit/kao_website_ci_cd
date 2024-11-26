@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-26 12:00+0300\n"
+"POT-Creation-Date: 2024-11-26 12:09+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,7 +106,7 @@ msgid "Spanish"
 msgstr ""
 
 #: callibrators/templates/callibrators/callibrators.html:150
-msgid "Flow Callibration"
+msgid "Callibration for Leak Testing Devices"
 msgstr ""
 
 #: callibrators/templates/callibrators/callibrators.html:154
