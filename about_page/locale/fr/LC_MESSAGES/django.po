@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-02 20:16+0300\n"
+"POT-Creation-Date: 2024-11-26 11:50+0300\n"
 "PO-Revision-Date: 2024-09-19 11:08+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,17 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: about_page/templates/about/about_page.html:40
+msgid ""
+"Most Reliable Leak Testing Method | Leak Testing Devices | Air Gaging Devices"
+msgstr ""
+
+#: about_page/templates/about/about_page.html:42
+msgid ""
+"Affordable High-Tech Airgages, Leak-Testing Devices and Callibrators. Kao "
+"Metrology offers High-Tech metrological devices with very affordable prices."
+msgstr ""
 
 #: about_page/templates/about/about_page.html:58
 msgid "Menu"
@@ -96,11 +107,11 @@ msgstr "Polonais"
 msgid "Spanish"
 msgstr "Espagnol"
 
-#: about_page/templates/about/about_page.html:256
+#: about_page/templates/about/about_page.html:288
 msgid "Metrology is our passion"
 msgstr " La métrologie est notre passion"
 
-#: about_page/templates/about/about_page.html:260
+#: about_page/templates/about/about_page.html:292
 msgid ""
 "We are more than a metrological device manufacturer combining the latest "
 "technologies and innovations with the possibility of new advancements in the "
@@ -115,25 +126,25 @@ msgstr ""
 "esthétique, nous fournissons des solutions intégrées aux problèmes intégrés "
 "de la métrologie et de l'automatisation."
 
-#: about_page/templates/about/about_page.html:265
-#: about_page/templates/about/about_page.html:394
+#: about_page/templates/about/about_page.html:297
+#: about_page/templates/about/about_page.html:426
 msgid "View More"
 msgstr "Voir plus"
 
-#: about_page/templates/about/about_page.html:320
+#: about_page/templates/about/about_page.html:352
 msgid "DIMENSIONAL MEASUREMENT"
 msgstr "MESURE DIMENSIONNELLE"
 
-#: about_page/templates/about/about_page.html:323
+#: about_page/templates/about/about_page.html:355
 msgid "We are the masters of Air-gaging with 30+ years of experience."
 msgstr ""
 "Nous sommes les maîtres de la jauge à air avec plus de 30 ans d'expérience."
 
-#: about_page/templates/about/about_page.html:337
+#: about_page/templates/about/about_page.html:369
 msgid "LEAK TESTING"
 msgstr "TEST D'ÉTANCHÉITÉ"
 
-#: about_page/templates/about/about_page.html:340
+#: about_page/templates/about/about_page.html:372
 msgid ""
 "Our Touch Screen Leak Testing Systems offer portability, secure setup and "
 "precision beyond world standards."
@@ -141,11 +152,11 @@ msgstr ""
 "Nos systèmes de test d'étanchéité à écran tactile offrent portabilité, "
 "configuration sécurisée et précision dépassant les normes mondiales."
 
-#: about_page/templates/about/about_page.html:354
+#: about_page/templates/about/about_page.html:386
 msgid "CALLIBRATORS"
 msgstr "CALIBRATEURS"
 
-#: about_page/templates/about/about_page.html:357
+#: about_page/templates/about/about_page.html:389
 msgid ""
 "Our KAO Flow Callibrator offers precise, fast and +12 hours Usage with "
 "regular batteries. "
@@ -153,15 +164,15 @@ msgstr ""
 "Notre calibrateur de débit KAO offre une précision, une rapidité et une "
 "utilisation de plus de 12 heures avec des piles standard."
 
-#: about_page/templates/about/about_page.html:380
+#: about_page/templates/about/about_page.html:412
 msgid "More than Metrology"
 msgstr "Plus que la métrologie"
 
-#: about_page/templates/about/about_page.html:383
+#: about_page/templates/about/about_page.html:415
 msgid "Embedded solutions to embedded problems"
 msgstr "Solutions intégrées aux problèmes intégrés"
 
-#: about_page/templates/about/about_page.html:386
+#: about_page/templates/about/about_page.html:418
 msgid ""
 "Explore innovative answers to embedded challenges with our cutting-edge "
 "embedded systems. More than mere measurements, our solutions redefine "
@@ -176,39 +187,39 @@ msgstr ""
 "parfaitement l'avenir de la technologie. Découvrez la puissance des "
 "solutions intégrées sur notre site Web dès aujourd'hui."
 
-#: about_page/templates/about/about_page.html:423
+#: about_page/templates/about/about_page.html:455
 msgid "PRESSURE SCANNERS"
 msgstr "SCANNERS DE PRESSION"
 
-#: about_page/templates/about/about_page.html:426
+#: about_page/templates/about/about_page.html:458
 msgid "High-Tech Pressure Scanning "
 msgstr "Numérisation de pression haute technologie"
 
-#: about_page/templates/about/about_page.html:441
+#: about_page/templates/about/about_page.html:473
 msgid "PROBES "
 msgstr "Sondes"
 
-#: about_page/templates/about/about_page.html:444
+#: about_page/templates/about/about_page.html:476
 msgid "Delivering probes geared to your unique necessities "
 msgstr " Livraison de sondes adaptées à vos besoins uniques"
 
-#: about_page/templates/about/about_page.html:459
+#: about_page/templates/about/about_page.html:491
 msgid "ACCESORIES "
 msgstr "ACCESSOIRES"
 
-#: about_page/templates/about/about_page.html:462
+#: about_page/templates/about/about_page.html:494
 msgid "Discover accessories and tools for our products "
 msgstr " Découvrez les accessoires et outils pour nos produits"
 
-#: about_page/templates/about/about_page.html:486
+#: about_page/templates/about/about_page.html:518
 msgid "HISTORY"
 msgstr "HISTOIRE"
 
-#: about_page/templates/about/about_page.html:489
+#: about_page/templates/about/about_page.html:521
 msgid "About Us"
 msgstr "À propos de nous"
 
-#: about_page/templates/about/about_page.html:492
+#: about_page/templates/about/about_page.html:524
 msgid ""
 "Kao was founded in Istanbul in 1995 by an idelistic and dynamic team with "
 "thirty years of experience in machinery, electronics, and metrology. With a "
@@ -240,31 +251,31 @@ msgstr ""
 "notre site Web. En souhaitant que chaque lendemain soit plus brillant "
 "qu'aujourd'hui..."
 
-#: about_page/templates/about/about_page.html:643
+#: about_page/templates/about/about_page.html:675
 msgid "Subscribe to our Newsletter"
 msgstr ""
 
-#: about_page/templates/about/about_page.html:646
+#: about_page/templates/about/about_page.html:678
 msgid "Follow-up with the latest news and the products"
 msgstr ""
 
-#: about_page/templates/about/about_page.html:757
+#: about_page/templates/about/about_page.html:789
 msgid "MENU"
 msgstr "MENU"
 
-#: about_page/templates/about/about_page.html:762
+#: about_page/templates/about/about_page.html:794
 #, fuzzy
 #| msgid "CONTACT"
 msgid "CONTACT"
 msgstr "CONTACT"
 
-#: about_page/templates/about/about_page.html:767
+#: about_page/templates/about/about_page.html:799
 #, fuzzy
 #| msgid "PRODUCTS"
 msgid "PRODUCTS"
 msgstr "PRODUITS"
 
-#: about_page/templates/about/about_page.html:772
+#: about_page/templates/about/about_page.html:804
 msgid "BLOG"
 msgstr "BLOG"
 

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-02 20:16+0300\n"
-"PO-Revision-Date: 2024-09-19 11:19+0000\n"
+"POT-Creation-Date: 2024-11-26 12:00+0300\n"
+"PO-Revision-Date: 2024-11-26 09:02+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,6 +18,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: callibrators/templates/callibrators/callibrators.html:33
+msgid "Flow Meters | Pressure Scanners | Callibrators"
+msgstr ""
+"Sızdırmazlık Testi Cihazları Kalibrasyonu | Basınç Tarayıcılar | "
+"Kalibratörler"
+
+#: callibrators/templates/callibrators/callibrators.html:35
+msgid "Flow Meters and Pressure Scanners | Callibrators | Pressure Scanners"
+msgstr ""
+"Basınç Tarayıcılar | Kalibratörler | Sızdırmazlık Testi Cihazları "
+"Kalibrasyonu "
 
 #: callibrators/templates/callibrators/callibrators.html:48
 msgid "Menu"
@@ -96,106 +108,86 @@ msgstr "Lehçe"
 msgid "Spanish"
 msgstr "İspanyolca"
 
-#: callibrators/templates/callibrators/callibrators.html:132
+#: callibrators/templates/callibrators/callibrators.html:150
 msgid "Flow Callibration"
 msgstr "Akış Kalibratörleri"
 
-#: callibrators/templates/callibrators/callibrators.html:136
+#: callibrators/templates/callibrators/callibrators.html:154
 msgid ""
 "\n"
-"              Flow calibration in metrology involves the process of "
-"measuring and adjusting the performance of flow measurement devices to "
-"ensure their accuracy and reliability.\n"
-"              Flow measurement is crucial in various industries such as "
-"manufacturing, energy, environmental monitoring, and healthcare. \n"
-"               Flow calibration is performed to verify that flow meters and "
-"instruments accurately measure the rate of fluid flow, whether it's liquid "
-"or gas. \n"
+"              Flow calibration in metrology involves the process of measuring and adjusting the performance of flow measurement devices to ensure their accuracy and reliability.\n"
+"              Flow measurement is crucial in various industries such as manufacturing, energy, environmental monitoring, and healthcare. \n"
+"               Flow calibration is performed to verify that flow meters and instruments accurately measure the rate of fluid flow, whether it's liquid or gas. \n"
 "               "
 msgstr ""
 "\n"
-"Metroloji alanında akış kalibrasyonu, akış ölçüm cihazlarının performansını "
-"ölçme ve ayarlama sürecini içerir, böylece doğruluk ve güvenilirliklerini "
-"garanti eder. Akış ölçümü, üretim, enerji, çevresel izleme ve sağlık gibi "
-"çeşitli endüstrilerde çok önemlidir. Akış kalibrasyonu, akış metrelerinin ve "
-"cihazlarının sıvı veya gaz fark etmeksizin akış hızını doğru bir şekilde "
-"ölçtüğünü doğrulamak için gerçekleştirilir."
+"Metroloji alanında akış kalibrasyonu, akış ölçüm cihazlarının performansını ölçme ve ayarlama sürecini içerir, böylece doğruluk ve güvenilirliklerini garanti eder. Akış ölçümü, üretim, enerji, çevresel izleme ve sağlık gibi çeşitli endüstrilerde çok önemlidir. Akış kalibrasyonu, akış metrelerinin ve cihazlarının sıvı veya gaz fark etmeksizin akış hızını doğru bir şekilde ölçtüğünü doğrulamak için gerçekleştirilir."
 
-#: callibrators/templates/callibrators/callibrators.html:145
+#: callibrators/templates/callibrators/callibrators.html:163
 msgid "View More"
 msgstr "İncele"
 
-#: callibrators/templates/callibrators/callibrators.html:280
+#: callibrators/templates/callibrators/callibrators.html:208
 msgid "Pocket-sized"
 msgstr "Cep boyutunda"
 
-#: callibrators/templates/callibrators/callibrators.html:280
+#: callibrators/templates/callibrators/callibrators.html:208
 msgid ">12 hours usage with regular ion batteries"
 msgstr "İyon pilleri ile 12 saati aşkın kullanım"
 
-#: callibrators/templates/callibrators/callibrators.html:283
+#: callibrators/templates/callibrators/callibrators.html:211
 msgid "USB connection"
 msgstr "USB bağlantılı"
 
-#: callibrators/templates/callibrators/callibrators.html:283
+#: callibrators/templates/callibrators/callibrators.html:211
 msgid "High-Precision"
 msgstr "Yüksek hassasiyet"
 
-#: callibrators/templates/callibrators/callibrators.html:286
+#: callibrators/templates/callibrators/callibrators.html:214
 msgid "Atmospheric Pressure & Temperature"
 msgstr "Atmosfer Basıncı ve Sıcaklık"
 
-#: callibrators/templates/callibrators/callibrators.html:289
+#: callibrators/templates/callibrators/callibrators.html:217
 msgid "Automatic turn-off while not transferring to PC"
 msgstr "Bilgisayara veri aktarımı yapılmadığında otomatik kapanma"
 
-#: callibrators/templates/callibrators/callibrators.html:292
+#: callibrators/templates/callibrators/callibrators.html:220
 msgid "Battery indicator"
 msgstr "Pil göstergesi"
 
-#: callibrators/templates/callibrators/callibrators.html:292
+#: callibrators/templates/callibrators/callibrators.html:220
 msgid "Graphic OLED Display"
 msgstr "Grafik OLED Ekran"
 
-#: callibrators/templates/callibrators/callibrators.html:295
+#: callibrators/templates/callibrators/callibrators.html:223
 msgid "1 year Warranty"
 msgstr "1 yıl garanti"
 
-#: callibrators/templates/callibrators/callibrators.html:295
+#: callibrators/templates/callibrators/callibrators.html:223
 msgid "Storing Last 10000 Records"
 msgstr "Son 10.000 kaydı saklama"
 
-#: callibrators/templates/callibrators/callibrators.html:299
+#: callibrators/templates/callibrators/callibrators.html:227
 msgid "accuracy verification in leakage test devices"
 msgstr "Sızıntı test cihazlarında doğruluk doğrulama"
 
-#: callibrators/templates/callibrators/callibrators.html:343
+#: callibrators/templates/callibrators/callibrators.html:271
 msgid "Pressure Scanning"
 msgstr "Basınç taraması"
 
-#: callibrators/templates/callibrators/callibrators.html:349
+#: callibrators/templates/callibrators/callibrators.html:277
 msgid ""
 "\n"
-"                Pressure scanning involves measuring and analyzing pressure "
-"variations in systems or devices for purposes such as performance "
-"evaluation, quality control, troubleshooting, process optimization, safety "
-"monitoring, research and development, and data analysis.\n"
-"                 It is widely used in industries where pressure is a "
-"critical factor, providing insights into system behavior and ensuring "
-"operational efficiency and safety.\n"
+"                Pressure scanning involves measuring and analyzing pressure variations in systems or devices for purposes such as performance evaluation, quality control, troubleshooting, process optimization, safety monitoring, research and development, and data analysis.\n"
+"                 It is widely used in industries where pressure is a critical factor, providing insights into system behavior and ensuring operational efficiency and safety.\n"
 "                 "
 msgstr ""
 "\n"
-"Basınç taraması, sistemlerde veya cihazlarda basınç değişimlerini ölçme ve "
-"analiz etme sürecini içerir. Bu süreç performans değerlendirmesi, kalite "
-"kontrolü, sorun giderme, süreç optimizasyonu, güvenlik izleme, araştırma ve "
-"geliştirme ile veri analizi gibi amaçlar için kullanılır.\n"
+"Basınç taraması, sistemlerde veya cihazlarda basınç değişimlerini ölçme ve analiz etme sürecini içerir. Bu süreç performans değerlendirmesi, kalite kontrolü, sorun giderme, süreç optimizasyonu, güvenlik izleme, araştırma ve geliştirme ile veri analizi gibi amaçlar için kullanılır.\n"
 "\n"
-"Basınç, kritik bir faktör olduğu endüstrilerde yaygın olarak kullanılır. Bu, "
-"sistem davranışına dair bilgiler sağlar ve operasyonel verimlilik ve "
-"güvenliği garanti eder."
+"Basınç, kritik bir faktör olduğu endüstrilerde yaygın olarak kullanılır. Bu, sistem davranışına dair bilgiler sağlar ve operasyonel verimlilik ve güvenliği garanti eder."
 
-#: callibrators/templates/callibrators/callibrators.html:356
+#: callibrators/templates/callibrators/callibrators.html:284
 msgid ""
 "We offer the best products and the services  to our customers and the "
 "distributors all around the world."
@@ -203,41 +195,40 @@ msgstr ""
 "Dünyanın dört bir yanındaki müşterilerimize ve distribütörlerimize en iyi "
 "ürünleri ve hizmetleri sunuyoruz."
 
-#: callibrators/templates/callibrators/callibrators.html:365
+#: callibrators/templates/callibrators/callibrators.html:293
 msgid "GET A QUOTE"
 msgstr "Teklif Alın"
 
-#: callibrators/templates/callibrators/callibrators.html:453
+#: callibrators/templates/callibrators/callibrators.html:381
 msgid "Are you interested ?"
 msgstr "İlgileniyor musunuz?"
 
-#: callibrators/templates/callibrators/callibrators.html:456
+#: callibrators/templates/callibrators/callibrators.html:384
 msgid "Contact Us"
 msgstr "Bizimle İletişime Geçin"
 
+#: callibrators/templates/callibrators/callibrators.html:392
 #: callibrators/templates/callibrators/callibrators.html:464
-#: callibrators/templates/callibrators/callibrators.html:536
 msgid "CONTACT"
 msgstr "İletişim"
 
-#: callibrators/templates/callibrators/callibrators.html:531
+#: callibrators/templates/callibrators/callibrators.html:459
 msgid "MENU"
 msgstr "Menü"
 
-#: callibrators/templates/callibrators/callibrators.html:541
+#: callibrators/templates/callibrators/callibrators.html:469
 #, fuzzy
 #| msgid "<h4>PRODUCTS</h4>"
 msgid "PRODUCTS"
 msgstr "ÜRÜNLER"
 
-#: callibrators/templates/callibrators/callibrators.html:546
+#: callibrators/templates/callibrators/callibrators.html:474
 msgid "BLOG"
 msgstr "Blog"
 
 #~ msgid "<h4>MENU</h4>"
 #~ msgstr "ANA SAYFA"
 
-#~| msgid "CONTACT"
 #~ msgid "<h4>CONTACT</h4>"
 #~ msgstr "İLETİŞİM"
 

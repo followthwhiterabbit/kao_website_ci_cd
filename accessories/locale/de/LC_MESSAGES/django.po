@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-02 20:16+0300\n"
+"POT-Creation-Date: 2024-11-26 11:50+0300\n"
 "PO-Revision-Date: 2024-10-08 08:36+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,25 +96,25 @@ msgstr "Polnisch"
 msgid "Spanish"
 msgstr "Spanisch"
 
-#: accessories/templates/accessories/accessories.html:124
+#: accessories/templates/accessories/accessories.html:141
 msgid "Accessories for our Products"
 msgstr "Zubehör für unsere Produkte"
 
-#: accessories/templates/accessories/accessories.html:128
+#: accessories/templates/accessories/accessories.html:145
 msgid "We provide accessories geared to the requirements of our products."
 msgstr ""
 "Wir bieten Zubehör an, das auf die Anforderungen unserer Produkte abgestimmt "
 "ist."
 
-#: accessories/templates/accessories/accessories.html:133
+#: accessories/templates/accessories/accessories.html:150
 msgid "View More"
 msgstr "Mehr anzeigen"
 
-#: accessories/templates/accessories/accessories.html:173
+#: accessories/templates/accessories/accessories.html:190
 msgid "1-Key Control Pedal"
 msgstr "1-Tasten-Steuerpedal"
 
-#: accessories/templates/accessories/accessories.html:177
+#: accessories/templates/accessories/accessories.html:194
 msgid ""
 "The operating function is selected from the device it is attached to.  It "
 "can start and stop operations, record. It is mostly used for recording "
@@ -125,11 +125,11 @@ msgstr ""
 "hauptsächlich zum Aufzeichnen von Messwerten in pneumatischen Geräten und "
 "zum Erfassen von Ovalitätsergebnissen verwendet."
 
-#: accessories/templates/accessories/accessories.html:181
-#: accessories/templates/accessories/accessories.html:213
-#: accessories/templates/accessories/accessories.html:247
-#: accessories/templates/accessories/accessories.html:283
-#: accessories/templates/accessories/accessories.html:314
+#: accessories/templates/accessories/accessories.html:198
+#: accessories/templates/accessories/accessories.html:230
+#: accessories/templates/accessories/accessories.html:264
+#: accessories/templates/accessories/accessories.html:300
+#: accessories/templates/accessories/accessories.html:331
 msgid "Suitable Devices"
 msgstr ""
 "Die Betriebsfunktion wird vom angeschlossenen Gerät ausgewählt. Es kann "
@@ -139,17 +139,17 @@ msgstr ""
 "\n"
 "Geeignete Geräte"
 
-#: accessories/templates/accessories/accessories.html:187
-#: accessories/templates/accessories/accessories.html:219
-#: accessories/templates/accessories/accessories.html:253
+#: accessories/templates/accessories/accessories.html:204
+#: accessories/templates/accessories/accessories.html:236
+#: accessories/templates/accessories/accessories.html:270
 msgid "KA0x MiniSX+ KA100 KA200"
 msgstr "KA0x MiniSX+ KA100 KA200"
 
-#: accessories/templates/accessories/accessories.html:205
+#: accessories/templates/accessories/accessories.html:222
 msgid "1-Button Control Equipment"
 msgstr "1-Tasten-Steuergerät"
 
-#: accessories/templates/accessories/accessories.html:208
+#: accessories/templates/accessories/accessories.html:225
 msgid ""
 "The operating function is selected from the device it is attached to. It can "
 "initiate and stop operations, record. It is mostly used for recording "
@@ -160,11 +160,11 @@ msgstr ""
 "hauptsächlich zum Aufzeichnen von Messwerten in pneumatischen Geräten und "
 "zum Erfassen von Ovalitätsergebnissen verwendet."
 
-#: accessories/templates/accessories/accessories.html:240
+#: accessories/templates/accessories/accessories.html:257
 msgid "3-Button Control Equipment"
 msgstr "3-Tasten-Steuergerät"
 
-#: accessories/templates/accessories/accessories.html:243
+#: accessories/templates/accessories/accessories.html:260
 msgid ""
 "The operating function is selected from the device it is attached to. It can "
 "initiate and stop operations, record, change programs, and be used with the "
@@ -178,11 +178,11 @@ msgstr ""
 "werden. Es wird hauptsächlich zum Aufzeichnen von Messwerten in "
 "pneumatischen Geräten und zum Erfassen von Ovalitätsergebnissen verwendet."
 
-#: accessories/templates/accessories/accessories.html:271
+#: accessories/templates/accessories/accessories.html:288
 msgid "8 Input 8 Output Connection Cable and Card"
 msgstr "8 Eingänge 8 Ausgänge Anschlusskabel und -karte"
 
-#: accessories/templates/accessories/accessories.html:277
+#: accessories/templates/accessories/accessories.html:294
 msgid ""
 "This accessory allows you to reach the inputs and outputs of the device to "
 "your control panel using a 25-pin cable extension. The shapes and numbers of "
@@ -193,15 +193,15 @@ msgstr ""
 "Formen und Nummern der Eingänge und Ausgänge sind auf der Oberseite der "
 "Karte aufgedruckt."
 
-#: accessories/templates/accessories/accessories.html:289
+#: accessories/templates/accessories/accessories.html:306
 msgid "KA100 KA200 "
 msgstr "KA100 KA200"
 
-#: accessories/templates/accessories/accessories.html:306
+#: accessories/templates/accessories/accessories.html:323
 msgid "Panel Mounting bracket"
 msgstr "Panel-Montagehalterung"
 
-#: accessories/templates/accessories/accessories.html:309
+#: accessories/templates/accessories/accessories.html:326
 msgid ""
 "If you leave a suitable gap in your control panel, you can connect it to the "
 "panel facade with these brackets. The thickness of the panel should be "
@@ -212,30 +212,30 @@ msgstr ""
 "sollte unter Berücksichtigung des Gerätezuwichts für diesen Prozess "
 "ausgewählt werden."
 
-#: accessories/templates/accessories/accessories.html:318
+#: accessories/templates/accessories/accessories.html:335
 msgid "KA100 KA200"
 msgstr "KA100 KA200"
 
-#: accessories/templates/accessories/accessories.html:355
+#: accessories/templates/accessories/accessories.html:372
 msgid "Are you interested ?"
 msgstr "Sind Sie interessiert?"
 
-#: accessories/templates/accessories/accessories.html:366
-#: accessories/templates/accessories/accessories.html:438
+#: accessories/templates/accessories/accessories.html:383
+#: accessories/templates/accessories/accessories.html:455
 msgid "CONTACT"
 msgstr "KONTAKT"
 
-#: accessories/templates/accessories/accessories.html:433
+#: accessories/templates/accessories/accessories.html:450
 msgid "MENU"
 msgstr "STARTSEITE"
 
-#: accessories/templates/accessories/accessories.html:443
+#: accessories/templates/accessories/accessories.html:460
 #, fuzzy
 #| msgid "PRODUCTS"
 msgid "PRODUCTS</h4>"
 msgstr "PRODUKTE"
 
-#: accessories/templates/accessories/accessories.html:448
+#: accessories/templates/accessories/accessories.html:465
 msgid "BLOG"
 msgstr "BLOG"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-02 20:16+0300\n"
+"POT-Creation-Date: 2024-11-26 12:00+0300\n"
 "PO-Revision-Date: 2024-09-19 11:11+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: callibrators/templates/callibrators/callibrators.html:33
+msgid "Flow Meters | Pressure Scanners | Callibrators"
+msgstr ""
+
+#: callibrators/templates/callibrators/callibrators.html:35
+msgid "Flow Meters and Pressure Scanners | Callibrators | Pressure Scanners"
+msgstr ""
 
 #: callibrators/templates/callibrators/callibrators.html:48
 msgid "Menu"
@@ -96,11 +104,11 @@ msgstr "Polaco"
 msgid "Spanish"
 msgstr "Español"
 
-#: callibrators/templates/callibrators/callibrators.html:132
+#: callibrators/templates/callibrators/callibrators.html:150
 msgid "Flow Callibration"
 msgstr "Calibración de Flujo"
 
-#: callibrators/templates/callibrators/callibrators.html:136
+#: callibrators/templates/callibrators/callibrators.html:154
 msgid ""
 "\n"
 "              Flow calibration in metrology involves the process of "
@@ -122,59 +130,59 @@ msgstr ""
 "de flujo y los instrumentos midan con precisión la tasa de flujo de fluidos, "
 "ya sea líquido o gas."
 
-#: callibrators/templates/callibrators/callibrators.html:145
+#: callibrators/templates/callibrators/callibrators.html:163
 msgid "View More"
 msgstr "Ver Más"
 
-#: callibrators/templates/callibrators/callibrators.html:280
+#: callibrators/templates/callibrators/callibrators.html:208
 msgid "Pocket-sized"
 msgstr "De Tamaño de Bolsillo"
 
-#: callibrators/templates/callibrators/callibrators.html:280
+#: callibrators/templates/callibrators/callibrators.html:208
 msgid ">12 hours usage with regular ion batteries"
 msgstr "12 horas de uso con baterías de ion regulares"
 
-#: callibrators/templates/callibrators/callibrators.html:283
+#: callibrators/templates/callibrators/callibrators.html:211
 msgid "USB connection"
 msgstr "Conexión USB"
 
-#: callibrators/templates/callibrators/callibrators.html:283
+#: callibrators/templates/callibrators/callibrators.html:211
 msgid "High-Precision"
 msgstr "Alta Precisión"
 
-#: callibrators/templates/callibrators/callibrators.html:286
+#: callibrators/templates/callibrators/callibrators.html:214
 msgid "Atmospheric Pressure & Temperature"
 msgstr "Presión Atmosférica y Temperatura"
 
-#: callibrators/templates/callibrators/callibrators.html:289
+#: callibrators/templates/callibrators/callibrators.html:217
 msgid "Automatic turn-off while not transferring to PC"
 msgstr "Apagado automático cuando no se transfiere al PC"
 
-#: callibrators/templates/callibrators/callibrators.html:292
+#: callibrators/templates/callibrators/callibrators.html:220
 msgid "Battery indicator"
 msgstr "Indicador de Batería"
 
-#: callibrators/templates/callibrators/callibrators.html:292
+#: callibrators/templates/callibrators/callibrators.html:220
 msgid "Graphic OLED Display"
 msgstr "Pantalla OLED Gráfica"
 
-#: callibrators/templates/callibrators/callibrators.html:295
+#: callibrators/templates/callibrators/callibrators.html:223
 msgid "1 year Warranty"
 msgstr "Garantía de 1 Año"
 
-#: callibrators/templates/callibrators/callibrators.html:295
+#: callibrators/templates/callibrators/callibrators.html:223
 msgid "Storing Last 10000 Records"
 msgstr "Almacenamiento de los Últimos 10000 Registros"
 
-#: callibrators/templates/callibrators/callibrators.html:299
+#: callibrators/templates/callibrators/callibrators.html:227
 msgid "accuracy verification in leakage test devices"
 msgstr "Verificación de Precisión en Dispositivos de Prueba de Fugas"
 
-#: callibrators/templates/callibrators/callibrators.html:343
+#: callibrators/templates/callibrators/callibrators.html:271
 msgid "Pressure Scanning"
 msgstr "Escaneo de Presión"
 
-#: callibrators/templates/callibrators/callibrators.html:349
+#: callibrators/templates/callibrators/callibrators.html:277
 msgid ""
 "\n"
 "                Pressure scanning involves measuring and analyzing pressure "
@@ -195,7 +203,7 @@ msgstr ""
 "proporcionando información sobre el comportamiento del sistema y asegurando "
 "la eficiencia y seguridad operativa."
 
-#: callibrators/templates/callibrators/callibrators.html:356
+#: callibrators/templates/callibrators/callibrators.html:284
 msgid ""
 "We offer the best products and the services  to our customers and the "
 "distributors all around the world."
@@ -203,34 +211,34 @@ msgstr ""
 "Ofrecemos los mejores productos y servicios a nuestros clientes y "
 "distribuidores en todo el mundo."
 
-#: callibrators/templates/callibrators/callibrators.html:365
+#: callibrators/templates/callibrators/callibrators.html:293
 msgid "GET A QUOTE"
 msgstr "OBTENER UN PRESUPUESTO"
 
-#: callibrators/templates/callibrators/callibrators.html:453
+#: callibrators/templates/callibrators/callibrators.html:381
 msgid "Are you interested ?"
 msgstr "¿Está interesado?"
 
-#: callibrators/templates/callibrators/callibrators.html:456
+#: callibrators/templates/callibrators/callibrators.html:384
 msgid "Contact Us"
 msgstr "Contáctenos"
 
+#: callibrators/templates/callibrators/callibrators.html:392
 #: callibrators/templates/callibrators/callibrators.html:464
-#: callibrators/templates/callibrators/callibrators.html:536
 msgid "CONTACT"
 msgstr "CONTACTO"
 
-#: callibrators/templates/callibrators/callibrators.html:531
+#: callibrators/templates/callibrators/callibrators.html:459
 msgid "MENU"
 msgstr "MENÚ"
 
-#: callibrators/templates/callibrators/callibrators.html:541
+#: callibrators/templates/callibrators/callibrators.html:469
 #, fuzzy
 #| msgid "PRODUCTS"
 msgid "PRODUCTS"
 msgstr "PRODUCTOS"
 
-#: callibrators/templates/callibrators/callibrators.html:546
+#: callibrators/templates/callibrators/callibrators.html:474
 msgid "BLOG"
 msgstr "BLOG"
 

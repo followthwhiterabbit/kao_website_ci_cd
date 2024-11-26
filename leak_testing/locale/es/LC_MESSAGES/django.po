@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-02 20:16+0300\n"
+"POT-Creation-Date: 2024-11-26 11:57+0300\n"
 "PO-Revision-Date: 2024-09-19 11:12+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:34
+#, fuzzy
+#| msgid "Leak Testing Devices"
+msgid "Leak Testing Computer | Leak-Testing Devices"
+msgstr "Dispositivos de Prueba de Fugas"
+
+#: leak_testing/templates/leak_testing/leak_testing.html:36
+msgid "Affordable and High-Tech Leak-Testing Devices"
+msgstr ""
 
 #: leak_testing/templates/leak_testing/leak_testing.html:50
 msgid "Menu"
@@ -96,13 +106,13 @@ msgstr "Polaco"
 msgid "Spanish"
 msgstr "Español"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:128
+#: leak_testing/templates/leak_testing/leak_testing.html:146
 #, fuzzy
 #| msgid "What is Leak Testing ?"
 msgid " What is Leak Testing ?"
 msgstr "¿Qué es la Prueba de Fugas?"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:132
+#: leak_testing/templates/leak_testing/leak_testing.html:150
 #, fuzzy
 #| msgid ""
 #| "\n"
@@ -139,16 +149,16 @@ msgstr ""
 "componentes automotrices, dispositivos médicos, dispositivos electrónicos y "
 "diversas aplicaciones industriales."
 
-#: leak_testing/templates/leak_testing/leak_testing.html:144
-#: leak_testing/templates/leak_testing/leak_testing.html:191
+#: leak_testing/templates/leak_testing/leak_testing.html:162
+#: leak_testing/templates/leak_testing/leak_testing.html:209
 msgid "View More"
 msgstr "Ver Más"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:176
+#: leak_testing/templates/leak_testing/leak_testing.html:194
 msgid "What is Leak Testing ?"
 msgstr "¿Qué es la Prueba de Fugas?"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:180
+#: leak_testing/templates/leak_testing/leak_testing.html:198
 msgid ""
 "\n"
 "                Leak testing in metrology refers to the process of checking "
@@ -172,95 +182,95 @@ msgstr ""
 "componentes automotrices, dispositivos médicos, dispositivos electrónicos y "
 "diversas aplicaciones industriales."
 
-#: leak_testing/templates/leak_testing/leak_testing.html:242
-#: leak_testing/templates/leak_testing/leak_testing.html:424
-#: leak_testing/templates/leak_testing/leak_testing.html:593
-#: leak_testing/templates/leak_testing/leak_testing.html:768
+#: leak_testing/templates/leak_testing/leak_testing.html:260
+#: leak_testing/templates/leak_testing/leak_testing.html:442
+#: leak_testing/templates/leak_testing/leak_testing.html:611
+#: leak_testing/templates/leak_testing/leak_testing.html:786
 msgid "FEATURES"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:249
+#: leak_testing/templates/leak_testing/leak_testing.html:267
 #, fuzzy
 #| msgid "1 Channel Differential/Relative Leak T. Device "
 msgid "1 Channel Differential/Relative Leak T. Device"
 msgstr "Dispositivo de Prueba de Fugas Diferencial/Relativa de 1 Canal"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:250
-#: leak_testing/templates/leak_testing/leak_testing.html:601
+#: leak_testing/templates/leak_testing/leak_testing.html:268
+#: leak_testing/templates/leak_testing/leak_testing.html:619
 msgid "Manual/Electric Pressure Regulator Options"
 msgstr "Opciones de Regulador de Presión Manual/Eléctrico"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:251
+#: leak_testing/templates/leak_testing/leak_testing.html:269
 msgid "7\" TFT color"
 msgstr "Pantalla a Color TFT de 7\""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:252
-#: leak_testing/templates/leak_testing/leak_testing.html:432
+#: leak_testing/templates/leak_testing/leak_testing.html:270
+#: leak_testing/templates/leak_testing/leak_testing.html:450
 msgid "Connection for QDAS"
 msgstr "Conexión para QDAS"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:253
-#: leak_testing/templates/leak_testing/leak_testing.html:433
-#: leak_testing/templates/leak_testing/leak_testing.html:602
+#: leak_testing/templates/leak_testing/leak_testing.html:271
+#: leak_testing/templates/leak_testing/leak_testing.html:451
+#: leak_testing/templates/leak_testing/leak_testing.html:620
 msgid "Usage like Mobile Phone"
 msgstr "Uso como Teléfono Móvil"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:254
-#: leak_testing/templates/leak_testing/leak_testing.html:605
-#: leak_testing/templates/leak_testing/leak_testing.html:781
+#: leak_testing/templates/leak_testing/leak_testing.html:272
+#: leak_testing/templates/leak_testing/leak_testing.html:623
+#: leak_testing/templates/leak_testing/leak_testing.html:799
 #, fuzzy
 #| msgid "Use internal regulators w ease "
 msgid "Use internal regulators with ease"
 msgstr "Uso de Reguladores Internos con Facilidad"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:255
-#: leak_testing/templates/leak_testing/leak_testing.html:437
-#: leak_testing/templates/leak_testing/leak_testing.html:606
-#: leak_testing/templates/leak_testing/leak_testing.html:782
+#: leak_testing/templates/leak_testing/leak_testing.html:273
+#: leak_testing/templates/leak_testing/leak_testing.html:455
+#: leak_testing/templates/leak_testing/leak_testing.html:624
+#: leak_testing/templates/leak_testing/leak_testing.html:800
 msgid "USB & RS232 - 1D 2D Barcode"
 msgstr "USB & RS232 - Código de Barras 1D 2D"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:256
-#: leak_testing/templates/leak_testing/leak_testing.html:438
-#: leak_testing/templates/leak_testing/leak_testing.html:607
-#: leak_testing/templates/leak_testing/leak_testing.html:783
+#: leak_testing/templates/leak_testing/leak_testing.html:274
+#: leak_testing/templates/leak_testing/leak_testing.html:456
+#: leak_testing/templates/leak_testing/leak_testing.html:625
+#: leak_testing/templates/leak_testing/leak_testing.html:801
 msgid "Visual and Audio Alerts"
 msgstr "Alertas Visuales y Auditivas"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:257
-#: leak_testing/templates/leak_testing/leak_testing.html:439
-#: leak_testing/templates/leak_testing/leak_testing.html:608
-#: leak_testing/templates/leak_testing/leak_testing.html:784
+#: leak_testing/templates/leak_testing/leak_testing.html:275
+#: leak_testing/templates/leak_testing/leak_testing.html:457
+#: leak_testing/templates/leak_testing/leak_testing.html:626
+#: leak_testing/templates/leak_testing/leak_testing.html:802
 msgid "Storing Last 10000 Records"
 msgstr "Almacenamiento de los Últimos 10000 Registros"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:258
-#: leak_testing/templates/leak_testing/leak_testing.html:440
-#: leak_testing/templates/leak_testing/leak_testing.html:609
-#: leak_testing/templates/leak_testing/leak_testing.html:855
+#: leak_testing/templates/leak_testing/leak_testing.html:276
+#: leak_testing/templates/leak_testing/leak_testing.html:458
+#: leak_testing/templates/leak_testing/leak_testing.html:627
+#: leak_testing/templates/leak_testing/leak_testing.html:873
 msgid "Callibration with one button"
 msgstr "Calibración con un botón"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:259
-#: leak_testing/templates/leak_testing/leak_testing.html:441
-#: leak_testing/templates/leak_testing/leak_testing.html:610
+#: leak_testing/templates/leak_testing/leak_testing.html:277
+#: leak_testing/templates/leak_testing/leak_testing.html:459
+#: leak_testing/templates/leak_testing/leak_testing.html:628
 #, fuzzy
 #| msgid "FMODUL plugins."
 msgid "FMODUL plugins"
 msgstr "Plugins FMODUL"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:260
-#: leak_testing/templates/leak_testing/leak_testing.html:442
-#: leak_testing/templates/leak_testing/leak_testing.html:611
+#: leak_testing/templates/leak_testing/leak_testing.html:278
+#: leak_testing/templates/leak_testing/leak_testing.html:460
+#: leak_testing/templates/leak_testing/leak_testing.html:629
 #, fuzzy
 #| msgid "Usage w PLCs & robots v MODBUS TCP & industrial protocols."
 msgid "Usage with PLCs & robots v MODBUS TCP & industrial protocols."
 msgstr ""
 "Uso con PLCs y robots a través de MODBUS TCP y protocolos industriales."
 
-#: leak_testing/templates/leak_testing/leak_testing.html:261
-#: leak_testing/templates/leak_testing/leak_testing.html:443
-#: leak_testing/templates/leak_testing/leak_testing.html:612
+#: leak_testing/templates/leak_testing/leak_testing.html:279
+#: leak_testing/templates/leak_testing/leak_testing.html:461
+#: leak_testing/templates/leak_testing/leak_testing.html:630
 #, fuzzy
 #| msgid "Data sharing w PLCs and robots via TCP and industrial protocols."
 msgid "Data sharing with PLCs and robots via TCP and industrial protocols"
@@ -268,33 +278,33 @@ msgstr ""
 "Compartición de Datos con PLCs y robots a través de TCP y protocolos "
 "industriales."
 
-#: leak_testing/templates/leak_testing/leak_testing.html:262
-#: leak_testing/templates/leak_testing/leak_testing.html:444
-#: leak_testing/templates/leak_testing/leak_testing.html:613
-#: leak_testing/templates/leak_testing/leak_testing.html:862
+#: leak_testing/templates/leak_testing/leak_testing.html:280
+#: leak_testing/templates/leak_testing/leak_testing.html:462
+#: leak_testing/templates/leak_testing/leak_testing.html:631
+#: leak_testing/templates/leak_testing/leak_testing.html:880
 msgid "Wireless Ethernet Connection & Ethernet Cable connection"
 msgstr "Conexión Ethernet Inalámbrica & Conexión por Cable Ethernet"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:263
-#: leak_testing/templates/leak_testing/leak_testing.html:445
+#: leak_testing/templates/leak_testing/leak_testing.html:281
+#: leak_testing/templates/leak_testing/leak_testing.html:463
 msgid "SPC(Statistical process control) plugin"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:275
-#: leak_testing/templates/leak_testing/leak_testing.html:457
-#: leak_testing/templates/leak_testing/leak_testing.html:626
-#: leak_testing/templates/leak_testing/leak_testing.html:798
+#: leak_testing/templates/leak_testing/leak_testing.html:293
+#: leak_testing/templates/leak_testing/leak_testing.html:475
+#: leak_testing/templates/leak_testing/leak_testing.html:644
+#: leak_testing/templates/leak_testing/leak_testing.html:816
 msgid "DOWNLOADS"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:295
-#: leak_testing/templates/leak_testing/leak_testing.html:477
-#: leak_testing/templates/leak_testing/leak_testing.html:658
-#: leak_testing/templates/leak_testing/leak_testing.html:824
+#: leak_testing/templates/leak_testing/leak_testing.html:313
+#: leak_testing/templates/leak_testing/leak_testing.html:495
+#: leak_testing/templates/leak_testing/leak_testing.html:676
+#: leak_testing/templates/leak_testing/leak_testing.html:842
 msgid "AREAS OF USAGE"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:301
+#: leak_testing/templates/leak_testing/leak_testing.html:319
 msgid ""
 "       \n"
 "        Ideal for quality assurance in sectors like automotive and "
@@ -305,11 +315,11 @@ msgid ""
 "                "
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:349
+#: leak_testing/templates/leak_testing/leak_testing.html:367
 msgid "Reason for Leak-Testing ?"
 msgstr "Razón para la Prueba de Fugas"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:355
+#: leak_testing/templates/leak_testing/leak_testing.html:373
 msgid ""
 "\n"
 "                Leak testing devices is crucial for ensuring products meet "
@@ -345,7 +355,7 @@ msgstr ""
 "garantía. Entregar dispositivos libres de fugas mejora la reputación de la "
 "marca y la satisfacción del cliente."
 
-#: leak_testing/templates/leak_testing/leak_testing.html:367
+#: leak_testing/templates/leak_testing/leak_testing.html:385
 msgid ""
 "We offer the best products and the services  to our customers and the "
 "distributors all around the world."
@@ -353,30 +363,30 @@ msgstr ""
 "Ofrecemos los mejores productos y servicios a nuestros clientes y "
 "distribuidores en todo el mundo."
 
-#: leak_testing/templates/leak_testing/leak_testing.html:376
+#: leak_testing/templates/leak_testing/leak_testing.html:394
 msgid "GET A QUOTE"
 msgstr "OBTENER UNA COTIZACIÓN"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:431
+#: leak_testing/templates/leak_testing/leak_testing.html:449
 msgid "1 Channel Differential/Relative Leak Testing Device"
 msgstr "Dispositivo de Prueba de Fugas Diferencial/Relativa de 1 Canal"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:434
-#: leak_testing/templates/leak_testing/leak_testing.html:603
+#: leak_testing/templates/leak_testing/leak_testing.html:452
+#: leak_testing/templates/leak_testing/leak_testing.html:621
 msgid "Repeatability: 0.1um"
 msgstr "Repetibilidad: 0.1um"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:435
+#: leak_testing/templates/leak_testing/leak_testing.html:453
 msgid "100 Measurement memory"
 msgstr "Memoria de 100 Mediciones"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:436
+#: leak_testing/templates/leak_testing/leak_testing.html:454
 #, fuzzy
 #| msgid "Use internal regulators w ease "
 msgid "Use internal regulators w ease"
 msgstr "Uso de Reguladores Internos con Facilidad"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:484
+#: leak_testing/templates/leak_testing/leak_testing.html:502
 msgid ""
 "       \n"
 "          1 Channel Leak Testing Device.\n"
@@ -390,36 +400,36 @@ msgid ""
 "                 "
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:536
-#: leak_testing/templates/leak_testing/leak_testing.html:712
+#: leak_testing/templates/leak_testing/leak_testing.html:554
+#: leak_testing/templates/leak_testing/leak_testing.html:730
 msgid "Are you interested ?"
 msgstr "¿Está interesado?"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:539
-#: leak_testing/templates/leak_testing/leak_testing.html:715
+#: leak_testing/templates/leak_testing/leak_testing.html:557
+#: leak_testing/templates/leak_testing/leak_testing.html:733
 msgid "Contact Us"
 msgstr "Contáctenos"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:547
-#: leak_testing/templates/leak_testing/leak_testing.html:725
-#: leak_testing/templates/leak_testing/leak_testing.html:923
-#: leak_testing/templates/leak_testing/leak_testing.html:995
+#: leak_testing/templates/leak_testing/leak_testing.html:565
+#: leak_testing/templates/leak_testing/leak_testing.html:743
+#: leak_testing/templates/leak_testing/leak_testing.html:941
+#: leak_testing/templates/leak_testing/leak_testing.html:1013
 msgid "CONTACT"
 msgstr "CONTACTO"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:600
+#: leak_testing/templates/leak_testing/leak_testing.html:618
 msgid "2 Channel Differential/Relative Leak Testing Device"
 msgstr "Dispositivo de Prueba de Fugas Diferencial/Relativa de 2 Canales"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:604
+#: leak_testing/templates/leak_testing/leak_testing.html:622
 msgid "100 Part & Test Memory"
 msgstr "Memoria de 100 Piezas y Pruebas"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:614
+#: leak_testing/templates/leak_testing/leak_testing.html:632
 msgid "Optional: SPC(Statistical process control) plugin"
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:664
+#: leak_testing/templates/leak_testing/leak_testing.html:682
 msgid ""
 "       \n"
 "        2 Channel Leak Testing device. \n"
@@ -433,53 +443,53 @@ msgid ""
 "                 "
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:775
+#: leak_testing/templates/leak_testing/leak_testing.html:793
 msgid "1 Channel A Relative Leak Testing Measurement Device"
 msgstr "Dispositivo de Medición de Fugas Relativas de 1 Canal"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:776
+#: leak_testing/templates/leak_testing/leak_testing.html:794
 #, fuzzy
 #| msgid "Test Pressure Rage: 0.2 - 7 Bar"
 msgid "Test Pressure Range: 0.2 - 7 Bar"
 msgstr "Rango de Presión de Prueba: 0.2 - 7 Bar"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:777
+#: leak_testing/templates/leak_testing/leak_testing.html:795
 msgid "Max Leak Val: 999.99cm3/min"
 msgstr "Valor Máximo de Fuga: 999.99cm³/min"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:778
+#: leak_testing/templates/leak_testing/leak_testing.html:796
 msgid "Leak Val Resolution: 0.01cm3/min"
 msgstr "Resolución del Valor de Fuga: 0.01cm³/min"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:779
+#: leak_testing/templates/leak_testing/leak_testing.html:797
 #, fuzzy
 #| msgid "7\" TFT Color  "
 msgid "7\" TFT Color"
 msgstr "Pantalla a Color TFT de 7\""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:780
+#: leak_testing/templates/leak_testing/leak_testing.html:798
 msgid "Password protected paremeters"
 msgstr "Parámetros protegidos por contraseña"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:785
+#: leak_testing/templates/leak_testing/leak_testing.html:803
 msgid "Download the brochure for more "
 msgstr ""
 
-#: leak_testing/templates/leak_testing/leak_testing.html:855
+#: leak_testing/templates/leak_testing/leak_testing.html:873
 msgid "Multiple Language Support"
 msgstr "Soporte Multilingüe"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:859
+#: leak_testing/templates/leak_testing/leak_testing.html:877
 msgid "Data sharing w PLCs and robots via TCP and industrial protocols."
 msgstr ""
 "Compartición de Datos con PLCs y robots a través de TCP y protocolos "
 "industriales."
 
-#: leak_testing/templates/leak_testing/leak_testing.html:909
+#: leak_testing/templates/leak_testing/leak_testing.html:927
 msgid "Why you should choose Kao Metrology ? "
 msgstr "¿Por qué deberías elegir Kao Metrology?"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:913
+#: leak_testing/templates/leak_testing/leak_testing.html:931
 msgid ""
 "\n"
 "              With our next-generation leak testing devices, you can conduct "
@@ -498,17 +508,17 @@ msgstr ""
 "protocolo industrial conocido. También puedes transferir los resultados "
 "registrados al software de Kao a través de Wi-Fi interno para análisis."
 
-#: leak_testing/templates/leak_testing/leak_testing.html:990
+#: leak_testing/templates/leak_testing/leak_testing.html:1008
 msgid "MENU"
 msgstr "MENÚ"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:1000
+#: leak_testing/templates/leak_testing/leak_testing.html:1018
 #, fuzzy
 #| msgid "PRODUCTS"
 msgid "PRODUCTS"
 msgstr "PRODUCTOS"
 
-#: leak_testing/templates/leak_testing/leak_testing.html:1005
+#: leak_testing/templates/leak_testing/leak_testing.html:1023
 msgid "BLOG"
 msgstr "BLOG"
 

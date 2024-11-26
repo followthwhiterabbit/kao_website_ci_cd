@@ -28,6 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = False # --> in server 
 
+
 #DEBUG = True  # in localhost 
 
 

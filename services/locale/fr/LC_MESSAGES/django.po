@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-02 20:16+0300\n"
+"POT-Creation-Date: 2024-11-26 11:50+0300\n"
 "PO-Revision-Date: 2024-09-19 11:10+0000\n"
 "Last-Translator:   <kaan.karaalioglu@kaometrology.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,19 +96,19 @@ msgstr "Polonais"
 msgid "Spanish"
 msgstr "Espagnol"
 
-#: services/templates/services/services.html:117
+#: services/templates/services/services.html:134
 msgid "Services "
 msgstr "Services"
 
-#: services/templates/services/services.html:126
+#: services/templates/services/services.html:143
 msgid "View More"
 msgstr "Voir plus"
 
-#: services/templates/services/services.html:150
+#: services/templates/services/services.html:167
 msgid "Pneumatic Probes"
 msgstr "Sondes Pneumatiques"
 
-#: services/templates/services/services.html:164
+#: services/templates/services/services.html:181
 msgid ""
 " \n"
 "             Measurement of parts is sometimes carried out in a workshop "
@@ -137,17 +137,17 @@ msgstr ""
 "est importante. N'hésitez pas à nous consulter, que ce soit pour mesurer un "
 "seul diamètre ou cinq diamètres. Nous avons des services à cet égard."
 
-#: services/templates/services/services.html:177
-#: services/templates/services/services.html:245
-#: services/templates/services/services.html:359
+#: services/templates/services/services.html:194
+#: services/templates/services/services.html:262
+#: services/templates/services/services.html:376
 msgid "GET A QUOTE"
 msgstr "OBTENIR UN DEVIS"
 
-#: services/templates/services/services.html:216
+#: services/templates/services/services.html:233
 msgid "AUTOMATIC MEASUREMENT MACHINES OR DEVICES"
 msgstr "MACHINES OU DISPOSITIFS DE MESURE AUTOMATIQUE"
 
-#: services/templates/services/services.html:225
+#: services/templates/services/services.html:242
 msgid ""
 "\n"
 "                If you're saying you don't have the time or confidence that "
@@ -173,7 +173,7 @@ msgstr ""
 "si cela implique de déplacer la pièce pour la mesure, aucun problème. Nous "
 "avons des services à cet égard."
 
-#: services/templates/services/services.html:236
+#: services/templates/services/services.html:253
 msgid ""
 "We offer the best products and the services  to our customers and the "
 "distributors all around the world."
@@ -181,11 +181,11 @@ msgstr ""
 "Nous offrons les meilleurs produits et services à nos clients et "
 "distributeurs partout dans le monde."
 
-#: services/templates/services/services.html:337
+#: services/templates/services/services.html:354
 msgid "Software Support"
 msgstr "Support Logiciel"
 
-#: services/templates/services/services.html:344
+#: services/templates/services/services.html:361
 msgid ""
 " \n"
 "        All KAO measurement devices record data, store them in their "
@@ -199,11 +199,11 @@ msgstr ""
 "Cependant, dans certaines applications, il est souhaité de transférer ces "
 "données en dehors de l'appareil."
 
-#: services/templates/services/services.html:381
+#: services/templates/services/services.html:398
 msgid "KAO Data Server Software"
 msgstr "Logiciel Serveur de Données KAO"
 
-#: services/templates/services/services.html:384
+#: services/templates/services/services.html:401
 msgid ""
 "\n"
 "                  The DS software serves as a server allowing wired and "
@@ -235,11 +235,11 @@ msgstr ""
 "Toutes les opérations se déroulent sans intervention de l'utilisateur. Les "
 "appareils déterminent les variables de données."
 
-#: services/templates/services/services.html:406
+#: services/templates/services/services.html:423
 msgid "KAO Data Monitoring Terminal"
 msgstr "Terminal de Surveillance des Données KAO"
 
-#: services/templates/services/services.html:409
+#: services/templates/services/services.html:426
 msgid ""
 "\n"
 "              Provides real-time access to data stored in SQL server.\n"
@@ -252,11 +252,11 @@ msgstr ""
 "les affiche à l'écran et les exporte vers des imprimantes sous forme de "
 "listes et de graphiques."
 
-#: services/templates/services/services.html:427
+#: services/templates/services/services.html:444
 msgid "QDAS Data Converter"
 msgstr "Convertisseur de Données QDAS"
 
-#: services/templates/services/services.html:430
+#: services/templates/services/services.html:447
 msgid ""
 "\n"
 "                  When data reaches DS, it classifies them with catalog "
@@ -272,23 +272,23 @@ msgstr ""
 "dans le dossier désigné selon le protocole qdas precellla. Toutes les "
 "opérations se déroulent sans intervention de l'utilisateur."
 
-#: services/templates/services/services.html:509
+#: services/templates/services/services.html:526
 msgid "MENU"
 msgstr "MENU"
 
-#: services/templates/services/services.html:514
+#: services/templates/services/services.html:531
 #, fuzzy
 #| msgid "<h4>CONTACT</h4>"
 msgid "CONTACT"
 msgstr "CONTACT"
 
-#: services/templates/services/services.html:519
+#: services/templates/services/services.html:536
 #, fuzzy
 #| msgid "<h4>PRODUCTS</h4>"
 msgid "PRODUCTS"
 msgstr "PRODUITS"
 
-#: services/templates/services/services.html:524
+#: services/templates/services/services.html:541
 msgid "BLOG"
 msgstr "BLOG"
 

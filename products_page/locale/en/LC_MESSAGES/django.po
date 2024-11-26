@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-02 20:16+0300\n"
+"POT-Creation-Date: 2024-11-26 11:50+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "Menu"
 msgstr ""
 
 #: products_page/templates/products/products_page.html:42
-#: products_page/templates/products/products_page.html:121
+#: products_page/templates/products/products_page.html:138
 msgid "Products"
 msgstr ""
 
@@ -95,75 +95,75 @@ msgstr ""
 msgid "Spanish"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:124
+#: products_page/templates/products/products_page.html:141
 msgid "Dimensional measurement"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:160
-#: products_page/templates/products/products_page.html:180
+#: products_page/templates/products/products_page.html:177
+#: products_page/templates/products/products_page.html:197
 msgid "1/2/4 Channel Air-Gaging Device"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:211
-#: products_page/templates/products/products_page.html:528
+#: products_page/templates/products/products_page.html:228
+#: products_page/templates/products/products_page.html:545
 msgid "Are you interested ?"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:224
-#: products_page/templates/products/products_page.html:541
-#: products_page/templates/products/products_page.html:598
+#: products_page/templates/products/products_page.html:241
+#: products_page/templates/products/products_page.html:558
+#: products_page/templates/products/products_page.html:615
 msgid "CONTACT"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:254
+#: products_page/templates/products/products_page.html:271
 msgid " 2/4 Channel Air-Gaging Device"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:274
+#: products_page/templates/products/products_page.html:291
 msgid "8 Channel Air-Gaging Device"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:305
-#: products_page/templates/products/products_page.html:411
+#: products_page/templates/products/products_page.html:322
+#: products_page/templates/products/products_page.html:428
 msgid "Leak-Testing"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:309
+#: products_page/templates/products/products_page.html:326
 msgid "Relative Leak-Testing Devices"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:354
+#: products_page/templates/products/products_page.html:371
 msgid " 1 Channel Relative Leak Measurement Device"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:374
+#: products_page/templates/products/products_page.html:391
 msgid "1 Channel Relative Leak Measurement Device"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:415
+#: products_page/templates/products/products_page.html:432
 msgid "Differential Leak-Testing Devices"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:462
+#: products_page/templates/products/products_page.html:479
 msgid "Differential Leak Testing Device"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:482
+#: products_page/templates/products/products_page.html:499
 msgid "1 Channel Differential Leak Testing Device"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:502
+#: products_page/templates/products/products_page.html:519
 msgid "2 Channel Differential Leak Testing Device"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:593
+#: products_page/templates/products/products_page.html:610
 msgid "MENU"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:603
+#: products_page/templates/products/products_page.html:620
 msgid "PRODUCTS"
 msgstr ""
 
-#: products_page/templates/products/products_page.html:610
+#: products_page/templates/products/products_page.html:627
 msgid "BLOG"
 msgstr ""
