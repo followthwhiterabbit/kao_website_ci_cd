@@ -16509,6 +16509,7 @@ color:var(--bs-btn-hover-bg);
 
 @media (max-width: 412px) and (max-height: 915px) {
 
+
   /*
     #carouselExampleIndicators {
         display: none;
@@ -16534,28 +16535,30 @@ color:var(--bs-btn-hover-bg);
 }
 
 .btn-top{
+  position: relative;
+  left: 500px;
+  top: 100px;
   width: 200px;
-  height: 125px;
 }
-
-
 
 .nav-item
 {
+  margin-left: 15px;
+  top: 100px;
+  left: 550px;
   width: 200px;
 }
 
-
-
-
-.active-new{
-  width: 100px;
+.logo-img
+{
+  position: absolute;
+  z-index: 8;
 }
+
   
   .btn-menu
   {
     width: 20px;
-    height: 210px;
   }
   
   .btn-contact
@@ -16639,14 +16642,18 @@ color:var(--bs-btn-hover-bg);
 .navbar-collapse-eski {
     position: fixed;
     top: 0px;
-    left: 0px;
+    left: -100%;
     padding: 15px;
-    width: 100%;
+    width: 150%;
     height: 100%;
-    background-color: #001155; /* Set a background color if needed */
-    transition: all 1s ease;
+    background-color: #001155; 
     z-index: 5;
 }
+
+.navbar-collapse-eski.active {
+    transform: translateX(100%); 
+}
+
 
 .navbar-collapse-eski.show {
     display: block; /* Shows when toggled */
@@ -16655,8 +16662,8 @@ color:var(--bs-btn-hover-bg);
 /* Default Hamburger State */
 .navbar-toggler-icon-eski {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    top: 15px;
+    left: 350px;
     width: 48px;
     height: 4px;
     background-color: #fff; /* Color for the icon lines */
@@ -16714,7 +16721,7 @@ color:var(--bs-btn-hover-bg);
 .logo-img {
   height: 67px !important;
   position: absolute;
-  top: -3px;
+  top: -6px;
   left:  0px;
 }
 
@@ -16731,7 +16738,13 @@ display: none;
   text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
 }
 
- 
+.btn-manual-mobile
+{
+  width: 50px;
+
+}
+
+
 
 
 
