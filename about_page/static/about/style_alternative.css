@@ -2224,6 +2224,13 @@ display: none;
 
 }
 
+.newsletter-image
+{
+  width: 50px !important;
+  height: 50px !important;
+  margin-left: 220px !important;
+  margin-top: -180px !important;
+}
 
 
 
@@ -12897,6 +12904,8 @@ p {
     margin: auto; 
     padding: 1rem;
 } 
+
+
 
 
 .mbr-figure { 
