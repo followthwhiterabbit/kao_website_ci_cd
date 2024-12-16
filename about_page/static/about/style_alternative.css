@@ -2232,6 +2232,12 @@ display: none;
   margin-top: -180px !important;
 }
 
+  #btn-back-to-top {
+    z-index: 5;
+  position: fixed;
+  bottom: 50px;
+  right: 150px !important;
+}
 
 
 
@@ -16529,22 +16535,9 @@ width: auto;
 }
 
 
-
- 
-    /*
-    @media (max-width: 768px) {
-        .feature-list {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
-*/
-
-    /* Adjust layout for smaller screens 
-    @media (max-width: 480px) {
-        .feature-list {
-            grid-template-columns: 1fr;
-        }
-    }
-    */
-
-  
+  #btn-back-to-top {
+  z-index: 5;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

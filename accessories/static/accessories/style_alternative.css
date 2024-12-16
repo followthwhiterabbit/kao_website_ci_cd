@@ -16658,6 +16658,13 @@ display: none;
 }
 
 
+  #btn-back-to-top {
+    z-index: 5;
+  position: fixed;
+  bottom: 50px;
+  right: 150px !important;
+}
+
 
 }
 
@@ -16740,4 +16747,12 @@ display: none;
   color: white;
   font: 700 normal 2.5em 'tahoma';
   text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+}
+
+
+  #btn-back-to-top {
+  z-index: 5;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }

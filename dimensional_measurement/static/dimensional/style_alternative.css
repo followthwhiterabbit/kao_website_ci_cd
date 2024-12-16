@@ -16488,3 +16488,9 @@ html
   scroll-behavior: smooth; 
 }
 
+  #btn-back-to-top {
+  z-index: 5;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

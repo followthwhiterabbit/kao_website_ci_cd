@@ -35,6 +35,55 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="{% trans 'Affordable and High-Tech Leak-Testing Devices' %}">
 
+
+<!-- Back to top button -->
+<button
+        type="button"
+        class="btn  btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+  <i class="fas fa-arrow-up"><img src="{% static 'about/up_arrow.png' %}" alt="up arrow icon" style="width: 50px; height: 50px;"></i>
+</button>
+          
+        
+<script>
+//Get the button
+let mybutton = document.getElementById("btn-back-to-top");
+
+
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+   const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+
+
+
+
+
+
+
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
     <nav class="navbar-eski  navbar-nav-eski navbar-brand-eski navbar-expand-lg navbar-dark-eski bg-blue-eski">

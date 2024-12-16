@@ -16738,6 +16738,15 @@ display: none;
 }
 
 
+  #btn-back-to-top {
+    z-index: 5;
+  position: fixed;
+  bottom: 50px;
+  right: 150px !important;
+}
+
+
+
 }
 
 .active-new
@@ -16835,5 +16844,12 @@ color:var(--bs-btn-hover-bg);
 {
   width: 310px;
   left: 0px !important;
+}
+
+  #btn-back-to-top {
+  z-index: 5;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 
