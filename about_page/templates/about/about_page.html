@@ -80,20 +80,14 @@ function backToTop() {
     ? document.documentElement
     : document.body;
 
-  // Smooth scroll to a position slightly above the top (e.g., -50px)
-  if ("scrollBehavior" in document.documentElement.style) {
-    scrollContainer.scrollTo({ top: -50, behavior: "smooth" });
-  } else {
-    // Fallback for older browsers
-    scrollContainer.scrollTop = -50;
-  }
+  // Attempt multiple scrolls to ensure the absolute top
+  scrollContainer.scrollTo({ top: 0, behavior: "smooth" });
 
-  // Ensure the position stays at the adjusted top after scrolling
+  // Fallback in case the first scroll doesn't fully reach the top
   setTimeout(() => {
-    scrollContainer.scrollTop = -50;
+    scrollContainer.scrollTop = 0;
   }, 500);
 }
-
 
 </script>
 
