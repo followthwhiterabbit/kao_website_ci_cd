@@ -79,7 +79,6 @@ function scrollFunction() {
 mybutton.addEventListener("click", backToTop);
 
 function backToTop() {
-  // Find the correct scrollable container
   const scrollContainer = document.documentElement.scrollTop
     ? document.documentElement
     : document.body;
@@ -91,11 +90,11 @@ function backToTop() {
     scrollContainer.scrollTop = 0;
   }
 
+  // Ensure after scrolling the position is truly at the top
   setTimeout(() => {
     scrollContainer.scrollTop = 0;
   }, 500);
 }
-
 
 </script>
 
