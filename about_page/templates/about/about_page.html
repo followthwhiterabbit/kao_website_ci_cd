@@ -62,11 +62,8 @@ window.onscroll = function () {
 };
 
 function scrollFunction() {
-  // Check scrolling position using the larger value between body and documentElement
-  const scrollTop = Math.max(
-    document.body.scrollTop,
-    document.documentElement.scrollTop
-  );
+  // Use the greater of the two values (for cross-browser compatibility)
+  const scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
 
   if (scrollTop > 20) {
     mybutton.style.display = "block"; // Show the button
@@ -79,22 +76,23 @@ function scrollFunction() {
 mybutton.addEventListener("click", backToTop);
 
 function backToTop() {
-  const scrollContainer = document.documentElement.scrollTop
-    ? document.documentElement
-    : document.body;
-
-  // Smooth scroll or fallback
+  // Smooth scroll if supported, with fallback
   if ("scrollBehavior" in document.documentElement.style) {
-    scrollContainer.scrollTo({ top: 0, behavior: "smooth" });
+    // Smooth scroll for modern browsers
+    window.scrollTo({ top: 0, behavior: "smooth" });
   } else {
-    scrollContainer.scrollTop = 0;
+    // Fallback for older browsers
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, Opera
   }
 
-  // Ensure after scrolling the position is truly at the top
+  // Force scroll position reset after smooth scroll as a failsafe
   setTimeout(() => {
-    scrollContainer.scrollTop = 0;
-  }, 500);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }, 300); // Allow time for smooth scrolling
 }
+
 
 </script>
 
