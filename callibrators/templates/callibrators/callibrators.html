@@ -35,7 +35,7 @@
 <meta name="description" content="{% trans 'Flow Meters and Pressure Scanners | Callibrators | Pressure Scanners' %}">
 
 
-<!-- Back to top button -->
+<!--
 <button
         type="button"
         class="btn  btn-floating btn-lg"
@@ -43,7 +43,18 @@
         >
   <i class="fas fa-arrow-up"><img src="{% static 'about/up_arrow.png' %}" alt="up arrow icon" style="width: 50px; height: 50px;"></i>
 </button>
-          
+-->
+
+<a
+    href="#trial_up"
+    class="btn  btn-lg"
+    id="btn-back-to-top"
+>
+  <i>
+    <img src="{% static 'about/up_arrow.png' %}" alt="up arrow icon" style="width: 50px; height: 50px;">
+  </i>
+</a>
+
         
 <script>
 //Get the button
@@ -80,7 +91,7 @@ function backToTop() {
 
 
 
-      <nav class="navbar-eski  navbar-nav-eski navbar-brand-eski navbar-expand-lg navbar-dark-eski bg-blue-eski">
+      <nav class="navbar-eski  navbar-nav-eski navbar-brand-eski navbar-expand-lg navbar-dark-eski bg-blue-eski" id="trial_up">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon-eski">
 
