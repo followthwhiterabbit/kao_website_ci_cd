@@ -2042,7 +2042,6 @@ progress {
   left: 500px;
   top: 100px;
   width: 200px;
-  z-index: 2000;
 }
 
 .nav-item
@@ -2051,13 +2050,12 @@ progress {
   top: 100px;
   left: 550px;
   width: 200px;
-  z-index: 2001;
 }
 
 .logo-img
 {
   position: absolute;
-  z-index: 2001;
+  z-index: 2002;
 }
 
 .active-new{
@@ -2068,14 +2066,12 @@ progress {
   .btn-menu
   {
     width: 20px;
-    z-index: 2000;
   }
   
   .btn-contact
   {
     width: 20px;
     height: 210px;
-    z-index: 2000;
   }
 
 
@@ -2083,7 +2079,6 @@ progress {
   {
     width: 20px;
     height: 210px;
-    z-index: 2000;
   }
 
 
@@ -2091,7 +2086,6 @@ progress {
   {
     width: 20px;
     height: 210px;
-    z-index: 2000;
   }
 
 
@@ -2226,7 +2220,7 @@ progress {
 
 .company-logo
 {
-  z-index: 4;
+  z-index: 8;
   
 }
 
@@ -2273,19 +2267,7 @@ display: none;
 }
 
 
-.navbar-nav{
 
-  z-index: 2000;
-}
-
-.btn{
-  z-index: 2000;
-}
-
-.ms-auto
-{
-  z-index: 2000;
-}
 
 }
 
