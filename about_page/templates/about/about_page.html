@@ -43,15 +43,34 @@
 
 
 <!-- Back to top button -->
+<!--
 <button
         type="button"
         class="btn  btn-floating btn-lg"
         id="btn-back-to-top"
-        >
-  <i class=""><img src="{% static 'about/up_arrow.png' %}" alt="up arrow icon" style="width: 50px; height: 50px;"></i>
-</button>
+ 
+        > -->
+
+        <!--
+<button>
+
+<i class=""><img src="{% static 'about/up_arrow.png' %}" alt="up arrow icon" style="width: 50px; height: 50px;"></i>-->
+
+<a
+    href="#trial_up"
+    class="btn  btn-lg"
+    id="btn-back-to-top"
+>
+  <i>
+    <img src="{% static 'about/up_arrow.png' %}" alt="up arrow icon" style="width: 50px; height: 50px;">
+  </i>
+</a>
+
+<!-- </button> -->
+
+
+
           
-        
 <script>
 // Get the button
 let mybutton = document.getElementById("btn-back-to-top");
@@ -93,7 +112,10 @@ function backToTop() {
 
 
 
-    <nav class="navbar-eski navbar-expand-lg navbar-nav-eski navbar-brand-eski  navbar-dark-eski bg-blue-eski">
+
+
+
+    <nav class="navbar-eski navbar-expand-lg navbar-nav-eski navbar-brand-eski  navbar-dark-eski bg-blue-eski" id="trial_up"> 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation" >
               <span class="navbar-toggler-icon-eski">
 
