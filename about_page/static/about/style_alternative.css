@@ -1992,17 +1992,35 @@ progress {
     }
 */
 
+/*
 .carousel {
   display: none;
 }
+*/
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 350px !important;
+}
+
+.carousel {
+  position: relative;
+  height: 350px !important;
+
+}
+
+
 
 .carousel.pointer-event {
   touch-action: pan-y;
 }
 
+/*
 .carousel-inner {
   display: none;
 }
+*/
 
 .carousel-inner::after {
   display: block;
@@ -2199,7 +2217,7 @@ progress {
 
 
 .logo-img {
-  height: 67px !important;
+  height: 40px !important;
   position: absolute;
   top: -3px;
   left:  0px;
