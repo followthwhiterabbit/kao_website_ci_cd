@@ -27,17 +27,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-<!--
-<button
-        type="button"
-        class="btn  btn-floating btn-lg"
-        id="btn-back-to-top"
-        >
-  <i class="fas fa-arrow-up"><img src="{% static 'about/up_arrow.png' %}" alt="up arrow icon" style="width: 50px; height: 50px;"></i>
-</button>
--->
+<a
+    href="#trial_up"
+    class="btn  btn-lg"
+    id="btn-back-to-top"
+>
+  <i>
+    <img src="{% static 'about/up_arrow.png' %}" alt="up arrow icon" style="width: 50px; height: 50px;">
+  </i>
+</a>
 
-        
+<!-- </button> -->
+
+
 <script>
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
@@ -71,11 +73,7 @@ function backToTop() {
 </script>
 
 
-
-
-
-
-     <nav class="navbar-eski navbar-expand-lg navbar-nav-eski navbar-brand-eski  navbar-dark-eski bg-blue-esk" id="trial_up">
+<nav class="navbar-eski navbar-expand-lg navbar-nav-eski navbar-brand-eski  navbar-dark-eski bg-blue-eski" id="trial_up"> 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation" >
               <span class="navbar-toggler-icon-eski">
 
@@ -146,15 +144,15 @@ function backToTop() {
                 <div class="col-md-2 footer-social animated fadeInDown">
             	<ul>
           <a href="https://www.linkedin.com/company/kao-metrology/">
-            <img src="{% static 'about/LI-In-Bug.png' %}" alt="linked-in logo" style="width:50px; height:50px;">
+            <img src="{% static 'about/LI-In-Bug.png' %}" alt="linked-in logo" style="width:40px; height:40px; position: relative; top: 15px; left: -15px;">
         </a>
           
         <a href="https://www.facebook.com/profile.php?id=61554340107729">
-            <img src="{% static 'about/facebook_new_logo.png' %}" alt="facebook logo" style="width:50px; height:50px;">
+            <img src="{% static 'about/facebook_new_logo.png' %}" alt="facebook logo" style="width:40px; height:40px; position: relative; top: 15px; left: -15px;">
         </a>
         
         <a href="https://www.youtube.com/channel/UCO493TfIW7Lj_l8v8woqg8Q">
-            <img src="{% static 'about/youtube_logo_new.png' %}" alt="youtube logo" style="width:80px; height:80px;">
+            <img src="{% static 'about/youtube_logo_new.png' %}" alt="youtube logo" style="width:70px; height:70px; position: relative; top: 15px; left: -17px;">
         </a>
  
                 </ul>
@@ -165,15 +163,7 @@ function backToTop() {
 
 
 
-
-
-                    </ul>
-                </div>
-
-          
-
-          </div>
-        </nav>
+    
 
 
  
