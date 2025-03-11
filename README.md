@@ -8,6 +8,7 @@
 - Docker with automatic remote server connection 
 - SEO(Search Engine Optimization)
 - Mobile Friendly 
+- Multiple languages - Turkish, English, French, German, Italian, Polish, Spanish with Rosetta Framework(Automatic Translation)
 
 
 <img src="some_pictures1.png" width="300">
